@@ -11,7 +11,7 @@ For a little bit more, see http://www.vakipuzzles.com/.
 
 **Input Description**
 
-On the first line you'll be given a single integer, *N*, which is the size of the grid to make (both in the horizontal and vertical axes, it's a square grid). Assume the numbers go from *1* to *N* and the letters from *A* to the *Nth* letter (e.g. C = 3, D = 4, etc). Subsequent lines will specify 3 values - two integers (row and column respectively) and one additional value, either a letter (e.g. *C*), a number (e.g. *2*), or a combination (e.g. *D1*). 
+On the first line you'll be given a single integer, *N*, which is the size of the grid to make (both in the horizontal and vertical axes, it's a square grid). Assume the numbers go from *1* to *N* and the letters from *A* to the *Nth* letter (e.g. C = 3, D = 4, etc). Subsequent lines will specify 3 values - two integers (row and column respectively) and one additional value, either a letter (e.g. *C_*), a number (e.g. *_2*), or a combination (e.g. *D1*). The "_" underscore means that there's a missing value.
 
 **Output Description**
 
@@ -21,8 +21,8 @@ You should emit a simple grid showing all positions filled in for a valid puzzle
 
         4
         1 2 D3
-        4 4 C
-        2 3 2
+        4 4 C_
+        2 3 _2
 
 **Sample Output**
 
