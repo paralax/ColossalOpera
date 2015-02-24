@@ -1,10 +1,6 @@
-**Title**
+**Title** Scrabbler
 
-Scrabbler
-
-**Difficulty**
-
-Easy
+**Difficulty** Easy
 
 **Description**
 
