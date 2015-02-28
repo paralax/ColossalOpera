@@ -4,7 +4,9 @@
 
 **Description** 
 
-Chess solitaire is a variant of chess that sets up puzzles using the pieces and a smaller board. You're given a set of several pieces all of one color, and using the legal moves of those pieces, you're supposed to take them one by one until only one piece is left. The rules state that every move has to be a legal move for that piece, and every move must be a capture of one piece by another. For the king, check doesn't matter. 
+Chess solitaire is a variant of chess that sets up puzzles using the pieces and a smaller board. You're given a set of several pieces all of one color, and using the legal moves of those pieces, you're supposed to take them one by one until only one piece is left. The rules state that every move has to be a legal move for that piece, and every move must be a capture of one piece by another. 
+
+Some other differences with regular chess. For the king, check doesn't matter. There is no "direction" or "forward", anyone can move (within their legal moves) in any direction. Pawns cannot promote, and pawns (as usual) take on the diagonal. 
 
 The board is 4x4, with rows are 1-4 and columns are a-d; the lower left is square a1. The pieces are given by their single character:
 
