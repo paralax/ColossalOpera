@@ -6,7 +6,7 @@
 
 One of the neat features of Github is that if you let it, the site will create a semi-random project name for you, like "tiny-octo-opera". These names can be amusing, the kinds of things you'd never brainstorm working by yourself. They make great project names and also band names. 
 
-For this project, you'll be writing one of these project name generators. You can use your own wordlists, or feel free to use the wordlists gathered here: https://github.com/paralax/BrassGlue/tree/master/wordlists . They're broken out by part of speech or topic (e.g. metals). I find that these names are a lot better when you use parts of speech or things like metals and dogs. 
+For this project, you'll be writing one of these project name generators. You can use your own wordlists, or feel free to use the wordlists gathered here: https://github.com/paralax/BrassGlue/tree/master/wordlists . They're broken out by part of speech or topic (e.g. metals). Make your names by smashing two or more randomly chosen words together. I find that these names are a lot better when you use parts of speech or things like metals and dogs. 
 
 **Input Description**
 
