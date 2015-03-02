@@ -189,16 +189,8 @@ Draw the unique polyominoes in ASCII art.
     ####  
      #  
 
-    #  
-    ####  
-     #  
-
     ##  
      ###  
-     #  
-
-     #  
-    ####  
      #  
 
     ###  
@@ -239,14 +231,8 @@ Draw the unique polyominoes in ASCII art.
     ##### 
     #  
 
-    ##### 
-     #  
-
      #### 
     ##  
-
-    ##### 
-     #  
 
     ##### 
      #  
