@@ -34,3 +34,7 @@ Your program should emit all words of the maximum length. For the above wheel we
 	teaism
 	semita
 	samite
+
+**Credit** 
+
+Many thanks to Ben Everard for the idea!
