@@ -8,7 +8,7 @@ The mathematical constant pi - the ratio of a circle's circumference to its radi
 
 Approximations start to fail after various decimal places. For instance, the simple "25/8" approximation is good to only 2 decimal places, while "62832/20000" is correct to 4 decimal places. Various algorithms have been developed over the years that provide increasing accuracy.
 
-For this challenge your task is to implement one or more of those algorithms and approximate pi correctly to a specific number of digits. You may *NOT* for this challenge use your programming language or system's built in definitions of pi (e.g. System.Math.PI from .Net, or M_PI from math.h), or downloading it from somewhere - that's straight up cheating. 
+For this challenge your task is to implement one or more of those algorithms and approximate pi correctly to a specific number of digits. You may *NOT* for this challenge use your programming language or system's built in definitions of pi (e.g. System.Math.PI from .Net, or M_PI from math.h), you should not solve it using geometric functions like `sin()` or `tan()` or the like, or "find it" by downloading it from somewhere - that's straight up cheating. 
 
 **Challenge Input**
 
