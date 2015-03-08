@@ -31,8 +31,10 @@ Your program should emit all words of the maximum length. For the above wheel we
 
 **Challenge Output**
 
-	teaism
-	semita
+	ambits
+	bemist
+	misate
+	miseat
 	samite
 
 **Credit** 
