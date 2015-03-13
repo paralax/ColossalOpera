@@ -12,9 +12,26 @@ There are two types of alignment in general. A global alignment is an alignment 
 
 Alignment treats the two inputs as a linear sequence to be lined up as much as possible, with optional gaps and conversions allowed. The goal is to minimize these differences. 
 
-The first step in computing a alignment (global or local) is to decide on a scoring system. For this exercise, we'll simplify this and give a score of +2 to a match and a penalty of -1 to a mismatch, and a penalty of -2 to a gap. 
+The first step in computing a sequence alignment is to decide on a scoring system. For this exercise, we'll simplify this and give a score of +2 to a match and a penalty of -1 to a mismatch, and a penalty of -2 to a gap. 
 
-For more information and how to do this using an R package, see the chapter "Pairwise Sequence Alignment" at  http://a-little-book-of-r-for-bioinformatics.readthedocs.org/en/latest/src/chapter4.html. The key algorithm is Needleman-Wunsch (http://en.wikipedia.org/wiki/Needleman%E2%80%93Wunsch_algorithm).
+Here's a small example. Our two DNA sequences to align:
+
+    CTCTAGCATTAG
+    GTGCACCCA
+
+One sligmment might look like this:
+
+    CTCTAGCATTAG
+    GT---GCACCCA
+
+But that one adds three gaps. We can do a bit better with only one gap added (and a small shift in starting position):
+
+    CTCTAGCATTAG
+      GT-GCACCCA
+
+While not an exact match, it now minimizes the conversion penalties between the two and aligns them as best we can. 
+
+For more information and how to do this using an R package, see the chapter ["Pairwise Sequence Alignment"](http://a-little-book-of-r-for-bioinformatics.readthedocs.org/en/latest/src/chapter4.html), or [this set of lecture notes from George Washington University](http://www.seas.gwu.edu/~simhaweb/cs151/lectures/module12/align.html). The key algorithm is [Needleman-Wunsch](http://en.wikipedia.org/wiki/Needleman%E2%80%93Wunsch_algorithm).
 
 For this challenge your task is to write a program that accepts two sequences and globally aligns them. If you want to make this harder and integrate the BLOSUM matrices, you may. 
 
