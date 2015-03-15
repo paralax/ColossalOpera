@@ -24,3 +24,18 @@ Your program should emit the number of steps it takes to reach one and the seque
 
 If you have your own idea for a challenge, submit it to /r/DailyProgrammer_Ideas, and there's a good chance we'll post it.
 
+
+# Scala solution
+
+    def collatz(N:Int): List[Int] = {
+      def loop(n:Int, sofar:List[Int]): List[Int] = {
+        n match {
+          case 1 => 1::sofar
+          case _ => (n%2 == 0) match {
+              case true => loop(n/2, n::sofar)
+              case false => loop(1 + 3*n, n::sofar)
+          }
+        }
+      }
+      loop(N, List()).reverse
+    }
