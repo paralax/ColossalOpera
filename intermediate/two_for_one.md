@@ -1,1 +1,51 @@
-**Title** Two for One\n\n**Difficulty** Intermediate\n\n**Description**\n\nThis game is simple - swap one letter in the input word with a new pair of two letters (e.g. p -&gt; nn) to generate a valid resulting word (English words, only, please). \n\n**Formal Input Description**\n\nYou'll be given a list of English words as input.\n\n**Formal Output Description**\n\nYour program should emit the valid English words that result from the substitution. Use the [enable wordlist](https://code.google.com/p/dotnetperls-controls/downloads/detail?name=enable1.txt) if you lack a list of English words (e.g. /usr/share/dict/words). \n\n**Sample Input**\n\n    chapel\n    agenda\n\n**Sample Output**\n\n    channel\n    addenda\n\n**Challenge Input**\n\n    barber\n    cogent\n    staple\n    behave\n    axle\n\n**Challenge Input Solution (not visible by default)**\n\n    barbell\n    comment\n    steeple\n    behoove\n    apple\n\n**Note (optional)**\n\nThis was from the NYTimes magazine on March 16. Puzzle credit goes to the always estimable Will Shortz. \n\n
+# Title
+
+Two for One
+
+# Difficulty
+
+Intermediate
+
+# Description
+
+This game is simple - swap one letter in the input word with a new pair of two letters (e.g. p -&gt; nn) to generate a valid resulting word (English words, only, please). 
+
+# Formal Input Description
+
+You'll be given a list of English words as input.
+
+# Formal Output Description
+
+Your program should emit the valid English words that result from the substitution. Use the [enable wordlist](https://code.google.com/p/dotnetperls-controls/downloads/detail?name=enable1.txt) if you lack a list of English words (e.g. /usr/share/dict/words).
+
+# Sample Input
+
+    chapel
+    agenda
+
+# Sample Output
+
+    channel
+    addenda
+
+# Challenge Input
+
+    barber
+    cogent
+    staple
+    behave
+    axle
+
+# Challenge Input Solution (not visible by default)
+
+    barbell
+    comment
+    steeple
+    behoove
+    apple
+
+# Note (optional)
+
+This was from the NYTimes magazine on March 16. Puzzle credit goes to the always estimable Will Shortz. 
+
+Have a cool idea for a challenge? Submit it to /r/DailyProgrammer_Ideas!
