@@ -14,11 +14,19 @@ For instance, starting with n = 6, one gets the sequence 6, 3, 10, 5, 16, 8, 4, 
 
 # Input 
 
-Your program should take a positive integer *N*.
+Your program should take a positive integer *N* as an argument.
 
 # Output Description
 
-Your program should emit the number of steps it takes to reach one and the sequence emitted.
+Your program should emit the number of steps it takes to reach 1 and the sequence emitted.
+
+# Bonus 1
+
+Can you explain what's so interesting about the number 9232 in the context of the Collatz Conjecture?
+
+# Bonus 2
+
+If you're feeling like it, throw in some unique visualizations of sequences or series from the Collatz Conjecture, using any imaging library you wish. 
 
 # Note
 
