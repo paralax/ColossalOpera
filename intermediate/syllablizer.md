@@ -34,7 +34,7 @@ Your program should emit the word and the number of syllables it counted in them
     
 # Challenge Output
 
-    water 1 
+    water 2 
     weigh 1
     neighbor 2
     neighborhood 3 
