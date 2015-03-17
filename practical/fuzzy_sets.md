@@ -14,6 +14,11 @@ Fuzzy sets are composed of fuzzy numbers. A fuzzy number is an generalization of
 
 In classical set theory, the membership of elements in a set is assessed in binary terms according to a bivalent condition — an element either belongs or does not belong to the set. By contrast, fuzzy set theory permits the gradual assessment of the membership of elements in a set; this is described with the aid of a membership function valued in the real unit interval [0, 1]. Fuzzy sets generalize classical sets, since the indicator functions of classical sets are special cases of the membership functions of fuzzy sets, if the latter only take values 0 or 1. In fuzzy set theory, classical bivalent sets are usually called crisp sets. The fuzzy set theory can be used in a wide range of domains in which information is incomplete or imprecise, such as bioinformatics.
 
+An example of fuzzy sets would be:
+
+   {{4, .25}, {13, .33}, {50, 1}}
+   {{14, 0}, {50, 1}, {83, 0}}
+
 For additional information, see these references: 
 - http://www.sjsu.edu/faculty/watkins/fuzzysets.htm
 - http://reference.wolfram.com/applications/fuzzylogic/index2.html
