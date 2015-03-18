@@ -1,7 +1,7 @@
 # Description
 
 DNA - deoxyribonucleaic acid - is the building block of every organism. It contains information about hair colour, skin tone, allergies, and more.
-[It's usually visualized as a long double helix of base pairs.](http://cdn.theatlantic.com/static/mt/assets/science/shutterstock_34693498%20copy.jpg) DNA is composed of four bases - adenine, thymine, cytosine, guanine - pair as follows: A-T and G-C. 
+[It's usually visualized as a long double helix of base pairs.](http://cdn.theatlantic.com/static/mt/assets/science/shutterstock_34693498%20copy.jpg) DNA is composed of four bases - adenine, thymine, cytosine, guanine - paired as follows: A-T and G-C. 
 
 Meaning: on one side of the strand there may be a series of bases 
 
