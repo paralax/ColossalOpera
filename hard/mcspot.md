@@ -50,7 +50,8 @@ Here's a gist file with even more points. https://gist.github.com/paralax/f1f0fb
 
 # Credit
 
-Many thanks to Redditor /u/strongpassword for this submission.
+Many thanks to Redditor /u/strongpassword for this submission. 
+https://github.com/gavinr/usa-mcdonalds-locations
 
 # Notes
 
