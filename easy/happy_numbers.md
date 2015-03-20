@@ -18,15 +18,15 @@ You are given a number **N**. To determine whether or not it is a happy number, 
 
 If you happen to obtain **N=1**, then the original number is a happy number! 
 
-**INPUT**
+# Input
 
 A natural number **N**.
 
-**OUTPUT**
+# Output
 
 You should output the string "Happy" if the number is a happy number, else output "Sad".
 
-**EXAMPLE**
+# Example
 
 Given the number **N = 836**, determine whether it is a happy number:
 
@@ -69,20 +69,31 @@ Let's see what happens when we initially set **N = 740**
 ... But we had already had 37!!! So we are in a loop! Therefore, 740 is not a happy number! 
 
 
-## FURTHER READING
+# Further Reading
 
 [**HAPPY NUMBERS**](http://en.wikipedia.org/wiki/Happy_number)
 
-# EXTENSION CHALLENGES
+# Extension Challenges
 
-**1)** How many happy numbers are there with **1 &lt;= N &lt;= 1000**?
+**1)** How many happy numbers are there with **1 <= N <= 1000**?
 
 **2)** Now let's give this problem a small twist. Instead of squaring the digits, take the power as a variable. Which power, from 1 to 10, produces the most happy numbers (with **N** between 1 and 1000)?
 
-# Credit
-
-This challenge idea was submitted by Redditor /u/AnkePluff.
-
 # Notes
 
-Have a cool challenge idea? Post it to /r/DailyProgrammer_Ideas!
+This challenge idea was submitted by Redditor /u/AnkePluff. Have a cool challenge idea? Post it to /r/DailyProgrammer_Ideas!
+
+
+# Scala solution
+
+	def happy(n:Int): Boolean = {
+	  def loop(n:Int, sofar:List[Int]): List[Int] = {
+	    val nn = n.toString.toCharArray.map(_.toString).map(_.toInt).map(x => x*x).sum
+	    nn match {
+	      case 1 => 1::sofar
+	      case 4 => 4::sofar
+	      case _ => loop(nn, nn::sofar)
+	    }
+	  }
+	  loop(n, List()).head == 1
+	}
