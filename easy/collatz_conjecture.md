@@ -30,7 +30,7 @@ If you're feeling like it, throw in some unique visualizations of sequences or s
 
 # Note
 
-If you have your own idea for a challenge, submit it to /r/DailyProgrammer_Ideas, and there's a good chance we'll post it.
+This challenge was suggested by /u/LESQUID69. If you have your own idea for a challenge, submit it to /r/DailyProgrammer_Ideas, and there's a good chance we'll post it.
 
 
 # Scala solution
