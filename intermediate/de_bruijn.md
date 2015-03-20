@@ -8,11 +8,11 @@ Intermediate
 
 # Description
 
-In combinatorial mathematics, a *k-ary* De Bruijn sequence *B(k, n)* of order *n*, named after the Dutch mathematician Nicolaas Govert de Bruijn, is a cyclic sequence of a given alphabet *A* with size *k* for which every possible subsequence of length *n* in *A* appears as a sequence of consecutive characters exactly once.
+In combinatorial mathematics, a *k-ary* De Bruijn sequence *B(k, n)* of order *n*, named after the Dutch mathematician Nicolaas Govert de Bruijn, is a cyclic sequence of a given alphabet *A* with size *k* for which every possible subsequence of length *n* in *A* appears as a sequence of consecutive characters exactly once. At the terminus, you "wrap" the end of the sequence around to the beginning to get any remaining subsequences. 
 
 Each *B(k, n)* has length *k^n*.
 
-A De Bruijn sequence *B(2, 2)* (with alphabet *0* and *1*) is therefore:
+A De Bruijn sequence *B(2, 3)* (with alphabet *0* and *1*) is therefore:
 
     00010111
 
