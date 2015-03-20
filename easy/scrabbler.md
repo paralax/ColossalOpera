@@ -29,6 +29,6 @@ For this challenge, you will receive a bank of 7 letters and be asked to generat
 
 **Credit**
 
-Many thanks to Github user mateogianolio for their Scrabbler project, which inspired this challenge. A similar challenge was posted a couple of years ago by /u/dante9999.
+Many thanks to Github user mateogianolio for their Scrabbler project, which inspired this challenge. A similar challenge idea was posted a couple of years ago by /u/dante9999.
 
 If you have an idea for a challenge, posted it to /r/dailyprogrammer_ideas!
