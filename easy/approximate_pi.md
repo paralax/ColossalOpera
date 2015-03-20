@@ -1,8 +1,12 @@
-**Title** Approximate PI
+# Title 
 
-**Difficulty** Easy
+Approximate PI
 
-**Description** 
+# Difficulty
+
+Easy
+
+# Description
 
 The mathematical constant pi - the ratio of a circle's circumference to its radius - is an irrational number. Approximations have been made - first by hand and now by computers - for over 4000 years. The current record is to 12.1 trillion digits!
 
@@ -10,7 +14,7 @@ Approximations start to fail after various decimal places. For instance, the sim
 
 For this challenge your task is to implement one or more of those algorithms and approximate pi correctly to a specific number of digits. You may *NOT* for this challenge use your programming language or system's built in definitions of pi (e.g. System.Math.PI from .Net, or M_PI from math.h), you should not solve it using geometric functions like `sin()` or `tan()` or the like, or "find it" by downloading it from somewhere - that's straight up cheating. 
 
-**Challenge Input**
+# Challenge Input
 
 You'll be given *N*, a number of digits to which to correctly approximate pi. 
 
@@ -18,3 +22,6 @@ You'll be given *N*, a number of digits to which to correctly approximate pi.
         6  (should be 3.141592 or 3.141593) 
         10 (should be 3.1415926535)
 
+# Notes
+
+User /u/skeeto had submitted a similar one before based on a specific approximation method: http://www.reddit.com/r/dailyprogrammer_ideas/comments/1qrrpa/easy_buffons_needle_pi_estimation/
