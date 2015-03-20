@@ -22,6 +22,8 @@ Similarly, *B("abcd", 2)* (with alphabet "a", "b", "c", and "d") is therefore:
 
 For those sequences of length, every bigram is represented in the result. 
 
+De Bruijn sequences have various applications, including in PIN pad testing and rotor angle calculation. 
+
 # Input Description
 
 You'll be given two inputs *k* and *n*, the first is an integer or a a string of unique characters, the second is the length of the subsequences to ensure are encoded.
