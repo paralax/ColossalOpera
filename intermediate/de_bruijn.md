@@ -20,7 +20,7 @@ Similarly, *B("abcd", 2)* (with alphabet "a", "b", "c", and "d") is therefore:
 
     aabacadbbcbdccdd
 
-For those sequences of length, every bigram is represented in the result. 
+For those sequences of length, every trigram (for the former case) or bigram (for the latter case) is represented in the result. 
 
 De Bruijn sequences have various applications, including in PIN pad testing and rotor angle calculation. 
 
