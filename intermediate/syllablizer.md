@@ -12,6 +12,8 @@ A syllable is a unit of organization for a sequence of speech sounds. For exampl
 
 For this challenge your program should take English language words and count the number of syllables in them.
 
+If you have ever wished to automatically create poetry like a haiku, this is one of the components you'll need. 
+
 # Input Description
 
 You'll be given a series of English language words.
