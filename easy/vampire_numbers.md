@@ -1,26 +1,30 @@
-**Title** Vampire Numbers
+# Title 
 
-**Difficulty** Easy
+Vampire Numbers
 
-**Description**
+# Difficulty
+
+Easy
+
+# Description
 
 A vampire number *v* is a number *v=xy* with an even number *n* of digits formed by multiplying a pair of *n*/2-digit numbers (where the digits are taken from the original number in any order) *x* and *y* together. Pairs of trailing zeros are not allowed. If *v* is a vampire number, then *x* and *y* are called its "fangs." 
 
 Additional information can be found here: http://www.primepuzzles.net/puzzles/puzz_199.htm
 
-**Formal Input Description**
+# Formal Input Description
 
 Two digits on one line indicating *n*, the number of digits in the number to factor and find if it is a vampire number, and *m*, the number of fangs. 
 
-**Formal Output Description**
+# Formal Output Description
 
 A list of all vampire numbers of *n* digits, you should emit the number and its factors (or "fangs").
 
-**Sample Input**
+# Sample Input
 
         4 2
 
-**Sample Output**
+# Sample Output
 
         1260=21*60
         1395=15*93
@@ -30,11 +34,11 @@ A list of all vampire numbers of *n* digits, you should emit the number and its 
         2187=27*81
         6880=86*80
 
-**Challenge Input**
+# Challenge Input
 
 6 3
 
-**Challenge Input Solution (not visible by default)**
+# Challenge Input Solution (not visible by default)
 
         114390=41*31*90
         121695=21*61*95
@@ -55,3 +59,29 @@ A list of all vampire numbers of *n* digits, you should emit the number and its 
         479964=74*94*69
         498960=99*84*60
 
+
+
+# Scala solution
+
+    object VampireNumbers {
+      def product(list: List[Int]): Int = list.foldLeft(1)(_*_)
+
+      def vampire(n:Int, fangs:Int):List[(Int, List[Int])] ={
+        n.
+         toString.
+         toList.
+         map(_.toString.toInt).
+         permutations.
+         map(_.grouped(2).map(_.mkString.toInt).toList).
+         map(x=>(product(x),x)).
+         filter(_._1==n).
+         toList
+      }
+
+      def main(argc:Int, argv:Array[String]) = {
+        val start = scala.math.pow(10, argv(1).toInt-1).toInt
+        val end = scala.math.pow(10, argv(1).toInt).toInt-1
+        val fangs = argv(2).toInt
+        (start to end).map(x => vampire(x, fangs)).filter(_.length > 0).foreach(println)
+      }
+    }
