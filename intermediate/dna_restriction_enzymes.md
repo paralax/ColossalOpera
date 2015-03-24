@@ -58,12 +58,12 @@ This sequence was taken from the genome of *Enterobacteria phage phiX174 sensu l
 
 # Output
 
-Your program should emit the cut positions for each enzyme. For the above the solution would be:
+Your program should emit the name of the enzyme, the cut positions for that enzyme, and the contextualized cut. For the above the solution would be:
 
-	BamHI 517
-	HaeIII 435
-	HindIII 445
-	HindIII 635
+	BamHI 517 aagttt[g gatc]cctactgac 
+	HaeIII 435 accgcttt[gg cc]tctatta
+	HindIII 445 tatt[a agctt]att
+	HindIII 635 ccgtca[a agctt]att
 	
 # Notes
 
