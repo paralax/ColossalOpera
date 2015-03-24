@@ -1,4 +1,4 @@
-Continuing with our bioinformatics theme today. If you like these sorts of problems, I encourage you to check out Project Rosalind (their site seems back up): http://rosalind.info/problems/locations/
+Continuing with our bioinformatics theme today. If you like these sorts of problems, I encourage you to check out Project Rosalind (their site seems back up): http://rosalind.info/
 
 # Title 
 
