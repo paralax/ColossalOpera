@@ -37,14 +37,16 @@ This indicates that the T is the balance point and that the weight on either sid
     consubstantiation
     wrongheaded
     unintelligibility
+
+# Challenge Output
+
+	consubst a ntiation - 1608
+	DOES NOT BALANCE
+	unintell i gibility - 1673
     
-# Credit
-
-This was found on a word games page suggested by /u/cDull, thanks!
-
 # Notes
 
-If you have your own idea for a challenge, submit it to /r/DailyProgrammer_Ideas, and there's a good chance we'll post it.
+This was found on a word games page suggested by /u/cDull, thanks! If you have your own idea for a challenge, submit it to /r/DailyProgrammer_Ideas, and there's a good chance we'll post it.
 
 # Scala Solution
 
