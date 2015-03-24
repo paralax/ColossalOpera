@@ -45,3 +45,27 @@ This was found on a word games page suggested by /u/cDull, thanks!
 # Notes
 
 If you have your own idea for a challenge, submit it to /r/DailyProgrammer_Ideas, and there's a good chance we'll post it.
+
+# Scala Solution
+
+	def balance(word:String) = {
+	  def loop(word:String, n:Int):(Int, Int) = {
+	    if (n+word.length == 1) {
+	      (0, -1)
+	    } else {
+	      val p = word.map(_.toInt-64).zip(n to (word.length+n-1)).map(x=>x._1*x._2).partition(_>0)
+	      val lhs = p._1.sum
+	      val rhs = p._2.sum
+	      (lhs + rhs == 0) match {
+	        case true  => (lhs, (n to (word.length+n-1)).indexOf(0))
+	        case false => loop(word, n-1)
+	      }
+	    }
+	  }
+	  val b = loop(word, 0)
+	  b
+	  b._1 match {
+	    case 0 => ("", "", "", -1)
+	    case _ => (word.substring(0, b._2), word(b._2), word.substring(b._2+1, word.length), b._1)
+	  }
+	}
