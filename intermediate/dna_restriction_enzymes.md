@@ -12,13 +12,23 @@ Intermediate
 
 Restriction enzymes are DNA-cutting enzymes found in bacteria (and harvested from them for use). Because they cut within the molecule, they are often called restriction endonucleases. In order to be able to sequence DNA, it is first necessary to cut it into smaller fragments. For molecular biology work, what is needed is a way to cleave the DNA molecule at a few precisely-located sites so that a small set of homogeneous fragments are produced. The tools for this are the restriction endonucleases. The rarer the site it recognizes, the smaller the number of pieces produced by a given restriction endonuclease.
 
-Today your challenge is to write a program that can recognize 
+These enzymes can cleave the DNA at a site that leaves both strands the same length. This is called a "blunt" end because of this and can be visualized like this:
+
+	5'-GG  +CC-3'
+	3'-CC   GG-5'
+
+Other DNA restriction enzymes cleave the ends at different lengths, although it's symmetrical about the central axis. These are called "sticky" ends, and here's a simple visualization of one of those cuts:
+
+	5'-ATCTGACT      + GATGCGTATGCT-3'
+	3'-TAGACTGACTACG        CATACGA-5'
+	
+In both cases the two strands are cut at a point of symmetry (the upper and lower strands are symmetrical if rotated). 
+
+Today your challenge is to write a program that can recognize the locations where various enzymes will cut DNA. 
 
 # Input
 
-You'll be given a list of DNA restriction enzymes and their recognition site and where the cut occurs. The input will be structured as enzyme name, if the enzyme makes a "sticky" or "blunt" end cut, the DNA recognition sequence and the position of the cut marked with a carrot ("^"). For the sticky ends, you should assume the mirror image of the complementary strand gets the same cut, leaving one of the strands to overhang (hence it's "sticky"). 
-
-Example:
+You'll be given a list of DNA restriction enzymes and their recognition site and where the cut occurs. The input will be structured as enzyme name, if the enzyme makes a "sticky" or "blunt" end cut, the DNA recognition sequence and the position of the cut marked with a caret ("^"). For the sticky ends, you should assume the mirror image of the complementary strand gets the same cut, leaving one of the strands to overhang (hence it's "sticky"). 
 
 	BamHI sticky G^GATCC
 	HaeIII blunt GG^CC
@@ -26,7 +36,7 @@ Example:
 
 Then you'll be given a DNA sequence and be asked to cut it with the listed enzymes. For sake of convenience, the DNA sequence is broken into blocks of 10 bases at a time and in lengths of 6 blocks per row. You should merge these together and drop the first column of digits.
 
-This sequence was taken from Enterobacteria phage phiX174 sensu lato, complete genome http://www.genome.jp/dbget-bin/www_bget?refseq+NC_001422 and modified for this challenge. 
+This sequence was taken from the genome of *Enterobacteria phage phiX174 sensu lato* http://www.genome.jp/dbget-bin/www_bget?refseq+NC_001422 and modified for this challenge. 
 
 	  1 gagttttatc gcttccatga cgcagaagtt aacactttcg gatatttctg atgagtcgaa
 	 61 aaattatctt gataaagcag gaattactac tgcttgttta cgaattaaat cgaagtggac
@@ -46,7 +56,7 @@ This sequence was taken from Enterobacteria phage phiX174 sensu lato, complete g
 
 # Output
 
-Your program should emit the positions of the cuts by enzyme. For the above the solution would be:
+Your program should emit the cut positions for each enzyme. For the above the solution would be:
 
 	BamHI 517
 	HaeIII 435
