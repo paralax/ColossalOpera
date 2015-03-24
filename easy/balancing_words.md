@@ -65,7 +65,6 @@ This was found on a word games page suggested by /u/cDull, thanks! If you have y
 	    }
 	  }
 	  val b = loop(word, 0)
-	  b
 	  b._1 match {
 	    case 0 => ("", "", "", -1)
 	    case _ => (word.substring(0, b._2), word(b._2), word.substring(b._2+1, word.length), b._1)
