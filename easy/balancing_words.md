@@ -50,23 +50,30 @@ This was found on a word games page suggested by /u/cDull, thanks! If you have y
 
 # Scala Solution
 
-	def balance(word:String) = {
+	def balance(word:String): (String, String, String, Int) = {
 	  def loop(word:String, n:Int):(Int, Int) = {
-	    if (n+word.length == 1) {
-	      (0, -1)
-	    } else {
-	      val p = word.map(_.toInt-64).zip(n to (word.length+n-1)).map(x=>x._1*x._2).partition(_>0)
-	      val lhs = p._1.sum
-	      val rhs = p._2.sum
-	      (lhs + rhs == 0) match {
-	        case true  => (lhs, (n to (word.length+n-1)).indexOf(0))
-	        case false => loop(word, n-1)
-	      }
+	    n+word.length match {
+	      case 1 =>       (0, -1)
+	      case _ =>
+	        val p = word.map(_.toInt-64).zip(n to (word.length+n-1)).map(x=>x._1*x._2).partition(_>0)
+	        val lhs = p._1.sum
+	        val rhs = p._2.sum
+	        (lhs + rhs == 0) match {
+	          case true  => (lhs, (n to (word.length+n-1)).indexOf(0))
+	          case false => loop(word, n-1)
+	        }
 	    }
 	  }
-	  val b = loop(word, 0)
+	  val b = loop(word.toUpperCase, 0)
 	  b._1 match {
 	    case 0 => ("", "", "", -1)
-	    case _ => (word.substring(0, b._2), word(b._2), word.substring(b._2+1, word.length), b._1)
+	    case _ => (word.substring(0, b._2), word(b._2).toString, word.substring(b._2+1, word.length), b._1)
 	  }
 	}
+
+	// how many words can be balanced?
+	val bwords = scala.io.Source.
+	              fromFile("/usr/share/dict/words").
+	              getLines.
+	              map(balance(_)).
+	              filter(_._1 != "")
