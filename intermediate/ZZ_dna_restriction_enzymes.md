@@ -8,6 +8,8 @@ Continuing with our bioinformatics theme today. If you like these sorts of probl
 
 Intermediate
 
+Continuing with our bioinformatics theme today. If you like these sorts of problems, I encourage you to check out Project Rosalind (their site seems back up): http://rosalind.info/
+
 # Description
 
 Restriction enzymes are DNA-cutting enzymes found in bacteria (and harvested from them for use). Because they cut within the molecule, they are often called restriction endonucleases. In order to be able to sequence DNA, it is first necessary to cut it into smaller fragments. For precise molecular biology work, what is needed is a way to cleave the DNA molecule at a few specifically-located sites so that a small set of homogeneous fragments are produced. The tools for this are the restriction endonucleases. The rarer the site it recognizes, the smaller the number of pieces produced by a given restriction endonuclease.
@@ -30,7 +32,7 @@ Today your challenge is to write a program that can recognize the locations wher
 
 # Input
 
-You'll be given a list of DNA restriction enzymes and their recognition site and where the cut occurs. The input will be structured as enzyme name, if the enzyme makes a "sticky" or "blunt" end cut, the DNA recognition sequence and the position of the cut marked with a caret ("^"). For the sticky ends, you should assume the mirror image of the complementary strand gets the same cut, leaving one of the strands to overhang (hence it's "sticky"). 
+You'll be given a list of DNA restriction enzymes and their recognition site and where the cut occurs. The input will be structured as enzyme name, if the enzyme makes a "sticky" or "blunt" end cut, the DNA recognition sequence and the position of the cut marked with a caret ("\^"). For the sticky ends, you should assume the mirror image of the complementary strand gets the same cut, leaving one of the strands to overhang (hence it's "sticky"). 
 
 	BamHI sticky G^GATCC
 	HaeIII blunt GG^CC
@@ -60,7 +62,7 @@ This sequence was taken from the genome of *Enterobacteria phage phiX174 sensu l
 
 Your program should emit the name of the enzyme, the cut positions for that enzyme, and the contextualized cut. For the above the solution would be:
 
-	BamHI 517 aagttt[g gatc]cctactgac 
+	BamHI 517 aagttt[g gatcc]ctactgac 
 	HaeIII 435 accgcttt[gg cc]tctatta
 	HindIII 445 tatt[a agctt]att
 	HindIII 635 ccgtca[a agctt]att
