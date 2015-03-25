@@ -62,10 +62,11 @@ This sequence was taken from the genome of *Enterobacteria phage phiX174 sensu l
 
 Your program should emit the name of the enzyme, the cut positions for that enzyme, and the contextualized cut. For the above the solution would be:
 
-	BamHI 517 aagttt[g gatcc]ctactgac 
-	HaeIII 435 accgcttt[gg cc]tctatta
-	HindIII 445 tatt[a agctt]att
-	HindIII 635 ccgtca[a agctt]att
+	BamHI 517 agttt[g gatcc]ctactg
+	HaeIII 435 gcttt[gg cc]tctattaa
+	HaeIII 669 caaac[gg cc]tgtctcat
+	HindIII 444 ctatt[a agctt]attcag
+	HindIII 634 cgtca[a agctt]attatg
 	
 # Bonus
 
@@ -74,3 +75,45 @@ Write some code that identifies any and all symmetrical points along the DNA seq
 # Notes
 
 If you have your own idea for a challenge, submit it to /r/DailyProgrammer_Ideas, and there's a good chance we'll post it.
+
+
+# Scala solution
+
+	object Intermediate207 {
+	  def main(argc:Int, argv:Array[String]) = {
+	    val gene = """  1 gagttttatc gcttccatga cgcagaagtt aacactttcg gatatttctg atgagtcgaa
+	     61 aaattatctt gataaagcag gaattactac tgcttgttta cgaattaaat cgaagtggac
+	    121 tgctggcgga aaatgagaaa attcgaccta tccttgcgca gctcgagaag ctcttacttt
+	    181 gcgacctttc gccatcaact aacgattctg tcaaaaactg acgcgttgga tgaggagaag
+	    241 tggcttaata tgcttggcac gttcgtcaag gactggttta gatatgagtc acattttgtt
+	    301 catggtagag attctcttgt tgacatttta aaagagcgtg gattactatc tgagtccgat
+	    361 gctgttcaac cactaatagg taagaaatca tgagtcaagt tactgaacaa tccgtacgtt
+	    421 tccagaccgc tttggcctct attaagctta ttcaggcttc tgccgttttg gatttaaccg
+	    481 aagatgattt cgattttctg acgagtaaca aagtttggat ccctactgac cgctctcgtg
+	    541 ctcgtcgctg cgttgaggct tgcgtttatg gtacgctgga ctttgtggga taccctcgct
+	    601 ttcctgctcc tgttgagttt attgctgccg tcaaagctta ttatgttcat cccgtcaaca
+	    661 ttcaaacggc ctgtctcatc atggaaggcg ctgaatttac ggaaaacatt attaatggcg
+	    721 tcgagcgtcc ggttaaagcc gctgaattgt tcgcgtttac cttgcgtgta cgcgcaggaa
+	    781 acactgacgt tcttactgac gcagaagaaa acgtgcgtca aaaattacgt gcggaaggag
+	    841 tgatgtaatg tctaaaggta aaaaacgttc tggcgctcgc cctggtcgtc cgcagccgtt""".replaceAll(" ", "").replaceAll("[0-9]", "").replaceAll("\n", "")
+
+	    val enzymes = List(("BamHI", "ggatcc", 1),
+	                       ("HaeIII", "ggcc", 2),
+	                       ("HindIII", "aagctt", 1))
+
+	    for (e <- enzymes) {
+	      val (name, pat, pos) = e
+	      def loop(off:Int, name:String, pat:String, pos:Int): String = {
+	        gene.indexOf(pat, off) match {
+	          case -1 => ""
+	          case _  => val mark = "[" + pat.substring(0,pos) + " " + pat.substring(pos, pat.length) + "]"
+	                     val seq = gene.substring(gene.indexOf(pat, off)-5, gene.indexOf(pat, off)+12).replace(pat, mark)
+	                     val offset = gene.indexOf(pat, off)+pos
+	                     println(name + " " + offset + " " + seq)
+	                     loop(offset+2, name, pat, pos)
+	        }
+	      }
+	      loop(0, name, pat, pos)
+	    }
+	  }
+	}
