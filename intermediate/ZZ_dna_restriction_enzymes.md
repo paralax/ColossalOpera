@@ -65,6 +65,10 @@ Your program should emit the name of the enzyme, the cut positions for that enzy
 	HindIII 445 tatt[a agctt]att
 	HindIII 635 ccgtca[a agctt]att
 	
+# Bonus
+
+Write some code that identifies any and all symmetrical points along the DNA sequence where an enzyme (not just the three listed) could cut. These should be even-length palindromes between 4 and 10 bases long. 
+	
 # Notes
 
 If you have your own idea for a challenge, submit it to /r/DailyProgrammer_Ideas, and there's a good chance we'll post it.
