@@ -1,6 +1,8 @@
+Wrapping up our bioinformatics theme with the third and final installment today. If you like these sorts of problems, I encourage you to check out Project Rosalind (their site seems back up): http://rosalind.info/
+
 # Title
 
-Predicting Protein Secondary Structures
+[2015-03-27] Challenge #207 [Hard] Bioinformatics 3: Predicting Protein Secondary Structures
 
 # Difficulty 
 
