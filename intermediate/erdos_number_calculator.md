@@ -43,10 +43,10 @@ Your program should emit the name of the mathematician and their Erdős number.
 
 # Challenge Output
 
-	Balister, P. N. 2
-	Riordan, O. M. 2
-	Burris, A. C. 2
 	Schelp, R. H. 1
+	Burris, A. C. 2
+	Riordan, O. M. 2
+	Balister, P. N. 2
 
 # Notes
 
