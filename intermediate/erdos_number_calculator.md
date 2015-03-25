@@ -6,6 +6,8 @@ Erdos Number Calculator
 
 Intermediate
 
+In honor of the 102nd birthday of the famous mathematician, a problem named after him. 
+
 # Description
 
 Paul Erdős (1913–1996) was an influential mathematician who spent a large portion of his later life writing papers with a large number of colleagues, working on solutions to outstanding mathematical problems. The idea of the Erdős number was originally created by the mathematician's friends as a tribute to his enormous output. However, in later years it gained prominence as a tool to study how mathematicians cooperate to find answers to unsolved problems. 
