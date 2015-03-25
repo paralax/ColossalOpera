@@ -43,10 +43,10 @@ Your program should emit the name of the mathematician and their Erdős number.
 
 # Challenge Output
 
-	Schelp, R. H 1
-	Burris, A. C. 1
-	Riordan, O. M. 2
 	Balister, P. N. 2
+	Riordan, O. M. 2
+	Burris, A. C. 2
+	Schelp, R. H. 1
 
 # Notes
 
@@ -57,3 +57,47 @@ A full list of Erdös publications is up here http://www.renyi.hu/~p_erdos/Erdos
 # Finally
 
 Have a good challenge idea? Consider submitting it to /r/dailyprogrammer_ideas
+
+
+# Scala Solution
+
+uses scalax's graph modules to do the heavy lifting.
+
+	import scalax.collection.mutable.Graph
+	import scalax.collection.GraphPredef._, scalax.collection.GraphEdge._
+	import scalax.collection.edge.Implicits._
+
+	object Hello {
+	  def main(args: Array[String]): Unit = {
+	    val pubs = """Thomassen, C., Erdös, P., Alavi, Y., Malde, P. J., & Schwenk, A. J. (1989). Tight bounds on the chromatic sum of a connected graph. Journal of Graph Theory, 13(3), 353-357.
+	    Burr, S., Erdös, P., Faudree, R. J., Rousseau, C. C., & Schelp, R. H. (1988). Some complete bipartite graph—tree Ramsey numbers. Annals of Discrete Mathematics, 41, 79-89.
+	    Burris, A. C., & Schelp, R. H. (1997). Vertex-distinguishing proper edge-colorings. Journal of graph theory, 26(2), 73-82.
+	    Balister, P. N., Gyo˝ ri, E., Lehel, J., & Schelp, R. H. (2007). Adjacent vertex distinguishing edge-colorings. SIAM Journal on Discrete Mathematics, 21(1), 237-250.
+	    Erdös, P., & Tenenbaum, G. (1989). Sur les fonctions arithmétiques liées aux diviseurs consécutifs. Journal of Number Theory, 31(3), 285-311.
+	    Hildebrand, A., & Tenenbaum, G. (1993). Integers without large prime factors. Journal de théorie des nombres de Bordeaux, 5(2), 411-484.
+	    Balister, P. N., Riordan, O. M., & Schelp, R. H. (2003). Vertex‐distinguishing edge colorings of graphs. Journal of graph theory, 42(2), 95-109."""
+
+	    def loop(pubs:List[String], sofar:List[List[String]]): List[List[String]] = {
+	      pubs match {
+	        case Nil     => sofar
+	        case pub::xs => loop(xs, sofar ++ pub.replace("& ", "").split("\\(")(0).split(", ").grouped(2).map(_.mkString(", ").trim).toList.combinations(2).toList)
+	      }
+	    }
+	    val collabs = loop(pubs.split("\n").toList, List(List(""))).tail
+
+	    val g = Graph(""~"")
+	    for (c <- collabs) {
+	      g += c(0)~c(1)
+	    }
+		g -!= ""~""
+	    println(g.get("Erdös, P.") shortestPathTo g.get("Balister, P. N."))
+	    val cos = List("Balister, P. N.", "Riordan, O. M.", "Burris, A. C.", "Schelp, R. H.")
+	    for (c <- cos) {
+	      val p = g.get("Erdös, P.") shortestPathTo g.get(c) 
+	      p match {
+	        case None => println(c + " NO PATH FOUND")
+	        case Some(path) => println(c + " " + path.length)
+	      }
+	    }
+	  }
+	}
