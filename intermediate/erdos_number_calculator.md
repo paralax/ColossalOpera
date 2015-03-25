@@ -1,6 +1,6 @@
 # title
 
-Erdos Number Calculator
+[2015-03-26] Challenge #207 [Bonus] Erdos Number Calculator
 
 # Difficulty
 
