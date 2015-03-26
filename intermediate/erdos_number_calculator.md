@@ -76,6 +76,7 @@ uses scalax's graph modules to do the heavy lifting.
 	    Erdös, P., & Tenenbaum, G. (1989). Sur les fonctions arithmétiques liées aux diviseurs consécutifs. Journal of Number Theory, 31(3), 285-311.
 	    Hildebrand, A., & Tenenbaum, G. (1993). Integers without large prime factors. Journal de théorie des nombres de Bordeaux, 5(2), 411-484.
 	    Balister, P. N., Riordan, O. M., & Schelp, R. H. (2003). Vertex‐distinguishing edge colorings of graphs. Journal of graph theory, 42(2), 95-109."""
+	    val cos = List("Balister, P. N.", "Riordan, O. M.", "Burris, A. C.", "Schelp, R. H.")	
 
 	    def loop(pubs:List[String], sofar:List[List[String]]): List[List[String]] = {
 	      pubs match {
@@ -83,18 +84,11 @@ uses scalax's graph modules to do the heavy lifting.
 	        case pub::xs => loop(xs, sofar ++ pub.replace("& ", "").split("\\(")(0).split(", ").grouped(2).map(_.mkString(", ").trim).toList.combinations(2).toList)
 	      }
 	    }
-	    val collabs = loop(pubs.split("\n").toList, List(List(""))).tail
-
-	    val g = Graph(""~"")
-	    for (c <- collabs) {
-	      g += c(0)~c(1)
-	    }
-		g -!= ""~""
-	    println(g.get("Erdös, P.") shortestPathTo g.get("Balister, P. N."))
-	    val cos = List("Balister, P. N.", "Riordan, O. M.", "Burris, A. C.", "Schelp, R. H.")
+		val g = loop(pubs.split("\n").toList, List(List()).tail).
+					map(x=>x(0)~x(1)).
+					foldLeft[Graph[String,UnDiEdge]](Graph()){_+=_}
 	    for (c <- cos) {
-	      val p = g.get("Erdös, P.") shortestPathTo g.get(c) 
-	      p match {
+	      g.get("Erdös, P.") shortestPathTo g.get(c) match {
 	        case None => println(c + " NO PATH FOUND")
 	        case Some(path) => println(c + " " + path.length)
 	      }
