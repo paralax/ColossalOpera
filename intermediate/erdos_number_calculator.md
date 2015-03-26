@@ -67,7 +67,7 @@ uses scalax's graph modules to do the heavy lifting.
 	import scalax.collection.GraphPredef._, scalax.collection.GraphEdge._
 	import scalax.collection.edge.Implicits._
 
-	object Hello {
+	object Bonus207 {
 	  def main(args: Array[String]): Unit = {
 	    val pubs = """Thomassen, C., Erdös, P., Alavi, Y., Malde, P. J., & Schwenk, A. J. (1989). Tight bounds on the chromatic sum of a connected graph. Journal of Graph Theory, 13(3), 353-357.
 	    Burr, S., Erdös, P., Faudree, R. J., Rousseau, C. C., & Schelp, R. H. (1988). Some complete bipartite graph—tree Ramsey numbers. Annals of Discrete Mathematics, 41, 79-89.
