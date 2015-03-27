@@ -36,7 +36,7 @@ Your program should emit the name of the mathematician and their Erdős number.
 	Erdös, P., & Tenenbaum, G. (1989). Sur les fonctions arithmétiques liées aux diviseurs consécutifs. Journal of Number Theory, 31(3), 285-311.
 	Hildebrand, A., & Tenenbaum, G. (1993). Integers without large prime factors. Journal de théorie des nombres de Bordeaux, 5(2), 411-484.
 	Balister, P. N., Riordan, O. M., & Schelp, R. H. (2003). Vertex‐distinguishing edge colorings of graphs. Journal of graph theory, 42(2), 95-109.
-	Schelp, R. H
+	Schelp, R. H.
 	Burris, A. C.
 	Riordan, O. M.
 	Balister, P. N.
