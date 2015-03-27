@@ -1,4 +1,3 @@
-Wrapping up our bioinformatics theme with the third and final installment today. If you like these sorts of problems, I encourage you to check out Project Rosalind (their site seems back up): http://rosalind.info/
 
 # Title
 
@@ -7,6 +6,8 @@ Wrapping up our bioinformatics theme with the third and final installment today.
 # Difficulty 
 
 Hard
+
+Wrapping up our bioinformatics theme with the third and final installment today. If you like these sorts of problems, I encourage you to check out Project Rosalind (their site seems back up): http://rosalind.info/
 
 # Description
 
