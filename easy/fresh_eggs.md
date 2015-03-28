@@ -22,7 +22,7 @@ You should work with the assumption that time travel is impossible, so keep that
 
 # Output Description
 
-Your program should emit the scenario's date and the Julian date of the freshest egg carton.
+Your program should emit the scenario's date and the Julian date of the freshest egg carton and the oldest egg carton (maybe ripe for removal from the shelf!). 
 
 # Challenge Input
 
@@ -58,7 +58,7 @@ Scenario 3:
 
 # Challenge Output
 
-	2015-03-28 063
-	2014-12-31 311
-	2015-01-10 009
+	2015-03-28 063 017
+	2014-12-31 311 162
+	2015-01-10 009 321
 	
