@@ -12,13 +12,13 @@ This is part 2 of the Integer sequence search functionality. An integer sequence
 
 Not all sequences are computable (e.g. not all have a formula that can express them), but many do. 
 
-For this challenge you'll be searching sequences expressed as a recurrence relation.
+For this challenge you'll be searching sequences expressed as a recurrence relation. We did recurrence relations as a [previous exercise #206E](http://www.reddit.com/r/dailyprogrammer/comments/2z68di/20150316_challenge_206_easy_recurrence_relations/).
 
 # Input Description
 
-You'll be given two integers, *N* and *M*, which tell you how many sequences to read to form your database and then how many search queries to process, respectively. Then you'll be given the database as *N* pairs of *name* and *recurrence relation* pair. Then you'll be given *M* queries of a series of integers. Not all sequences you will be searching for will start at the beginning. Note that the overlap of the query and the sequence database will be unambiguous but is not guaranteed to overlap completely. Sequence names will use the OEIS naming convention.
+You'll be given two integers, *N* and *M*, which tell you how many sequences to read to form your database and then how many search queries to process, respectively. Then you'll be given the database as *N* pairs of *name* and *recurrence relation* pair. Starting conditions will be given following the "with" keyword. Then you'll be given *M* queries of a series of integers. Not all sequences you will be searching for will start at the beginning. Note that the overlap of the query and the sequence database will be unambiguous but is not guaranteed to overlap completely. Sequence names will use the OEIS naming convention.
 
-Recurrence relations will be given as a relationship of numbers in the sequence and the starting conditions.
+Recurrence relations will be given as a relationship of numbers in the sequence and the starting conditions. 
 
 Example:
 
