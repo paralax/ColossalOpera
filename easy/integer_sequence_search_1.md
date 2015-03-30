@@ -16,7 +16,7 @@ For this challenge you'll be replicating that subsequence search feature.
 
 # Input Description
 
-You'll be given two integers, *N* and *M*, which tell you how many sequences to read to form your database and then how many search queries to process, respectively. Then you'll be given the database as *N* pairs of *name* and *first 10 terms of the sequence* pair. Then you'll be given *M* queries of a series of integers. Note that the overlap of the query and the sequence database will be unambiguous but is not guaranteed to overlap completely. Sequence names will use the OEIS naming convention
+You'll be given two integers, *N* and *M*, which tell you how many sequences to read to form your database and then how many search queries to process, respectively. Then you'll be given the database as *N* pairs of *name* and *first 10 terms of the sequence* pair. Then you'll be given *M* queries of a series of integers. Note that the overlap of the query and the sequence database will be unambiguous but is not guaranteed to overlap completely. All sequences to search will be contiguous (e.g. no gaps). Sequence names will use the OEIS naming convention
 
 Example:
 
