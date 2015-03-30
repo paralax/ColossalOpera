@@ -24,7 +24,7 @@ Example:
 
 	1 1
 	A000045 F(n) = F(n-1)+F(n-2) with F(0)=0, F(1)=1
-	0, 1, 1, 2, 3, 5, 8, 13 
+ 	0, 1, 1, 2, 3, 5, 8, 13 
 
 # Output Description
 
@@ -40,7 +40,7 @@ Your program should emit the sequence and its OEIS identifier. Use the identifie
 	A001608	F(n) = F(n-2)+F(n-3) with F(0)=3, F(1)=0, F(2)=2
 	A000032	F(n) = F(n-1)+F(n-2)
 	A001608	F(n) = F(n-2)+F(n-3) with F(0)=3, F(1)=0, F(2)=2
-	0, 1, 1, 2, 3, 5, 8, 13 A000045	
+	0, 1, 1, 2, 3, 5, 8, 13 	
 	1, 0, 1, 1, 1, 2, 2, 3, 4, 5 
 	3, 0, 2, 3, 2, 5, 5, 7, 10, 12 
 	2, 1, 3, 4, 7, 11, 18, 29, 47, 76 
@@ -49,6 +49,7 @@ Your program should emit the sequence and its OEIS identifier. Use the identifie
 
 # Challenge Output
 
+	0, 1, 1, 2, 3, 5, 8, 13 A000045	
 	1, 0, 1, 1, 1, 2, 2, 3, 4, 5 A000931
 	3, 0, 2, 3, 2, 5, 5, 7, 10, 12 A001608
 	2, 1, 3, 4, 7, 11, 18, 29, 47. 76 A000032
