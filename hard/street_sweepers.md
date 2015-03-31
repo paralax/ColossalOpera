@@ -35,7 +35,7 @@ Your program should emit the intersections visited in order and the number of st
 	A - B - C
 	|   |   v
 	D > E - F
-	^   v   ^
+	^   v   v
 	G - H < I
 
 # Challenge Output
