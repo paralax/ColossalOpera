@@ -20,9 +20,9 @@ Can you find a route to give your drivers?
 
 # Input Description
 
-Your program will be given two integers on one line which tell you hot tall and wide the street map is. On the next line will be a single uppercase letter telling you where to begin. Then the ASCII map will begin using the dimensions you were given. Your tour should end the day at the starting point.
+Your program will be given two integers *h* and *w* on one line which tell you hot tall and wide the street map is. On the next line will be a single uppercase letter *n* telling you where to begin. Then the ASCII map will begin using the dimensions you were given *h*x*w*). Your tour should end the day at the starting point (*n*).
 
-You'll be given an ASCII art graph. Intersections will be named as uppercase letters A-Z. Streets will connect them. The streets may be bi-directional (- or |) or one-way (one of ^ for up only, v for down only, < for left only, and > for right only) and you may not violate the rules of the road as the commissioner. 
+You'll be given an ASCII art graph. Intersections will be named as uppercase letters `A`-`Z`. Streets will connect them. The streets may be bi-directional (`-` or `|`) or one-way (one of `^` for up only, `v` for down only, `<` for left only, and `>` for right only) and you may not violate the rules of the road as the commissioner. 
 
 # Output Description
 
