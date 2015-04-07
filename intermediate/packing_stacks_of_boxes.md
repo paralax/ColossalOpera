@@ -34,8 +34,8 @@ If you can't make equal sized stacks, your program should emit nothing.
 
 	3 912743471352
 	3 42137586
-	3 912743471352
 	9 2 
+	4 064876318535318
 
 # Challenge Output
 
@@ -48,6 +48,11 @@ If you can't make equal sized stacks, your program should emit nothing.
 	75
 
 	(nothing)
+	
+	0665
+	4733
+	8315
+	881
 
 via http://codegolf.stackexchange.com/questions/48486/the-partition-problem-sorting-stacks-of-boxes
 	
