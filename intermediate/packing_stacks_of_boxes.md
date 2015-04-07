@@ -48,6 +48,8 @@ If you can't make equal sized stacks, your program should emit nothing.
 	75
 
 	(nothing)
+
+via http://codegolf.stackexchange.com/questions/48486/the-partition-problem-sorting-stacks-of-boxes
 	
 # Scala Solution
 
