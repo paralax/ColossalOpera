@@ -33,3 +33,7 @@ Examples only, this is all about shuffling
 
 	raspberry blackberry nectarine kumquat grapefruit cherry raspberry apple mango persimmon dragonfruit
 	e a i o u
+
+# Bonus
+
+Check out the Faro shuffle and the Fisher Yates shuffles, which are algorithms for specific shuffles. Shuffling has some interesting mathematical properties. 
