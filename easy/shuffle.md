@@ -18,7 +18,7 @@ You'll be given a list of values - integers, letters, words - in one order. The 
 
 # Output Description
 
-Your program should emit the values in any order except the one given. You should maximize the entropy if you can. From our example:
+Your program should emit the values in any non-sorted order. You should maximize the entropy if you can. From our example:
 
 	7 5 4 3 1 8 2 6
 
