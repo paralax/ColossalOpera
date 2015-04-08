@@ -49,4 +49,4 @@ Here's one possible solution
 
 # Credit
 
-Many thanks to /u/Godspiral for the suggestion. 
+Many thanks to /u/Godspiral for the suggestion.  Got any cool challenge ideas? Submit them to /r/DailyProgrammer_Ideas!
