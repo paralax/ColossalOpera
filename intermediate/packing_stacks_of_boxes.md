@@ -78,5 +78,5 @@ via http://codegolf.stackexchange.com/questions/48486/the-partition-problem-sort
 		} 
 	}
 
-	val boxes = args(1).toCharArray.map(_.toString.toInt).toList
-	println(pack(boxes.head, boxes.tail).map(_.mkString).mkString("\n"))
+	val boxes = args(2).toCharArray.map(_.toString.toInt).toList
+	println(pack(args(1)toInt, boxes).map(_.mkString).mkString("\n"))
