@@ -20,7 +20,7 @@ You'll be given a sentence to pack into a box
 
 # Output
 
-Your program should emit the starting position (1-indexed) for the sentence, and then the box with the sentence packed into it. Here's one possible solution:
+Your program should emit the starting position (column and row, 1-indexed) for the sentence, and then the box with the sentence packed into it. You can chose your own box dimensions. The above example is a 49 character sentence (minus spaces), so that's a 7x7 box. Here's one possible solution:
 
 	4 4
 	E       T       I       M       E       D       I
