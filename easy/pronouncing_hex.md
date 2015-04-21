@@ -58,4 +58,4 @@ Your program should emit the pronounced hex. Examples from above:
 
 # Credit
 
-I found this on http://www.bzarg.com/p/how-to-pronounce-hexadecimal/. 
+This challenge was suggested by /u/metaconcept. If you have a challenge idea, submit it to /r/dailyprogrammer_ideas and we just might use it.
