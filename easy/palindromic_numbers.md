@@ -46,3 +46,17 @@ You will describe how many steps it took to get it to be palindromic, and what t
 Bonus: see which input numbers, through 1000, yield identical palindromes. 
 
 Bonus 2: See which numbers don't get palindromic in under 10000 steps.
+
+# Scala Solution
+
+	def reverse(n:Long): Long = n.toString.reverse.toLong
+
+	def palindrome(n:Long): Boolean =  n == reverse(n)
+
+	def loop(n:Long, steps:Int): (Long, Int) = {
+		palindrome(n) match {
+			case true  => (n, steps)
+			case false => loop(reverse(n)+n, steps + 1)
+		}
+	}
+
