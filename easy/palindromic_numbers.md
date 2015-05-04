@@ -45,7 +45,7 @@ You will describe how many steps it took to get it to be palindromic, and what t
 
 Bonus: see which input numbers, through 1000, yield identical palindromes. 
 
-Bonus 2: See which numbers don't get palindromic in under 10000 steps.
+Bonus 2: See which numbers don't get palindromic in under 10000 steps. Numbers that never converge are called Lychrel numbers. 
 
 # Scala Solution
 
