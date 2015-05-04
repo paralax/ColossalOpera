@@ -1,3 +1,7 @@
+http://en.wikipedia.org/wiki/Vehicle_routing_problem
+http://www.mafy.lut.fi/study/DiscreteOpt/CH6.pdf
+http://wps.prenhall.com/wps/media/objects/9434/9660836/online_tutorials/heizer10e_tut5.pdf
+
 # Title
 
 Customer Unit Delivery Scheduling
