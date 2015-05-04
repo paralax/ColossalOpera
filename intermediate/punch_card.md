@@ -54,7 +54,7 @@ So, given an alphabet array you should be able to encode a message in a punch ca
 
 # Input Description
 
-You'll be given a single integer *N* telling you how many alphabets to read. Then you'll be given *N* rows of a description and an alphabet array describing the punch card, then asked to represent a short message on a specific type of punch card.
+You'll be given a single integer *N* telling you how many alphabets to read. Then you'll be given *N* rows of a description and an alphabet array describing the punch card. Then you'll be given *M*, a single integer on a line, telling you how many card descriptions and short messages to represent on that specific type of punch card. 
 
 # Output Description
 
@@ -67,9 +67,9 @@ Your program should emit an ASCII art punchcard  in the format above, with the d
 	029  &-0123456789ABCDEFGHIJKLMNOPQR/STUVWXYZ:#@'="¢.<(+|!$*);¬ ,%_>?
 	1108 +-0123456789ABCDEFGHIJKLMNOPQR/STUVWXYZ&=':>@·.)[<#·$*];^±,(%\¤
 	GE   &-0123456789ABCDEFGHIJKLMNOPQR/STUVWXYZ[#@:>?+.](<\^$*);'_,%="!
-	2
-	Hello, world!
-	This is Reddit's r/dailyprogrammer challenge. 
-	WRITE (6,7) FORMAT(13H HELLO, WORLD) STOP END
+	3
+	029  Hello, world!
+	GE   This is Reddit's r/dailyprogrammer challenge. 
+	CDC  WRITE (6,7) FORMAT(13H HELLO, WORLD) STOP END
 
 # Challenge Output
