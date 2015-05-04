@@ -37,3 +37,16 @@ Examples only, this is all about shuffling
 # Bonus
 
 Check out the Faro shuffle and the Fisher Yates shuffles, which are algorithms for specific shuffles. Shuffling has some interesting mathematical properties. 
+
+# Scala Solution
+
+	def fischer_yates_shuffle(l:List[Int]): List[Int] = {	
+		def loop(l:List[Int], n:Int): List[Int] = {
+			(l.length == n) match {
+				case true   => l
+				case false  => val i = (scala.math.random*l.length).toInt
+	  						   l.slice(0, n) ++ List(l(i)) ++ l.slice(n+1,i) ++ List(l(n)) ++ l.slice(i+1,l.length)
+			}
+		}
+		loop(l, 0)
+	}
