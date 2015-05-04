@@ -70,5 +70,6 @@ Your program should emit an ASCII art punchcard  in the format above, with the d
 	2
 	Hello, world!
 	This is Reddit's r/dailyprogrammer challenge. 
+	WRITE (6,7) FORMAT(13H HELLO, WORLD) STOP END
 
 # Challenge Output
