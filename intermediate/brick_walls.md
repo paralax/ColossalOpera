@@ -27,7 +27,7 @@ In this challenge your task is to create walls at least three bricks high that a
 
 # Input Description
 
-You'll be given a list of integers that correspond to brick widths. Draw your bricks like this (e.g. the number tells you how many underscores to draw):
+You'll be given a list of integers that correspond to brick widths, one wall per line. Draw your bricks like this (e.g. the number tells you how many underscores to draw):
 
 	1: [_]
 	2: [__]
