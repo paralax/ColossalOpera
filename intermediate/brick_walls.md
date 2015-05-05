@@ -6,6 +6,8 @@ Sturdy Brick Walls
 
 Intermediate
 
+http://codegolf.stackexchange.com/questions/49536/build-a-steady-brick-wall
+
 # Description
 
 A brick wall is a rectangle made of horizontal 1-by-n bricks stacked into rows. A wall is sturdy if no two vertical edges of bricks appear in the same line. Here's an example of a sturdy wall:
