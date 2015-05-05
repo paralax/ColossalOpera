@@ -50,3 +50,18 @@ Check out the Faro shuffle and the Fisher Yates shuffles, which are algorithms f
 		}
 		loop(l, 0)
 	}
+
+	def faro_shuffle(l:List[Int], steps:Int): List[Int] = {
+		def loop(l:List[Int], n:Int): List[Int] = {
+			(n == 0) match {
+				case true  =>   l
+				case false =>   val (a,b) = (l.slice(0, l.length/2), l.slice(l.length/2, l.length))
+								if (a.length != b.length) {
+									loop(a.zip(b).flatMap(x => List(x._1, x._2)) ++ List(b.last), n-1)
+								} else {
+									loop(a.zip(b).flatMap(x => List(x._1, x._2)), n-1)
+								}
+			}
+		}
+		loop(l, steps)
+	}
