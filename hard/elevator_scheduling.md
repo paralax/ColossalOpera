@@ -235,3 +235,40 @@ The main thing to show in the output is the time point at which all requests hav
 	R14 986 11 1
 	R17 987 11 8
 	R8 999 1 2
+
+# Code to generate rider input
+
+    import random
+
+    THRESH = 0.01
+    FLOORS = 12
+
+    class Rider(object):
+        """docstring for Rider"""
+        def __init__(self, name, floor):
+            self.name = name
+            self.rnd = random.Random()
+            self.floor = floor
+    
+        def move(self):
+            return self.rnd.random() <= THRESH
+    
+        def newfloor(self):
+            old, self.floor = self.floor, self.rnd.randint(1, FLOORS)
+            return '%s %s' % (old, self.floor)
+    
+        def __repr__(self):
+            return '%s %%d %s' % (self.name, self.newfloor())
+    
+        def __str__(self):
+            return self.__repr__()
+
+    def main():
+        riders = {}
+        for r in range(20):
+            riders['R%d' % r] = Rider('R%d' % r, 1)    
+    
+        for t in range(1000):
+            for r in riders.values():
+                if r.move():
+                    print str(r).replace('%d', `t`)
