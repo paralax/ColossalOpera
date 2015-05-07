@@ -35,3 +35,13 @@ Your program should emit a list of perfect numbers up to that point. For our exa
 # Notes
 
 For more information on perfect numbers, consult Wikipedia: http://en.wikipedia.org/wiki/Perfect_number 
+
+# Scala solution
+
+a naive solution that doesn't use the Euclid-Euler theorem
+
+	def factors(n:Int): List[Int] = (1 to n/2).filter(x => n%x == 0).toList
+
+	def perfect(n:Int): Boolean = n == factors(n).sum
+
+	(1 to 10000).filter(perfect(_))
