@@ -32,7 +32,7 @@ The main thing to show in the output is the time point at which all requests hav
 
 	2
 	C1 12 .1 1
-	C2 12 .1 1
+	C2 12 .5 1
 	201
 	R12 3 1 8
 	R13 16 1 9
