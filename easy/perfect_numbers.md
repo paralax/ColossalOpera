@@ -45,3 +45,20 @@ a naive solution that doesn't use the Euclid-Euler theorem
 	def perfect(n:Int): Boolean = n == factors(n).sum
 
 	(1 to 10000).filter(perfect(_))
+
+getting closer to using Euclid-Euler
+
+	def isprime(n:Int) : Boolean = {
+		def check(i:Int) : Boolean = (i > n/2) || ((n % i != 0) && (check (i+1)))
+		check(2)
+	}
+
+	val lnOf2 = scala.math.log(2) // natural log of 2
+	def log2(x: Double): Double = scala.math.log(x) / lnOf2
+
+	def mersenne(n:Int): Boolean = log2(n+1) == log2(n+1).toInt
+
+	def perfect(n:Int): Int = (scala.math.pow(2, (n-1))*(scala.math.pow(2, n)-1)).toInt
+
+	(2 to 50000).filter(isprime(_)).filter(mersenne(_)).map(perfect(_)).distinct
+	
