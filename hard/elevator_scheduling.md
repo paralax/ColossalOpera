@@ -30,6 +30,8 @@ The main thing to show in the output is the time point at which all requests hav
 
 # Challenge Input
 
+This was randomly generated, and so it has a few "oddities" in it, like riders who get on and off on the same floor, and riders who change their destination in the next second (e.g. in the middle of a ride). You still have to satisfy *every* request. 
+
 	2
 	C1 12 .1 1
 	C2 12 .5 1
