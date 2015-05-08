@@ -53,8 +53,7 @@ getting closer to using Euclid-Euler
 		check(2)
 	}
 
-	val lnOf2 = scala.math.log(2) // natural log of 2
-	def log2(x: Double): Double = scala.math.log(x) / lnOf2
+	def log2(x: Double): Double = scala.math.log(x) / scala.math.log(2)
 
 	def mersenne(n:Int): Boolean = log2(n+1) == log2(n+1).toInt
 
