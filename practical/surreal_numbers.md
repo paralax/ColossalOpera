@@ -19,17 +19,28 @@ x + y = {XL + y ∪ x + YL | XR+y ∪ x + YR} where
 
 cribbing from https://github.com/codeinthehole/python-surreal/blob/master/src/surreal.py
 
-	class Surreal(l:Set[Double], r:Set[Double]) {
+
+	class Surreal(l:Set[A], r:Set[A]) {
+		def this(l:Int, r:Int) {this()}
+		def this(l:Double, r:Int) {this()}
+		def this(l:Int, r:Double) {this()}
+		def this(l:Double, r:Double) {this()}
+		
+		def valid(l, r): Boolean = true
+	
 		def +(y:Surreal) = 
 			new Surreal((this.l + y) ++ (this + y.l), (this.r+y) ++ (this + y.r))
-	
+
 		override def toString(): String = "{ " + l + " | " + r + " }"
 	}
 
-	def dali(x:Int): Surreal = {
-		x match {
-			case 0 => new Surreal(Set(), Set())
-			case y if y > 0 => dali(y-1)
-			case y if y < 0 => dali(y+1)
+	def dali(x:Double): Surreal = {
+		(x%1.0) match {
+			case 0.0 => x match {
+							case 0 => new Surreal(Set(), Set())
+							case y if y > 0 => new Surreal(Set(y-1), Set())
+							case y if y < 0 => new Surreal(Set(), Set(y+1))
+						}
+			case _   => new Surreal(Set(x/2.0), Set(x*2.0))
 		}
 	}
