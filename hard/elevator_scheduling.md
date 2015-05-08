@@ -34,7 +34,7 @@ This was randomly generated, and so it has a few "oddities" in it, like riders w
 
 	2
 	C1 12 .1 1
-	C2 12 .5 1
+	C2 12 .2 1
 	201
 	R12 3 1 8
 	R13 16 1 9
