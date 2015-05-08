@@ -17,6 +17,7 @@ x + y = {XL + y ∪ x + YL | XR+y ∪ x + YR} where
 
 # Scala Implementation
 
+cribbing from https://github.com/codeinthehole/python-surreal/blob/master/src/surreal.py
 
 	class Surreal(l:Set[Double], r:Set[Double]) {
 		def +(y:Surreal) = 
