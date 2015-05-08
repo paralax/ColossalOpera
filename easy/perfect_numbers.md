@@ -40,9 +40,9 @@ For more information on perfect numbers, consult Wikipedia: http://en.wikipedia.
 
 a naive solution that doesn't use the Euclid-Euler theorem
 
-	def factors(n:Int): List[Int] = (1 to n/2).filter(x => n%x == 0).toList
+	def factors(n:Int): List[Int] = (2 to n/2).filter(x => n%x == 0).toList
 
-	def perfect(n:Int): Boolean = n == factors(n).sum
+	def perfect(n:Int): Boolean = n == factors(n).sum + 1
 
 	(1 to 10000).filter(perfect(_))
 
@@ -53,11 +53,7 @@ getting closer to using Euclid-Euler
 		check(2)
 	}
 
-	def log2(x: Double): Double = scala.math.log(x) / scala.math.log(2)
+	def perfect(n:Int): Long = (scala.math.pow(2, (n-1))*(scala.math.pow(2, n)-1)).toLong
 
-	def mersenne(n:Int): Boolean = log2(n+1) == log2(n+1).toInt
-
-	def perfect(n:Int): Int = (scala.math.pow(2, (n-1))*(scala.math.pow(2, n)-1)).toInt
-
-	(2 to 50000).filter(isprime(_)).filter(mersenne(_)).map(perfect(_)).distinct
+	(2 to 50000).filter(isprime(_)).map(perfect(_)).distinct
 	
