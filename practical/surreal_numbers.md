@@ -40,6 +40,11 @@ x + y = {XL + y ∪ x + YL | XR+y ∪ x + YR} where
 			this.l = l
 			this.r = r
 		}
+
+		// operators
+		// more how to do this in scala:
+		// http://www.slideshare.net/joeygibson/operator-overloading-in-scala-2923973
+		// http://www.cut-the-knot.org/WhatIs/Infinity/SurrealNumbers.shtml
 	
 		// negation
 		// https://gist.github.com/p3t0r/54679
@@ -49,4 +54,3 @@ x + y = {XL + y ∪ x + YL | XR+y ∪ x + YR} where
 	    //    new Surreal((this.l + y) ++ (this + y.l), (this.r+y) ++ (this + y.r))
 
 	}
-
