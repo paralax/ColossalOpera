@@ -4,7 +4,7 @@ Cellular Automata: Rule 90
 
 # Difficulty
 
-Eash
+Easy
 
 # Description
 
