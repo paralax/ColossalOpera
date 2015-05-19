@@ -10,6 +10,8 @@ Easy
 
 This puzzle was first proposed (1989) by Gordon Lee: given a grid of numbers, how many *distinct* primes can you find embedded in the matrix, regarding that you can read the lines or part of them, in form vertical, horizontal or diagonal orientation, in both directions. 
 
+Note that you can't change direction once you start moving (e.g. this isn't Boggle). 
+
 # Input Description
 
 You'll be given a single number on a line which tells you how many rows and columns to read (all grids will be square). Example:
