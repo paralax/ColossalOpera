@@ -20,8 +20,8 @@ Put another way, you can deduce a simple substitution cipher to convert from one
 
 Write code that takes two words and checks whether they are isomorphs. You'll be given two words per line and asked to determine if they're isomorphs of one another. Example:
 
-ESTATE DUELED
-FEED DEAD
+    ESTATE DUELED
+    FEED DEAD
 
 # Output Description
 
