@@ -24,7 +24,7 @@ Your program should emit a solution (multiple solutions may exist) as a valid eq
 
 # Challenge Output
 
-    3 + 13 * 2 / 1 + 5 + 12 * 4 - 7 - 11 + 9 * 8 / i - 10 = 66
+    3 + 13 * 2 / 1 + 5 + 12 * 4 - 7 - 11 + 9 * 8 / 6 - 10 = 66
 
 # Notes
 
