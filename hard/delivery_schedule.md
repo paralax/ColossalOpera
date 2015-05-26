@@ -12,9 +12,9 @@ Hard
 
 # Description
 
-You run a business where you sell doohickies, and business is booming. You're customers are all local, but you're just getting off the ground and you don't have a large fleet of trucks, just one guy. Your truck has a finite capacity, and you have to keep costs down as you make deliveries - minimize milage, maximize deliveries, etc. That's where today's challenge program comes in. 
+You run a business where you sell doohickies, and business is booming. You're customers are all local, but you're just getting off the ground and you don't have a large fleet of trucks, just one drivr. Your truck has a finite capacity, and you have to keep costs down as you make deliveries - minimize milage, maximize deliveries, etc. That's where today's challenge program comes in. 
 
-As you make delivery runs, your truck will run out of enough doohickies and so you have to return to the depot and refill it. 
+As you make delivery runs, your truck will run out of enough doohickies and so you have to return to the depot and refill it. Assume that you refill the truck to its full capacity on visiting the depot.
 
 # Input Description
 
