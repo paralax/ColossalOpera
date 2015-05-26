@@ -4,7 +4,7 @@ Calculting Ulam Numbers
 
 # Difficulty
 
-Easy
+Intermediate
 
 # Description
 
