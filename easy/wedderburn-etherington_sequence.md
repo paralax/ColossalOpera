@@ -1,9 +1,13 @@
-**Title** Wedderburn-Etherington Sequence
+# Title  
+
+Wedderburn-Etherington Sequence
 
 
-**Difficulty Level** Easy
+# Difficulty 
 
-**Description**
+Easy
+
+# Description
 
 The Wedderburn-Etherington numbers are an integer sequence named for Ivor Malcolm Haddon Etherington and Joseph Wedderburn that can be used to count certain kinds of binary trees. The first few numbers in the sequence are
 
@@ -17,10 +21,10 @@ The Wedderburnâ–Etherington numbers may be calculated using the recurrence re
 
 See Wikipedia for more on the [Wedderburn-Etherington number](http://en.wikipedia.org/wiki/Wedderburn%E2%80%93Etherington_number) and its uses. 
  
-**Input Description**
+# Input Description
 
 You'll be given a number *n*, the number in the sequence to generate.
 
-**Output Description**
+# Output Description
 
 A sequence of integers in the Wedderburn-Etherington sequence up to position *n*.
