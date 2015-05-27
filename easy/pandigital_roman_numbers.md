@@ -1,32 +1,26 @@
-**Title** Pandigital Roman Numbers 
+# Title 
 
-**Difficulty** Easy
+Pandigital Roman Numbers 
 
-**Description**
+# Difficulty 
+
+Easy
+
+# Description
 
 1474 is a pandigital in Roman numerals (MCDLXXIV). It uses each of the symbols I, V, X, L, C, and M at least once. 
 
-**Formal Input Description**
+# Output Description**
 
-(None)
+A list of numbers. Example: 
 
-**Formal Output Description**
+    1 (I), 2 (II), 3 (III), 8 (VIII) (Examples only, these are not pandigital Roman numbers)
 
-A list of numbers
-
-**Sample Input**
-
-(None)
-
-**Sample Output**
-
-1 (I), 2 (II), 3 (III), 8 (VIII) (Examples only, these are not pandigital Roman numbers)
-
-**Challenge Input**
+# Challenge Input
 
 Find all numbers that are pandigital in Roman numerals using each of the symbols I, V, X, L, C, D and M *exactly* once.
 
-**Challenge Input Solution (not visible by default)**
+# Challenge Input Solution
 
 1444, 1446, 1464, 1466, 1644, 1646, 1664, 1666 
 
