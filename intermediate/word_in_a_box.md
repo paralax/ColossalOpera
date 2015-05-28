@@ -1,20 +1,24 @@
-**Title** Longest Word in a Box
+# Title 
 
-**Difficulty** Intermediate
+Longest Word in a Box
 
-**Description**
+# Difficulty 
+
+Intermediate
+
+# Description
 
 Can you find the shortest path from one corner of a box of letters to another? Here's the rub: the path you take through the box has to spell an English word.
 
-**Input Description** 
+# Input Description
 
 You'll be given an integer *N* which tells you how many rows and columns it has (it's a square), and then the box of letters. You can move up, down, left, or right but not diagonally. 
 
-**Output Description**
+# Output Description
 
 Starting from the top left corner and ending at the lower right, your program should emit the shortest English language word starting in one corner and ending in the opposite it can find by tracing a path through the box. Optionally show the path it took. 
 
-**Challenge Input**
+# Challenge Input
 
     11
     b   u       h       l       d       r       t       w       f       v       b
@@ -29,7 +33,7 @@ Starting from the top left corner and ending at the lower right, your program sh
     w   f       t       h       h       d       h       u       s       j       e
     q   d       y       y       j       n       p       j       w       v       s
 
-**Challenge Output**
+# Challenge Output
 
         buckminsterfullerenes
 
