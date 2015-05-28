@@ -18,7 +18,7 @@ As you make delivery runs, your truck will run out of enough doohickies and so y
 
 # Input Description
 
-You'll be given a line with an integer *N*, which tells you how many doohickies your truck can hold, and a two-tuple where the doohickie depot is. Then you'll be given a line with another single integer *M*, which tells you how many customers to read. Each customer line (of which there are *M*) will be a two-tuple telling you the point where the customer is and then how many units they want. 
+You'll be given a line with an integer *N*, which tells you how many doohickies your truck can hold, and a two-tuple of coordinates (x & y) where the doohickie depot is. Then you'll be given a line with another single integer *M*, which tells you how many customers to read. Each customer line (of which there are *M*) will be how many units they want and then a two-tuple telling you the x,y coordinated where the customer is located. 
 
 # Output Description
 
