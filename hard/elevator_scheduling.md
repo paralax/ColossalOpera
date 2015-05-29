@@ -20,9 +20,13 @@ Example:
 
 	C1 12 .1 1
 
+This translates to Car 1, capacity of 12 people, moves at .1 floors per second (ten seconds to traverse a floor up or down), and starting at floor 1.
+
 Then you'll get another integer on a line, *M*. The next *M* lines will show riders, with fields: Rider identification, elevator request time in seconds, source floor and destination floor. Rider identification numbers will be *stable*, meaning the rider will have the same identifier the entire exercise. Examples:
 
 	R1 0 1 4
+
+This translates to Rider 1 who at time point 0 wants to go from floor 1 to floor 4. 
 
 # Output Description
 
