@@ -8,9 +8,9 @@ Intermediate
 
 # Description
 
-As I get my house repainted, all sorts of weird things pop into my mind. For example, what would happen if too many pieces were the same color? Would my house become unstable? Would bugs or other unwanted pests have big places to hide and harm me? 
+Imagine an ecosystem where bugs that like to be solitary live on colored tiles, and different species inhabit different tiles. The bugs don't like to be together because when they're next to the same species, they explode. So, you have to keep them apart. You have been shipped a habitat of colored tiles and your task is to arrange them in a safe manner to keep the bugs wont explode. 
 
-For this challenge, we'll work with the assumption that we don't want contiguous color tiles. We need to rearrange them - so we have to keep the tile counts per color the same - to find a stable arrangement where none of the adjacent ones are the same color. We're only concerned about the 4 cardinal directions - up, down, left, right - so diagonals are OK. The same color can appear elsewhere in the row or column as long as they're not touching.
+For this challenge, we'll work with the rule that we don't want contiguous color tiles. We need to rearrange them - so we have to keep the tile counts per color the same - to find a stable arrangement where none of the adjacent ones are the same color. We're only concerned about the 4 cardinal directions - up, down, left, right - so diagonals are OK. The same color can appear elsewhere in the row or column as long as they're not touching.
 
 This problem actually has relevance to topics like contagion spread, where you want as heterogenous a connected population as possible. 
 
