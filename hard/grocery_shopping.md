@@ -17,7 +17,9 @@ You'll be given a row with three numbers on it representing the bag capacity in 
     10 100.00 14000
     Ham 600 9.00
 
-This translates to a bag that can hold ten pounds, a $100 bill in your wallet, and a target alorie count of 14000 for the week (seven * 2000). 
+This translates to a bag that can hold ten pounds, a $100 bill in your wallet, and a target alorie count of 14000 for the week (seven * 2000). Second, you can buy some ham for $9 a pound and get 600 calories from it. 
+
+All foods *should* be one word, hopefully cut and paste didn't foul that up.
 
 # Output Description
 
@@ -48,7 +50,7 @@ Your program should emit the solutions for the shopping trip.
     Pineapple 51 4.00
     Oranges 48 6.00
     Plums 43 6.00
-    Orange juice 41 4.50
+    OrangeJuice 41 4.50
     Grapefruit 39 3.00
     Berries 37 2.50
     Papaya 30 2.75
