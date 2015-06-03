@@ -37,5 +37,25 @@ Your program should emit the solutions for the shopping trip.
     Sugar 936 2.00
     Oil 3200 3.50
     Cereal 700 5.25
+    Chicken 500 3.00
+    Raisins 1776 5.00
+    Bananas 160 1.10
+    Grapes 90 4.00
+    Mango 85 1.25
+    Cherries 80 6.00
+    Pears 68 4.00
+    Apples 55 3.00
+    Pineapple 51 4.00
+    Oranges 48 6.00
+    Plums 43 6.00
+    Orange juice 41 4.50
+    Grapefruit 39 3.00
+    Berries 37 2.50
+    Papaya 30 2.75
+    Peaches 30 2.25
+    Honeydew 26 3.00
+    Cantaloupe 23 3.00
+    Strawberries 20 2.75
+    Watermelon 18 1.75
 
 stolen from http://www.jasq.org/just-another-scala-quant/new-agey-interviews-at-the-grocery-startup
