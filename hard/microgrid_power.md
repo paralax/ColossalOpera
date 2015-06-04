@@ -155,10 +155,12 @@ Edge data is too much to put up here. You can download it here: https://github.c
 
 # Edge data generation (Python)
 
+via http://stackoverflow.com/questions/13543069/how-to-create-random-single-source-random-acyclic-directed-graphs-with-negative
+
     import networkx as nx
     import random
 
-    G=nx.gnp_random_graph(101,0.5,directed=True)
+    G=nx.gnp_random_graph(101,0.12,directed=True)
     DAG = nx.DiGraph([(u,v,{'weight':random.randint(-10,10)}) for (u,v) in G.edges() if u>v])
     with open('/tmp/edges', 'w') as f:
         for k,v in DAG.edges():
