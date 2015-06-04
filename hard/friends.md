@@ -16,7 +16,7 @@ Given a social network graph identifying friendships, can you identify the stron
 
 # Input Description
 
-You'lle be given an integet *N* on one line telling you how many nodes in the graph. Then you'll be given a list of edges between nodes (it's an undirected graph, so assume if you see *a b* that *a* knows *b* and *b* knows *a*). Example:
+On the first line you'll be given a single integer *N* telling you how many distinct nodes are in the graph. Then you'll be given a list of edges between nodes (it's an undirected graph, so assume if you see *a b* that *a* knows *b* and *b* knows *a*). Example:
 
     7
     1 2
