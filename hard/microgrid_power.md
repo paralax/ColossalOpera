@@ -10,9 +10,9 @@ Hard
 
 In energy production, the power grid is a a large directed graph of energy consumers and producers. At times you need to cut at certain nodes and trim demand because you cannot supply enough of a load. 
 
-In DailyProgrammeropolis, all buildings are connected to the grid and all consume power to varying degrees. Some generate power because they have installed on-site generation and sell the excess to the grid, some do not. 
+In DailyProgrammeropolis, all buildings are connected to the grid and all consume power to varying degrees. Some generate power because they have installed on-site generation and sell the excess to the grid, some do not. Assume that power only flows *down* the directed graph.
 
-The scenario you're facing is this: due to a fault with the bulk power generation facility not local to DailyProgrammerololis, you must trim the power grid. You have connectivity data, and power consumption and production data. Your task with this challenge is to maximize the number of nodes with power for the duration of this event. Note that when you cut off a node, unless you cut off all connections to ones it's flowing to the downstream ones will loose power, too. This is how you'll shed demand, but selectively cutting the graph.
+The scenario you're facing is this: due to a fault with the bulk power generation facility not local to DailyProgrammerololis, you must trim the power grid. You have connectivity data, and power consumption and production data. Your task with this challenge is to **maximize the number of nodes with the power you have**. Note that when you cut off a node, unless you cut off all connections to ones it's flowing to the downstream ones will loose power, too. This is how you'll shed demand, but selectively cutting the graph.
 
 # Input Description
 
