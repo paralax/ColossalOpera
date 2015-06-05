@@ -26,7 +26,7 @@ Then you'll get another integer on a line, *M*. The next *M* lines will show rid
 
 	R1 0 1 4
 
-This translates to Rider 1 who at time point 0 wants to go from floor 1 to floor 4. 
+This translates to Rider 1 who at time point 0 wants to go from floor 1 to floor 4. Riders will not transit floors without an elevator.
 
 # Output Description
 
