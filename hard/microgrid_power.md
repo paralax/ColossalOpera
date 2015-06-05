@@ -133,7 +133,7 @@ Example:
     97 2.000 0.0
     98 1.426 0.0
     99 1.802 0.0
-    100 2.995 68.606
+    100 2.995 98.606
 
 Edge data is too much to put up here. You can download it here: https://github.com/paralax/ColossalOpera/blob/master/hard/microgrid_edges.txt
 
