@@ -399,6 +399,13 @@ This was randomly generated, and so it has a few "oddities" in it, like riders w
     R17 992 3 5
     R0 993 11 6
     R1 997 5 3
+# Bonus
+
+Which improves delivery efficiency most?
+
+* Longer linger times?
+* More cars?
+* Faster cars?
 
 # Code to generate rider input
 
