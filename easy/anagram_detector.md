@@ -8,7 +8,7 @@ Easy
 
 # Description
 
-An anagram is a word (or set of words) that use the same letters just rearranged. All words must be valid spelling. Someone once said, "All the life's wisdom can be found in anagrams. Anagrams never lie." How they don't lie is beyond me, but there you go. Punctuation and capitalization doesn't matter. 
+An anagram is a word (or set of words) that use the same letters just rearranged. All words must be valid spelling. Someone once said, "All the life's wisdom can be found in anagrams. Anagrams never lie." How they don't lie is beyond me, but there you go. Punctuation and capitalization don't matter. 
 
 # Input Description
 
