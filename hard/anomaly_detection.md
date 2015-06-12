@@ -14,7 +14,7 @@ For example, you may have an e-commerce business that has day-of-week and hour-o
 
 In this challenge, we're trying to throw off such an anomaly detector and cover our activity. We have a simplistic anomaly detector we're trying to bypass as we move sensitive corporate documents - the latest summer blockbuster about to be released - into the wild. Some points about the network we're attacking:
 
-* The *x* axis is time in seconds
+* The *x* axis is your timeline
 * Values above the *y* axis are bytes leaving the network, below the *y* axis are bytes entering the network
 * The anomaly detection system is very simple and based only on the history seen so far
 * It's just starting out, and has no robust history
