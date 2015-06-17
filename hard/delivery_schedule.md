@@ -14,7 +14,7 @@ Hard
 
 You run a business where you sell doohickies, and business is booming. You're customers are all local, but you're just getting off the ground and you don't have a large fleet of trucks, just one driver. Your truck has a finite capacity, and you have to keep costs down as you make deliveries - minimize milage, maximize deliveries, etc. That's where today's challenge program comes in. 
 
-As you make delivery runs, your truck will run out of enough doohickies and so you have to return to the depot and refill it. Assume that you refill the truck to its full capacity on visiting the depot.
+As you make delivery runs, your truck will run out of enough doohickies and so you have to return to the depot and refill it. Assume that you refill the truck to its full capacity on visiting the depot. Finally, assume the truck has an infinite energy source, so don't worry about refueling.
 
 # Input Description
 
