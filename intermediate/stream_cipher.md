@@ -43,3 +43,13 @@ Your program should have the following components:
             res.append(lcg(M, 1664525, 1013904223, seed)^ch)
             seed = lcg(M, 1664525, 1013904223, seed)
         return ''.join(map(chr, res))
+
+# Scala Solution
+
+    def lcg(m:Int, a:Int, c:Int, x:Int)=  (a*x + c) % m
+
+    def enc(s:String, key:Int): List[Int] = 
+        (0 to s.length).toList.foldLeft[List[Int]](List()){(acc, x) => if (acc.isEmpty) {List(lcg(128,664525, 1013904223,key))} else {lcg(128,664525, 1013904223,acc.head)::acc}}.zip(s.toCharArray).map(x => x._1^x._2)
+
+    def dec(msg:List[Int], key:Int): String = 
+        (0 to msg.length).toList.foldLeft[List[Int]](List()){(acc, x) => if (acc.isEmpty) {List(lcg(128,664525, 1013904223,key))} else {lcg(128,664525, 1013904223,acc.head)::acc}}.zip(msg).map(x => x._1^x._2).map(_.toChar).mkString
