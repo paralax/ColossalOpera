@@ -40,9 +40,9 @@ This indicates that the T is the balance point and that the weight on either sid
 
 # Challenge Output
 
-	CONSUBST A NTIATION - 1608
-	WRONGHEADED DOES NOT BALANCE
-	UNINTELL I GIBILITY - 1673
+	CONSUBST A NTIATION - 456
+	WRO N GHEADED - 120
+	UNINTELL I GIBILITY - 521
     
 # Notes
 
