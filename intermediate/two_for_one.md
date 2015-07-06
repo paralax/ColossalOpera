@@ -49,3 +49,34 @@ Your program should emit the valid English words that result from the substituti
 This was from the NYTimes magazine on March 16. Puzzle credit goes to the always estimable Will Shortz. 
 
 Have a cool idea for a challenge? Submit it to /r/DailyProgrammer_Ideas!
+
+# Scala Solution
+
+    def candidates(word:String): List[String] = {
+        val len = word.length
+        scala.io.Source.
+                      fromFile("/usr/share/dict/words").
+                      getLines.
+                      filter(_.length == len+1).
+                      toList
+    }
+
+    def hammingDistance(a:String, b:String): Int = 
+        a.toCharArray.zip(b.toCharArray).filter(x => (x._2 != x._1)).length
+
+    def twoforone(a:String, b:String): Boolean = {
+        for (i <- (0 to a.length-1)) {
+            if (a(i) != b(i)) {
+                println((a.slice(0,i) + b(i) + b(i) + a.slice(i+1, a.length)))
+                if (a.slice(0,i) + b(i) + b(i) + a.slice(i+1, a.length) == b) {
+                    return true
+                }
+            }
+        } 
+        return false
+    }
+
+    def check(word:String): List[String] = 
+        candidates(word).filter(x => hammingDistance(word, x) == 3).filter(x => twoforone(word, x))
+
+
