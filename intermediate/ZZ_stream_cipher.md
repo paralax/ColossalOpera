@@ -1,6 +1,6 @@
 # Title
 
-Simple Stream Cipher
+[2015-07-08] Challenge #222 [Intermediate] Simple Stream Cipher
 
 # Difficulty
 
