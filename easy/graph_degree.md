@@ -1,6 +1,6 @@
 # Title
 
-Basic Graph Statistics
+Basic Graph Statistics: Node Degrees
 
 # Difficulty
 
@@ -89,3 +89,13 @@ This data set is an social network of tribes of the Gahukuâ€“Gama alliance 
     13 16
     14 16
     15 16
+
+# Bonus: Adjascency Matrix
+
+Another tool used in graph theory is an *adjacency matrix*, which is an *N* by *N* matrix where each *(i,j)* cell is filled out with the degree of connection between nodes *i* and *j*. For our example graph above the adjacency matrix would look like this:
+
+    0 1 1
+    1 0 0
+    1 0 0
+
+Indicating that node 1 is connected to nodes 2 and 3, but nodes 2 and 3 do not connect. For a bonus, create the adjacency matrix for the challenge graph. 
