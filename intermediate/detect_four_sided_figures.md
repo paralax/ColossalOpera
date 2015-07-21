@@ -25,10 +25,10 @@ Your program should emit an integer, *N*, of how many unique four sided figures 
                               |     |    |
                               |     |    |
                               +-----+----+
-                                    |    |                           
-                                    |    |                           
-                                    |    |                           
-                                    +----+                            
+                                    |    |
+                                    |    |
+                                    |    |
+                                    +----+
 
 # Example Output
 
