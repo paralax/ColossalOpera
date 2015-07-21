@@ -1,6 +1,6 @@
 # Title 
 
-Shuffling Cards
+[2015-07-20] Challenge #224 [Easy] Shuffling a List
 
 # Difficulty
 
@@ -18,7 +18,7 @@ You'll be given a list of values - integers, letters, words - in one order. The 
 
 # Output Description
 
-Your program should emit the values in any non-sorted order; sequential runs of the program or function should yield different outputs. You should maximize the entropy if you can. From our example:
+Your program should emit the values in any non-sorted order; sequential runs of the program or function should yield different outputs. You should maximize the disorder if you can. From our example:
 
 	7 5 4 3 1 8 2 6
 
