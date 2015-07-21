@@ -4,7 +4,7 @@ I got this idea from the [Mensa quiz](https://www.mensa.org/workout/questions), 
 
 # Formal Inputs &amp; Outputs
 
-Your program will be given an ASCII art chart showing boxes and lines. "-" and "|" characters indicate horizontal and vertical lines, respectively, while "+" characters show intersections. 
+Your program will be given an ASCII art chart showing boxes and lines. `-` and `|` characters indicate horizontal and vertical lines, respectively, while "+" characters show intersections.
 
 Your program should emit an integer, *N*, of how many unique four sided figures it found. Rectangles and squares both count. 
 
