@@ -57,3 +57,7 @@ Your program should emit the word and if it is in order or not. Examples:
 	begins IN ORDER
 	chimps IN ORDER
 	wronged REVERSE ORDER
+
+# Scala Solution
+
+    def alphabetical(word:String): Boolean = word.map(_.toInt).sorted == word.map(_.toInt)
