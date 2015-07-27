@@ -45,7 +45,7 @@ Your program should emit the word and if it is in order or not. Examples:
 
 # Challenge Output
 
-	billowy REVERSE ORDER
+	billowy IN ORDER
 	biopsy IN ORDER
 	chinos IN ORDER
 	defaced NOT IN ORDER
