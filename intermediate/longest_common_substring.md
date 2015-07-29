@@ -46,7 +46,7 @@ Your program should emit the longest common substring between the two strings. E
 
 # Bonus
 
-Can you find the longest common substring of all pairs of words in this Limerick poem?
+Can you find the longest common substring of any pair of words in this Limerick poem?
 
     There was a young rustic named Mallory,
     who drew but a very small salary.
