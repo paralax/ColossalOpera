@@ -25,7 +25,7 @@ You'll be given a row with a single number *N* that tells you how many points to
     3
     (0,0) (3,6) (6,0)
 
-This translates to (pardon my ugly ASCII art) this equliateral triangle:
+This translates to (pardon my ugly ASCII art) this triangle:
 
            .                                       .
                                                   / \
