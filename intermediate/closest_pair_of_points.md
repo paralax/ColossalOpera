@@ -4,7 +4,7 @@ Where Should Grandma's House Go?
 
 # Difficulty
 
-Hard
+Intermediate
 
 # Description
 
