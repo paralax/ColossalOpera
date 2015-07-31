@@ -30,4 +30,4 @@ We only care about the first and fourth columns, so in this case "AL" and "Autau
 
 # Output Description
 
-Your program should emit the unique county (or county equivalent) name as pairs of abbreviated state name (e.g. "AL") and county name (e.g. "Polk County"). 
+Your program should emit the unique county (or county equivalent) name as pairs of abbreviated state name (e.g. "AL") and county name (e.g. "Polk County") for the 50 US states. 
