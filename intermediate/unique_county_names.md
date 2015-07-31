@@ -26,7 +26,7 @@ You'll find that the website formatted the data in CSV. An example line is:
 
     AL,01,001,Autauga County,H1
 
-We only care about the first and fourth columns, so in this case "AL" and "Autauga County". If you want to know more about the data, it's the (2010 FIPS Codes for Counties and County Equivalent Entities)[https://www.census.gov/geo/reference/codes/cou.html], see that site for a full explanation. 
+We only care about the first and fourth columns, so in this case "AL" and "Autauga County". If you want to know more about the data, it's the [2010 FIPS Codes for Counties and County Equivalent Entities](https://www.census.gov/geo/reference/codes/cou.html), see that site for a full explanation. 
 
 # Output Description
 
