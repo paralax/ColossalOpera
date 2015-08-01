@@ -10,7 +10,7 @@ Easy
 
 In recreational mathematics, a Harshad number (or Niven number) in a given number base, is an integer that is divisible by the sum of its digits when written in that base. Harshad numbers in base n are also known as *n*-Harshad (or *n*-Niven) numbers. Harshad numbers were defined by D. R. Kaprekar, a mathematician from India. The word "Harshad" comes from the Sanskrit *harṣa* (joy) + *da* (give), meaning joy-giver. The term “Niven number” arose from a paper delivered by Ivan M. Niven at a conference on number theory in 1977.
 
-Thus, you can observe that number 21 is indeed a Harshad number.
+Thus, you can observe that number 21 is a Harshad number - 21 / (2 + 1) = 7. 
 
 Today's challenge is to determine if an integer is a valid Harshad number. 
 
