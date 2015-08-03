@@ -42,15 +42,15 @@ Your program should emit if the numbers are valid Ruth-Aaron pairs. Example:
 
     4
     (5,6) 
-    (2107, 2108) 
-    (492, 493) 
+    (2107,2108) 
+    (492,493) 
     (1285,129) 
 
 # Challenge Output
 
     (5,6) VALID
-    (2107, 2108) VALID
-    (492, 493) VALID
+    (2107,2108) VALID
+    (492,493) VALID
     (1285,129) NOT VALID
 
 # Scala Solution
