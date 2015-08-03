@@ -52,3 +52,18 @@ Your program should emit if the numbers are valid Ruth-Aaron pairs. Example:
     (2107, 2108) VALID
     (492, 493) VALID
     (1285,129) NOT VALID
+
+# Scala Solution
+
+    def factorize(x: Int): List[Int] = {
+      @tailrec
+      def foo(x: Int, a: Int = 2, list: List[Int] = Nil): List[Int] = a*a > x match {
+        case false if x % a == 0 => foo(x / a, a    , a :: list)
+        case false               => foo(x    , a + 1, list)
+        case true                => x :: list
+      }
+      foo(x)
+    }
+
+    def HA(a:Int, b:Int): Boolean = 
+        factorize(a).sum == factorize(b).sum
