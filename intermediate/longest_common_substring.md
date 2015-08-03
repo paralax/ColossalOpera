@@ -56,21 +56,7 @@ Can you find the longest common substring of any pair of words in this Limerick 
 
 # Scala Solution
 
-    def LCS(s1:String, s2:String): String = {
-        var m = Array.ofDim[Int](s1.length+1, s2.length+1)
-        var (longest, x_longest) = (0, 0)
-        for (x <- (1 to s1.length)) {
-            for (y <- (1 to s2.length)) {
-                if (s1(x-1) == s2(y-1))  {
-                    m(x)(y) = m(x-1)(y-1)+1
-                    if (m(x)(y) > longest) {
-                        longest = m(x)(y)
-                        x_longest = x
-                    }
-                } else {
-                    m(x)(y) = 0
-                }
-            }
-        }
-        s1.slice(x_longest-longest, x_longest)
-    }
+def LCS(a:String, b:String): String = {
+    def substrings(s:String): List[String] = s.inits.flatMap(_.tails.toList.init).toList
+    substrings(a).toSet.intersect(substrings(b).toSet).map(x=>(x.length, x)).toList.sortBy(_._1).map(_._2).last
+}
