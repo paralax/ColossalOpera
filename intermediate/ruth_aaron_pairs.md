@@ -65,5 +65,5 @@ Your program should emit if the numbers are valid Ruth-Aaron pairs. Example:
       foo(x)
     }
 
-    def HA(a:Int, b:Int): Boolean = 
+    def RA(a:Int, b:Int): Boolean = 
         factorize(a).sum == factorize(b).sum
