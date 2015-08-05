@@ -1,34 +1,34 @@
-**Title** Mathagrams
+# Title 
 
-**Difficulty** Intermediate 
+Mathagrams
 
-**Description**
+# Difficulty 
 
-A mathagram is a puzzle where you have to fill in the unknown digits to arrive at a given sum using every digit between 1 and 9 exactly once. 
+Intermediate 
 
-**Formal Input Description**
+# Description
 
-You'll be given a simple addition equation and the sum to arrive at, with the letter *x* in place of the unknown digit for you to fill it.
+A mathagram is a puzzle where you have to fill in the unknown digits to arrive at a given sum, with the values being added using every digit between 1 and 9 exactly once (yielding three 3-digit numbers). For this challenge, you'll write a program to solve such puzzles. 
 
-**Formal Output Description**
+# Input Description
 
-Emit the filled in equation with the *x* placeholders replaced by digits, making sure the addition adds up to the stated sum. 
-
-**Sample Input**
+You'll be given a simple addition equation and the sum to arrive at, with the letter *x* in place of the unknown digit for you to fill it. Example:
 
         1xx + xxx = 468
 
-**Sample Output**
+# Output Description
+
+Emit the filled in equation with the *x* placeholders replaced by digits, making sure the addition adds up to the stated sum.  Example: 
 
         193 + 275 = 468
 
-**Challenge Input**
+# Challenge Input
 
         xx5 + xxx = 468
         x9x + xxx = 468
         xxx + x7x = 468
 
-**Challenge Input Solution (not visible by default)**
+# Challenge Output
 
         175 + 293 = 468
         195 + 273 = 468
