@@ -1,8 +1,12 @@
-**Title** Connect Four
+# Title
 
-**Difficulty** Intermediate
+Connect Four
 
-**Description**
+# Difficulty
+
+Intermediate
+
+# Description
 
 Connect Four is a two-player connection game in which the players first choose a color and then take turns dropping colored discs (like checkers) from the top into a seven-column, six-row vertically suspended grid. The pieces fall straight down, occupying the next available space within the column. The objective of the game is to connect four of one's own discs of the same color next to each other vertically, horizontally, or diagonally before your opponent. 
 
@@ -10,7 +14,7 @@ A fun discourse on winning strategies at Connect Four is found here http://www.p
 
 In this challenge you'll be given a set of game moves and then be asked to figure out who won and when (there are more moves than needed). 
 
-For sake of consistency, this is how we'll organize the board, rows as numbers *1-6* and columns as letters *a-g*. 
+For sake of consistency, this is how we'll organize the board, rows as numbers *1-6* descending and columns as letters *a-g*.  This was chosen to make the first moves in row 1.
 
 	    a b c d e f g
 	6   . . . . . . . 
@@ -20,7 +24,7 @@ For sake of consistency, this is how we'll organize the board, rows as numbers *
 	2   . . . . . . . 
 	1   . . . . . . . 
 
-**Example Input**
+# Input Description
 
 You'll be given a game with a list of moves. Moves will be given by *column only* (gotta make this challenging somehow). We'll call the players *X* and *O*, with *X* going first using columns designated with an uppercase letter and *O* going second and moves designated with the lowercase letter of the column they chose. 
 
@@ -34,13 +38,13 @@ You'll be given a game with a list of moves. Moves will be given by *column only
 	G  e
 	E  g
 	
-**Example Output** 
+# Output Description
 
 Your program should output the player ID who won, what move they won, and what final position (column and row) won. Optionally list the four pieces they used to win.
 
 	X won at move 7 (with A2 B2 C2 D2)
 	
-**Challenge Input**
+# Challenge Input
 
 	D  d
 	D  c    
@@ -57,6 +61,6 @@ Your program should output the player ID who won, what move they won, and what f
 	G  g
 	B  a
 
-**Challenge Output**
+# Challenge Output
 
 	X won at move 13 (with D3 E3 F3 G3)
