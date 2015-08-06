@@ -19,6 +19,8 @@ You'll be given a pair of integers showing you the number of columns and rows (r
     1 2
     3 A1 A2
 
+This example means that the sum of two values in A1 and A2 should equal 3. 
+
 # Challenge Output
 
 Your program should emit the puzzle as a 2D grid of numbers, with columns as letters (e.g. A, B, C) and rows as numbers (1, 2, 3). Example:
@@ -29,7 +31,7 @@ Your program should emit the puzzle as a 2D grid of numbers, with columns as let
 
 # Challenge Input
 
-The puzzle is a 2x3 matrix. Note that it has non-unique solutions.
+This puzzle is a 2x3 matrix. Note that it has non-unique solutions.
 
     2 3 
     7 A1 A2 A3
