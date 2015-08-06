@@ -10,6 +10,8 @@ Hard
 
 Kakuro is a popular Japanese logic puzzle sometimes called a mathematical crossword. The objective of the puzzle is to insert a digit from 1 to 9 inclusive into each white cell such that the sum of the numbers in each entry matches the clue associated with it and that no digit is duplicated in any entry. It is that lack of duplication that makes creating Kakuro puzzles with unique solutions possible. Numbers in cells elsewhere in the grid may be reused.
 
+More background on Kakura can be found on [Wikipedia](https://en.wikipedia.org/wiki/Kakuro). There's an [online version](http://www.kakuroconquest.com/) you can play as well. 
+
 # Input Description
 
 You'll be given a pair of integers showing you the number of columns and rows (respectively) for the game puzzle. Then you'll be given *col* + *row* lines with the sum and the cell identifiers as *col id* and *row number*. Example:
