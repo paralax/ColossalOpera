@@ -1,6 +1,6 @@
 # Title 
 
-Kakuro Solver
+[2015-08-07] Challenge #226 [Hard] Kakuro Solver
 
 # Difficulty
 
@@ -34,8 +34,8 @@ Your program should emit the puzzle as a 2D grid of numbers, with columns as let
 This puzzle is a 2x3 matrix. Note that it has non-unique solutions.
 
     2 3 
-    15 A1 A2 A3
-    9 B1 B2 B3
+    13 A1 A2 A3
+    8 B1 B2 B3
     6 A1 B1
     6 A2 B2
     9 A3 B3
