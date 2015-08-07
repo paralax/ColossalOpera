@@ -34,17 +34,17 @@ Your program should emit the puzzle as a 2D grid of numbers, with columns as let
 This puzzle is a 2x3 matrix. Note that it has non-unique solutions.
 
     2 3 
-    7 A1 A2 A3
+    15 A1 A2 A3
     9 B1 B2 B3
-    3 A1 B1
+    6 A1 B1
     6 A2 B2
-    7 A3 B3
+    9 A3 B3
 
 # Challenge Output
 
 One possible solution for the above puzzle is
 
       A  B 
-    1 1  2
+    1 5  1
     2 2  4
-    3 4  3
+    3 6  3
