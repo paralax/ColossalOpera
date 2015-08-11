@@ -30,8 +30,8 @@ You'll be given a single integer on a line telling you how many lines to read, t
 
 Your program should emit the radius and diameter of the graph. Example:
 
-    Radius: 2
-    Diameter: 3
+    Radius: 1
+    Diameter: 2
 
 # Challenge Input
 
@@ -186,3 +186,5 @@ Your program should emit the radius and diameter of the graph. Example:
 
 # Challenge Output
 
+    Radius: 3
+    Diameter: 5
