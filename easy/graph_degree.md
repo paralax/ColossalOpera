@@ -90,6 +90,25 @@ This data set is an social network of tribes of the Gahukuâ€“Gama alliance 
     14 16
     15 16
 
+# Challenge Output
+
+    Node 1 has a degree of 8
+    Node 2 has a degree of 8
+    Node 3 has a degree of 6
+    Node 4 has a degree of 3
+    Node 5 has a degree of 7
+    Node 6 has a degree of 10
+    Node 7 has a degree of 7
+    Node 8 has a degree of 7
+    Node 9 has a degree of 7
+    Node 10 has a degree of 5
+    Node 11 has a degree of 9
+    Node 12 has a degree of 8
+    Node 13 has a degree of 8
+    Node 14 has a degree of 5
+    Node 15 has a degree of 9
+    Node 16 has a degree of 9
+
 # Bonus: Adjascency Matrix
 
 Another tool used in graph theory is an *adjacency matrix*, which is an *N* by *N* matrix where each *(i,j)* cell is filled out with the degree of connection between nodes *i* and *j*. For our example graph above the adjacency matrix would look like this:
@@ -99,3 +118,9 @@ Another tool used in graph theory is an *adjacency matrix*, which is an *N* by *
     1 0 0
 
 Indicating that node 1 is connected to nodes 2 and 3, but nodes 2 and 3 do not connect. For a bonus, create the adjacency matrix for the challenge graph. 
+
+# Scala Solution
+
+    def degree(edges:String) = edges.split("\n").map(_.split(" ").filter(_.length>0)).toSet.toList.flatten.groupBy(_.toString).mapValues(_.size)
+
+    def output(edges:String) = degree(edges).foreach { kv => println(kv._1 + " has a degree of " + kv._2) }
