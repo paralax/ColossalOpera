@@ -44,3 +44,9 @@ Your program should emit if the two words are isomorphic or not. Example:
     BANANA SENSES FALSE
     SNACK HEATER FALSE
 
+# Scala Solution
+
+    def isomorphic(w1:String, w2:String): Boolean = {
+        val m = w1.zip(w2).toMap
+        w2 == w1.map(x => m(x)).mkString
+    }
