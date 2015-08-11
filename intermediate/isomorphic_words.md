@@ -43,3 +43,8 @@ Your program should emit if the two words are isomorphic or not. Example:
     DISCRIMINATIVE SIMPLIFICATION TRUE
     BANANA SENSES FALSE
     SNACK HEATER FALSE
+
+# Scala Solution
+
+    def isomorphic(w1:String, w2:String): Boolean = 
+        w1.iterator.sliding(2).toList.map(_.toList).map(x => x(1) - x(0)) == w2.iterator.sliding(2).toList.map(_.toList).map(x => x(1) - x(0))
