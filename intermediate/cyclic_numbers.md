@@ -40,3 +40,27 @@ Your challenge today is a bit different than a typical challenge. Instead of cre
 # Note
 
 Implementing an algorithm from a description is a valuable skill to have, just as is designing an algorithm. That's why this is a programming challenge - not solving a puzzle, but applying your language knowledge to a problem. 
+
+# Scala Solution
+
+    def makeCyclic(b:Int, p:Int): Int = {
+        var t = 0
+        var r = 1
+        var n = 0
+        def loop(n: Int, t:Int, r:Int, b:Int): Int = {
+            val tt = t + 1
+            val x = r * b
+            val d = x/p
+            var nn = n * b * d
+            r match {
+                case 1 => t
+                case _ => loop(nn, t, r, b)
+            }
+        }
+        t = loop(n, t, r, b)
+        if (t == p - 1) {
+            return t
+        } else {
+            return -1
+        }
+    }
