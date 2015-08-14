@@ -1,36 +1,36 @@
-**Title** Magic Squares
+# Title
 
-**Difficulty** Intermediate
+Magic Squares
 
-**Description**
+# Difficulty
+
+Intermediate
+
+# Description
 
 A  magic square is an arrangement of numbers (usually integers) in a square grid, where the numbers in each row, and in each column, and the numbers in the forward and backward main diagonals, all add up to the same number. The requirement for a magic square is that the squares all have unique numbers, typically monotonically increasing (from 1 to *n^2*), arranged as described in the previous sentence. In math notation, a magic square is said to have *order n*, where  *n* stands for the number of rows (and columns) it has. Magic squares were known to Chinese mathematicians as early as 650 BCE, and have since appeared in many cultures around the world. 
 
 Since then, algorithms have been found to construct magic squares and are now well known, with additional research done into strategies to solving larger ones. 
 
-**Formal Input Description**
+# Input Description
 
-You will be given a single number *n* which is the order of the magic square to devise. Note that your magic square should start with 1 and go through *n^2* sequentially. 
-
-**Formal Output Description**
-
-Your answer should emit the magic square as a simple grid of numbers separated by commas.
-
-**Sample Input**
+You will be given a single number *n* which is the order of the magic square to devise. Note that your magic square should start with 1 and go through *n^2* sequentially. Example:
 
     3
 
-**Sample Output**
+# Output Description
+
+Your answer should emit the magic square as a simple grid of numbers separated by commas. Example:
 
     8,1,6
     3,5,7
     4,9,2
 
-**Challenge Input**
+# Challenge Input
 
     10
 
-**Challenge Input Solution (not visible by default)**
+# Challenge Input Solution
 
         1,9,17,25,33,68,76,84,92,100
         99,91,83,75,67,34,26,18,10,2
