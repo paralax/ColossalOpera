@@ -1,22 +1,26 @@
-**Title** Stable Marriage Problem
+# Title
 
-**Difficulty** Hard
+Eight Husbands for Eight Sisters
 
-**Description** 
+# Difficulty
+
+Hard
+
+# Description
 
 For a set of men {*A,B,...,Z*} and a set of women {*a,b,...,z*} they have a preference table - *A* would prefer to marry *b*, but will be satisfied to marry *c*; *c* would prefer to marry *B*, will be OK to marry *C*, etc. Matches are considered *unstable* if there exists a pair who likes each other more than their spouses.  The challenge is then to construct a stable set of marriages given the preferences.
 
 The Gale-Shapely Theorem tells us that a stable marriage is always possible, and found in *O*( *n^2* ) time.
 
-**Formal Input Description**
+# Formal Input Description
 
 You'll be given the individual (uppercase for men, lowercase for women) identifier first, then the identifiers for their preferences for each member of the set of men (uppercase letters) and women (given by lowercase letters). 
 
-**Formal Output Description**
+# Formal Output Description
 
 You'll emit the list of pairs that satisfy the constraints.
 
-**Sample Input**
+# Sample Input
 
         A, b, c, a
         B, b, a, c
@@ -25,13 +29,13 @@ You'll emit the list of pairs that satisfy the constraints.
         b, A, C, B
         c, A, C, B
 
-**Sample Output**
+# Sample Output
 
         (A; b)
         (B; c)
         (C; a)
 
-**Challenge Input**
+# Challenge Input
 
         A, b, d, g, h, c, j, a, f, i, e
         B, f, b, i, g, a, j, h, e, c, d
@@ -54,7 +58,7 @@ You'll emit the list of pairs that satisfy the constraints.
         i, J, A, F, G, E, D, H, B, I, C
         j, E, A, B, C, J, I, G, D, H, F
 
-**Challenge Input Solution (not visible by default)**
+# Challenge  Output 
 
         (A; h)
         (B; j
