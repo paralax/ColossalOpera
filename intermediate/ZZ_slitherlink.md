@@ -1,6 +1,6 @@
 # Title
 
-Slitherlink
+[2015-08-19] Challenge #228 [Intermediate] Slitherlink
 
 # Difficulty
 
@@ -95,3 +95,7 @@ You should link the dots with a dash `-` or a pipe `|` as needed to satisfy the 
 # Credit
 
 This puzzle cam from the New York Times magazine on May 24, 2015. You can find more slitherlink puzzles on this website: http://krazydad.com/slitherlink/
+
+
+
+http://www.kakuro-online.com/slitherlink/
