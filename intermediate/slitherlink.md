@@ -1,6 +1,6 @@
 # Title
 
-[2015-08-19] Challenge #228 [Intermediate] Slitherlink
+Slitherlink
 
 # Difficulty
 
