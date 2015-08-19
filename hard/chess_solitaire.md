@@ -1,8 +1,12 @@
-**Title** Chess Solitaire
+# Title
 
-**Difficulty** Hard
+Chess Solitaire
 
-**Description** 
+# Difficulty
+
+Hard
+
+# Description
 
 Chess solitaire is a variant of chess that sets up puzzles using the pieces and a smaller board. You're given a set of several pieces all of one color, and using the legal moves of those pieces, you're supposed to take them one by one until only one piece is left. The rules state that every move has to be a legal move for that piece, and every move must be a capture of one piece by another. 
 
@@ -17,7 +21,7 @@ The board is 4x4, with rows are 1-4 and columns are a-d; the lower left is squar
 - K - king
 - P - pawn
 
-**Input Description** 
+# Input Description
 
 You'll be given a 4x4 board in ASCII showing the opening board and the pieces positioned on the board. Blank squares are given by a ".". An example:
 
@@ -26,7 +30,7 @@ You'll be given a 4x4 board in ASCII showing the opening board and the pieces po
 	. N . . 
 	. . . .
 
-**Output Description**
+# Output Description
 
 You should give the sequence of moves needed to successfully clear the board to one piece using the rules by showing the start square (e.g. "a1") and the captured square (e.g. "b2") joined by an "x". For the above board, the solution would be:
 
@@ -36,7 +40,7 @@ You should give the sequence of moves needed to successfully clear the board to 
 	
 Any piece can make the next move *as long as the next move results in a legal capture*. 
 
-**Challenge Input**
+# Challenge Input
 
 	. N . .
 	. . B .
@@ -54,7 +58,7 @@ Any piece can make the next move *as long as the next move results in a legal ca
 	R R P .
 	
 
-**Challenge Output** 
+# Challenge Output
 
 In order of the above starting boards:
 
