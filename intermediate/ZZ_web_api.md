@@ -1,6 +1,6 @@
 # Title
 
-Use a Web Service to Find Bitcoin Prices
+[2015-08-19] Challenge #228 [Intermediate] Use a Web Service to Find Bitcoin Prices
 
 # Difficulty
 
