@@ -4,7 +4,7 @@ Ruth-Aaron Pairs
 
 # Difficulty
 
-Intermediate
+Easy
 
 # Description
 
