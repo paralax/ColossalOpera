@@ -18,15 +18,18 @@ The subject rule for this challenge, Rule 90, is one of the simplest, a simple n
 
 You'll be given an input line as a series of 0s and 1s. Example:
 
-	1101010
+    1101010
 
 # Output Description
 
 Your program should emit the states of the celular automata for 25 steps. Example from above, in this case I replaced 0 with a blank and a 1 with an X:
 
-	xx x x
-	xx xxx 
-	x x x
+    xx x x
+    xx    x
+    xxx  x
+    x xxx x
+      x x
+     x   x
    
 # Challenge Input
 
@@ -34,7 +37,7 @@ Your program should emit the states of the celular automata for 25 steps. Exampl
 
 # Challenge Output
 
-I chose this one because it's one of the most well known, it yields a Serpinski triangle, a well known fractcal. 
+I chose this input because it's one of the most well known, it yields a Serpinski triangle, a well known fractcal. 
 
                                                  x
                                                 x x
@@ -75,8 +78,8 @@ I chose this one because it's one of the most well known, it yields a Serpinski 
         ("0" + row + "0").sliding(3).map(loop(_)).toList.mkString
     }
 
-    def solution(n:Int) = {
-        var row = "00000000000000000000000000000000100000000000000000000000000000000"
+    def solution(s:String, n:Int) = {
+        var row = s
         for (_ <- (0 to n)) {
             println(row.replace("0", " ").replace("1", "x"))
             row = rule90(row)
