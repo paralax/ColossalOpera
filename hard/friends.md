@@ -12,7 +12,7 @@ In all of our communities, we have a strong core of friends and people on the pe
 
 These networks can be used for all sorts of things, such as recommender systems or detecting collusion. 
 
-Given a social network graph identifying friendships, can you identify the strong group of friends who all know eachother and are connected? 
+Given a social network graph identifying friendships, can you identify the largest strong group of friends who all know eachother and are connected? 
 
 # Input Description
 
@@ -37,9 +37,11 @@ On the first line you'll be given a single integer *N* telling you how many dist
 
 # Output Description
 
-Your program should emit a list of all of the members of the group of friends. Example:
+Your program should emit a list of all of the members of the largest group of friends. Example:
 
     4 5 6 7
+
+If the graph has multiple, distinct friend groups of the same size, you can print all or any of them. 
 
 # Challenge Input
 
@@ -224,3 +226,11 @@ And here's the data set.
     56 52
     62 54
     58 55
+
+# Challenge Output
+
+    This challenge has 3 distinct sets of 5 friends. Any or all of the below will count.
+    
+    18 10 14 58 7
+    30 19 46 52 22
+    30 19 46 52 25
