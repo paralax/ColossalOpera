@@ -36,56 +36,49 @@ Your program should emit the states of the celular automata for 25 steps. Exampl
 
 I chose this one because it's one of the most well known, it yields a Serpinski triangle, a well known fractcal. 
 
-                                                    x                                                
-                                                  x x                                              
-                                                x   x                                            
-                                              x x x x                                          
-                                            x       x                                        
-                                          x x     x x                                      
-                                        x   x   x   x                                    
-                                      x x x x x x x x                                  
-                                    x               x                                
-                                  x x             x x                              
-                                x   x           x   x                            
-                              x x x x         x x x x                          
-                            x       x       x       x                        
-                          x x     x x     x x     x x                      
-                        x   x   x   x   x   x   x   x                    
-                      x x x x x x x x x x x x x x x x                  
-                    x                               x                
-                  x x                             x x              
-                x   x                           x   x            
-              x x x x                         x x x x          
-            x       x                       x       x        
-          x x     x x                     x x     x x      
-        x   x   x   x                   x   x   x   x    
-      x x x x x x x x                 x x x x x x x x  
-    x               x               x               x
-    x             x x             x x             x
-    x           x   x           x   x           x
-    x         x x x x         x x x x         x
-    x       x       x       x       x       x
-    x     x x     x x     x x     x x     x
-    x   x   x   x   x   x   x   x   x   x
-    x x x x x x x x x x x x x x x x x x
+                                                 x
+                                                x x
+                                               x   x
+                                              x x x x
+                                             x       x
+                                            x x     x x
+                                           x   x   x   x
+                                          x x x x x x x x
+                                         x               x
+                                        x x             x x
+                                       x   x           x   x
+                                      x x x x         x x x x
+                                     x       x       x       x
+                                    x x     x x     x x     x x
+                                   x   x   x   x   x   x   x   x
+                                  x x x x x x x x x x x x x x x x
+                                 x                               x
+                                x x                             x x
+                               x   x                           x   x
+                              x x x x                         x x x x
+                             x       x                       x       x
+                            x x     x x                     x x     x x
+                           x   x   x   x                   x   x   x   x
+                          x x x x x x x x                 x x x x x x x x
+                         x               x               x               x
+                        x x             x x             x x             x x
 
 # Scala Solution
 
-	def rule90(a:Array[Int]):Array[Int] = 
-		(1 to a.length-2).map(x => a(x-1)^a(x+1)).toArray
+    def rule90(row:String): String = {
+        def loop(s:String): String = {
+            s match {
+                case "111" | "101" | "010" | "000" => "0"
+                case "110" | "100" | "011" | "001" => "1"
+            }
+        }
+        ("0" + row + "0").sliding(3).map(loop(_)).toList.mkString
+    }
 
-	def main(a:Array[Int]): List[Array[Int]] = {
-		def loop(a:Array[Int], acc:List[Array[Int]]): List[Array[Int]] = {
-			a match {
-				case Array() => acc
-				case _   => loop(rule90(a), a::acc)
-			}
-		}
-		loop(a, List())
-	}
-
-	val a = (for (_ <- (1 to 100)) yield ((random*10).toInt%2)).toArray
-	print(main(a).reverse.map(_.mkString.replace("0", " ").replace("1", "x")).mkString("\n"))
-
-	val a = Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
-	print(main(a).reverse.map(_.mkString.replace("0", " ").replace("1", "x")).mkString("\n"))
+    def solution(n:Int) = {
+        var row = "00000000000000000000000000000000100000000000000000000000000000000"
+        for (_ <- (0 to n)) {
+            println(row.replace("0", " ").replace("1", "x"))
+            row = rule90(row)
+        }
+    }
