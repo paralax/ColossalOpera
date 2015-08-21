@@ -23,7 +23,7 @@ All foods *should* be one word, hopefully cut and paste didn't foul that up.
 
 # Output Description
 
-Your program should emit the solutions for the shopping trip.
+Your program should emit one or more solutions for the shopping trip.
 
 # Challenge Input
 
