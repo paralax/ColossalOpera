@@ -12,7 +12,11 @@ The development of cellular automata (CA) systems is typically attributed to Sta
 
 CA has a number of simple "rules" that define system behavior, like "If my neighbors are both active, I am inactive" and the like. The rules are all given numbers, but they're not sequential for historical reasons. 
 
-The subject rule for this challenge, Rule 90, is one of the simplest, a simple neighbor XOR. That is, in a 1 dimensional CA system (e.g. a line), the next state for the cell in the middle of 3 is simply the result of the XOR of its left and right neighbors. E.g. "000" becomes "010" in the next state, "100" becomes "110" in the next state and so on. You traverse the given line and calculate the rule for the next iteration based on the current one. 
+The subject rule for this challenge, Rule 90, is one of the simplest, a simple neighbor XOR. That is, in a 1 dimensional CA system (e.g. a line), the next state for the cell in the middle of 3 is simply the result of the XOR of its left and right neighbors. E.g. "000" becomes "1" in the next state, "100" becomes "1" in the next state and so on. You traverse the given line in windows of 3 cells and calculate the rule for the next iteration of the following row's center cell based on the current one while the two outer cells are influenced by their respective neighbors. Here are the rules showing the conversion from one set of cells to another:
+
+| "111" | "101" | "010" | "000" | "110" | "100" | "011" | "001"
+|-----------|------------|------------|-----------|------------|------------|------------|------------
+| 0  | 0  | 0  | 0  | 1  | 1  | 1  | 1  |
 
 # Input Description
 
