@@ -28,29 +28,30 @@ To use them, a program would be transcribed to the punch cards. Each column repr
 	           \  9|             O
 	               |______________
 
-Each card vendor would have an alphabet, an array of characters that are numerically represented by the punches. Here's a simple example with a simple alphabet:
+Each card vendor would have an alphabet, an array of characters that are numerically represented by the punches. Here's an example of the DEC9 simple alphabet showing you the punch codes and the order in which they appear.
 
-	     ______________________________________________
-	    /&-0123456789ABCDEFGHIJKLMNOPQR/STUVWXYZ
-	 Y / x           xxxxxxxxx
-	 X|   x                   xxxxxxxxx
-	 0|    x                           xxxxxxxxx
-	 1|     x        x        x        x
-	 2|      x        x        x        x
-	 3|       x        x        x        x
-	 4|        x        x        x        x
-	 5|         x        x        x        x
-	 6|          x        x        x        x
-	 7|           x        x        x        x
-	 8|            x        x        x        x
-	 9|             x        x        x        x
-	  |________________________________________________
+    DEC9 &-0123456789ABCDEFGHIJKLMNOPQR/STUVWXYZ:#@'="[.<(+^!$*);\],%_>?
+         ________________________________________________________________
+        /&-0123456789ABCDEFGHIJKLMNOPQR/STUVWXYZ:#@'="¢.<(+|!$*);¬ ,%_>?
+    12 / O           OOOOOOOOO                        OOOOOO
+    11|   O                   OOOOOOOOO                     OOOOOO
+     0|    O                           OOOOOOOOO                  OOOOOO
+     1|     O        O        O        O
+     2|      O        O        O        O       O     O     O     O
+     3|       O        O        O        O       O     O     O     O
+     4|        O        O        O        O       O     O     O     O
+     5|         O        O        O        O       O     O     O     O
+     6|          O        O        O        O       O     O     O     O
+     7|           O        O        O        O       O     O     O     O
+     8|            O        O        O        O OOOOOOOOOOOOOOOOOOOOOOOO
+     9|             O        O        O        O
+      |__________________________________________________________________
 
-You can see the first 12 characters are represented by a single punch, then the next 9 have two punches (with one in the upper zone), then the next 9 use the next zone as that second punch, then the final 9 use the third zone and another punch to indicate the character. 
+You can see the first 12 characters are represented by a single punch, then the next 9 have two punches (with one in the upper zone), then the next 9 use the next zone as that second punch, the fourth 9 use the next zone as the second punch, then we start on the lower zone for the next sets of 6 with the upper zone punched increasingly.
 
 For some more information, including from where some of this info was taken, please see http://homepage.cs.uiowa.edu/~jones/cards/codes.html or Wikipedia http://en.wikipedia.org/wiki/Punched_card . 
 
-So, given an alphabet array you should be able to encode a message in a punch card, right? Let's go back to the punch card!
+So, given an alphabet array you should be able to encode a message in a punch card, right? Let's go back to the punch card! For this challenge, assume the same encoding methods as above given the character array at the top, they'll only differ in order of characters. 
 
 # Input Description
 
