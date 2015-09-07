@@ -8,7 +8,7 @@ Easy
 
 # Description
 
-In mathematics, a Ruth–Aaron pair consists of two consecutive integers (e.g. 714 and 715) for which the sums of the prime factors of each integer are equal. For example, we know that (714, 715) is a valid Ruth-Aaron pair because its prime factors are:
+In mathematics, a Ruth–Aaron pair consists of two consecutive integers (e.g. 714 and 715) for which the sums of the *distinct* prime factors of each integer are equal. For example, we know that (714, 715) is a valid Ruth-Aaron pair because its prime factors are:
 
     714 = 2 × 3 × 7 × 17
     715 = 5 × 11 × 13
@@ -23,7 +23,7 @@ Your task today is to determine if a pair of numbers is indeed a valid Ruth-Aaro
 
 # Input Description
 
-You'll be given a single integer *N* on one line to tell you how many pairs to read. For example:
+You'll be given a single integer *N* on one line to tell you how many pairs to read, and then that many pairs as two-tuples. For example:
 
     3
     (714,715)
@@ -44,14 +44,14 @@ Your program should emit if the numbers are valid Ruth-Aaron pairs. Example:
     (5,6) 
     (2107,2108) 
     (492,493) 
-    (1285,129) 
+    (128,129) 
 
 # Challenge Output
 
     (5,6) VALID
     (2107,2108) VALID
     (492,493) VALID
-    (1285,129) NOT VALID
+    (128,129) NOT VALID
 
 # Scala Solution
 
@@ -65,5 +65,4 @@ Your program should emit if the numbers are valid Ruth-Aaron pairs. Example:
       foo(x)
     }
 
-    def RA(a:Int, b:Int): Boolean = 
-        factorize(a).sum == factorize(b).sum
+    def RA(a:Int, b:Int): Boolean = def RA(a:Int, b:Int): Boolean =  factorize(a).toSet.sum == factorize(b).toSet.sum
