@@ -1,6 +1,6 @@
 # Title
 
-Cellular Automata: Rule 90
+[2015-09-07] Challenge #213 [Easy] Cellular Automata: Rule 90
 
 # Difficulty
 
