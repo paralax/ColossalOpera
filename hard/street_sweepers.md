@@ -40,4 +40,4 @@ Your program should emit the intersections visited in order and the number of st
 
 # Challenge Output
 
-TBD
+The shortest walk of all streets at least once I've been able to come up with is `F-I-H-G-D-E-H-G-D-A-B-E-H-G-D-A-B-C-F`, but there may be shorter ones.
