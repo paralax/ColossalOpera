@@ -65,5 +65,18 @@ https://en.wikipedia.org/wiki/Calkin%E2%80%93Wilf_tree
       override def toString = n + "/" + d
     }
 
-    val root = new Rational(1,1)
+
     def leaf(r:Rational): (Rational, Rational) = (new Rational(r.n, r.n+r.d),  new Rational(r.n+r.d,r.d))
+    def leafToList(rr:(Rational,Rational)): List[Rational] = List(rr._1, rr._2)
+
+    def calkin_wilf(n:Int): List[Rational] = {
+        val root = new Rational(1,1)
+        def loop(r:Rational): List[Rational] = {
+            leafToList(leaf(r)).flatMap(x => leafToList(leaf(x)))
+        }
+        var res = loop(root)
+        for (_ <- (2 to n-1)) {
+            res = res.flatMap(loop)
+        }
+        res
+    }
