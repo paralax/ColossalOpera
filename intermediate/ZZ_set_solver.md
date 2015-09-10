@@ -1,6 +1,6 @@
 # Title 
 
-Set Game Solver
+[2015-09-09] Challenge #231 [Intermediate] Set Game Solver
 
 # Difficulty
 
