@@ -38,7 +38,7 @@ You'll be given a single integer, *N*, on a line, then *N* lines of Cartesian co
 
 Your program should emit the two points of (x,y) pairs that are closest together. Example:
 
-   (6.625930036636377,6.084986606308885) (6.422011725438139,5.833206713226367)
+    (6.625930036636377,6.084986606308885) (6.422011725438139,5.833206713226367)
 
 # Challenge Input
 
