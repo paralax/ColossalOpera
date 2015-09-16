@@ -1,6 +1,6 @@
 # Title
 
-Where Should Grandma's House Go?
+[2015-09-16] Challenge #232 [Intermediate] Where Should Grandma's House Go?
 
 # Difficulty
 
