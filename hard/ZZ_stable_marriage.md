@@ -1,6 +1,6 @@
 # Title
 
-[2015-09-11] Challenge #231 [Hard] Eight Husbands for Eight Sisters
+Eight Husbands for Eight Sisters
 
 # Difficulty
 
@@ -22,51 +22,51 @@ You'll emit the list of pairs that satisfy the constraints.
 
 # Sample Input
 
-    A, b, c, a
-    B, b, a, c
-    C, c, a, b
-    a, C, B, A
-    b, A, C, B
-    c, A, C, B
+        A, b, c, a
+        B, b, a, c
+        C, c, a, b
+        a, C, B, A
+        b, A, C, B
+        c, A, C, B
 
 # Sample Output
 
-    (A; b)
-    (B; c)
-    (C; a)
+        (A; b)
+        (B; c)
+        (C; a)
 
 # Challenge Input
 
-    A, b, d, g, h, c, j, a, f, i, e
-    B, f, b, i, g, a, j, h, e, c, d
-    C, b, i, j, g, h, d, e, f, c, a
-    D, f, a, e, i, c, j, b, g, d, h
-    E, f, d, a, e, i, b, c, g, j, h
-    F, d, f, a, c, j, e, i, b, g, h
-    G, e, g, c, b, f, d, a, i, j, h
-    H, f, i, b, c, e, a, h, g, d, j
-    I, i, a, j, f, c, e, b, g, h, d
-    J, h, f, c, e, b, a, j, g, d, i
-    a, J, C, E, I, B, F, D, G, A, H
-    b, I, H, J, C, D, A, E, B, G, F
-    c, C, B, I, F, H, A, D, J, G, E
-    d, F, G, J, D, C, E, I, H, B, A
-    e, D, G, J, C, A, H, I, E, B, F
-    f, E, H, C, J, B, F, D, A, G, I
-    g, J, F, G, E, I, A, H, B, D, C
-    h, E, C, B, H, I, A, G, D, F, J
-    i, J, A, F, G, E, D, H, B, I, C
-    j, E, A, B, C, J, I, G, D, H, F
+        A, b, d, g, h, c, j, a, f, i, e
+        B, f, b, i, g, a, j, h, e, c, d
+        C, b, i, j, g, h, d, e, f, c, a
+        D, f, a, e, i, c, j, b, g, d, h
+        E, f, d, a, e, i, b, c, g, j, h
+        F, d, f, a, c, j, e, i, b, g, h
+        G, e, g, c, b, f, d, a, i, j, h
+        H, f, i, b, c, e, a, h, g, d, j
+        I, i, a, j, f, c, e, b, g, h, d
+        J, h, f, c, e, b, a, j, g, d, i
+        a, J, C, E, I, B, F, D, G, A, H
+        b, I, H, J, C, D, A, E, B, G, F
+        c, C, B, I, F, H, A, D, J, G, E
+        d, F, G, J, D, C, E, I, H, B, A
+        e, D, G, J, C, A, H, I, E, B, F
+        f, E, H, C, J, B, F, D, A, G, I
+        g, J, F, G, E, I, A, H, B, D, C
+        h, E, C, B, H, I, A, G, D, F, J
+        i, J, A, F, G, E, D, H, B, I, C
+        j, E, A, B, C, J, I, G, D, H, F
 
 # Challenge  Output 
 
-    (A; h)
-    (B; j
-    (C; b)
-    (D; e)
-    (F; d)
-    (G; g)
-    (H; i)
-    (I; a)
+        (A; h)
+        (B; j
+        (C; b)
+        (D; e)
+        (F; d)
+        (G; g)
+        (H; i)
+        (I; a)
 
 

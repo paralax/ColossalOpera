@@ -1,6 +1,6 @@
 # Title
 
-Where Should Grandma's House Go?
+[2015-09-16] Challenge #232 [Intermediate] Where Should Grandma's House Go?
 
 # Difficulty
 
@@ -38,7 +38,7 @@ You'll be given a single integer, *N*, on a line, then *N* lines of Cartesian co
 
 Your program should emit the two points of (x,y) pairs that are closest together. Example:
 
-    (9.03069534561186, 2.3737246966612515) (9.3632392904531, 1.8014711293897012)
+    (6.625930036636377,6.084986606308885) (6.422011725438139,5.833206713226367)
 
 # Challenge Input
 
@@ -143,3 +143,30 @@ Your program should emit the two points of (x,y) pairs that are closest together
     (3.94890493411447, 6.248368129219131)
     (8.358501795899047, 4.655648268959565)
     (3.597211873999991, 7.184515265663337)
+
+# Challenge Output
+
+    (5.305665745194435,5.6162850431000875) (5.333978668303457,5.698128530439982)
+
+
+# Scala Solution
+
+    def parseInput(text:String): List[(Double, Double)] = {
+        val pat = """\d\.\d+""".r
+        def loop(text:List[String], sofar:List[(Double, Double)]): List[(Double, Double)] = {
+            text match {
+                case Nil => sofar
+                case x::xs => { val m = pat.findAllMatchIn(x).toList
+                                loop(xs, (m(0).toString.toDouble, m(1).toString.toDouble)::sofar)
+                }
+            }
+        }
+        loop(text.split("\n").toList, List())
+    }
+
+    def solution(text:String): List[(Double, Double)] = {
+        val points = parseInput(text)
+        def distance(p1:(Double, Double), p2:(Double, Double)): Double = 
+            scala.math.sqrt((p1._1-p2._1)*(p1._1-p2._1) + (p1._2-p2._2)*(p1._2-p2._2))
+        points.combinations(2).map(x => (distance(x(0), x(1)), x)).toList.sortBy(_._1).head._2
+    }

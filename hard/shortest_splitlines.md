@@ -8,7 +8,13 @@ Hard
 
 # Description
 
-In the US, voting districts are drawn by state legislatures once every decade after the census is taken. In recent decades, these maps have become increasingly convoluted and have become hotly debated. One method proposed to address this is to insist that the maps be drawn using the "Shortest Splitline Algorithm" (see http://rangevoting.org/FastShortestSplitline.html for a description). This has some relationship to Voronoi diagrams, for what it's worth. 
+In the US, voting districts are drawn by state legislatures once every decade after the census is taken. In recent decades, these maps have become increasingly convoluted and have become hotly debated. One method proposed to address this is to insist that the maps be drawn using the "Shortest Splitline Algorithm" (see http://rangevoting.org/FastShortestSplitline.html for a description). The algorithm is basically a recursive count and divide process:
+
+1. Let N=A+B where A and B are as nearly equal whole numbers as possible, and N is the total population of the area to be divided.
+2. Among all possible dividing lines that split the state into two parts with population ratio A:B, choose the *shortest*.
+3. We now have two hemi-states, each to contain a specified number (namely A and B) of districts. Handle them recursively via the same splitting procedure.
+
+This has some relationship to Voronoi diagrams, for what it's worth. 
 
 In this challenge, we'll ask you to do just that: implement the SS algorithm with an ASCII art map. You'll be given a map and then asked to calculate the best splitlines that maximize equal populations per district. 
 
