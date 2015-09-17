@@ -20,7 +20,7 @@ You'll be given a series of DNA sequence fragments, which include overlaps with 
 
 Your program should emit the DNA sequence it calculated. 
 
-# Sample Inpu
+# Sample Input
 
         tgca
         taggcta
