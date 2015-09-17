@@ -46,7 +46,7 @@ You should give the sequence of moves needed to successfully clear the board to 
     b2xa4
     a4xc3
 	
-Any piece can make the next move *as long as the next move results in a legal capture*. 
+Any piece can make the next move *as long as the move results in a legal capture*. 
 
 # Challenge Input
 
