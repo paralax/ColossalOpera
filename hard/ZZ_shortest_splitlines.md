@@ -1,6 +1,6 @@
 # Title
 
-Redistricting Voting Blocks
+[2015-09-18] Challenge #232 [Hard] Redistricting Voting Blocks
 
 # Difficulty
 
