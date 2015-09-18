@@ -24,7 +24,7 @@ You'll be given a list of stock prices as a 2 decimal float (dollars and cents),
 
 Your program should emit the two trades in chronological order - what you think I should buy at and sell at. Example:
 
-    18.88 19.00
+    18.88 19.03
 
 # Challenge Input
 
