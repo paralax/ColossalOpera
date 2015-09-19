@@ -8,7 +8,7 @@ Easy
 
 # Description
 
-Let's assume I'm playing the stock market - buy low, sell high. I'm a ay trader, so I want to get in and out of a stock before the day is done, and I want to time my trades so that I make the biggest gain possible. 
+Let's assume I'm playing the stock market - buy low, sell high. I'm a day trader, so I want to get in and out of a stock before the day is done, and I want to time my trades so that I make the biggest gain possible. 
 
 The market has a rule that won't let me buy and sell in a pair of ticks - I have to wait for at least one tick to go buy. And obviously I can't buy in the future and sell in the past. 
 
