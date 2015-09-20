@@ -229,7 +229,7 @@ And here's the data set.
 
 # Challenge Output
 
-    This challenge has 3 distinct sets of 5 friends. Any or all of the below will count.
+This challenge has 3 distinct sets of 5 friends. Any or all of the below will count.
     
     18 10 14 58 7
     30 19 46 52 22
