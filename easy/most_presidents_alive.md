@@ -14,7 +14,7 @@ This challenge, then, given a list of presidents and their dates of birth and da
 
 # Challenge Input
 
-Below is a CSV input of presidential birthdates and death dates. Find what year in which the most number of people who would serve, are serving, or have served as presidents. 
+Below is a CSV input of presidential birthdates and death dates. Find what year in which the most number of people who would serve, are serving, or have served as presidents. The answer might be multiple years, or only a partial year. 
 
     PRESIDENT,	BIRTH DATE,	BIRTH PLACE,	DEATH DATE,	LOCATION OF DEATH
     George Washington,	Feb 22 1732,	Westmoreland Co. Va.,	Dec 14 1799,	Mount Vernon Va.
