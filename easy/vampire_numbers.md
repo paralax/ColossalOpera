@@ -12,19 +12,15 @@ A vampire number *v* is a number *v=xy* with an even number *n* of digits formed
 
 Additional information can be found here: http://www.primepuzzles.net/puzzles/puzz_199.htm
 
-# Formal Input Description
+# Input Description
 
-Two digits on one line indicating *n*, the number of digits in the number to factor and find if it is a vampire number, and *m*, the number of fangs. 
-
-# Formal Output Description
-
-A list of all vampire numbers of *n* digits, you should emit the number and its factors (or "fangs").
-
-# Sample Input
+Two digits on one line indicating *n*, the number of digits in the number to factor and find if it is a vampire number, and *m*, the number of fangs. Example:
 
     4 2
 
-# Sample Output
+# Output Description
+
+A list of all vampire numbers of *n* digits, you should emit the number and its factors (or "fangs"). Example:
 
     1260=21*60
     1395=15*93
@@ -38,7 +34,7 @@ A list of all vampire numbers of *n* digits, you should emit the number and its 
 
     6 3
 
-# Challenge Input Solution (not visible by default)
+# Challenge Input Solution 
 
     114390=41*31*90
     121695=21*61*95
