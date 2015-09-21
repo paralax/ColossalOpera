@@ -65,7 +65,6 @@ A list of all vampire numbers of *n* digits, you should emit the number and its 
       def vampire(n:Int, fangs:Int):List[(Int, List[Int])] ={
         n.
          toString.
-         toList.
          map(_.toString.toInt).
          permutations.
          map(_.grouped(2).map(_.mkString.toInt).toList).
