@@ -1,6 +1,6 @@
 # Title 
 
-Vampire Numbers
+[2015-09-28] Challenge #234 [Easy] Vampire Numbers
 
 # Difficulty
 
