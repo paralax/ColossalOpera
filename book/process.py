@@ -31,21 +31,21 @@ def main():
                 print r'\section{%s}' % line.strip()
                 TITLE=False
                 continue
-            if line.startswith(r'\subsection{Difficulty}'):
+            if line.startswith(r'\subsection*{Difficulty}'):
                 DIFFICULTY=True
                 continue
             if DIFFICULTY:
-                if line.startswith(r'\subsection{'):
+                if line.startswith(r'\subsection*{'):
                     DIFFICULTY=False
                     print line,
                     continue
                 else:
                     continue
-            if line.startswith(r'\subsection{'):
+            if line.startswith(r'\subsection*{'):
                 if 'Solution}' in line:
                     CODE=True
                     print line,
-                    LANG=re.findall(r"section.([A-Za-z]+) solution}", line, re.I)[0]
+                    LANG=re.findall(r"section..([A-Za-z]+) solution}", line, re.I)[0]
                     continue
             if CODE and line.startswith(r'\begin{verbatim}'):
                 print r'\begin{minted}'
