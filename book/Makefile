@@ -2,6 +2,8 @@ FOOFILES=anagram_detector.md concatenated_ints.md cellular_automata.md
 
 foo.pdf: foo.tex
 	pdflatex -shell-escape foo.tex
+	# do this twice because of the TOC
+	pdflatex -shell-escape foo.tex
 
 foo.tex: foo.md
 	pandoc foo.md --latex-engine=xelatex -o temp.tex
