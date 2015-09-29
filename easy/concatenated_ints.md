@@ -10,7 +10,7 @@ Easy
 
 Given a list of integers separated by a single space on standard input, print out the largest and smallest values that can be obtained by concatenating the integers together on their own line. This is from [Five programming problems every Software Engineer should be able to solve in less than 1 hour](https://blog.svpino.com/2015/05/07/five-programming-problems-every-software-engineer-should-be-able-to-solve-in-less-than-1-hour), problem 4. Leading 0s are not allowed (e.g. 01234 is not a valid entry). 
 
-# Sample Inputl
+# Sample Input
 
 You'll be given a handful of integers per line. Example:
 
