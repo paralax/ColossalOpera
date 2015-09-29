@@ -19,3 +19,4 @@ clean:
 # - write some code to produce pretty solutions
 # - book, chapters, sub-chapters
 # - fonts
+# - properly install styles - ifplatform.sty	lineno.sty	minted.sty	xstring.sty
