@@ -23,7 +23,7 @@ def main():
     line=True
     with sys.stdin as f:
         while line:
-            line = f.readline() 
+            line = f.readline().replace(r'\subsection{', r'\subsection*{')
             if line.startswith(r'\section{Title}'):
                 TITLE=True
                 continue
