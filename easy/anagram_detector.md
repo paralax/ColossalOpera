@@ -43,3 +43,7 @@ You should replace the question mark with some marker about the validity of the 
     "Astronomers" is NOT an anagram of "Moon starer"
     "Vacation Times" is an anagram of "I'm Not as Active"
     "Dormitory" is NOT an anagram of "Dirty Rooms"
+
+# Scala Solution
+
+    def anagram(s1:String, s2:String): Boolean = s1.toLowerCase().filter(_.isLetter).sorted == s2.toLowerCase().filter(_.isLetter).sorted
