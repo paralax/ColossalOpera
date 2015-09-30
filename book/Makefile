@@ -1,4 +1,4 @@
-FOOFILES=anagram_detector.md concatenated_ints.md cellular_automata.md 
+EASYFILES=anagram_detector.md concatenated_ints.md cellular_automata.md thue_morse.md
 
 foo.pdf: foo.tex
 	pdflatex -shell-escape foo.tex
@@ -10,8 +10,8 @@ foo.tex: foo.md
 	cat header.tex temp.tex footer.tex | python process.py > foo.tex
 
 foo.md:
-	@echo $(FOOFILES)
-	$(foreach f,$(FOOFILES), cat $(f) | sed "s/^# /## /g" | sed "s/^## Title/# Title/g" >> foo.md; echo "" >> foo.md;)
+	@echo $(EASYFILES)
+	$(foreach f,$(EASYFILES), cat $(f) | sed "s/^# /## /g" | sed "s/^## Title/# Title/g" >> foo.md; echo "" >> foo.md;)
 
 clean:
 	rm -f foo.*
