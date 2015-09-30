@@ -14,8 +14,8 @@ foo.md:
 	$(foreach f,$(EASYFILES), cat $(f) | sed "s/^# /## /g" | sed "s/^## Title/# Title/g" >> foo.md; echo "" >> foo.md;)
 
 clean:
-	rm -f foo.*
-	rm temp.tex
+	rm -f foo.* texput.log
+	rm -f temp.tex
 	rm -rf _minted-foo
 
 # TODO
