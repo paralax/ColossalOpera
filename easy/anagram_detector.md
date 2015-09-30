@@ -8,7 +8,13 @@ Easy
 
 # Description
 
-An anagram is a word (or set of words) that use the same letters just rearranged. All words must be valid spelling. Someone once said, "All the life's wisdom can be found in anagrams. Anagrams never lie." How they don't lie is beyond me, but there you go. Punctuation and capitalization don't matter. 
+An anagram is a form of word play, where you take a word (or set of words) and form a different word (or different set of words) that use the same letters, just rearranged. All words must be valid spelling, and shuffling words around doesn't count. 
+
+Some serious word play aficionados find that some anagrams can contain meaning, like "Clint Eastwood" and "Old West Action", or "silent" and "listen".
+
+Someone once said, "All the life's wisdom can be found in anagrams. Anagrams never lie." How they don't lie is beyond me, but there you go. 
+
+Punctuation and capitalization don't matter.
 
 # Input Description
 
