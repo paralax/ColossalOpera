@@ -8,9 +8,10 @@ the vision is a book of challenges that describe key aspects of programming, lik
 
 you'll need
 
-* LaTeX
-* the LaTeX minted package https://github.com/gpoore/minted
-* which requires Pygments https://pypi.python.org/pypi/Pygments
+* Pandoc for Markdown to LaTeX conversion - http://pandoc.org/installing.html
+* LaTeX itself - https://tug.org/
+* the LaTeX minted package - https://github.com/gpoore/minted
+* which requires Pygments - https://pypi.python.org/pypi/Pygments
 
 that seems to be it. 
 
