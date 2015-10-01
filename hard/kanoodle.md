@@ -72,4 +72,6 @@ This is an instance of the exact cover problem. There's "Algorithm X" by Knuth f
 
 # Challenge Output
 
-Your program should be able to omit a solution to this challenge. Bonus points if you can discover all of them. 
+The puzzle is to arrange the above tiles into a four sided figure with no gaps or overlaps. 
+
+Your program should be able to emit a solution to this challenge. Bonus points if you can discover all of them. 
