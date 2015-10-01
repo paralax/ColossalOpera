@@ -75,3 +75,11 @@ This is an instance of the exact cover problem. There's "Algorithm X" by Knuth f
 The puzzle is to arrange all of the above tiles into a four sided figure with no gaps or overlaps. 
 
 Your program should be able to emit a solution to this challenge. Bonus points if you can discover all of them. It's helpful if you keep the pieces identified by their letters to indicate their uniqueness. 
+
+One solution is
+
+    EEGGGJJJJII
+    AEEEGCDDDDI
+    AAALGCHHDII
+    BBLLLCFHHKK
+    BBBLCCFFHKK
