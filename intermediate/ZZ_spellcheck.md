@@ -1,10 +1,12 @@
 # Title
 
-Red Squiggles
+[2015-09-30] Challenge #234 [Intermediate] Red Squiggles
 
 # Difficulty
 
 Intermediate
+
+It looks like the moderators fell down on the job! I'll send in an emergency challenge. 
 
 # Description
 
@@ -28,7 +30,7 @@ Your program should emit an indicator for where you would flag the word as mispe
     foob<ar
     garbg<ae
 
-Here the `<` indicates "This is the start of the mispelling". 
+Here the `<` indicates "This is the start of the mispelling". If the word is spelled correctly, indicate so.
 
 # Challenge Input
 
