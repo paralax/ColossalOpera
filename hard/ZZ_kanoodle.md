@@ -1,6 +1,6 @@
 # Title
 
-Kanoodle
+[2015-10-02] Challenge #234 [Hard] Kanoodle Solver
 
 # Difficulty
 
