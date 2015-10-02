@@ -64,7 +64,7 @@ The pieces are (and they're given here made up with different letters to help yo
 A solution is found when: 
 
 - Every piece is used exactly once.
-- Every square in the grid is covered exactly once.
+- Every square in the grid is covered exactly once (no overlaps).
 
 ## Note
 
