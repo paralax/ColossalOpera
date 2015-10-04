@@ -44,7 +44,6 @@ INTFILES=../intermediate/ZZ_closest_pair_of_points.md
 INTFILES+=../intermediate/ZZ_connect_four.md
 INTFILES+=../intermediate/ZZ_detect_four_sided_figures.md
 INTFILES+=../intermediate/ZZ_dna_restriction_enzymes.md
-INTFILES+=../intermediate/ZZ_erdos_number_calculator.md
 INTFILES+=../intermediate/ZZ_field_irrigation.md
 INTFILES+=../intermediate/ZZ_packing_box_sentence.md
 INTFILES+=../intermediate/ZZ_polyminos.md
@@ -68,7 +67,6 @@ INTFILES+=../intermediate/graph_radius.md
 INTFILES+=../intermediate/hitori_solver.md
 INTFILES+=../intermediate/ipv4_subnet_calculator.md
 INTFILES+=../intermediate/isomorphic_words.md
-INTFILES+=../intermediate/json_serializer.md
 INTFILES+=../intermediate/laser_box.md
 INTFILES+=../intermediate/longest_common_substring.md
 INTFILES+=../intermediate/magic_squares.md
@@ -114,7 +112,6 @@ HARDFILES+=../hard/ZZ_stepstring_discrepency.md
 HARDFILES+=../hard/anomaly_detection.md
 HARDFILES+=../hard/chess_solitaire.md
 HARDFILES+=../hard/congreunt_numbers.md
-HARDFILES+=../hard/dinosaurs.md
 HARDFILES+=../hard/dna_shotgun_sequencing.md
 HARDFILES+=../hard/friends.md
 HARDFILES+=../hard/going_home.md
@@ -129,21 +126,24 @@ HARDFILES+=../hard/paired_music.md
 HARDFILES+=../hard/street_sweepers.md
 HARDFILES+=../hard/text_summarizer.md
 
+PANDOCARGS=--variable sansfont=Arial --latex-engine=xelatex -f markdown -t latex
+
 book.pdf: book.tex easy.tex int.tex hard.tex
 	pdflatex -shell-escape book.tex
-	# do this twice because of the TOC
+	# do this thrice because of the TOC and tables
 	pdflatex -shell-escape book.tex
+	pdflatex -shell-escape book.tex	
 
 easy.tex: easy.md 
-	pandoc easy.md --latex-engine=xelatex -o easytmp.tex
+	pandoc easy.md -o easytmp.tex $(PANDOCARGS)
 	cat easytmp.tex | python process.py > easy.tex
 	
 int.tex: int.md 
-	pandoc int.md --latex-engine=xelatex -o inttmp.tex
+	pandoc int.md -o inttmp.tex $(PANDOCARGS)
 	cat inttmp.tex | python process.py > int.tex
 	
 hard.tex: hard.md
-	pandoc hard.md --latex-engine=xelatex -o hardtmp.tex
+	pandoc hard.md -o hardtmp.tex $(PANDOCARGS)
 	cat hardtmp.tex | python process.py > hard.tex
 
 easy.md:
