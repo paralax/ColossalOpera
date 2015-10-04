@@ -36,7 +36,6 @@ EASYFILES+=../easy/safe_primes.md
 EASYFILES+=../easy/stock_market.md
 EASYFILES+=../easy/sub-words.md
 EASYFILES+=../easy/typo_maker.md
-EASYFILES+=../easy/ugly_sweater.md
 EASYFILES+=../easy/wedderburn-etherington_sequence.md
 EASYFILES+=../easy/xor_multiplication.md
 
