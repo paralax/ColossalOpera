@@ -2,7 +2,7 @@ Continuing with our bioinformatics theme today. If you like these sorts of probl
 
 # Title 
 
-[2015-03-25] Challenge #207 [Intermediate] Bioinformatics 2: DNA Restriction Enzymes
+Bioinformatics 2: DNA Restriction Enzymes
 
 # Difficulty
 
@@ -77,7 +77,7 @@ Write some code that identifies any and all symmetrical points along the DNA seq
 If you have your own idea for a challenge, submit it to /r/DailyProgrammer_Ideas, and there's a good chance we'll post it.
 
 
-# Scala solution
+# Scala Solution
 
 	object Intermediate207 {
 	  def main(argc:Int, argv:Array[String]) = {
