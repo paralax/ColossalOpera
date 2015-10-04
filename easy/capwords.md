@@ -10,6 +10,8 @@ Easy
 
 Given a sentence, can you capitalize the first letter of every word? 
 
+Yes this is a built-in in Python (`string.capwords`) and maybe some other languages, but the challenge is to implement your own `capwords`-like method. 
+
 # Input Description
 
 You'll be given an Enlish language sentence like this:
