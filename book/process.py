@@ -46,7 +46,9 @@ def main():
                 if 'Solution}' in line:
                     CODE=True
                     print line,
-                    LANG=re.findall(r"section..([A-Za-z]+) solution}", line, re.I)[0]
+                    try: LANG=re.findall(r"section..([A-Za-z]+) [Ss]olution}", line, re.I)[0]
+                    except IndexError:
+                        LANG="javascript"
                     continue
             if CODE and line.startswith(r'\begin{verbatim}'):
                 print r'\begin{minted}'
