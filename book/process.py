@@ -25,6 +25,8 @@ def main():
     with sys.stdin as f:
         while line:
             line = f.readline().replace(r'\subsection{', r'\subsection*{')
+            if line == r'\\documentclass[]{article}':
+                continue
             if line.startswith(r'\section{Title}'):
                 TITLE=True
                 continue
