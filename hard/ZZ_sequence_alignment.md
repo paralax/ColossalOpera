@@ -1,10 +1,10 @@
-#Title 
+# Title 
 DNA and Protein Sequence Alignment
 
-#Difficulty 
+# Difficulty 
 Hard
 
-#Description
+# Description
 
 If you are studying a particular pair of genes or proteins, an important question is to what extent the two sequences are similar. To quantify similarity, it is necessary to align the two sequences, and then you can calculate a similarity score based on the alignment.
 
@@ -35,15 +35,15 @@ For more information and how to do this using an R package, see the chapter ["Pa
 
 For this challenge your task is to write a program that accepts two sequences and globally aligns them. If you want to make this harder and integrate the BLOSUM matrices, you may. 
 
-#Input Description
+# Input Description
 
 You'll be given two sequences on two lines, one line per sequence. They'll be the same type of input, DNA or protein. 
 
-#Output Description
+# Output Description
 
 Your program should emit the aligned sequences with gaps introduced represented by dashed ("-"). 
 
-#Input
+# Challenge Input
 
 DNA example
 
@@ -55,7 +55,7 @@ Protein example
     MTNRTLSREEIRKLDRDLRILVATNGTLTRVLNVVANEEIVVDIINQQLLDVAPKIPELENLKIGRILQRDILLKGQKSGILFVAAESLIVIDLLPTAITTYLTKTHHPIGEIMAASRIETYKEDAQVWIGDLPCWLADYGYWDLPKRAVGRRYRIIAGGQPVIITTEYFLRSVFQDTPREELDRCQYSNDIDTRSGDRFVLHGRVFKN
     MLAVLPEKREMTECHLSDEEIRKLNRDLRILIATNGTLTRILNVLANDEIVVEIVKQQIQDAAPEMDGCDHSSIGRVLRRDIVLKGRRSGIPFVAAESFIAIDLLPPEIVASLLETHRPIGEVMAASCIETFKEEAKVWAGESPAWLELDRRRNLPPKVVGRQYRVIAEGRPVIIITEYFLRSVFEDNSREEPIRHQRSVGTSARSGRSICT
 
-#Output
+# Challenge Output
 
 DNA example
 
@@ -67,6 +67,6 @@ Protein example
     MT-----NR--T---LSREEIRKLDRDLRILVATNGTLTRVLNVVANEEIVVDIINQQLLDVAPKIPELENLKIGRILQRDILLKGQKSGILFVAAESLIVIDLLPTAITTYLTKTHHPIGEIMAASRIETYKEDAQVWIGDLPCWLADYGYWDLPKRAVGRRYRIIAGGQPVIITTEYFLRSVFQDTPREELDRCQYSNDIDTRSGDRFVLHGRVFKN
     MLAVLPEKREMTECHLSDEEIRKLNRDLRILIATNGTLTRILNVLANDEIVVEIVKQQIQDAAPEMDGCDHSSIGRVLRRDIVLKGRRSGIPFVAAESFIAIDLLPPEIVASLLETHRPIGEVMAASCIETFKEEAKVWAGESPAWLELDRRRNLPPKVVGRQYRVIAEGRPVIIITEYFLRSVFEDNSREEPIRHQRS--VGT-SA-R---SGRSICT
 
-#Notes
+# Notes
 
 Have a cool challenge idea? Post it to /r/DailyProgrammer_Ideas!

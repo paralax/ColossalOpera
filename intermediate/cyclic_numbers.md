@@ -10,12 +10,12 @@ Intermediate
 
 A [cyclic number](https://en.wikipedia.org/wiki/Cyclic_number) is an integer in which cyclic permutations of the digits are successive multiples of the number. The most widely known in base 10 is 142857:
 
-    142857 × 1 = 142857
-    142857 × 2 = 285714
-    142857 × 3 = 428571
-    142857 × 4 = 571428
-    142857 × 5 = 714285
-    142857 × 6 = 857142
+    142857 * 1 = 142857
+    142857 * 2 = 285714
+    142857 * 3 = 428571
+    142857 * 4 = 571428
+    142857 * 5 = 714285
+    142857 * 6 = 857142
 
 You can watch the `714` loop through the number again and again, showing you the cycle.
 
@@ -33,7 +33,7 @@ Cyclic numbers can be constructed using the following steps:
     1. Let *r* = *x* mod *p*
     1. Let *n* = *n* * *b* + *d*
     1. If r != 1 then repeat the loop.
-1. if *t* = *p* − 1 then n is a cyclic number.
+1. if *t* = *p* - 1 then n is a cyclic number.
 
 Your challenge today is a bit different than a typical challenge. Instead of creating or hunting for an algorithm, your challenge is to *implement* the above algorithm and create some cyclic numbers. 
 

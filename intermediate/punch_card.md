@@ -32,7 +32,7 @@ Each card vendor would have an alphabet, an array of characters that are numeric
 
     DEC9 &-0123456789ABCDEFGHIJKLMNOPQR/STUVWXYZ:#@'="[.<(+^!$*);\],%_>?
          ________________________________________________________________
-        /&-0123456789ABCDEFGHIJKLMNOPQR/STUVWXYZ:#@'="¢.<(+|!$*);¬ ,%_>?
+        /&-0123456789ABCDEFGHIJKLMNOPQR/STUVWXYZ:#@'="[.<(+^!$*);\],%_>?
     12 / O           OOOOOOOOO                        OOOOOO
     11|   O                   OOOOOOOOO                     OOOOOO
      0|    O                           OOOOOOOOO                  OOOOOO
@@ -55,7 +55,7 @@ So, given an alphabet array you should be able to encode a message in a punch ca
 
 # Input Description
 
-You'll be given a single integer *N* telling you how many alphabets to read. Then you'll be given *N* rows of a description and an alphabet array describing the punch card. Then you'll be given *M*, a single integer on a line, telling you how many card descriptions and short messages to represent on that specific type of punch card. 
+On the first line you'll be given two words - the punched card identifier, and the alphabet in linear order. Then you'll be given *M*, a single integer on a line, telling you how many cshort messages to represent on that type of punch card. 
 
 # Output Description
 
@@ -63,14 +63,10 @@ Your program should emit an ASCII art punchcard  in the format above, with the d
 
 # Challenge Input
 
-	4
-	CDC  +-0123456789ABCDEFGHIJKLMNOPQR/STUVWXYZ:=±<%[<.)>¬;v$*|¦>],(a=^
-	029  &-0123456789ABCDEFGHIJKLMNOPQR/STUVWXYZ:#@'="¢.<(+|!$*);¬ ,%_>?
-	1108 +-0123456789ABCDEFGHIJKLMNOPQR/STUVWXYZ&=':>@·.)[<#·$*];^±,(%\¤
-	GE   &-0123456789ABCDEFGHIJKLMNOPQR/STUVWXYZ[#@:>?+.](<\^$*);'_,%="!
+    DEC9 &-0123456789ABCDEFGHIJKLMNOPQR/STUVWXYZ:#@'="[.<(+^!$*);\],%_>?
 	3
-	029  Hello, world!
-	GE   This is Reddit's r/dailyprogrammer challenge. 
-	CDC  WRITE (6,7) FORMAT(13H HELLO, WORLD) STOP END
+	Hello, world!
+	This is Reddit's r/dailyprogrammer challenge. 
+	WRITE (6,7) FORMAT(13H HELLO, WORLD) STOP END
 
 # Challenge Output

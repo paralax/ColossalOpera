@@ -10,8 +10,8 @@ Easy
 
 In mathematics, a Ruth–Aaron pair consists of two consecutive integers (e.g. 714 and 715) for which the sums of the *distinct* prime factors of each integer are equal. For example, we know that (714, 715) is a valid Ruth-Aaron pair because its distinct prime factors are:
 
-    714 = 2 × 3 × 7 × 17
-    715 = 5 × 11 × 13
+    714 = 2 * 3 * 7 * 17
+    715 = 5 * 11 * 13
 
 and the sum of those is both 29:
 

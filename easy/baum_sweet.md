@@ -13,7 +13,7 @@ In mathematics, the Baum–Sweet sequence is an infinite automatic sequence of 0
 * b_n = 1 if the binary representation of n contains no block of consecutive 0s of odd length;
 * b_n = 0 otherwise;
 
-for n ≥ 0.
+for n >= 0.
 
 For example, b_4 = 1 because the binary representation of 4 is 100, which only contains one block of consecutive 0s of length 2; whereas b_5 = 0 because the binary representation of 5 is 101, which contains a block of consecutive 0s of length 1. When n is 19611206, b_n is 0 because:
 

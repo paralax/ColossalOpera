@@ -18,7 +18,7 @@ Your program should have the following components:
 * An "encrypt" function (or method) that takes a key and a plaintext and returns a ciphertext.
 * A "decrypt" function (or method) that takes a key and the ciphertext and returns the plaintext. 
 
-# Example in Python
+# Python Solution
 
     import sys
  
