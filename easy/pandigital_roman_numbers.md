@@ -8,9 +8,9 @@ Easy
 
 # Description
 
-1474 is a pandigital in Roman numerals (MCDLXXIV). It uses each of the symbols I, V, X, L, C, and M at least once. 
+1474 is a pandigital in Roman numerals (MCDLXXIV). It uses each of the symbols I, V, X, L, C, and M at least once. Your challenge today is to find the small handful of pandigital Roman numbers up to 2000. 
 
-# Output Description**
+# Output Description
 
 A list of numbers. Example: 
 
