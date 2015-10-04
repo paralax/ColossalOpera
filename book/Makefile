@@ -163,6 +163,7 @@ hard.md:
 clean:
 	rm -f easytmp.tex inttmp.tex hardtmp.tex easy.tex int.tex hard.tex
 	rm -rf _minted-book
+	rm -f book.aux book.log book.out book.pdf book.toc easy.md hard.md int.md texput.log
 
 # TODO
 # - fonts
