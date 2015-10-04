@@ -33,7 +33,7 @@ If you're feeling like it, throw in some unique visualizations of sequences or s
 This challenge was suggested by /u/LESQUID69. If you have your own idea for a challenge, submit it to /r/DailyProgrammer_Ideas, and there's a good chance we'll post it.
 
 
-# Scala solution
+# Scala Solution
 
     def collatz(N:Int): List[Int] = {
       def loop(n:Int, sofar:List[Int]): List[Int] = {

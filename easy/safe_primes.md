@@ -62,7 +62,7 @@ A list of numbers, one on each line, showing numbers that solve the safe prime d
 
 
 
-# FSharp solution
+# FSharp Solution
 
 	> let isprime (n:int) =                                                             
 	-     let n = bigint(n)

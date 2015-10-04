@@ -36,7 +36,7 @@ Your program should emit a list of perfect numbers up to that point. For our exa
 
 For more information on perfect numbers, consult Wikipedia: http://en.wikipedia.org/wiki/Perfect_number 
 
-# Scala solution
+# Scala Solution
 
 a naive solution that doesn't use the Euclid-Euler theorem
 

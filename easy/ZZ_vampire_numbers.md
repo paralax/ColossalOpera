@@ -57,7 +57,7 @@ A list of all vampire numbers of *n* digits, you should emit the number and its 
 
 
 
-# Scala solution
+# Scala Solution
 
     object VampireNumbers {
       def product(list: List[Int]): Int = list.foldLeft(1)(_*_)

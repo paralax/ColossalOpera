@@ -44,7 +44,7 @@ Your program should emit a list of words for each keyboard configuration.
     poil = i ill io ipil l li lill lip lo loll lollipop lollop loo loop lop o oii oil olio p pi pili pililloo pill pip pipi plop po poi poil pol polio poll polloi polo pool pooli poop pop
     vybu = b bu bub bubby buy by u v y
 
-# Scala solution
+# Scala Solution
 
 Uses regexes
 
