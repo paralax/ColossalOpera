@@ -1,7 +1,7 @@
 EASYFILES=../easy/ZZ_approximate_pi.md
 EASYFILES+=../easy/ZZ_balancing_words.md
 EASYFILES+=../easy/ZZ_cellular_automata.md
-\ASYFILES+=../easy/ZZ_happy_numbers.md
+EASYFILES+=../easy/ZZ_happy_numbers.md
 EASYFILES+=../easy/ZZ_letters_in_order.md
 EASYFILES+=../easy/ZZ_palindromic_numbers.md
 EASYFILES+=../easy/ZZ_pronouncing_hex.md
