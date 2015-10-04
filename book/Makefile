@@ -127,6 +127,8 @@ HARDFILES+=../hard/text_summarizer.md
 
 PANDOCARGS=--variable sansfont=Arial --latex-engine=xelatex -f markdown -t latex
 
+pdf: book.pdf
+
 book.pdf: book.tex easy.tex int.tex hard.tex
 	pdflatex -shell-escape book.tex
 	# do this thrice because of the TOC and tables
