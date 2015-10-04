@@ -40,11 +40,11 @@ Your program should emit the XOR byte value and the decoded string.
 
 # Challenge Input
 
-    Lpqk8hjwjyu8{yvvwl8z}8jmv8qv8\WK8Uw|}6
+    Sont'wuh`ufj'dfiihs'eb'uri'ni'CHT'Jhcb)
     jvvr8--uuu,pgffkv,amo-p-fckn{rpmepcoogp
 
 # Challenge Output
 
-    0x18 This program cannot be run in DOS Mode.
+    0x07 This program cannot be run in DOS Mode.
     0x02 http://www.reddit.com/r/dailyprogrammer
     
