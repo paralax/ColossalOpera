@@ -117,7 +117,6 @@ HARDFILES+=../hard/friends.md
 HARDFILES+=../hard/going_home.md
 HARDFILES+=../hard/grocery_shopping.md
 HARDFILES+=../hard/integer_sequence_search_2.md
-HARDFILES+=../hard/mcspot.md
 HARDFILES+=../hard/microgrid_edges.txt
 HARDFILES+=../hard/microgrid_power.md
 HARDFILES+=../hard/museum_cameras_1.md
