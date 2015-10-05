@@ -1,6 +1,6 @@
 # Title
 
-Ruth-Aaron Pairs 
+[2015-10-05] Challenge #235 [Easy] Ruth-Aaron Pairs 
 
 # Difficulty
 
