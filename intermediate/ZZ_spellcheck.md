@@ -82,3 +82,28 @@ Include some suggested replacement words using any strategy you wish (edit dista
         }
         loop(word, 1, scala.io.Source.fromFile("/usr/share/dict/words").getLines.toList.filter(_.startsWith(word.slice(0, 1))))
     }
+
+# CSharp Solution
+
+    using System;
+    using System.IO;
+
+    class RedSquiggles {
+        public static void Main() {
+            string[] words = File.ReadAllLines("/usr/share/dict/words");
+            string[] input = File.ReadAllLines("red_squiggles.txt");
+            foreach (string w in words) {
+                  for (int i = 1; i <= w.Length; i++) {
+                      wordlist.Add(w.Substring(0, i));
+              }
+            }
+            for (string word in input) {
+                for (int i = 1; i <= word.Length; i++) {
+                    if (!wordlist.Contains(word.Substring(0, i))) {
+                        Console.WriteLine(word.Substring(0, i) + "<" + word.Substring(i, word.Length));
+                        break;
+                    }
+                }
+            }
+        }
+    }
