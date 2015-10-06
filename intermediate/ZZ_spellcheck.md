@@ -92,15 +92,16 @@ Include some suggested replacement words using any strategy you wish (edit dista
         public static void Main() {
             string[] words = File.ReadAllLines("/usr/share/dict/words");
             string[] input = File.ReadAllLines("red_squiggles.txt");
+            HashSet<string> wordlist = new HashSet<string>();
             foreach (string w in words) {
-                  for (int i = 1; i <= w.Length; i++) {
-                      wordlist.Add(w.Substring(0, i));
-              }
+                for (int i = 1; i <= w.Length; i++) {
+                    wordlist.Add(w.Substring(0, i));
+                }
             }
-            for (string word in input) {
-                for (int i = 1; i <= word.Length; i++) {
+            foreach (string word in input) {
+                for (int i = 1; i < word.Length; i++) {
                     if (!wordlist.Contains(word.Substring(0, i))) {
-                        Console.WriteLine(word.Substring(0, i) + "<" + word.Substring(i, word.Length));
+                        Console.WriteLine(word.Substring(0, i) + "<" + word.Substring(i, word.Length-i));
                         break;
                     }
                 }
