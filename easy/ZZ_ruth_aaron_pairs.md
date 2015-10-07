@@ -68,3 +68,41 @@ Your program should emit if the numbers are valid Ruth-Aaron pairs. Example:
     }
 
     def RA(a:Int, b:Int): Boolean = def RA(a:Int, b:Int): Boolean =  factorize(a).toSet.sum == factorize(b).toSet.sum
+
+# CSharp Solution
+
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+
+    class Solution {
+        public static void Main(string[] args) {
+            int ra;
+            bool t = int.TryParse(args[0], out ra);
+            List<int> aints = PrimeFactors(ra);
+            List<int> bints = PrimeFactors(ra+1);
+            Console.WriteLine("{0} and {1} => {2}", ra, ra+1, aints.Sum() == bints.Sum());
+        }
+    
+        private static List<int> PrimeFactors(int n) {
+            List<int> ints = new List<int>();
+            for (int i = 2; i <= n; i++) {
+                if (IsPrime(i) && (n%i == 0)) {
+                    ints.Add(i);
+                }
+            }
+            return ints;
+        }
+
+        private static bool IsPrime(int n)
+        {
+            bool prime = true;
+            int i = 2;
+            do {
+                prime &= (i == n || n%i != 0);
+                i += (i == 2 ? 1 : 2);
+            } while (i <= n);
+
+            return prime;
+        }
+    }
