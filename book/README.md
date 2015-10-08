@@ -21,4 +21,4 @@ dunno, sometime ....
 
 # may i?
 
-at this point this is just my own stuff, my own challenges and code, so i will let you look at this with a creative commons Attribution-NonCommercial-ShareAlike 4.0 International license - you can use it, share it with attribution, but not make money on it. 
+at this point this is just my own stuff, my own challenges and code, so i will let you look at this with a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License](http://creativecommons.org/licenses/by-nc-sa/4.0/) - you can use it, share it with attribution, but not make money on it. 
