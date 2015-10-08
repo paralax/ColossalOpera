@@ -117,7 +117,6 @@ HARDFILES+=../hard/grocery_shopping.md
 HARDFILES+=../hard/integer_sequence_search_2.md
 HARDFILES+=../hard/microgrid_power.md
 HARDFILES+=../hard/museum_cameras_1.md
-HARDFILES+=../hard/museum_cameras_2.md
 HARDFILES+=../hard/paired_music.md
 HARDFILES+=../hard/street_sweepers.md
 HARDFILES+=../hard/text_summarizer.md
