@@ -1,6 +1,6 @@
 # Title
 
-Contiguous Chain Variation
+[2015-10-09] Challenge #235 [Hard] Contiguous Chain Variation
 
 # Difficulty
 
