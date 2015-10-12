@@ -1,6 +1,6 @@
 # Title
 
-Random Bag System  
+[2015-10-12] Challenge #236 [Easy] Random Bag System  
 
 # Difficulty
 
