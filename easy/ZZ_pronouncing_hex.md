@@ -10,10 +10,10 @@ Easy
 
 The HBO network show "Silicon Valley" has introduced a way to pronounce hex.
 
-	Kid: Here it is: Bit… soup. It’s like alphabet soup, BUT… it’s ones and zeros instead of letters.
+	Kid: Here it is: Bit... soup. It's like alphabet soup, BUT... it's ones and zeros instead of letters.
 	Bachman: {silence}
-	Kid: ‘Cause it’s binary? You know, binary’s just ones and zeroes.
-	Bachman: Yeah, I know what binary is. Jesus Christ, I memorized the hexadecimal times tables when I was fourteen writing machine code. Okay? Ask me what nine times F is. It’s fleventy-five. I don’t need you to tell me what binary is.
+	Kid: 'Cause it's binary? You know, binary's just ones and zeroes.
+	Bachman: Yeah, I know what binary is. Jesus Christ, I memorized the hexadecimal times tables when I was fourteen writing machine code. Okay? Ask me what nine times F is. It's fleventy-five. I don't need you to tell me what binary is.
 
 Not "eff five", fleventy. `0xF0` is now fleventy. Awesome. Above a full byte you add "bitey" to the name. The hexidecimal pronunciation rules:
 
@@ -51,10 +51,10 @@ You'll be given a list of hex values, one per line. Examples:
 Your program should emit the pronounced hex. Examples from above:
 
 	0xF5 "fleventy-five"
-	0xB3 “bibbity-three”
-	0xE4 “ebbity-four”
-	0xBBBB “bibbity-bee bitey bibbity-bee”
-	0xA0C9 “atta-bitey city-nine”
+	0xB3 "bibbity-three"
+	0xE4 "ebbity-four"
+	0xBBBB "bibbity-bee bitey bibbity-bee"
+	0xA0C9 "atta-bitey city-nine"
 
 # Credit
 
