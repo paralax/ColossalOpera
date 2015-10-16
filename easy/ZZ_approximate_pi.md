@@ -25,3 +25,15 @@ You'll be given *N*, a number of digits to which to correctly approximate pi.
 # Notes
 
 User /u/skeeto had submitted a similar one before based on a specific approximation method: http://www.reddit.com/r/dailyprogrammer_ideas/comments/1qrrpa/easy_buffons_needle_pi_estimation/
+
+# Scala Solution
+
+    def factorial(n:Int):Int = if (n==0) 1 else n * factorial(n-1)
+
+    def Ramanujan_Series(k:Int, sofar:Double): Double = {
+        k match {
+            case -1 => 1/(12*sofar)
+            case _  => Ramanujan_Series(k - 1, sofar + ((math.pow(-1.0, k.toDouble) * factorial(6 * k) * (13591409 + 545140134 * k))/
+             (factorial(3 * k) * math.pow(factorial(k), 3.0) * math.pow(640320, (1.5 + 3 * k)))))
+         }
+    }  

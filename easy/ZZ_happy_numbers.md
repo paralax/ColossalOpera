@@ -84,7 +84,7 @@ Let's see what happens when we initially set **N = 740**
 This challenge idea was submitted by Redditor /u/AnkePluff. Have a cool challenge idea? Post it to /r/DailyProgrammer_Ideas!
 
 
-# Scala solution
+# Scala Solution
 
 	def happy(n:Int): Boolean = {
 	  def loop(n:Int, sofar:List[Int]): List[Int] = {
