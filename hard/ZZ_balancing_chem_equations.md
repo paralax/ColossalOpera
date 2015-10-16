@@ -1,6 +1,6 @@
 # Title
 
-Balancing chemical equations
+[2015-10-16] Challenge #236 [Hard] Balancing chemical equations
 
 # Difficulty
 
