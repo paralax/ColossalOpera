@@ -1,6 +1,6 @@
 # Title
 
-Balancing chemical equations
+[2015-10-16] Challenge #236 [Hard] Balancing chemical equations
 
 # Difficulty
 
@@ -57,3 +57,7 @@ Preferably, format it neatly with spaces for greater readability but if and only
     3Ca(OH)2 + 2H3PO4 -> Ca3(PO4)2 + 6H2O
     FeCl3 + 3NH4OH -> Fe(OH)3 + 3NH4Cl
     6K4[Fe(SCN)6] + 97K2Cr2O7 + 355H2SO4 -> 3Fe2(SO4)3 + 97Cr2(SO4)3 + 36CO2 + 355H2O + 91K2SO4 +  36KNO3
+
+# Credit
+
+This challenge was created by /u/StefanAlecu, many thanks for their submission. If you have any challenge ideas, please share them using /r/dailyprogrammer_ideas and there's a chance we'll use them.

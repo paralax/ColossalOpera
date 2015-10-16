@@ -24,7 +24,7 @@ def main():
     line=True
     with sys.stdin as f:
         while line:
-            line = f.readline().replace(r'\subsection{', r'\subsection*{')
+            line = f.readline().replace(r'\subsection{', r'\subsection*{').replace(r'\begin{verbatim}', r'\begin{lstlisting}').replace(r'\end{verbatim}', r'\end{lstlisting}')
             if line == r'\\documentclass[]{article}':
                 continue
             if line.startswith(r'\section{Title}'):
@@ -52,13 +52,13 @@ def main():
                     except IndexError:
                         LANG="javascript"
                     continue
-            if CODE and line.startswith(r'\begin{verbatim}'):
+            if CODE and line.startswith(r'\begin{lstlisting}'):
                 print r'\begin{minted}'
                 print MINTEDOPS,
                 print '{%s}' % MINTLANGMAPS.get(LANG, LANG.lower())
                 LANG=None
                 continue
-            if CODE and line.startswith(r'\end{verbatim}'):
+            if CODE and line.startswith(r'\end{lstlisting}'):
                 print r'\end{minted}'
                 CODE=False
                 continue

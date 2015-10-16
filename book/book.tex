@@ -6,6 +6,12 @@
 \usepackage{booktabs}
 \usepackage{hyperref}
 \usepackage[dvipsnames]{xcolor}
+\usepackage{listings}       % via http://tex.stackexchange.com/questions/121601/automatically-wrap-the-text-in-verbatim 
+\lstset{
+basicstyle=\small\ttfamily,
+columns=flexible,
+breaklines=true
+}
 \usepackage{minted}
 \usemintedstyle{borland}
 
@@ -18,10 +24,10 @@
     pdfmenubar=true,        % show Acrobat’s menu?
     pdffitwindow=false,     % window fit to page when opened
     pdfstartview={FitH},    % fits the width of the page to the window
-    pdftitle={My title},    % title
-    pdfauthor={Author},     % author
-    pdfsubject={Subject},   % subject of the document
-    pdfcreator={Creator},   % creator of the document
+    pdftitle={Daily Programming Challenges from Reddit},    % title
+    pdfauthor={Jose Nazario},     % author
+    pdfsubject={Computer Programming},   % subject of the document
+    pdfcreator={LaTeX},   % creator of the document
     pdfproducer={Producer}, % producer of the document
     pdfkeywords={keyword1, key2, key3}, % list of keywords
     pdfnewwindow=true,      % links in new PDF window
