@@ -87,6 +87,7 @@ INTFILES+=../intermediate/trees_and_parks.md
 INTFILES+=../intermediate/two_for_one.md
 INTFILES+=../intermediate/ulam_number.md
 INTFILES+=../intermediate/unique_county_names.md
+INTFILES+=../intermediate/unwrap_text.md
 INTFILES+=../intermediate/vaki_puzzle_solver.md
 INTFILES+=../intermediate/word_in_a_box.md
 INTFILES+=../intermediate/word_stacks.md
