@@ -147,15 +147,15 @@ hard.tex: hard.md
 	pandoc hard.md -o hardtmp.tex $(PANDOCARGS)
 	cat hardtmp.tex | python process.py > hard.tex
 
-easy.md:
+easy.md: $(EASYFILES)
 	@echo $(EASYFILES)
 	$(foreach f,$(EASYFILES), cat $(f) | sed "s/^# /## /g" | sed "s/^## Title/# Title/g" >> easy.md; echo "" >> easy.md;)
 
-int.md:
+int.md: $(INTFILES)
 	@echo $(INTFILES)
 	$(foreach f,$(INTFILES), cat $(f) | sed "s/^# /## /g" | sed "s/^## Title/# Title/g" >> int.md; echo "" >> int.md;)	
 	
-hard.md:
+hard.md: $(HARDFILES)
 	@echo $(HARDFILES)	
 	$(foreach f,$(HARDFILES), cat $(f) | sed "s/^# /## /g" | sed "s/^## Title/# Title/g" >> hard.md; echo "" >> hard.md;)		
 
