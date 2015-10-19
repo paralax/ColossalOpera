@@ -1,5 +1,6 @@
 EASYFILES=../easy/ZZ_approximate_pi.md
 EASYFILES+=../easy/ZZ_balancing_words.md
+EASYFILES+=../easy/ZZ_broken_keyboard.md
 EASYFILES+=../easy/ZZ_cellular_automata.md
 EASYFILES+=../easy/ZZ_happy_numbers.md
 EASYFILES+=../easy/ZZ_letters_in_order.md
@@ -12,7 +13,6 @@ EASYFILES+=../easy/abundance_and_deficiency.md
 EASYFILES+=../easy/alliteration.md
 EASYFILES+=../easy/anagram_detector.md
 EASYFILES+=../easy/baum_sweet.md
-EASYFILES+=../easy/broken_keyboard.md
 EASYFILES+=../easy/capwords.md
 EASYFILES+=../easy/collatz_conjecture.md
 EASYFILES+=../easy/concatenated_ints.md
