@@ -86,3 +86,7 @@ Output can be as extensive as you wish. The minimum is a single number denoting 
 # Bonus 
 
 Make your program accept an arbitrarily large board size.
+
+# Credit
+
+This challenge was proposed by /u/szerlok. If you have any challenge ideas, please share them at /r/dailyprogrammer_ideas and there's a chance we'll use them!
