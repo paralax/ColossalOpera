@@ -1,10 +1,10 @@
 # Title
 
-Clarence the Slow Typist
+Heighmap of Boxes
 
 # Difficulty
 
-Easy
+Intermediate
 
 #Description
 
