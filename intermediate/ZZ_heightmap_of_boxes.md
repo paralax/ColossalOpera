@@ -46,7 +46,7 @@ The diagram also shows boxes inside other boxes. We'll call the number of boxes 
     |                                                              |
     +--------------------------------------------------------------+
 
-Your program will take in a box diagram similiar to the one at the top as input. As output, your program should output the box diagram with:
+Your program will take in a box diagram similar to the one at the top as input. As output, your program should output the box diagram with:
 
  * Boxes on layer 0 should be filled with the character `#`;
  * Boxes on layer 1 should be filled with the character `=`;
@@ -76,7 +76,7 @@ Here is what the output of the above input should look like:
 
 ##Input
 
-Input shall begin with two space separated integers `N` and `M` on the first line. Following that will be `N` lines with `M` characters each which represent the ASCII art diagram.
+Input shall begin with two space separated integers `N` and `M` on the first line. Following that will be `N` lines with `M` characters (including spaces) each which represent the ASCII art diagram.
 
 ##Output
 
@@ -115,9 +115,9 @@ Output the map with the boxes of different layers filled in with their appropria
     |#####|======+-----------------------------------------------------+=|##|
     |#####|======|---------+-----------------------------------------+-|=|##|
     |#####|======|---------|...........+---------------------------+.|-|=|##|
-    |#####|======|---------|...........|         +-------------+   |.|-|=|##|
-    |#####|======|---------|...........|         |             |   |.|-|=|##|
-    |#####|======|---------|...........|         +-------------+   |.|-|=|##|
+    |#####|======|---------|...........|                           |.|-|=|##|
+    |#####|======|---------|...........|                           |.|-|=|##|
+    |#####|======|---------|...........|                           |.|-|=|##|
     |#####|======|---------|...........+---------------------------+.|-|=|##|
     |#####|======|---------|.........................................|-|=|##|
     |#####|======|---------+-----------------------------------------+-|=|##|
