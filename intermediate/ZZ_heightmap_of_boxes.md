@@ -8,7 +8,7 @@ Intermediate
 
 #Description
 
-Have a look at this ascii art diagram of various boxes:
+Have a look at this ASCII art diagram of various boxes:
 
     +--------------------------------------------------------------+
     |                                                              |
@@ -76,7 +76,7 @@ Here is what the output of the above input should look like:
 
 ##Input
 
-Input shall begin with two space separated integers `N` and `M` on the first line. Following that will be `N` lines with `M` characters each which represent the ascii art diagram.
+Input shall begin with two space separated integers `N` and `M` on the first line. Following that will be `N` lines with `M` characters each which represent the ASCII art diagram.
 
 ##Output
 
@@ -86,6 +86,7 @@ Output the map with the boxes of different layers filled in with their appropria
 
 ##Sample Input
 
+    20 73
     +-----------------------------------------------------------------------+
     |     +--------------------------------------------------------------+  |
     |     |      +-----------------------------------------------------+ |  |
