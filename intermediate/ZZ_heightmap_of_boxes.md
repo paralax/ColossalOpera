@@ -1,6 +1,6 @@
 # Title
 
-Heighmap of Boxes
+[2015-10-21] Challenge #237 [Intermediate] Heighmap of Boxes
 
 # Difficulty
 
