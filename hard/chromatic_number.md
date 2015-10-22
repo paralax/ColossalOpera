@@ -14,7 +14,9 @@ To color a given graph, their first step is to scour the graph for a structure c
 
 Chudnovsky and colleagues have been doing some neat work in this space, and recently [celebrated some breakthroughs](https://www.quantamagazine.org/20151020-perfect-graph-coloring/#st_refDomain=t.co&st_refQuery=/7ghlXNoW1b) in coloring real-world graphs. 
 
-Your challenge today is to implement an algorithm that calculates the chromatic number of an undirected graph. 
+An interesting application via [this page](http://www.geeksforgeeks.org/graph-coloring-applications/): *Akamai runs a network of thousands of servers and the servers are used to distribute content on Internet. They install a new software or update existing softwares pretty much every week. The update cannot be deployed on every server at the same time, because the server may have to be taken down for the install. Also, the update should not be done one at a time, because it will take a lot of time. There are sets of servers that cannot be taken down together, because they have certain critical functions. This is a typical scheduling application of graph coloring problem. It turned out that 8 colors were good enough to color the graph of 75000 nodes. So they could install updates in 8 passes.*
+
+Your challenge today is to implement an algorithm that calculates the chromatic number of an undirected graph. A useful link: [Graph Coloring](https://en.wikipedia.org/wiki/Graph_coloring) on Wikipedia. 
 
 # Input Description
 
