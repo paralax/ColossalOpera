@@ -1,6 +1,6 @@
 # Title
 
-Takuzu Solver
+[2015-10-23] Challenge #237 [Hard] Takuzu Solver
 
 # Difficulty
 
