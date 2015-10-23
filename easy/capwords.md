@@ -37,3 +37,7 @@ You should emit a sentence with the first letter of every word capitalized.
     An Intelligent Man Is Sometimes Forced To Be Drunk To Spend Time With His Fools.
     The Heart Of A Mother Is A Deep Abyss At The Bottom Of Which You Will Always Find Forgiveness.
     All Things Are Subject To Interpretation Whichever Interpretation Prevails At A Given Time Is A Function Of Power And Not Truth.
+
+# Scala Solution
+
+    def capwords(s:String) = s.split(" ").map(x => x.slice(0,1).toUpperCase + x.slice(1,x.length)).mkString(" ")
