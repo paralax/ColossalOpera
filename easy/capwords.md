@@ -40,4 +40,4 @@ You should emit a sentence with the first letter of every word capitalized.
 
 # Scala Solution
 
-    def capwords(s:String) = s.split(" ").map(x => x.slice(0,1).toUpperCase + x.slice(1,x.length)).mkString(" ")
+    def capwords(s:String) = s.split(" ").map(_.capitalize).mkString(" ")
