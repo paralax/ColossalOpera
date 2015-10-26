@@ -1,6 +1,6 @@
 # Title
 
-Consonants and Vowels
+[2015-10-26] Challenge #238 [Easy] Consonants and Vowels
 
 # Difficulty
 
@@ -44,3 +44,27 @@ A random lowercase string of letters in which consonants (bcdfghjklmnpqrstvwxyz)
 # Credit
 
 This challenge was suggested by /u/boxofkangaroos. If you have any challenge ideas please share them on /r/dailyprogrammer_ideas and there's a good chance we'll use them.
+
+# Scala Solution
+
+    import java.util.Random
+
+    def rand_choice(l:List[Char]): Char = {
+        val rnd = new java.util.Random()
+        l(rnd.nextInt(l.length))
+    }
+
+    val vowels = "aeiouy".toList
+    val consanants = "bcdfghjklmnpqrstvwxz".toList
+
+    def solve(s:String): String = {
+        def repl(c:Char): Char = {
+            c match {
+                case 'c' => rand_choice(consanants)
+                case 'v' => rand_choice(vowels)
+                case 'C' => rand_choice(consanants).toString.toUpperCase.charAt(0)
+                case 'V' => rand_choice(vowels).toString.toUpperCase.charAt(0)
+            }
+        }
+        s.toList.map(repl).mkString
+    }
