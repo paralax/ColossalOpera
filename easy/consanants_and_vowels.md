@@ -40,3 +40,7 @@ A random lowercase string of letters in which consonants (bcdfghjklmnpqrstvwxyz)
 
 * Error handling: make your program react when a user inputs a pattern that doesn't consist of only c's and v's.
 * When the user inputs a capital C or V, capitalize the letter in that index of the output.
+
+# Credit
+
+This challenge was suggested by /u/boxofkangaroos. If you have any challenge ideas please share them on /r/dailyprogrammer_ideas and there's a good chance we'll use them.
