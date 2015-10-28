@@ -41,3 +41,6 @@ You can draw words from our favorite dictionary file: [enable1.txt](http://code.
 
 There may be ways to increase the difficulty of the game, perhaps even making it impossible to guarantee a solution, based on your particular selection of words. For example, your program could words that have little letter position overlap so that guesses reveal as little information to the player as possible.
 
+# Credit
+
+This challenge was created by user /u/skeeto. If you have any challenge ideas please share them on /r/dailyprogrammer_ideas and there's a good chance we'll use them.  
