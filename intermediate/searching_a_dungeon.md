@@ -115,3 +115,7 @@ Example output:
     # ##   # #
     #  #####G#
     ##########
+
+# Credit
+
+This challenge was suggested by /u/Darklightos. If you have any challenge ideas, please share them on /r/dailyprogrammer_ideas and there's a good chance we'll use it.
