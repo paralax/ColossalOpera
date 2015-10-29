@@ -111,6 +111,7 @@ HARDFILES+=../hard/ZZ_stable_marriage.md
 HARDFILES+=../hard/ZZ_stepstring_discrepency.md
 HARDFILES+=../hard/anomaly_detection.md
 HARDFILES+=../hard/chess_solitaire.md
+HARDFILES+=../hard/chromatic_number.md
 HARDFILES+=../hard/congreunt_numbers.md
 HARDFILES+=../hard/dna_shotgun_sequencing.md
 HARDFILES+=../hard/friends.md
