@@ -1,6 +1,6 @@
 # Title
 
-Searching a Dungeon
+[2015-10-30] Challenge #238 [Hard] Searching a Dungeon
 
 # Difficulty
 
