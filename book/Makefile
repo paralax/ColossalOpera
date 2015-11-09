@@ -20,6 +20,7 @@ EASYFILES+=../easy/concatenated_ints.md
 EASYFILES+=../easy/condensing_sentences.md
 EASYFILES+=../easy/double_knot.md
 EASYFILES+=../easy/emirp_numbers.md
+EASYFILES+=../easy/extravagant_numbers.md
 EASYFILES+=../easy/fresh_eggs.md
 EASYFILES+=../easy/graph_degree.md
 EASYFILES+=../easy/harshad_number.md
