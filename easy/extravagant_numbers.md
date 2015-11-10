@@ -61,7 +61,7 @@ Your program should emit if the number is extravagant or not:
       }
 
     def power(n:Int): String = {
-        if (n.toInt > 1) {return n.toString}
+        if (n > 1) {return n.toString}
         else {return ""}
     }
 
