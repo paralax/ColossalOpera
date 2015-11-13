@@ -1,6 +1,6 @@
 # Title
 
-KenKen Solver
+[2015-11-13] Challenge #240 [Hard] KenKen Solver
 
 # Difficulty
 
