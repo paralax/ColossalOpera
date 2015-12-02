@@ -51,6 +51,14 @@ Your program should report what each number is as a factorial, or "NONE" if it's
 # Fsharp Solution
 
     let rec tcaf(n: int) (sofar: int) =
-        match (n/sofar) with
-        | 1 -> sofar
-        | _ -> tcaf (n/sofar) (sofar+1)
+        match (n%sofar) with 
+        | 0 ->  match (n/sofar) with
+                | 1 -> sofar
+                | _ -> tcaf (n/sofar) (sofar+1)
+        | _ -> -1
+    
+    let solution (n: int) = 
+        let res = tcaf n 2
+        match res with
+        | -1 -> "NONE"
+        | _  -> (string res) + "!"
