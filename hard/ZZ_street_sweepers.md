@@ -6,10 +6,6 @@ New York Street Sweeper Paths
 
 Hard
 
-http://en.wikipedia.org/wiki/Route_inspection_problem
-
-http://www.oocities.org/harry_robinson_testing/graph_theory.htm
-
 # Description
 
 In graph theory, various walks and cycles occupy a number of theorems, lemmas, and papers. They have practical value, it turns out, in a wide variety of applications: computer networking and street sweepers among them. 
@@ -41,3 +37,10 @@ Your program should emit the intersections visited in order and the number of st
 # Challenge Output
 
 The shortest walk of all streets at least once I've been able to come up with is `F-I-H-G-D-E-H-G-D-A-B-C-F-E-B`, but there may be shorter ones.
+
+# Notes
+
+http://en.wikipedia.org/wiki/Route_inspection_problem
+
+http://www.oocities.org/harry_robinson_testing/graph_theory.htm
+
