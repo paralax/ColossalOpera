@@ -2,10 +2,10 @@ EASYFILES=../easy/ZZ_approximate_pi.md
 EASYFILES+=../easy/ZZ_balancing_words.md
 EASYFILES+=../easy/ZZ_broken_keyboard.md
 EASYFILES+=../easy/ZZ_cellular_automata.md
-EASYFILES+=../easy/ZZ_happy_numbers.md
 EASYFILES+=../easy/ZZ_letters_in_order.md
 EASYFILES+=../easy/ZZ_palindromic_numbers.md
 EASYFILES+=../easy/ZZ_pronouncing_hex.md
+EASYFILES+=../easy/ZZ_ruth_aaron_pairs.md
 EASYFILES+=../easy/ZZ_shuffle.md
 EASYFILES+=../easy/ZZ_thue_morse.md
 EASYFILES+=../easy/ZZ_vampire_numbers.md
@@ -35,10 +35,8 @@ EASYFILES+=../easy/primes_in_grids.md
 EASYFILES+=../easy/random_name_generator.md
 EASYFILES+=../easy/reverse_factorial.md
 EASYFILES+=../easy/roller_coaster_words.md
-EASYFILES+=../easy/ZZ_ruth_aaron_pairs.md
 EASYFILES+=../easy/safe_primes.md
 EASYFILES+=../easy/stock_market.md
-EASYFILES+=../easy/sub-words.md
 EASYFILES+=../easy/typo_maker.md
 EASYFILES+=../easy/wedderburn-etherington_sequence.md
 EASYFILES+=../easy/xor_multiplication.md
@@ -151,15 +149,15 @@ hard.tex: hard.md
 
 easy.md: $(EASYFILES)
 	@echo $(EASYFILES)
-	$(foreach f,$(EASYFILES), cat $(f) | sed "s/^# /## /g" | sed "s/^## Title/# Title/g" >> easy.md; echo "" >> easy.md;)
+	$(foreach f,$(EASYFILES), cat $(f) | sed "s/^# /## /g" | sed "s/^## Title/# Title/g" | sed "s/^\[.*] //g" >> easy.md; echo "" >> easy.md;)
 
 int.md: $(INTFILES)
 	@echo $(INTFILES)
-	$(foreach f,$(INTFILES), cat $(f) | sed "s/^# /## /g" | sed "s/^## Title/# Title/g" >> int.md; echo "" >> int.md;)	
+	$(foreach f,$(INTFILES), cat $(f) | sed "s/^# /## /g" | sed "s/^## Title/# Title/g" | sed "s/^\[.*] //g" >> int.md; echo "" >> int.md;)	
 	
 hard.md: $(HARDFILES)
 	@echo $(HARDFILES)	
-	$(foreach f,$(HARDFILES), cat $(f) | sed "s/^# /## /g" | sed "s/^## Title/# Title/g" >> hard.md; echo "" >> hard.md;)		
+	$(foreach f,$(HARDFILES), cat $(f) | sed "s/^# /## /g" | sed "s/^## Title/# Title/g" | sed "s/^\[.*] //g" >> hard.md; echo "" >> hard.md;)		
 
 clean:
 	rm -f easytmp.tex inttmp.tex hardtmp.tex easy.tex int.tex hard.tex
