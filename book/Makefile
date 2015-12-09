@@ -113,6 +113,7 @@ HARDFILES+=../hard/ZZ_sequence_alignment.md
 HARDFILES+=../hard/ZZ_shortest_splitlines.md
 HARDFILES+=../hard/ZZ_stable_marriage.md
 HARDFILES+=../hard/ZZ_stepstring_discrepency.md
+HARDFILES+=../hard/ZZ_street_sweepers.md
 HARDFILES+=../hard/anomaly_detection.md
 HARDFILES+=../hard/chess_solitaire.md
 HARDFILES+=../hard/chromatic_number.md
@@ -126,7 +127,6 @@ HARDFILES+=../hard/microgrid_power.md
 HARDFILES+=../hard/museum_cameras_1.md
 HARDFILES+=../hard/number_grids.md
 HARDFILES+=../hard/paired_music.md
-HARDFILES+=../hard/street_sweepers.md
 HARDFILES+=../hard/text_summarizer.md
 
 PANDOCARGS=--variable sansfont=Arial --latex-engine=xelatex -f markdown -t latex
