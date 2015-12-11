@@ -10,7 +10,7 @@ Intermediate
 
 Most of us are familiar with word wrap and justifying blocks of text. Our text editors do this for us - "wrap text to a width of 80 characters" and such. We've done challenges where we have [made columns of text](https://www.reddit.com/r/dailyprogrammer/comments/2hssx6/29092014_challenge_182_easy_the_column_conundrum/) and we've also played with [decolumnizing text](https://www.reddit.com/r/dailyprogrammer/comments/3esrkm/20150727_challenge_225_easyintermediate/). But this one's a bit different.
 
-Given a block of text, can your program correctly identify the start of the next paragraph? You're fere to use any heuristic you want. This one differs from previous challenges in that there is no whitespace between paragraphs like you had before. You may want to think about the statistics of lines the close a paragraph. 
+Given a block of text, can your program correctly identify the start of the next paragraph? You're free to use any heuristic you want. This one differs from previous challenges in that there is no whitespace between paragraphs like you had before. You may want to think about the statistics of lines the close a paragraph. 
 
 # Challenge Input
 
@@ -58,7 +58,7 @@ Given a block of text, can your program correctly identify the start of the next
     HEREIN WILL NOT INFRINGE ANY RIGHTS OR ANY IMPLIED WARRANTIES OF
     MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
 
-# Challenge Outpu
+# Challenge Output
 
 Your program should emit something like this:   
 
