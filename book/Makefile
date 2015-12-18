@@ -14,6 +14,7 @@ EASYFILES+=../easy/alliteration.md
 EASYFILES+=../easy/anagram_detector.md
 EASYFILES+=../easy/base62.md
 EASYFILES+=../easy/baum_sweet.md
+EASYFILES+=../easy/beale_treasure.md
 EASYFILES+=../easy/capwords.md
 EASYFILES+=../easy/collatz_conjecture.md
 EASYFILES+=../easy/concatenated_ints.md
