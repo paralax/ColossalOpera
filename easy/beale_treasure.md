@@ -26,7 +26,7 @@ You'll be given a list of numbers, comma separated, representing the ciphertext 
 
 # Output Description
 
-Your program should consume the input and decrypt it. Remember - the first letter of that word number from the US Declaration of Independence. The above letter decrypts to:
+Your program should consume the input and decrypt it. Remember - the first letter of that word number from the US Declaration of Independence. Spacing, punctuation, capitalization, and fixing spelling is left as an exercise to the treasure seeker (as Beale intended). The above letter was intended to decrypt to:
 
 *I have deposited in the county of Bedford, about four miles from Buford's, in an excavation or vault, six feet below the surface of the ground, the following articles, belonging jointly to the parties whose names are given in number "3," herewith:*
 
@@ -41,3 +41,11 @@ Your program should consume the input and decrypt it. Remember - the first lette
 # Note
 
 The inspiration for this challenge comes from the website http://www.damninteresting.com/89-263-201-500-337-480/ and my love of the Nicholas Cage movie series "National Treasure". More info: http://www.unmuseum.org/bealepap.htm 
+
+# Python Solution
+
+    def solution(msg):
+        # msg is a comma-separated list of integers, just like beale wrote out
+        decl = "When in the course of human events ..." # omitted for brevity
+        msg = map(int, map(str.strip, msg1.split(',')))
+        return ''.join([ decl.split()[x-1][0] for x in msg])
