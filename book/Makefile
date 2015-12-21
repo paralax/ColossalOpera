@@ -131,6 +131,7 @@ pdf: book.pdf
 
 book.pdf: book.tex easy.tex int.tex hard.tex
 	pdflatex -shell-escape book.tex
+	makeindex book	
 	# do this thrice because of the TOC and tables
 	pdflatex -shell-escape book.tex
 	pdflatex -shell-escape book.tex	
@@ -162,7 +163,7 @@ hard.md: $(HARDFILES)
 clean:
 	rm -f easytmp.tex inttmp.tex hardtmp.tex easy.tex int.tex hard.tex
 	rm -rf _minted-book
-	rm -f book.aux book.log book.out book.pdf book.toc easy.md hard.md int.md texput.log
+	rm -f book.idx book.ilg book.ind book.aux book.log book.out book.pdf book.toc easy.md hard.md int.md texput.log
 
 # TODO
 # - fonts
