@@ -6,9 +6,13 @@ Playing a Game of Quad
 
 Intermediate
 
+# Tags
+
+game, Quad
+
 # Description
 
-I first read about Quad in the pages of Scientific American Volume 274 Number 3, March 1996, with original games rules and concept invented by G. Keith Still. The game is played on a square grid board, 11 by 11. Players both start each game with an infinite number of pieces, and only 7 Quazars, pieces used to block a position from being used by either player. Each turn you may place as many of your Quazars as you want (zero or more), but remember that you only get 7 for the whole game. You complete your move by placing a game piece. 
+I first read about [Quad](http://everything2.com/user/hobyrne/writeups/Quad) in the pages of Scientific American Volume 274 Number 3, March 1996, with original games rules and concept invented by G. Keith Still. The game is played on a square grid board, 11 by 11. Players both start each game with an infinite number of pieces, and only 7 Quazars, pieces used to block a position from being used by either player. Each turn you may place as many of your Quazars as you want (zero or more), but remember that you only get 7 for the whole game. You complete your move by placing a game piece. 
 
 The objective of Quad is to place one of your pieces at each of the four corners of a square. When you have done this you have made a Quad. A Quad can be in any orientation and of any size. Think of it as a variant of Connect Four. The first player to build a Quad wins.
 
@@ -61,5 +65,3 @@ That will give player 2 a winning position.
             ma, a = move(a)
             mb, b = move(b)
             print ma + "|" + mb
-            
-great writeup of quad - http://everything2.com/user/hobyrne/writeups/Quad            
