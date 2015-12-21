@@ -6,6 +6,10 @@ Abundant and Deficient Numbers
 
 Easy
 
+# Tags
+
+number theory
+
 # Description
 
 In number theory, a deficient or **deficient number** is a number n for which the sum of divisors *sigma(n)<2n*, or, equivalently, the sum of proper divisors (or aliquot sum) *s(n)<n*. The value *2n - sigma(n)* (or *n - s(n)*) is called the number's deficiency. In contrast, an **abundant number** or excessive number is a number for which the sum of its proper divisors is greater than the number itself
