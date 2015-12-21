@@ -6,6 +6,10 @@ Basic Graph Statistics: Node Degrees
 
 Easy
 
+# Tags
+
+graph theory, node, edge, adjacency matrix
+
 # Description
 
 In graph theory, the *degree* of a node is the number of edges coming into it or going out of it - how connected it is. For this challenge you'll be calculating the degree of every node. 
