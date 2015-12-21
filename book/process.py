@@ -21,10 +21,18 @@ def main():
     DIFFICULTY=False
     CODE=False
     LANG=None
+    TAGS=False
     line=True
     with sys.stdin as f:
         while line:
             line = f.readline().replace(r'\subsection{', r'\subsection*{').replace(r'\begin{verbatim}', r'\begin{lstlisting}').replace(r'\end{verbatim}', r'\end{lstlisting}')
+            if line.startswith(r'\subsection*{Tags}'):
+                TAGS=True
+                continue
+            if TAGS and len(line.strip()) > 0:
+                print '\n'.join(map(lambda x: r'\index{%s}' % x, map(str.strip, line.split(','))))
+                TAGS=False
+                continue
             if line == r'\\documentclass[]{article}':
                 continue
             if line.startswith(r'\section{Title}'):
