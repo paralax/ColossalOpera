@@ -6,6 +6,10 @@ Approximate PI
 
 Easy
 
+# Tags
+
+math, Pi (constant)
+
 # Description
 
 The mathematical constant pi - the ratio of a circle's circumference to its radius - is an irrational number. Approximations have been made - first by hand and now by computers - for over 4000 years. The current record is to 12.1 trillion digits!
@@ -21,10 +25,6 @@ You'll be given *N*, a number of digits to which to correctly approximate pi.
         4  (should be 3.1415 or 3.1416)
         6  (should be 3.141592 or 3.141593) 
         10 (should be 3.1415926535)
-
-# Notes
-
-User /u/skeeto had submitted a similar one before based on a specific approximation method: http://www.reddit.com/r/dailyprogrammer_ideas/comments/1qrrpa/easy_buffons_needle_pi_estimation/
 
 # Scala Solution
 
