@@ -51,3 +51,8 @@ Your program should emit what letter is missing. From ths above example:
 # Challenge Output
 
     E
+
+# Scala Solution
+
+    def lipogram(text: String) : Set[Char] = 
+        "ABCDEFGHIJKLMNOPQRSTUVWXYZ".toSet--text.toCharArray.map(_.toUpper).toSet
