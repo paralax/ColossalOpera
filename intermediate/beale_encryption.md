@@ -49,3 +49,22 @@ And so on.
 # Challenge Output
 
 641, 623, 823, 1135, 499, 527, 950, 1018, 402, 38, 3, 794, 777, 527, 1011, 552, 1297, 484, 1278, 68, 528, 640, 781, 214, 238, 198, 1201, 587, 1196, 475, 1187, 115, 1259, 878, 280, 1284, 374, 765, 679, 1284, 845, 1084, 562, 370, 489, 777, 1093, 1009, 1159, 770, 751, 580, 412, 1009, 109, 872, 249, 720, 724, 1199, 1097, 1051, 965, 495, 1048, 821, 1322, 237, 641, 496, 392, 128, 1293, 821, 1231, 845, 236, 842, 455, 118, 1049, 587, 777, 921, 700, 1278, 351, 266, 985, 1188, 1325, 193, 518, 319, 795, 404, 943, 649, 1034, 858, 1263, 459, 962, 777, 688, 399, 528, 1078, 928, 901, 538, 1052, 1001, 1167, 1047, 778, 1074, 109, 1273, 520, 272, 116, 903, 316, 1004, 460, 533, 489, 1034, 38
+
+# Python Solution
+
+    def beale_cipher(plaintext, decl):
+        def _startswith(ch, ideclrange):
+            for i in ideclrange:
+                if i[1].lower().startswith(ch.lower()):
+                    return i[0]
+        idecl = map(lambda x: x[0], zip(enumerate(decl.split(), 1)))
+        res = []
+        for ch in plaintext.replace(" ", ""):
+            i = random.randint(1, len(idecl))
+            app = _startswith(ch, idecl[i:])
+            if app:
+                res.append(app)
+            else:
+                # maybe we went too far, start from beginning
+                res.append(_startswith(ch, idecl))
+        return res
