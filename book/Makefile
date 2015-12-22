@@ -34,7 +34,6 @@ EASYFILES+=../easy/pandigital_roman_numbers.md
 EASYFILES+=../easy/pell_number.md
 EASYFILES+=../easy/perfect_numbers.md
 EASYFILES+=../easy/primes_in_grids.md
-EASYFILES+=../easy/random_name_generator.md
 EASYFILES+=../easy/reverse_factorial.md
 EASYFILES+=../easy/roller_coaster_words.md
 EASYFILES+=../easy/safe_primes.md
