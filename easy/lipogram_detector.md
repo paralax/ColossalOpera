@@ -12,7 +12,7 @@ word games, lipogram
 
 # Description
 
-A lipogram is a kind of constrained writing or word game consisting in writing paragraphs or longer works in which a particular letter or group of letters is avoided. Writing a lipogram may be a trivial task when avoiding uncommon letters like Z, J, Q, or X, but it is much more difficult to avoid common letters like E, T or A, as the author must omit many ordinary words. A famous example is Poe's poem * contains no Z, but there is no evidence that this was intentional. Pangrammatic lipograms use all letters except one.
+A lipogram is a kind of constrained writing or word game consisting in writing paragraphs or longer works in which a particular letter or group of letters is avoided. Writing a lipogram may be a trivial task when avoiding uncommon letters like Z, J, Q, or X, but it is much more difficult to avoid common letters like E, T or A, as the author must omit many ordinary words. A famous example is Poe's poem *The Raven* contains no Z, but there is no evidence that this was intentional. Pangrammatic lipograms use all letters except one.
 
 Your challenge today is to detect what letter is missing from the given text.
 
