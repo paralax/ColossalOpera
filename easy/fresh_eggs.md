@@ -6,6 +6,10 @@ Finding the Freshest Eggs
 
 Easy
 
+# Tags
+
+dates
+
 # Description
 
 The fresher the egg, the better the flavor. Because the sell-by date for eggs in a supermarket (with U.S.D.A. inspection) can be up to 45 days after the packing date, there is a quick and easy way to check for freshness: the Julian date. Every egg carton has a code printed on its side, and the last 3 digits of this code are called the Julian date. The code uses a number from 001 to 365 to correspond to a day of the year and indicate when they were packaged. For example, 001 is January 1st and 365 is December 31st.

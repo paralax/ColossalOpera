@@ -6,6 +6,10 @@ In what year were most presidents alive?
 
 Easy
 
+# Tags
+
+dates, presidents
+
 # Description
 
 US presidents serve four year terms, with most presidents serving one or two terms. Unless a president dies in office, they then live after leaving office. 
@@ -61,4 +65,4 @@ Below is a CSV input of presidential birthdates and death dates. Find what year 
     George W. Bush,	July 6 1946,	New Haven Conn.,	,	
     Barack Obama,	Aug 4 1961,	Honolulu Hawaii,	,
 
-via http://www.presidentsusa.net/birth.html
+via [U.S. Presidents Birth and Death Information](http://www.presidentsusa.net/birth.html). 

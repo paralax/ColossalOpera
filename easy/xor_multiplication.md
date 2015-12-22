@@ -6,6 +6,10 @@ XOR Multiplication
 
 Easy
 
+# Tags
+
+math, multiplication, XOR
+
 # Description
 
 One way to think about bitwise *addition* (using the symbol `^`) as binary addition without carrying the extra bits:

@@ -6,9 +6,13 @@ Pell Numbers
 
 Easy
 
+# Tags
+
+number sequence, infinite sequence, number theory
+
 # Description
 
-In mathematics, the Pell numbers are an infinite sequence of integers, known since ancient times, that comprise the denominators of the closest rational approximations to the square root of 2. This sequence of approximations begins 1/1, 3/2, 7/5, 17/12, and 41/29, so the sequence of Pell numbers begins with 0, 1, 2, 5, 12, and 29 (each Pell number is the sum of twice the previous Pell number and the Pell number before that).
+In mathematics, the [Pell numbers](https://en.wikipedia.org/wiki/Pell_number) are an infinite sequence of integers, known since ancient times, that comprise the denominators of the closest rational approximations to the square root of 2. This sequence of approximations begins 1/1, 3/2, 7/5, 17/12, and 41/29, so the sequence of Pell numbers begins with 0, 1, 2, 5, 12, and 29 (each Pell number is the sum of twice the previous Pell number and the Pell number before that).
 
 Your challenge today is to generate this sequence and pick out specific elements in the seqence. 
 

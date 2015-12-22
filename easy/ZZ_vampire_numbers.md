@@ -6,11 +6,15 @@
 
 Easy
 
+# Tags
+
+composite numbers, number theory
+
 # Description
 
 A vampire number *v* is a number *v=xy* with an even number *n* of digits formed by multiplying a pair of *n*/2-digit numbers (where the digits are taken from the original number in any order) *x* and *y* together. Pairs of trailing zeros are not allowed. If *v* is a vampire number, then *x* and *y* are called its "fangs." 
 
-Additional information can be found here: http://www.primepuzzles.net/puzzles/puzz_199.htm
+Additional information can be found [here](http://www.primepuzzles.net/puzzles/puzz_199.htm). 
 
 # Input Description
 

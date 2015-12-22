@@ -6,11 +6,15 @@ Integer Sequence Search Part 1
 
 Easy
 
+# Tags
+
+integer sequence, math
+
 # Description
 
 In mathematics, an integer sequence is a sequence (i.e., an ordered list) of integers. Not all sequences are computable (e.g. not all have a formula that can express them), but unique sequences have interesting properties and can be quite fun to watch play out. 
 
-The On-Line Encyclopedia of Integer Sequences (OEIS) website has an interesting feature where you can search for sequences by name, ID, or even just subsequences. 
+The [On-Line Encyclopedia of Integer Sequences (OEIS)](https://oeis.org/) website has an interesting feature where you can search for sequences by name, ID, or even just subsequences. 
 
 For this challenge you'll be replicating that subsequence search feature. 
 

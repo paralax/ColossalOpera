@@ -6,6 +6,10 @@ Reverse Factorial
 
 Easy
 
+# Tags
+
+math, factorial 
+
 # Description
 
 Nearly everyone is familiar with the factorial operator in math. 5! yields 120 because factorial means "multiply successive terms where each are one less than the previous":

@@ -6,6 +6,10 @@ Typo Maker
 
 Easy
 
+# Tags
+
+word play
+
 # Description
 
 Typos are great fun, and often follow a common pattern - keys next to eachother, doubled or omitted characters, and transpositions. Can you write a program to generate common typos? If so, you could be on your way to typo-squatting in DNS!

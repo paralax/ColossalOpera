@@ -6,6 +6,10 @@ Making numbers palindromic
 
 Easy
 
+# Tags
+
+palindrome, number
+
 # Description
 To covert nearly any number into a palindromic number you operate by reversing the digits and adding and then repeating the steps until you get a palindromic number. Some require many steps.
 

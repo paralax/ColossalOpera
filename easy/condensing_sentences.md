@@ -6,6 +6,10 @@ Condensing Sentences
 
 Easy
 
+# Tags
+
+word games, word play
+
 # Description
 
 Compression makes use of the fact that repeated structures are redundant, and it's more efficient to represent the pattern and the count or a reference to it. Siimilarly, we can *condense* a sentence by using the redundancy of overlapping letters from the end of one word and the start of the next. In this manner we can reduce the size of the sentence, even if we start to lose meaning. 

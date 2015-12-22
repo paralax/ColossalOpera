@@ -6,6 +6,10 @@ Gold and Treasure: The Beale Cipher
 
 Easy
 
+# Tags
+
+cipher, encryption, decryption
+
 # Description
 
 In 1885, an author named James B. Ward published a pamphlet telling of a long-lost treasure available to anyone clever enough to solve the puzzle associated with it. Ward reported that around 1817, a man named Thomas Jefferson Beale stumbled upon gold and silver deposits in what is now Colorado. Agreeing to keep it all a secret, Beale’s team had spent the better part of two years quietly mining, then had taken the metals to Virginia by wagon and buried them in a vault underground between 1819 and 1821. Beale had written three notes explaining where the treasure was and who had legal rights to shares in it, encrypting each of these using a different text.
@@ -40,7 +44,7 @@ Your program should consume the input and decrypt it. Remember - the first lette
 
 # Note
 
-The inspiration for this challenge comes from the website http://www.damninteresting.com/89-263-201-500-337-480/ and my love of the Nicholas Cage movie series "National Treasure". More info: http://www.unmuseum.org/bealepap.htm 
+The inspiration for this challenge comes from the [Damn Interesting website](http://www.damninteresting.com/89-263-201-500-337-480/) and my love of the Nicholas Cage movie series "National Treasure". For more info see the [Museum of Unnatural History](http://www.unmuseum.org/bealepap.htm).
 
 # Python Solution
 

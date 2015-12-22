@@ -6,9 +6,13 @@ Emirp Numbers
 
 Easy
 
+# Tags
+
+math, number theory, prime numbers, integer sequence
+
 # Description
 
-We all know what prime numbers are - numbers only divisible by themselves and one. Math grad student Matthew Scroggs came up with *emirp* numbers. An emirp number is a prime number which is a different prime number when the digits are reversed.
+We all know what prime numbers are - numbers only divisible by themselves and one. Math grad student Matthew Scroggs came up with *emirp* numbers. An [emirp number](https://en.wikipedia.org/wiki/Emirp) is a prime number which is a different prime number when the digits are reversed.
 
 Your task today is to write a program that can discover emirp numbers over a range. 
 

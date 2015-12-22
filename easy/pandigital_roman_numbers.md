@@ -6,6 +6,10 @@ Pandigital Roman Numbers
 
 Easy
 
+# Tags
+
+numbers, Roman numerals
+
 # Description
 
 1474 is a pandigital in Roman numerals (MCDLXXIV). It uses each of the symbols I, V, X, L, C, and M at least once. Your challenge today is to find the small handful of pandigital Roman numbers up to 2000. 
@@ -24,4 +28,4 @@ Find all numbers that are pandigital in Roman numerals using each of the symbols
 
 1444, 1446, 1464, 1466, 1644, 1646, 1664, 1666 
 
-(see http://oeis.org/A105416)
+See [OEIS sequence A105416](http://oeis.org/A105416) for more information.

@@ -6,6 +6,10 @@
 
 Easy
 
+# Tags
+
+words, keyboard
+
 # Description
 
 Help! My keyboard is broken, only a few keys work any more. If I tell you what keys work, can you tell me what words I can write?
@@ -44,9 +48,6 @@ Your program should emit the longest valid English language word you can make fo
     poil = pililloo
     vybu = bubby
 
-# Credit
-
-This challenge was inspired by /u/ThinkinWithSand, many thanks! If you have any ideas, please share them on /r/dailyprogrammer_ideas and there's a chance we'll use it. 
 
 # Scala Solution
 

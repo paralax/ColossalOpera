@@ -6,6 +6,10 @@
 
 Easy
 
+# Tags
+
+prime numbers, prime factors, number theory
+
 # Description
 
 In mathematics, a Ruth–Aaron pair consists of two consecutive integers (e.g. 714 and 715) for which the sums of the *distinct* prime factors of each integer are equal. For example, we know that (714, 715) is a valid Ruth-Aaron pair because its distinct prime factors are:
@@ -19,7 +23,7 @@ and the sum of those is both 29:
 
 The name was given by Carl Pomerance, a mathematician at the University of Georgia, for Babe Ruth and Hank Aaron, as Ruth's career regular-season home run total was 714, a record which Aaron eclipsed on April 8, 1974, when he hit his 715th career home run. A student of one of Pomerance's colleagues noticed that the sums of the prime factors of 714 and 715 were equal.
 
-For a little more on it, see MathWorld - http://mathworld.wolfram.com/Ruth-AaronPair.html
+For a little more on it, see [MathWorld](http://mathworld.wolfram.com/Ruth-AaronPair.html). 
 
 Your task today is to determine if a pair of numbers is indeed a valid Ruth-Aaron pair.
 

@@ -6,6 +6,10 @@
 
 Easy
 
+# Tags
+
+letter sums, word games
+
 # Description
 
 Today we're going to balance words on one of the letters in them. We'll use the position and letter itself to calculate the weight around the balance point. A word can be balanced if the weight on either side of the balance point is equal. Not all words can be balanced, but those that can are interesting for this challenge.
@@ -16,7 +20,7 @@ As an example:
 
 STEAD balances at T: 1 * S(19) = 1 * E(5) + 2 * A(1) + 3 * D(4))
 
-More info here: http://www.questrel.com/records.html#spelling_alphabetical_order_entire_word_balance_points
+More info [here](http://www.questrel.com/records.html#spelling_alphabetical_order_entire_word_balance_points) on the Questrel site.
 
 # Input Description
 

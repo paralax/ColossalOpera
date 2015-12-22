@@ -6,6 +6,10 @@ Pronouncing Hexidecimal
 
 Easy
 
+# Tags
+
+hexidecimal, Silicon Valley
+
 # Description
 
 The HBO network show "Silicon Valley" has introduced a way to pronounce hex.
@@ -55,7 +59,3 @@ Your program should emit the pronounced hex. Examples from above:
 	0xE4 "ebbity-four"
 	0xBBBB "bibbity-bee bitey bibbity-bee"
 	0xA0C9 "atta-bitey city-nine"
-
-# Credit
-
-This challenge was suggested by /u/metaconcept. If you have a challenge idea, submit it to /r/dailyprogrammer_ideas and we just might use it.

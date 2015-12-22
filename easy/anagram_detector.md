@@ -6,6 +6,10 @@ Anagram Detector
 
 Easy
 
+# Tags
+
+word games, anagram
+
 # Description
 
 An anagram is a form of word play, where you take a word (or set of words) and form a different word (or different set of words) that use the same letters, just rearranged. All words must be valid spelling, and shuffling words around doesn't count. 

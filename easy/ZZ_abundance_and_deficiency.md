@@ -8,7 +8,7 @@ Easy
 
 # Tags
 
-number theory
+number theory, divisor function
 
 # Description
 

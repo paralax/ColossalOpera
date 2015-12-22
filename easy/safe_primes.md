@@ -6,9 +6,13 @@ Safe Prime Numbers
 
 Easy
 
+# Tags
+
+prime numbers, number theory, math, encryption
+
 # Description
 
-A safe prime is a prime number of the form 2*p* + 1, where p is also a prime. Safe primes are also important in cryptography because of their use in discrete logarithm-based techniques like Diffie-Hellman key exchange.
+A [safe prime](https://en.wikipedia.org/wiki/Safe_prime) is a prime number of the form 2*p* + 1, where p is also a prime. Safe primes are also important in cryptography because of their use in discrete logarithm-based techniques like Diffie-Hellman key exchange.
 
 #  Input Description
 

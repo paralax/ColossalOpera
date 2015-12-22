@@ -6,9 +6,13 @@ Baum-Sweet Sequence
 
 Easy
 
+# Tags
+
+integer sequence, Baum-Sweet, infinite sequence, number theory
+
 # Description
 
-In mathematics, the Baum–Sweet sequence is an infinite automatic sequence of 0s and 1s defined by the rule:
+In mathematics, the [Baum–Sweet sequence](https://en.wikipedia.org/wiki/Baum%E2%80%93Sweet_sequence) is an infinite automatic sequence of 0s and 1s defined by the rule:
 
 * b_n = 1 if the binary representation of n contains no block of consecutive 0s of odd length;
 * b_n = 0 otherwise;
@@ -28,8 +32,6 @@ Because we find an odd length sequence of 0s, b_n is 0.
 Your challenge today is to write a program that generates the Baum-Sweet sequence from 0 to some number *n*. For example, given "20" your program would emit:
 
     1, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0
-
-https://en.wikipedia.org/wiki/Baum%E2%80%93Sweet_sequence
 
 # Scala Solution
 

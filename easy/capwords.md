@@ -6,6 +6,10 @@ Capitalize The First Letter of Every Word
 
 Easy
 
+# Tags
+
+words
+
 # Description
 
 Given a sentence, can you capitalize the first letter of every word? 

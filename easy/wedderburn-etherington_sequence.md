@@ -2,10 +2,13 @@
 
 Wedderburn-Etherington Sequence
 
-
 # Difficulty 
 
 Easy
+
+# Tags
+
+integer sequence, infinite sequence, math, number theory
 
 # Description
 

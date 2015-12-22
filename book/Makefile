@@ -28,6 +28,7 @@ EASYFILES+=../easy/harshad_number.md
 EASYFILES+=../easy/integer_sequence_search_1.md
 EASYFILES+=../easy/jolly_jumper.md
 EASYFILES+=../easy/l33tspeak.md
+EASYFILES+=../easy/lipogram_detector.md
 EASYFILES+=../easy/most_presidents_alive.md
 EASYFILES+=../easy/pandigital_roman_numbers.md
 EASYFILES+=../easy/pell_number.md

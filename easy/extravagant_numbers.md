@@ -6,9 +6,13 @@ Extravagant Numbers
 
 Easy
 
+# Tags
+
+number theory, math, integer sequence
+
 # Description
 
-An extravagant number (also known as a wasteful number) is a natural number that has fewer digits than the number of digits in its prime factorization (including exponents). Trivial examples include 6 = 2*3, 8 = 2^3, and 9 = 3^2, all extravagant numbers. 
+An [extravagant number](https://en.wikipedia.org/wiki/Extravagant_number) (also known as a wasteful number) is a natural number that has fewer digits than the number of digits in its prime factorization (including exponents). Trivial examples include 6 = 2*3, 8 = 2^3, and 9 = 3^2, all extravagant numbers. 
 
 Your challenge today is to write a program to determine is numbers are extravagant or not. 
 

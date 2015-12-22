@@ -2,6 +2,11 @@
 
 Thue-Morse Sequence Generator
 
+
+# Tags
+
+number theory, integer sequence, binary sequence, Thue-Morse, infinite sequence
+
 # Description
 
 The Thue-Morse sequence is a binary sequence (of 0s and 1s) that never repeats. 
@@ -14,9 +19,11 @@ See the [Thue-Morse Wikipedia Article](http://en.wikipedia.org/wiki/Thue%E2%80%9
 
 
 # Input
+
 Nothing.
 
 # Output
+
 Output the 0 to 6th order Thue-Morse Sequences.
 
 ## Example

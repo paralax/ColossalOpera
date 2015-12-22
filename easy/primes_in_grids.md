@@ -6,6 +6,10 @@ Primes in Grids
 
 Easy
 
+# Tags
+
+prime numbers
+
 # Description
 
 This puzzle was first proposed (1989) by Gordon Lee: given a grid of numbers, how many *distinct* primes can you find embedded in the matrix, regarding that you can read the lines or part of them, in form vertical, horizontal or diagonal orientation, in both directions. 

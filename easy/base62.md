@@ -6,6 +6,10 @@ Making Imgur-style Links
 
 Easy
 
+# Tags
+
+numbers, base62, shortened strings
+
 # Description
 
 Short links have been all the rage for several years now, spurred in part by Twitter's character limits. Imgur - Reddit's go-to image hosting site - uses a similar style for their links. Monotonically increasing IDs represented in Base62. 

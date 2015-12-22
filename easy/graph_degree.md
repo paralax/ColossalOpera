@@ -8,7 +8,7 @@ Easy
 
 # Tags
 
-graph theory, node, edge, adjacency matrix
+graph theory, graph theory!node, graph theory!edge, graph theory!adjacency matrix
 
 # Description
 
@@ -32,7 +32,7 @@ Your program should emit the degree for each node. Example:
 
 # Challenge Input
 
-This data set is an social network of tribes of the Gahuku-Gama alliance structure of the Eastern Central Highlands of New Guinea, from Kenneth Read (1954). The dataset contains a list of all of links, where a link represents signed friendships between tribes. It was downloaded from http://networkrepository.com/soc_tribes.php. 
+This data set is an social network of tribes of the Gahuku-Gama alliance structure of the Eastern Central Highlands of New Guinea, from Kenneth Read (1954). The dataset contains a list of all of links, where a link represents signed friendships between tribes. It was downloaded from [the network repository](http://networkrepository.com/soc_tribes.php). 
 
     16
     1 2
