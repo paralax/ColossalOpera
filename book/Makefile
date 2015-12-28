@@ -55,6 +55,7 @@ INTFILES+=../intermediate/ZZ_stream_cipher.md
 INTFILES+=../intermediate/ZZ_web_api.md
 INTFILES+=../intermediate/anagram_maker.md
 INTFILES+=../intermediate/ancestors.md
+INTFILES+=../intermediate/beale_encryption.md
 INTFILES+=../intermediate/brick_walls.md
 INTFILES+=../intermediate/calkin_wilf.md
 INTFILES+=../intermediate/change_ringing.md
