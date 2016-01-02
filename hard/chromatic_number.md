@@ -41,7 +41,7 @@ You'll be given a row with a two integers *n* and *m* on it telling you how many
 
 # Output Description
 
-Your program should emit the minimal chromatic number of the graph. The example graph above is thw eell known [Petersen graph (GP(5,2))](http://mathworld.wolfram.com/PetersenGraph.html). The example output would be:
+Your program should emit the minimal chromatic number of the graph. The example graph above is the well known [Petersen graph (GP(5,2))](http://mathworld.wolfram.com/PetersenGraph.html). The example output would be:
 
     3
 
