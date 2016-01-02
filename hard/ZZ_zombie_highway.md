@@ -4,7 +4,8 @@ Zombies on the highways!
 
 # Difficulty
 
-Easy
+Hard
+
 # Description
 
 Well, the zombie apocalypse finally happened.  Zombies are everywhere, and you need to get from city to city to the last bastion of hope for humanity - [Last Chance, CA](https://www.google.com/maps/place/Last+Chance,+CA/@39.0848839,-120.6641083,7z/data=!4m2!3m1!1s0x809bbbd69ad1f261:0xf9407c77fe97af2).   Some highways are more clogged than others.  You have one secret weapon: the BFZG 3000, which completely clears whichever highway you're on, but you can only use it once!  Get your clunky RV, thankfully solar powered, to Last Chance whilst encountering the fewest number of zombies, with the help of your BFZG 3000.
