@@ -6,6 +6,10 @@ Packing a Sentence in a Box
 
 Intermediate
 
+# Tags
+
+word games
+
 # Description
 
 You're moving, and you have a bunch of sentences to pack up. To accomplish this, you'll be using a small program you should write to pack these sentences efficiently into a box for shipping. Leave no unused space, you have a lot of sentences to pack and you don't want to waste precious shipping space. 
@@ -47,6 +51,3 @@ Here's one possible solution
 	H       S       O       D       S
 	T       T       U       N       A
 
-# Credit
-
-Many thanks to /u/Godspiral for the suggestion.  Got any cool challenge ideas? Submit them to /r/DailyProgrammer_Ideas!

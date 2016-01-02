@@ -1,5 +1,3 @@
-Continuing with our bioinformatics theme today. If you like these sorts of problems, I encourage you to check out Project Rosalind (their site seems back up): http://rosalind.info/
-
 # Title 
 
 Bioinformatics 2: DNA Restriction Enzymes
@@ -8,13 +6,17 @@ Bioinformatics 2: DNA Restriction Enzymes
 
 Intermediate
 
-Continuing with our bioinformatics theme today. If you like these sorts of problems, I encourage you to check out Project Rosalind (their site seems back up): http://rosalind.info/
+# Tags
+
+DNA, bioinformatics
 
 # Description
 
+Continuing with our bioinformatics theme today. If you like these sorts of problems, I encourage you to check out [Project Rosalind](http://rosalind.info/) (their site seems back up).
+
 Restriction enzymes are DNA-cutting enzymes found in bacteria (and harvested from them for use). Because they cut within the molecule, they are often called restriction endonucleases. In order to be able to sequence DNA, it is first necessary to cut it into smaller fragments. For precise molecular biology work, what is needed is a way to cleave the DNA molecule at a few specifically-located sites so that a small set of homogeneous fragments are produced. The tools for this are the restriction endonucleases. The rarer the site it recognizes, the smaller the number of pieces produced by a given restriction endonuclease.
 
-For more information on how these enzymes work, including a great visualization of how they cut, have a look here: http://users.rcn.com/jkimball.ma.ultranet/BiologyPages/R/RestrictionEnzymes.html
+For more information on how these enzymes work, including a great visualization of how they cut, have a look [here](http://users.rcn.com/jkimball.ma.ultranet/BiologyPages/R/RestrictionEnzymes.html).
 
 These enzymes can cleave the DNA at a site that leaves both strands the same length. This is called a "blunt" end because of this and can be visualized like this:
 
@@ -40,7 +42,7 @@ You'll be given a list of DNA restriction enzymes and their recognition site and
 
 Then you'll be given a DNA sequence and be asked to cut it with the listed enzymes. For sake of convenience, the DNA sequence is broken into blocks of 10 bases at a time and in lengths of 6 blocks per row. You should merge these together and drop the first column of digits.
 
-This sequence was taken from the genome of *Enterobacteria phage phiX174 sensu lato* http://www.genome.jp/dbget-bin/www_bget?refseq+NC_001422 and modified for this challenge. 
+This sequence was taken from the genome of [*Enterobacteria phage phiX174 sensu lato*](http://www.genome.jp/dbget-bin/www_bget?refseq+NC_001422) and modified for this challenge. 
 
 	  1 gagttttatc gcttccatga cgcagaagtt aacactttcg gatatttctg atgagtcgaa
 	 61 aaattatctt gataaagcag gaattactac tgcttgttta cgaattaaat cgaagtggac
@@ -72,9 +74,6 @@ Your program should emit the name of the enzyme, the cut positions for that enzy
 
 Write some code that identifies any and all symmetrical points along the DNA sequence where an enzyme (not just the three listed) could cut. These should be even-length palindromes between 4 and 10 bases long. 
 	
-# Notes
-
-If you have your own idea for a challenge, submit it to /r/DailyProgrammer_Ideas, and there's a good chance we'll post it.
 
 
 # Scala Solution

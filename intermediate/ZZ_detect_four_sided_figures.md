@@ -1,3 +1,15 @@
+# Title
+
+Detecting Four Sided Figures
+
+# Difficulty
+
+Intermediate
+
+# Tags
+
+ASCII art, detecting boxes
+
 # Description
 
 I got this idea from the [Mensa quiz](https://www.mensa.org/workout/questions), specifically question 17. It's a basic scanning challenge: can your program detect and count intersecting bounding boxes from an ASCII art input? A four-sided figure is an ASCII art rectangle. Note that it can overlap another one, as long as the four corners are fully connected. 
@@ -68,8 +80,4 @@ This one adds a bit to the complexity by throwing in some three sided figures. T
 # Challenge Output
 
 For the challenge diagram your program should find 25 four sided figures. 
-
-# Finally
-
-Have a good challenge idea? Consider submitting it to /r/dailyprogrammer_ideas
 

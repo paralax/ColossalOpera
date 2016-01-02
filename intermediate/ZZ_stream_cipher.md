@@ -6,6 +6,10 @@
 
 Intermediate
 
+# Tags
+
+random number, cipher, encryption, RC4
+
 # Description
 
 Stream ciphers like RC4 operate very simply: they have a strong psuedo-random number generator that takes a key and produces a sequence of psuedo-random bytes, which is then XORed against the plaintext to provide the cipher text. The strength of the cipher then depends on the strength of the generated stream of bytes - its randomness (or lack thereof) can lead to the text being recoverable.
@@ -14,7 +18,7 @@ Stream ciphers like RC4 operate very simply: they have a strong psuedo-random nu
 
 Your program should have the following components:
 
-* A psuedo-random number generator which takes a key and produces a consistent stream of psuedo-random bytes. A very simple one to implement is the linear congruential generator (LCG). https://en.wikipedia.org/wiki/Linear_congruential_generator 
+* A psuedo-random number generator which takes a key and produces a consistent stream of psuedo-random bytes. A very simple one to implement is the [linear congruential generator (LCG)](https://en.wikipedia.org/wiki/Linear_congruential_generator )
 * An "encrypt" function (or method) that takes a key and a plaintext and returns a ciphertext.
 * A "decrypt" function (or method) that takes a key and the ciphertext and returns the plaintext. 
 

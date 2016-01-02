@@ -6,13 +6,17 @@
 
 Intermediate
 
+# Tags
+
+Bitcoin, web API, web programming
+
 # Desciption
 
 Modern web services are the core of the net. One website can leverage 1 or more other sites for rich data and mashups. Some notable examples include the Google maps API which has been layered with crime data, bus schedule apps, and more. 
 
 For this challenge, you'll be asked to implement a call to a simple RESTful web API for Bitcoin pricing. This API was chosen because it's freely available and doesn't require any signup or an API key. Other APIs work in much the same way but often require API keys for use. 
 
-The Bitcoin API we're using is documented here: http://bitcoincharts.com/about/markets-api/ Specifically we're interested in the `/v1/trades.csv` endpoint. 
+The Bitcoin API we're using is [documented](http://bitcoincharts.com/about/markets-api/) Specifically we're interested in the `/v1/trades.csv` endpoint. 
 
 Your native code API (e.g. the code you write and run locally) should take the following parameters:
 

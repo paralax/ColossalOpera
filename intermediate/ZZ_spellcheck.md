@@ -6,7 +6,10 @@
 
 Intermediate
 
-It looks like the moderators fell down on the job! I'll send in an emergency challenge. 
+
+# Tags
+
+spell check, word games
 
 # Description
 

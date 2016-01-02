@@ -6,6 +6,10 @@ Maximizing Crop Irrigation
 
 Intermediate
 
+# Tags
+
+geometry
+
 # Description
 
 You run a farm which isn't doing so well. Your crops that you planted aren't coming up, and your bills are bigger than your expected proceeds. So, you have to conserve water and focus instead on the plants that are growing. You have a center pivot watering system which has a rotating sprinkler around a central pivot, creating a circular watered area. For this challenge, you just have to decide where to locate it based on this year's crops. 
@@ -87,7 +91,3 @@ Emit the map with the circle your program calculated drawn.
 # Credit
 
 This challenge was inspired by a question on IRC from user whatiswronghere. 
-
-# Notes 
-
-Have a cool idea for a challenge? Submit it to /r/DailyProgrammer_Ideas!

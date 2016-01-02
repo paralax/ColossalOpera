@@ -6,6 +6,10 @@
 
 Intermediate
 
+# Tags
+
+geometry, closest pair
+
 # Description
 
 My grandmother and I are moving to a new neighborhood. The houses haven't yet been built, but the map has been drawn. We'd like to live as close together as possible. She makes some outstanding cookies, and I love visiting her house on the weekend for delicious meals - my grandmother is probably my favorite cook!
