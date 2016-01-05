@@ -125,18 +125,67 @@ Indicating that node 1 is connected to nodes 2 and 3, but nodes 2 and 3 do not c
 
 # Scala Solution
 
-    def degree(edges:String) = edges.split("\n").map(_.split(" ").filter(_.length>0)).toSet.toList.flatten.groupBy(_.toString).mapValues(_.size)
+    def degree(edges:String) = 
+        edges.
+          split("\n").
+          map(_.split(" ").filter(_.length>0)).
+          toSet.
+          toList.
+          flatten.
+          groupBy(_.toString).
+          mapValues(_.size)
     
     def adj_matrix(edges:String, n:Int):String = {
         val m = Array.ofDim[Int](n,n)
-        val es = edges.split("\n").map(_.split(" ").filter(_.length>0)).map(_.map(_.toInt))
+        val es = edges.
+                   split("\n").
+                   map(_.split(" ").filter(_.length>0)).
+                   map(_.map(_.toInt))
         for (e <- es) { m(e(0)-1)(e(1)-1) = 1; m(e(1)-1)(e(0)-1) = 1 }
         m.map(_.mkString(" ")).mkString("\n")
     }
 
-    def challenge(edges:String) = degree(edges).foreach { kv => println(kv._1 + " has a degree of " + kv._2) }
+    def challenge(edges:String) = 
+        degree(edges).foreach { kv => println(kv._1 + " has a degree of " + kv._2) }
     
     def bonus(edges:String, n:Int) = {
         challenge(edges)
         println(adj_matrix(edges, n))
+    }
+
+# Go Solution
+
+    package main
+
+    import (
+    	"bytes"
+    	"fmt"
+    	"io/ioutil"
+    	"os"
+    )
+
+    func check(e error) {
+    	if e != nil {
+    		panic(e)
+    	}
+    }
+
+    func main() {
+    	data, err := ioutil.ReadFile(os.Args[1])
+    	check(err)
+
+    	var nodes map[string]int
+    	nodes = make(map[string]int)
+
+    	lines := bytes.Split(data, []byte("\n"))
+    	for _, line := range lines {
+    		vals := bytes.Split(line, []byte(" "))
+    		if len(vals) == 2 {
+    			nodes[string(vals[0])] = nodes[string(vals[0])] + 1
+    			nodes[string(vals[1])] = nodes[string(vals[1])] + 1
+    		}
+    	}
+    	for k, v := range nodes {
+    		fmt.Printf("Node %s has a degree of %d\n", k, v)
+    	}
     }
