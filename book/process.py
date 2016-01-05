@@ -14,7 +14,8 @@ MINTEDOPS = r"""    [
 
 MINTLANGMAPS={r'F\#': 'ocaml',
               'Fsharp': 'ocaml',
-              'Scala': 'javascript'}
+              'Scala': 'javascript',
+              'Go': 'go'}
 
 def main():
     TITLE=False
