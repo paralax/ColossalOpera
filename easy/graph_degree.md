@@ -158,10 +158,11 @@ Indicating that node 1 is connected to nodes 2 and 3, but nodes 2 and 3 do not c
     package main
 
     import (
-    	"bytes"
     	"fmt"
     	"io/ioutil"
     	"os"
+    	"strconv"
+    	"strings"
     )
 
     func check(e error) {
@@ -171,21 +172,50 @@ Indicating that node 1 is connected to nodes 2 and 3, but nodes 2 and 3 do not c
     }
 
     func main() {
-    	data, err := ioutil.ReadFile(os.Args[1])
+    	bdata, err := ioutil.ReadFile(os.Args[1])
     	check(err)
 
+    	data := string(bdata)
     	var nodes map[string]int
     	nodes = make(map[string]int)
 
-    	lines := bytes.Split(data, []byte("\n"))
+    	// calcuate node degree
+    	lines := strings.Split(data, "\n")
     	for _, line := range lines {
-    		vals := bytes.Split(line, []byte(" "))
+    		vals := strings.Split(line, " ")
     		if len(vals) == 2 {
-    			nodes[string(vals[0])] = nodes[string(vals[0])] + 1
-    			nodes[string(vals[1])] = nodes[string(vals[1])] + 1
+    			nodes[vals[0]] = nodes[vals[0]] + 1
+    			nodes[vals[1]] = nodes[vals[1]] + 1
     		}
     	}
+    	i := 0
     	for k, v := range nodes {
     		fmt.Printf("Node %s has a degree of %d\n", k, v)
+    		i = i + 1
+    	}
+
+    	// bonus adjacency matrix
+    	adjm := make([][]string, i)
+    	for n := range adjm {
+    		adjm[n] = make([]string, i)
+    		for m := range adjm[n] {
+    			adjm[n][m] = "0"
+    		}
+    	}
+    	for _, line := range lines {
+    		vals := strings.Split(line, " ")
+    		if len(vals) == 2 {
+    			x, err := strconv.ParseUint(vals[0], 10, 32)
+    			check(err)
+    			y, err := strconv.ParseUint(vals[1], 10, 32)
+    			check(err)
+    			adjm[x-1][y-1] = "1"
+    			adjm[y-1][x-1] = "1"
+    			adjm[x-1][x-1] = "1"
+    		}
+    	}
+
+    	for n := 0; n < i; n++ {
+    		fmt.Printf("%q\n", strings.Join(adjm[n], " "))
     	}
     }
