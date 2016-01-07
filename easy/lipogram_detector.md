@@ -56,3 +56,8 @@ Your program should emit what letter is missing. From ths above example:
 
     def lipogram(text: String) : Set[Char] = 
         "ABCDEFGHIJKLMNOPQRSTUVWXYZ".toSet--text.toCharArray.map(_.toUpper).toSet
+
+# Python Solution
+
+    def lipogram(text): 
+        return set(string.lowercase) - ( { ch.lower() for ch in text } - set(string.punctuation))
