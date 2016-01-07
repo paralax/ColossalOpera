@@ -61,3 +61,31 @@ Your program should emit what letter is missing. From ths above example:
 
     def lipogram(text): 
         return set(string.lowercase) - ( { ch.lower() for ch in text } - set(string.punctuation))
+
+# Go Solution
+
+    package main
+
+    import (
+    	"fmt"
+    	"gopkg.in/fatih/set.v0"
+    	"os"
+    	"strings"
+    )
+
+    func main() {
+    	const alphabet = "abcdefghijklmnopqrstuvwxyz"
+    	text := os.Args[1]
+
+    	characters := set.New()
+    	for _, ch := range strings.ToLower(text) {
+    		characters.Add(string(ch))
+    	}
+
+    	alpha := set.New()
+    	for _, ch := range alphabet {
+    		alpha.Add(string(ch))
+    	}
+
+    	fmt.Println(set.Difference(alpha, characters))
+    }
