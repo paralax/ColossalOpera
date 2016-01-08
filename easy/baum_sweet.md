@@ -42,3 +42,34 @@ Your challenge today is to write a program that generates the Baum-Sweet sequenc
     }
 
     def baum_sweet(n:Int): IndexedSeq[Int] = (0 to n).map(b)
+
+# Go Solution
+
+    package main
+
+    import (
+    	"fmt"
+    	"os"
+    	"strconv"
+    	"strings"
+    )
+
+    func baumSweet(s string) int {
+    	zeroes := strings.Split(s, "1")
+    	for _, zero := range zeroes {
+    		if (len(zero) > 0) && ((len(zero) % 2) == 1) {
+    			return 1
+    		}
+    	}
+    	return 0
+    }
+
+    func main() {
+    	num, _ := strconv.ParseInt(os.Args[1], 10, 32)
+
+    	for n := 0; n <= int(num); n++ {
+    		s := strconv.FormatInt(int64(n), 2)
+    		fmt.Printf("%d ", baumSweet(s))
+    	}
+    	fmt.Printf("\n")
+    }
