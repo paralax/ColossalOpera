@@ -63,6 +63,7 @@ INTFILES+=../intermediate/cyclic_numbers.md
 INTFILES+=../intermediate/cyclic_words.md
 INTFILES+=../intermediate/de_bruijn.md
 INTFILES+=../intermediate/digit_tower.md
+INTFILES+=../intermediate/elggob.md 
 INTFILES+=../intermediate/equation_snake.md
 INTFILES+=../intermediate/friedman_numbers.md
 INTFILES+=../intermediate/graph_radius.md
