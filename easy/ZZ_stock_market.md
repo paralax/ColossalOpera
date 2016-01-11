@@ -1,6 +1,6 @@
 # Title
 
-Playing the Stock Market
+[2016-01-11] Challenge #249 [Easy] Playing the Stock Market
 
 # Difficulty
 
