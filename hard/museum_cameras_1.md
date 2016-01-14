@@ -49,11 +49,9 @@ If the shape has no solution, emit something like "The architect has no concept 
 
     4 
     (0,0) (5,0) (5,6) (0,6)
-
-
+<!-- tsk -->
     5
     (0,0) (7,0) (7,3) (5,6) (0,6)
-
-
+<!-- tsk -->
     13
     (0,5) (2,8) (5,7) (9,6) (10,9) (13,10) (13,6) (17,6) (16,3) (13,1) (7,1) (5,3) (2,3)
