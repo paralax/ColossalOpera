@@ -55,3 +55,7 @@ If the shape has no solution, emit something like "The architect has no concept 
 <!-- tsk -->
     13
     (0,5) (2,8) (5,7) (9,6) (10,9) (13,10) (13,6) (17,6) (16,3) (13,1) (7,1) (5,3) (2,3)
+
+# Notes
+
+This is a classic computational geometry problem called the [Art Gallery Problem](https://en.wikipedia.org/wiki/Art_gallery_problem). For some ideas on calculating 2d visibility from a top down map, [click here](http://www.redblobgames.com/articles/visibility/) 
