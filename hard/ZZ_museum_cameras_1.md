@@ -1,6 +1,6 @@
 # Title
 
-Museum Cameras 1
+[2016-01-15] Challenge #249 [Hard] Museum Cameras
 
 # Difficulty
 
