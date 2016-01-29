@@ -52,6 +52,8 @@ Your challenge today is to implement a Markov generator supporting a bi-gram pre
 
 [Markov Chain Algorithm](http://www.rose-hulman.edu/Users/faculty/young/CS-Classes/csse220/200820/web/Programs/Markov/markov.html) from rose-hulman.edu
 
+If you want to reproduce my Star Trek fun, I extracted the summaries from [Eric Wasserman's site](http://www.ericweisstein.com/fun/startrek/) and made them into a [flat text file](https://drive.google.com/file/d/0B3rX15hRO_71NEt0cl8tcWMxNnM/view?usp=sharing). 
+
 # Python Solution
 
 This is based on the example from Kernighan and Pike's The Practice of Programming, chapter 3.
