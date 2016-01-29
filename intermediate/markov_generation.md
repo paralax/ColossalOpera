@@ -56,7 +56,7 @@ Your challenge today is to implement a Markov generator supporting a bi-gram pre
 
 This is based on the example from Kernighan and Pike's The Practice of Programming, chapter 3.
 
-
+    from itertools import islice
     import random
     import sys
 
@@ -74,21 +74,20 @@ This is based on the example from Kernighan and Pike's The Practice of Programmi
             words = list(filter(None, data.split()))
             return words
 
-
-        def triples(self):
-            """ Generates triples from the given data string. So if our string were
-            "What a lovely day", we'd generate (What, a, lovely) and then
-            (a, lovely, day).
-            """
-
-            if len(self.words) < 3:
-                return
-
-            for i in range(len(self.words) - 2):
-                yield (self.words[i], self.words[i+1], self.words[i+2])
+        def window(self, seq, n=3):
+            "Returns a sliding window (of width n) over data from the iterable"
+            "   s -> (s0,s1,...s[n-1]), (s1,s2,...,sn), ...                   "
+            # from https://docs.python.org/release/2.3.5/lib/itertools-example.html
+            it = iter(seq)
+            result = tuple(islice(it, n))
+            if len(result) == n:
+                yield result    
+            for elem in it:
+                result = result[1:] + (elem,)
+                yield result
 
         def database(self):
-            for w1, w2, w3 in self.triples():
+            for w1, w2, w3 in self.window(self.words, n=3):
                 key = (w1, w2)
                 if key in self.cache:
                     self.cache[key].append(w3)
@@ -111,5 +110,5 @@ This is based on the example from Kernighan and Pike's The Practice of Programmi
     if __name__ == '__main__':    
         for arg in sys.argv[1:]:
             m = Markov(open(sys.argv[1], 'r'))
-            print(m.generate_markov_text())
+            print(m.generate_markov_text(100))
             del(m)
