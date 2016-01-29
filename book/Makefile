@@ -73,6 +73,7 @@ INTFILES+=../intermediate/isomorphic_words.md
 INTFILES+=../intermediate/laser_box.md
 INTFILES+=../intermediate/longest_common_substring.md
 INTFILES+=../intermediate/magic_squares.md
+INTFILES+=../intermediate/markov_generation.md
 INTFILES+=../intermediate/mathagrams.md
 INTFILES+=../intermediate/packing_stacks_of_boxes.md
 INTFILES+=../intermediate/picture_taking.md
