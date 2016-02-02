@@ -8,6 +8,7 @@ MINTEDOPS = r"""    [
     baselinestretch=1.2,
     bgcolor=lightgray,
     fontsize=\footnotesize,
+    breaklines,
     linenos
     ]
 """
