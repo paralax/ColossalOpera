@@ -62,7 +62,7 @@ def main():
                         LANG="javascript"
                     continue
             if CODE and line.startswith(r'\begin{lstlisting}'):
-                print r'''\begin{mdframed}[linecolor=black, topline=true, bottomline=true, leftline=false, rightline=false, backgroundcolor=lightgray,userdefinedwidth=\textwidth]'''
+                print r'''\begin{mdframed}[linecolor=black, topline=true, bottomline=true, leftline=false, rightline=false, backgroundcolor=white, userdefinedwidth=\textwidth]'''
                 print r'\begin{minted}'
                 print MINTEDOPS,
                 print '{%s}' % MINTLANGMAPS.get(LANG, LANG.lower())
