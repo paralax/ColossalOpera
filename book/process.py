@@ -6,7 +6,6 @@ import sys
 MINTEDOPS = r"""    [
     framesep=2mm,
     baselinestretch=1.2,
-    bgcolor=lightgray,
     fontsize=\footnotesize,
     breaklines,
     linenos
@@ -63,6 +62,7 @@ def main():
                         LANG="javascript"
                     continue
             if CODE and line.startswith(r'\begin{lstlisting}'):
+                print r'''\begin{mdframed}[linecolor=black, topline=true, bottomline=true, leftline=false, rightline=false, backgroundcolor=lightgray,userdefinedwidth=\textwidth]'''
                 print r'\begin{minted}'
                 print MINTEDOPS,
                 print '{%s}' % MINTLANGMAPS.get(LANG, LANG.lower())
@@ -70,6 +70,7 @@ def main():
                 continue
             if CODE and line.startswith(r'\end{lstlisting}'):
                 print r'\end{minted}'
+                print r'\end{mdframed}'
                 CODE=False
                 continue
             print line,
