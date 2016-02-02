@@ -12,6 +12,10 @@ you'll need
 * LaTeX itself - https://tug.org/
 * the LaTeX minted package - https://github.com/gpoore/minted
 * which requires Pygments - https://pypi.python.org/pypi/Pygments
+* the mdframed LaTeX package - https://www.ctan.org/pkg/mdframed?lang=en
+* white requires needspace - https://www.ctan.org/pkg/needspace?lang=en
+
+install all dependencies with `tlmgr install`. 
 
 that seems to be it. 
 
