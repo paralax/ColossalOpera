@@ -65,5 +65,10 @@ Your program should emit the calculated entropy values for the strings to at lea
 # FSharp Solution
 
     let entropy (s) : float = 
-        let p = string(s).ToCharArray() |> Seq.groupBy (fun x -> x) |> Seq.map (fun (x,y) -> Seq.length y)
-        -1.0 * ([ for count in p -> float(count)/float(String.length(s)) * System.Math.Log(float(count)/float(String.length(s)), 2.0) ] |> Seq.sum )
+        let p = string(s).ToCharArray() 
+                |> Seq.groupBy (fun x -> x) 
+                |> Seq.map (fun (x,y) -> Seq.length y)
+        -1.0 * ([ for count in p -> 
+                    float(count)/float(String.length(s)) *
+                    System.Math.Log(float(count)/float(String.length(s)), 2.0) ] 
+                |> Seq.sum )
