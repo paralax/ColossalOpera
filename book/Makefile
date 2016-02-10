@@ -38,6 +38,7 @@ EASYFILES+=../easy/primes_in_grids.md
 EASYFILES+=../easy/reverse_factorial.md
 EASYFILES+=../easy/roller_coaster_words.md
 EASYFILES+=../easy/safe_primes.md
+EASYFILES+=../easy/shannon_entropy.md
 EASYFILES+=../easy/typo_maker.md
 EASYFILES+=../easy/wedderburn-etherington_sequence.md
 EASYFILES+=../easy/xor_multiplication.md
