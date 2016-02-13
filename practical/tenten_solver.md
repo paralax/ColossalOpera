@@ -18,9 +18,9 @@ The game's rules:
 
 - The board is a 10x10. It opens with all grid squares unclaimed. 
 - You're have a stream of pieces, you receive them in batches of 3. You can play the three in any order by placing them on the board. You must clear all three to receive the next batch.
-- To place a piece you have to find open grid positions where it can fit - no overlaps allowed.
-- Pieces may not be rotated.
-- The game is similar to Tetris in that when you get a line of ten across you clear that line. 
+- To place a piece you have to find open grid positions where it can fit - no overlaps allowed. This is somewhat similar to Blockus or Polyominoes. 
+- Pieces may not be rotated. This is distinctly unlike Tetris. 
+- The game is similar to Tetris in that when you get a line of ten across you clear that line (a row or a column). 
 
 Scoring:
 
