@@ -129,6 +129,7 @@ HARDFILES+=../hard/loop_solver.md
 HARDFILES+=../hard/microgrid_power.md
 HARDFILES+=../hard/nonogram_solver.md
 HARDFILES+=../hard/number_grids.md
+HARDFILES+=../hard/nurikabe_solver.md
 HARDFILES+=../hard/paired_music.md
 HARDFILES+=../hard/text_summarizer.md
 
