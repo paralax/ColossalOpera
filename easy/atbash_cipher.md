@@ -56,25 +56,16 @@ Preserve case.
     	"strings"
     )
 
-    type strTuple struct {
-    	a, b byte
-    }
-
     func main() {
     	input := "abcdefghijklmnopqrstuvwxyz"
     	output := "zyxwvutsrqponmlkjihgfedcba"
-
-    	r := make([]strTuple, len(input), len(output))
-    	for i := 0; i < len(input); i++ {
-    		r[i] = strTuple{input[i], output[i]}
-    	}
 
     	var ciphertext bytes.Buffer
     	plaintext := strings.ToLower(os.Args[1])
     	for i := 0; i < len(plaintext); i++ {
     		j := strings.Index(input, string(plaintext[i]))
     		if j >= 0 {
-    			ciphertext.WriteString(string(r[j].b))
+    			ciphertext.WriteString(string(output[j]))
     		} else {
     			ciphertext.WriteString(string(plaintext[i]))
     		}
