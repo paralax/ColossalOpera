@@ -1,4 +1,5 @@
 EASYFILES=../easy/ZZ_approximate_pi.md
+EASYFILES+=../easy/ZZ_atbash_cipher.md
 EASYFILES+=../easy/ZZ_balancing_words.md
 EASYFILES+=../easy/ZZ_broken_keyboard.md
 EASYFILES+=../easy/ZZ_cellular_automata.md
@@ -13,7 +14,6 @@ EASYFILES+=../easy/ZZ_vampire_numbers.md
 EASYFILES+=../easy/ZZ_abundance_and_deficiency.md
 EASYFILES+=../easy/alliteration.md
 EASYFILES+=../easy/anagram_detector.md
-EASYFILES+=../easy/atbash_cipher.md 
 EASYFILES+=../easy/base62.md
 EASYFILES+=../easy/baum_sweet.md
 EASYFILES+=../easy/beale_treasure.md
