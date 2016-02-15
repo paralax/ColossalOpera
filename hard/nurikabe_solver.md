@@ -55,7 +55,7 @@ Your program should emit the puzzle as ASCII art with the open squares marked wi
 
 # Output Description
 
-    #_  2 # 1 # # 6
+    # _ 2 # 1 # # 6
     # # # # # # 1 #
     _ 2 # _ # # # _
     # # # _ # _ _ _
