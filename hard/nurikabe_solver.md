@@ -63,3 +63,5 @@ Your program should emit the puzzle as ASCII art with the open squares marked wi
     _ # # # _ _ 3 #
     _ # 1 # # # # #
     9 # # 1 # 2 _ #
+
+via http://wordplay.blogs.nytimes.com/2016/01/18/finkel-the-switch/#more-104056
