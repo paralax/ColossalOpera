@@ -25,7 +25,7 @@ You'll be given a single integer, *N*, on a line, and then a matrix of colors in
 
 # Output Description
 
-Your program should emit a solution within the constraints - tiles rearranged so that no two adjacent ones are the same color. Here's one possible solution to the above challenge. 
+Your program should emit a solution within the constraints - tiles rearranged so that no two adjacent ones are the same color. Tiles will be in the alphabet `ROYGBIV`. Here's one possible solution to the above challenge. 
 
     RGB
     BRG
