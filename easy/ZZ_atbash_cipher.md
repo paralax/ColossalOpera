@@ -73,3 +73,11 @@ Preserve case.
 
     	fmt.Println(ciphertext.String())
     }
+
+# Fsharp Solution
+
+    let tbl = List.zip ['a'..'z'] ( [ 'a'..'z' ] |> List.rev) |> Map.ofList
+    let atbash (s:string) : string = 
+        s.ToCharArray() 
+        |> Array.map (fun x -> string(tbl.[x]) ) 
+        |> String.concat ""
