@@ -1,6 +1,6 @@
 # Title
 
-Finding Legal Reversi Moves
+[2016-02-17] Challenge #254 [Intermediate] Finding Legal Reversi Moves
 
 # Difficulty
 
@@ -8,7 +8,7 @@ Intermediate
 
 # Descrition
 
-The game of Reversi (or Othello) is a color flipping strategy game played between two players. It's played on an 8x8 uncheckered board. In each turn, the player must place a new chip on the gameboard. The chip must be placed in a currently empty square. The other requirement is that it be placed so that one or more of their opponent's chips lie between the empty square and another chip of the player's color. That is, the player placing a black chip must place it on an empty square with one or more white chips in a row - vertical, horizontal, or diagonal - between it and another black chip.
+The game of Reversi (or Othello) is a color flipping strategy game played between two players. It's played on an 8x8 uncheckered board. In each turn, the player must place a new chip on the game board. The chip must be placed in a currently empty square. The other requirement is that it be placed so that one or more of their opponent's chips lie between the empty square and another chip of the player's color. That is, the player placing a black chip must place it on an empty square with one or more white chips in a row - vertical, horizontal, or diagonal - between it and another black chip.
 
 The object of the game is to have the majority of disks turned to display your color when the last playable empty square is filled.
 
@@ -88,4 +88,4 @@ Your program should indicate the quantity of moves for that piece and then draw 
 
 # Note
 
-For an interesting discussion of such algorithms, see the Wikipedia page on (computer Othello)[https://en.wikipedia.org/wiki/Computer_Othello]. An 8x8 board has nearly 10**28 legal moves in a game tree possible! One of the first computer Othello programs was published in 1977, written in FORTRAN. 
+For an interesting discussion of such algorithms, see the Wikipedia page on [computer Othello](https://en.wikipedia.org/wiki/Computer_Othello). An 8x8 board has nearly 10**28 legal moves in a game tree possible! One of the first computer Othello programs was published in 1977, written in FORTRAN. 
