@@ -1,10 +1,10 @@
 # Title
 
-DNA Shotgun Sequencing 
+[2016-02-19] Challenge #254 [Hard] DNA Shotgun Sequencing 
 
 # Difficulty
 
-Intermediate
+Hard
 
 # Description
 
