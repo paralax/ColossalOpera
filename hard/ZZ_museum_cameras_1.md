@@ -6,6 +6,10 @@
 
 Hard
 
+# Tags
+
+computational geometry, geometry
+
 # Description
 
 You run a museum, and you have a small budget - but you have to protect the museum with cameras. Given some descriptions of rooms, can you organize the smallest number of cameras to view the whole room?

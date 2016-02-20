@@ -6,6 +6,10 @@
 
 Hard
 
+# Tags
+
+DNA, bioinformatics, shortest common superstring, superstring
+
 # Description
 
 DNA sequences are made up of a 4 character alphabet - A, C, T or G, that describe the nucleotide bases in a gene sequence. To ascertain the sequence of DNA, scientists use chemical methods to identify the component nucleotides in a method called DNA sequencing. DNA *shotgun* sequencing is a method whereby DNA subsequences of the same larger sequence are produced at massive parallel scale by DNA sequencing methods, and the overlap between segments is used to reconstruct the input gene. This is a fast and accurate method, and is dropping in price. Shotgun sequencing was used to perform the first entire sequence of a human's DNA, for example. For additional background information, see [Wikipedia on shotgun sequencing](http://en.wikipedia.org/wiki/Shotgun_sequencing). 
