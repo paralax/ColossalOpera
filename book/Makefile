@@ -132,6 +132,7 @@ HARDFILES+=../hard/number_grids.md
 HARDFILES+=../hard/nurikabe_solver.md
 HARDFILES+=../hard/paired_music.md
 HARDFILES+=../hard/text_summarizer.md
+HARDFILES+=../hard/word_squares_2.md
 
 PANDOCARGS=--variable sansfont=Arial --latex-engine=xelatex -f markdown -t latex
 
