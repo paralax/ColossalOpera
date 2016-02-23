@@ -98,6 +98,7 @@ INTFILES+=../intermediate/unwrap_text.md
 INTFILES+=../intermediate/vaki_puzzle_solver.md
 INTFILES+=../intermediate/word_in_a_box.md
 INTFILES+=../intermediate/word_wheel.md
+INTFILES+=../intermediate/word_squares_1.md
 INTFILES+=../intermediate/xor_decoding.md
 INTFILES+=../intermediate/zeckendorf_representation.md
 INTFILES+=../intermediate/zombie_village_graph_partition.md
