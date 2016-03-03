@@ -20,7 +20,7 @@ Your challenge today is to implement an algorithm that calculates the chromatic 
 
 # Input Description
 
-You'll be given a row with a two integers *n* and *m* on it telling you how many nodes (n) and how many edges (m) to parse. Then you'll be given the edges as two integers per line. Example:
+You'll be given a row with a two integers *n* and *m* on it telling you how many nodes (n) and how many edges (m) to parse. Then you'll be given the edges as two integers per line telling you which nodes are connected. These graphs are *undirected*, meaning the two edges have no directionality. Example:
 
     10 15
     0 1
