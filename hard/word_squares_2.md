@@ -40,15 +40,15 @@ Your program should emit a valid word square with the letters placed to form val
 
 Multiple valid ones may be produced, but here's a few:
 
+    glasses
+    relapse
+    imitate
+    smeared
+    tannery
+
     garter
     averse
     recite
     tribal
     estate
     reeled
-
-    glasses
-    relapse
-    imitate
-    smeared
-    tannery
