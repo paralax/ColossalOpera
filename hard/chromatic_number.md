@@ -203,3 +203,5 @@ Your program should emit the minimal chromatic number of the graph. The example 
     16 17
 
 # Challenge Output
+
+The smallest I can get is 16 colors (e.g. every node has an independent color). 
