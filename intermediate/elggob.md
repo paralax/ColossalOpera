@@ -1,6 +1,6 @@
 # Title
 
-Elgob - Make a Boggle Layout
+Elggob - Make a Boggle Layout
 
 # Difficulty
 
