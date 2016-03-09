@@ -1,6 +1,6 @@
 # Title
 
-Word Squares Part 1
+[2016-03-09] Challenge #257 [Intermediate] Word Squares Part 1
 
 # Difficulty
 
