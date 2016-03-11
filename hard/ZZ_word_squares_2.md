@@ -1,6 +1,6 @@
 # Title
 
-Word Squares Part 2
+[2016-03-11] Challenge #257 [Hard] Word Squares Part 2
 
 # Difficulty
 
