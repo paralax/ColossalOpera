@@ -53,3 +53,5 @@ Find a solution to the puzzle, preferably one with the minimal number of steps. 
     U +3
     B -2
     R +4
+
+Puzzles via http://www.puzzles.com/puzzlesineducation/plans/rushhourguide.pdf 
