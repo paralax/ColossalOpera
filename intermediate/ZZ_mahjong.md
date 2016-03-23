@@ -1,6 +1,6 @@
 # Title
 
-Mahjong Hands
+[2016-03-23] Challenge #259 [Intermediate] Mahjong Hands
 
 # Difficulty
 
