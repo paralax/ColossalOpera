@@ -25,6 +25,10 @@ sudo sh install.sh
 
 install all dependencies with `tlmgr install`.
 
+## Build the book
+
+```make pdf```
+
 that seems to be it.
 
 # When

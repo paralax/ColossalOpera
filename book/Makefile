@@ -29,6 +29,7 @@ EASYFILES+=../easy/fresh_eggs.md
 EASYFILES+=../easy/graph_degree.md
 EASYFILES+=../easy/harshad_number.md
 EASYFILES+=../easy/integer_sequence_search_1.md
+EASYFILES+=../easy/isbn_validator.md
 EASYFILES+=../easy/jolly_jumper.md
 EASYFILES+=../easy/l33tspeak.md
 EASYFILES+=../easy/lipogram_detector.md
