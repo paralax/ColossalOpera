@@ -30,12 +30,12 @@ Your program should emit the name of the mathematician and their Erdos number.
 
 	7 4
     Thomassen, C., Erdos, P., Alavi, Y., Malde, P. J., & Schwenk, A. J. (1989). Tight bounds on the chromatic sum of a connected graph. Journal of Graph Theory, 13(3), 353-357.
-    Burr, S., Erdos, P., Faudree, R. J., Rousseau, C. C., & Schelp, R. H. (1988). Some complete bipartite graph—tree Ramsey numbers. Annals of Discrete Mathematics, 41, 79-89.
+    Burr, S., Erdos, P., Faudree, R. J., Rousseau, C. C., & Schelp, R. H. (1988). Some complete bipartite graph-tree Ramsey numbers. Annals of Discrete Mathematics, 41, 79-89.
     Burris, A. C., & Schelp, R. H. (1997). Vertex-distinguishing proper edge-colorings. Journal of graph theory, 26(2), 73-82.
     Balister, P. N., Gyori, E., Lehel, J., & Schelp, R. H. (2007). Adjacent vertex distinguishing edge-colorings. SIAM Journal on Discrete Mathematics, 21(1), 237-250.
     Erdos, P., & Tenenbaum, G. (1989). Sur les fonctions arithmetiques liees aux diviseurs consecutifs. Journal of Number Theory, 31(3), 285-311.
     Hildebrand, A., & Tenenbaum, G. (1993). Integers without large prime factors. Journal de theorie des nombres de Bordeaux, 5(2), 411-484.
-    Balister, P. N., Riordan, O. M., & Schelp, R. H. (2003). Vertex‐distinguishing edge colorings of graphs. Journal of graph theory, 42(2), 95-109.
+    Balister, P. N., Riordan, O. M., & Schelp, R. H. (2003). Vertex-distinguishing edge colorings of graphs. Journal of graph theory, 42(2), 95-109.
 	Schelp, R. H.
 	Burris, A. C.
 	Riordan, O. M.
@@ -52,7 +52,7 @@ Your program should emit the name of the mathematician and their Erdos number.
 
 This challenge is a shameless rip off of http://www.programming-challenges.com/pg.php?page=downloadproblem&format=html&probid=110206. It was too good to pass up; I did, however, compile my own challenge inputs and outputs. 
 
-A full list of Erdos publications is up here http://www.renyi.hu/~p_erdos/Erdos.html. 
+A full list of Erdos publications is up here https://wwwp.oakland.edu/enp/pubinfo/.
 	
 # Finally
 
@@ -70,12 +70,12 @@ uses scalax's graph modules to do the heavy lifting.
 	object Bonus207 {
 	  def main(args: Array[String]): Unit = {
 	    val pubs = """Thomassen, C., Erdos, P., Alavi, Y., Malde, P. J., & Schwenk, A. J. (1989). Tight bounds on the chromatic sum of a connected graph. Journal of Graph Theory, 13(3), 353-357.
-    Burr, S., Erdos, P., Faudree, R. J., Rousseau, C. C., & Schelp, R. H. (1988). Some complete bipartite graph—tree Ramsey numbers. Annals of Discrete Mathematics, 41, 79-89.
-    Burris, A. C., & Schelp, R. H. (1997). Vertex-distinguishing proper edge-colorings. Journal of graph theory, 26(2), 73-82.
-    Balister, P. N., Gyori, E., Lehel, J., & Schelp, R. H. (2007). Adjacent vertex distinguishing edge-colorings. SIAM Journal on Discrete Mathematics, 21(1), 237-250.
-    Erdos, P., & Tenenbaum, G. (1989). Sur les fonctions arithmetiques liees aux diviseurs consecutifs. Journal of Number Theory, 31(3), 285-311.
-    Hildebrand, A., & Tenenbaum, G. (1993). Integers without large prime factors. Journal de theorie des nombres de Bordeaux, 5(2), 411-484.
-    Balister, P. N., Riordan, O. M., & Schelp, R. H. (2003). Vertex‐distinguishing edge colorings of graphs. Journal of graph theory, 42(2), 95-109."""
+            Burr, S., Erdos, P., Faudree, R. J., Rousseau, C. C., & Schelp, R. H. (1988). Some complete bipartite graph-tree Ramsey numbers. Annals of Discrete Mathematics, 41, 79-89.
+            Burris, A. C., & Schelp, R. H. (1997). Vertex-distinguishing proper edge-colorings. Journal of graph theory, 26(2), 73-82.
+            Balister, P. N., Gyori, E., Lehel, J., & Schelp, R. H. (2007). Adjacent vertex distinguishing edge-colorings. SIAM Journal on Discrete Mathematics, 21(1), 237-250.
+            Erdos, P., & Tenenbaum, G. (1989). Sur les fonctions arithmetiques liees aux diviseurs consecutifs. Journal of Number Theory, 31(3), 285-311.
+            Hildebrand, A., & Tenenbaum, G. (1993). Integers without large prime factors. Journal de theorie des nombres de Bordeaux, 5(2), 411-484.
+            Balister, P. N., Riordan, O. M., & Schelp, R. H. (2003). Vertex-distinguishing edge colorings of graphs. Journal of graph theory, 42(2), 95-109."""
 	    val cos = List("Balister, P. N.", "Riordan, O. M.", "Burris, A. C.", "Schelp, R. H.")	
 
 	    def loop(pubs:List[String], sofar:List[List[String]]): List[List[String]] = {
