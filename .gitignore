@@ -30,3 +30,6 @@ tramp
 
 # cask packages
 .cask/
+
+# Vim files
+*.swp
