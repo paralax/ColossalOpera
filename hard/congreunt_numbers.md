@@ -43,8 +43,3 @@ Your program should emit if the number is congruent or not. Example:
     44 NOT CONGRUENT
     46 CONGRUENT
     29 CONGRUENT
-
-# Scala Solution
-
-    def pythagorean(a:Int, b:Int, c:Int) = (a*a + b*b) == (c*c)
-    def congruent(a:Int, b:Int, c:Int) = if (pythagorean(a,b,c)) { (a*b)/2 } else {-1}
