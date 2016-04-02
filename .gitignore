@@ -33,3 +33,6 @@ tramp
 
 # Vim files
 *.swp
+
+# OSX stuff
+.DS_Store
