@@ -12,6 +12,8 @@ Automatic summarization is the process of reducing a text document with a comput
 
 For your challenge, you should write an implementation of a text summarizer that can take a block of text (e.g. a paragraph) and emit a one or two sentence summarization of it. You can use a stop word list (words that appear in English that don't add any value) from here: http://snowball.tartarus.org/algorithms/english/stop.txt
 
+You may want to review this brief overview of the algorithms and approaches in text summarization from [Fast Forward labs](http://blog.fastforwardlabs.com/post/141666523533/hp-luhn-and-the-heuristic-value-of-simplicity). 
+
 # Example Input
 
 Here's a paragraph that we want to summarize:
