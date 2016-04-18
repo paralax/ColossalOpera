@@ -1,6 +1,6 @@
 # Title
 
-Calculating Shannon Entropy of a String
+[2016-04-18] Challenge #263 [Easy] Calculating Shannon Entropy of a String
 
 # Difficulty
 
