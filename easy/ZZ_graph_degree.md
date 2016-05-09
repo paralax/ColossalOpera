@@ -1,6 +1,6 @@
 # Title
 
-Basic Graph Statistics: Node Degrees
+[2016-05-09] Challenge #266 [Easy] Basic Graph Statistics: Node Degrees
 
 # Difficulty
 
