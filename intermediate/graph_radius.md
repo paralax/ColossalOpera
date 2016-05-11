@@ -8,7 +8,7 @@ Intermediate
 
 # Tags
 
-graph theory
+graph theory, graph theory!node, graph theory!edge, graph theory!size, graph theory!radius, graph theory@diameter
 
 # Description
 
