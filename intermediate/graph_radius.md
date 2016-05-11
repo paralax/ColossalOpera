@@ -1,6 +1,6 @@
 # Title
 
-Graph Radius and Diameter
+[2016-05-11] Challenge #266 [Intermediate] Graph Radius and Diameter
 
 # Difficulty
 
@@ -10,7 +10,7 @@ Intermediate
 
 Graph theory has a relatively straightforward way to calculate the *size* of a graph, using a few definitions:
 
-* The eccentricity *ecc(v)* of *v* in *G* is the greatest distance from *v* to any other node.
+* The eccentricity *ecc(v)* of vertex (aka node) *v* in graph *G* is the greatest distance from *v* to any other node.
 * The radius *rad(G)* of *G* is the value of the smallest eccentricity.
 * The diameter *diam(G)* of *G* is the value of the greatest eccentricity.
 * The center of *G* is the set of nodes *v* such that *ecc(v)*=*rad(G)*
