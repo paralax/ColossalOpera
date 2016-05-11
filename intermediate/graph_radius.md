@@ -6,6 +6,10 @@
 
 Intermediate
 
+# Tags
+
+graph theory
+
 # Description
 
 Graph theory has a relatively straightforward way to calculate the *size* of a graph, using a few definitions:
