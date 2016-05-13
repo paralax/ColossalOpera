@@ -6,13 +6,17 @@
 
 Hard
 
+# Tags
+
+graph theory, graph theory!clique
+
 # Description
 
-In all of our communities, we have a strong core of friends and people on the periphery of that core, e.g. people that we know that not everyone in that strong core knows. We're all familiar with these sorts of groups with the proliferation of Facebook and the like. 
+In all of our communities, we have a strong core of friends and people on the periphery of that core, e.g. people that we know that not everyone in that strong core knows. We're all familiar with these sorts of groups with the proliferation of Facebook and the like. These networks can be used for all sorts of things, such as recommender systems or detecting collusion.
 
-These networks can be used for all sorts of things, such as recommender systems or detecting collusion. 
+Today's challenge is to detect such an arrangement. In graph theory this is typically called a clique, and arises from a subgraph of G where every node in the subgraph is connected to every other node (e.g. all possible pairwise combinations exist in the subgraph). Graphs may have multiple cliques, and may even have multiple distinct cliques of the largest size (e.g. multiple 4-cliques).
 
-Given a social network graph identifying friendships, can you identify the largest strong group of friends who all know eachother and are connected? 
+For todays challenge: Given a social network graph identifying friendships, can you identify the largest strong group of friends who all know each other and are connected?
 
 # Input Description
 
