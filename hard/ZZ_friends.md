@@ -1,6 +1,6 @@
 # Title
 
-Finding Friends in the Social Graph
+[2016-05-13] Challenge #266 [Hard] Finding Friends in the Social Graph
 
 # Difficulty
 
