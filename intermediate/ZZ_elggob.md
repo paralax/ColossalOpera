@@ -1,6 +1,6 @@
 # Title
 
-Elggob - Make a Boggle Layout
+[2016-07-01] Challenge #273 [Hard] Elggob - Make a Boggle Layout
 
 # Difficulty
 
