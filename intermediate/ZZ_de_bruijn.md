@@ -1,6 +1,6 @@
 # Title
 
-Calculating De Bruijn sequences
+[2016-07-06] Challenge #274 [Intermediate] Calculating De Bruijn sequences
 
 # Difficulty
 
