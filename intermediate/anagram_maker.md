@@ -1,6 +1,6 @@
 # Title
 
-Anagram Maker
+[2016-08-24] Challenge #280 [Intermediate] Anagram Maker
 
 # Difficulty
 
