@@ -10,7 +10,7 @@ Intermediate
 
 Anagrams, where you take the letters from one or more words and rearrange them to spell something else, are a fun word game. 
 
-In this challenge you'll be asked to create anagrams from specific inputs. You should ignore capitalization as needed, and use only English language words. Note that because there are so many possibilities, there are no "right" answers so long as they're valid English language words and proper anagrams. 
+In this challenge you'll be asked to create anagrams from specific inputs. You should ignore capitalization as needed, and use only English language words. Note that because there are so many possibilities, there are no "right" answers so long as they're valid English language words and proper anagrams. Spaces and punctuation are not crucial, nor are capital letters. 
 
 # Example Input
 
