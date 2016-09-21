@@ -1,6 +1,6 @@
 # Title
 
-Punch Card Creator
+[2016-09-21] Challenge #284 [Intermediate] Punch Card Creator
 
 # Difficulty
 
