@@ -6,6 +6,10 @@ Spelling with Chemistry
 
 Easy
 
+# Tags
+
+word play, chemistry
+
 # Description
 
 The [IUPAC Periodic Table of the Elements](https://iupac.org/what-we-do/periodic-table-of-elements/) is one of the most recognizable features of modern chemistry - the organization of all known chemical elements along with some of their most fundamental properties, together with their names and symbols. Today we're going to use that as we spell some words. 
