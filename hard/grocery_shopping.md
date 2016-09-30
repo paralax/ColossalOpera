@@ -60,4 +60,6 @@ Your program should emit one or more solutions for the shopping trip.
     Strawberries 20 2.75
     Watermelon 18 1.75
 
-stolen from http://www.jasq.org/just-another-scala-quant/new-agey-interviews-at-the-grocery-startup
+# Credit
+
+The idea for this challenge was taken from http://www.jasq.org/just-another-scala-quant/new-agey-interviews-at-the-grocery-startup
