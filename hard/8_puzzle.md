@@ -40,3 +40,4 @@ Output the steps you took to get to the solution.
     5   3
     2 8 4
     6 7 1
+

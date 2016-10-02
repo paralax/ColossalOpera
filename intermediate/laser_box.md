@@ -55,6 +55,3 @@ Your program should emit the box with the full path of the laser traced. Example
 	# \  / #
 	#  \/  #
 	########
-
-
-via http://codegolf.stackexchange.com/questions/48531/ascii-doodling-laser-in-a-box	

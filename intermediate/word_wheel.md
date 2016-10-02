@@ -1,3 +1,4 @@
+
 #  Title 
 
 Word Wheel
@@ -14,7 +15,8 @@ For this challenge you'll be asked to solve word wheels.
 
 # Sample Input
 
-You'll be given a word wheel as a small piece of ASCII art. Because wheels in ASCII are very tough, instead you'll be given three lines. The middle line will be the center of the wheel and the first and third lines will be the outside of the wheel. For your dictionary use /usr/share/dict/words or the classic enable1.txt file: http://code.google.com/p/dotnetperls-controls/downloads/detail?name=enable1.txt
+You'll be given a word wheel as a small piece of ASCII art. Because wheels in ASCII are very tough, instead you'll be given three lines. The middle line will be the center of the wheel and the first and third lines will be the outside of the wheel. For your dictionary use /usr/share/dict/words or the classic [enable1.txt](http://code.google.com/p/dotnetperls-controls/downloads/detail?name=enable1.txt) file.
+
 
 	e f t
 	  i

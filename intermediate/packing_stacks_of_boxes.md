@@ -17,7 +17,7 @@ You'll be given two numbers per line. The first number is the number of stacks o
 Example:
 
 	2 343123321
-	
+
 That says "make two stacks of boxes with sizes 3, 4, 3, 1 etc". 
 
 # Output Description
@@ -54,8 +54,6 @@ If you can't make equal sized stacks, your program should emit nothing.
 	8315
 	881
 
-via http://codegolf.stackexchange.com/questions/48486/the-partition-problem-sorting-stacks-of-boxes
-	
 # Scala Solution
 
 	import scala.annotation.tailrec

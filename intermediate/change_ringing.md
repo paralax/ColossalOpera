@@ -2,15 +2,13 @@
 
 Change Ringing
 
-http://en.wikipedia.org/wiki/Change_ringing
-
 # Difficulty
 
 Intermediate
 
 # Description
 
-Change ringing is the art of ringing a set of tuned bells in a series of mathematical patterns called "changes". Change ringing differs from many other forms of campanology (such as carillon ringing) in that no attempt is made to produce a conventional melody. Developed in the 17th century, change ringing remains popular in England.
+[Change ringing](http://en.wikipedia.org/wiki/Change_ringing) is the art of ringing a set of tuned bells in a series of mathematical patterns called "changes". Change ringing differs from many other forms of campanology (such as carillon ringing) in that no attempt is made to produce a conventional melody. Developed in the 17th century, change ringing remains popular in England.
 
 Permutations of the bells are done a pair at a time. Each row of bells is then rung once per row in that order before the next permutation and ringing. An example of this method is this set of rows, where 1 pair of neighbors is swapped for each permutation. This method yields the following pattern: 
 

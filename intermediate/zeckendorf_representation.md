@@ -51,5 +51,3 @@ Your program should emit the Zeckendorf representation for each of the numbers. 
     90
     320
 
-# Challenge Output
-

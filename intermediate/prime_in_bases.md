@@ -37,5 +37,3 @@ Your program should emit an integer that is prime in base 10 when converted to r
     146752831
     764479423
     1479830551
-
-via http://www.primepuzzles.net/puzzles/puzz_024.htm
