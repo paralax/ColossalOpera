@@ -2,9 +2,9 @@ EASYDIR=../easy/
 INTDIR=../intermediate/
 HARDDIR=../hard/
 
-EASYFILES=$(wildcard $(EASYDIR)*)
-INTFILES=$(wildcard $(INTDIR)*)
-HARDFILES=$(wildcard $(HARDDIR)*)
+EASYFILES=$(wildcard $(EASYDIR)*.md)
+INTFILES=$(wildcard $(INTDIR)*.md)
+HARDFILES=$(wildcard $(HARDDIR)*.md)
 
 PANDOCARGS=--variable sansfont=Arial --latex-engine=xelatex -f markdown -t latex
 
