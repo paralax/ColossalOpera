@@ -1,6 +1,6 @@
 # Title
 
-Reverse Factorial
+[2016-10-03] Challenge #286 [Easy] Reverse Factorial
 
 # Difficulty
 
