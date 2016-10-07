@@ -135,7 +135,7 @@ Example:
     99 1.802 0.0
     100 2.995 98.606
 
-Edge data is too much to put up here. You can download it here: https://github.com/paralax/ColossalOpera/blob/master/hard/microgrid_edges.txt
+Edge data is too much to put up here. You can download it [here](https://github.com/paralax/ColossalOpera/blob/master/hard/microgrid_edges.txt).
 
 # Node data generation (Python)
 
@@ -154,8 +154,6 @@ Edge data is too much to put up here. You can download it here: https://github.c
             print "%s %.3f 0.0" % (i, r1)
 
 # Edge data generation (Python)
-
-via http://stackoverflow.com/questions/13543069/how-to-create-random-single-source-random-acyclic-directed-graphs-with-negative
 
     import networkx as nx
     import random

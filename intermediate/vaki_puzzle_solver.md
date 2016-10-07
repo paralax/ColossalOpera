@@ -12,7 +12,7 @@ Vaki puzzles are solved by completing the grid so that there are two symbols in 
 
 Vaki puzzles are solved by completing the grid so that there is a letter and a number and in each cell, each letter and each number appears once in each column and once in each row, and each pair appears only once in the grid.
 
-For a little bit more, see http://www.vakipuzzles.com/. 
+For a little bit more, see [the Vaki Puzzle website](http://www.vakipuzzles.com/). 
 
 # Input Description
 

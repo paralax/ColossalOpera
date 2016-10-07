@@ -54,4 +54,4 @@ Find a solution to the puzzle, preferably one with the minimal number of steps. 
     B -2
     R +4
 
-Puzzles via http://www.puzzles.com/puzzlesineducation/plans/rushhourguide.pdf 
+Puzzles via the [Rush Hour puzzle site](http://www.puzzles.com/puzzlesineducation/plans/rushhourguide.pdf).

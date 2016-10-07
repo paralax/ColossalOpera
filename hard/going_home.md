@@ -6,6 +6,10 @@ Drainage Ditches
 
 Hard
 
+# Tags
+
+computational geometry
+
 # Description
 
 Every time it rains on Farmer John's fields, a pond forms over Bessie's favorite clover patch. This means that the clover is covered by water for awhile and takes quite a long time to regrow. Thus, Farmer John has built a set of drainage ditches so that Bessie's clover patch is never covered in water. Instead, the water is drained to a nearby stream. Being an ace engineer, Farmer John has also installed regulators at the beginning of each ditch, so he can control at what rate water flows into that ditch. 
@@ -35,4 +39,4 @@ Your program should emit the maxiumum flow rate as the pond drains.
 
     50
 
-via http://poj.org/problem?id=1273
+This challenge was found via [this university programming challenge website](http://poj.org/problem?id=1273).

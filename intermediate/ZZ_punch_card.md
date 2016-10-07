@@ -49,7 +49,7 @@ Each card vendor would have an alphabet, an array of characters that are numeric
 
 You can see the first 12 characters are represented by a single punch, then the next 9 have two punches (with one in the upper zone), then the next 9 use the next zone as that second punch, the fourth 9 use the next zone as the second punch, then we start on the lower zone for the next sets of 6 with the upper zone punched increasingly.
 
-For some more information, including from where some of this info was taken, please see http://homepage.cs.uiowa.edu/~jones/cards/codes.html or Wikipedia http://en.wikipedia.org/wiki/Punched_card . 
+For some more information, including from where some of this info was taken, please see [this website at the University of Iowa](http://homepage.cs.uiowa.edu/~jones/cards/codes.html) or [Wikipedia](http://en.wikipedia.org/wiki/Punched_card). 
 
 So, given an alphabet array you should be able to encode a message in a punch card, right? Let's go back to the punch card! For this challenge, assume the same encoding methods as above given the character array at the top, they'll only differ in order of characters. 
 

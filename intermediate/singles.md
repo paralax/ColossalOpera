@@ -8,7 +8,7 @@ Intermediate
 
 # Description
 
-Singles is a number grid game where you must remove some squares in order to stabilize the grid. Black out some of the squares, in such a way that:
+[Singles](http://www.chiark.greenend.org.uk/~sgtatham/puzzles/js/singles.html) is a number grid game where you must remove some squares in order to stabilize the grid. Black out some of the squares, in such a way that:
 
 * no number appears twice in any row or column
 * no two black squares are adjacent
@@ -57,5 +57,3 @@ Your program should emit the grid with the numbers you knock out (using the abov
     6 x 3 5 x 2 7 8
     4 6 7 x 1 3 x 2
     8 x 1 4 x 6 2 x 
-    
-via http://www.chiark.greenend.org.uk/~sgtatham/puzzles/js/singles.html

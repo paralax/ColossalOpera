@@ -44,4 +44,4 @@ You'll be asked to output the formula that results in the value according to Fri
 
 # Notes 
 
-The August 2000 Math Magic problem was around Friedman numbers, here are many of them decomposed. http://www2.stetson.edu/~efriedma/mathmagic/0800.html
+The [August 2000 Math Magic](http://www2.stetson.edu/~efriedma/mathmagic/0800.html) problem was around Friedman numbers, here are many of them decomposed. 

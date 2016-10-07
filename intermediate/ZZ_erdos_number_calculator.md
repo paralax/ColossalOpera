@@ -50,14 +50,10 @@ Your program should emit the name of the mathematician and their Erdos number.
 
 # Notes
 
-This challenge is a shameless rip off of http://www.programming-challenges.com/pg.php?page=downloadproblem&format=html&probid=110206. It was too good to pass up; I did, however, compile my own challenge inputs and outputs. 
+This challenge is a shameless rip off of [an existing programming challenge](http://www.programming-challenges.com/pg.php?page=downloadproblem&format=html&probid=110206). It was too good to pass up; I did, however, compile my own challenge inputs and outputs. 
 
-A full list of Erdos publications is up here https://wwwp.oakland.edu/enp/pubinfo/.
+A full list of Erdos publications is up [here](https://wwwp.oakland.edu/enp/pubinfo/).
 	
-# Finally
-
-Have a good challenge idea? Consider submitting it to /r/dailyprogrammer_ideas
-
 
 # Scala Solution
 

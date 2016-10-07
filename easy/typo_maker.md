@@ -23,7 +23,7 @@ Common typos fall into a few different categories:
 * Missed key
 * Inserted key
 
-For this challege, when you think about neighbor keys, assume a [QWERTY keyboard layout] (http://en.wikipedia.org/wiki/QWERTY).
+For this challege, when you think about neighbor keys, assume a [QWERTY keyboard layout](http://en.wikipedia.org/wiki/QWERTY).
 
 # Input Description
 

@@ -8,7 +8,7 @@ Intermediate
 
 # Description
 
-In number theory, the Calkin–Wilf tree is a tree in which the vertices correspond 1-for-1 to the positive rational numbers. The tree is rooted at the number 1, and any rational number expressed in simplest terms as the fraction a/b has as its two children the numbers a/(a + b) and (a + b)/b. Every positive rational number appears exactly once in the tree.
+In number theory, the [Calkin–Wilf tree](https://en.wikipedia.org/wiki/Calkin%E2%80%93Wilf_tree)  is a tree in which the vertices correspond 1-for-1 to the positive rational numbers. The tree is rooted at the number 1, and any rational number expressed in simplest terms as the fraction a/b has as its two children the numbers a/(a + b) and (a + b)/b. Every positive rational number appears exactly once in the tree.
 
 The children of any vertex in the Calkin–Wilf tree may be computed by inverting the formula for the parents of a vertex. Each vertex a/b has one child whose value is less than 1, a/(a + b), because this is the only value less than 1 whose parent formula leads back to a/b. Similarly, each vertex a/b has one child whose value is greater than 1, (a + b)/b.
 
@@ -49,7 +49,7 @@ Your program should emit the sequence of rational numbers at that depth. For exa
     21/16, 16/27, 27/11, 11/28, 28/17, 17/23, 23/6, 6/19, 19/13, 13/20, 20/7, 7/15, 15/8, 8/9, 9/1
 
 
-https://en.wikipedia.org/wiki/Calkin%E2%80%93Wilf_tree
+
 
 # Scala Solution
 

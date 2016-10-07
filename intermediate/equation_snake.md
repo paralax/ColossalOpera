@@ -28,4 +28,4 @@ Your program should emit a solution (multiple solutions may exist) as a valid eq
 
 # Notes
 
-This puzzle comes from Alex Bellos at the Guardian's May 20, 2015 column http://www.theguardian.com/science/alexs-adventures-in-numberland/2015/may/20/can-you-do-the-maths-puzzle-for-vietnamese-eight-year-olds-that-has-stumped-parents-and-teachers?CMP=share_btn_tw 
+This puzzle comes from Alex Bellos at the [Guardian's May 20, 2015 column](http://www.theguardian.com/science/alexs-adventures-in-numberland/2015/may/20/can-you-do-the-maths-puzzle-for-vietnamese-eight-year-olds-that-has-stumped-parents-and-teachers?CMP=share_btn_tw).

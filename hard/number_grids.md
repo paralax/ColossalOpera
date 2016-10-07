@@ -58,4 +58,4 @@ This one works because both `41` and `43` are primes, `12` is a multiple of 4 an
 
     NO SOLUTION
 
-From http://chalkdustmagazine.com/regulars/puzzles/puzzles-on-square-grids/#more-1396 
+From [Chalk Dust magazine](http://chalkdustmagazine.com/regulars/puzzles/puzzles-on-square-grids/#more-1396).

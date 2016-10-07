@@ -62,4 +62,4 @@ Your program should emit one or more solutions for the shopping trip.
 
 # Credit
 
-The idea for this challenge was taken from http://www.jasq.org/just-another-scala-quant/new-agey-interviews-at-the-grocery-startup
+The idea for this challenge was taken from [this interview summary](http://www.jasq.org/just-another-scala-quant/new-agey-interviews-at-the-grocery-startup)

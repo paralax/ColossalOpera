@@ -94,8 +94,8 @@ You should link the dots with a dash `-` or a pipe `|` as needed to satisfy the 
 
 # Credit
 
-This puzzle cam from the New York Times magazine on May 24, 2015. You can find more slitherlink puzzles on this website: http://krazydad.com/slitherlink/
+This puzzle cam from the [New York Times magazine on May 24, 2015](http://krazydad.com/slitherlink/). You can find more slitherlink puzzles on [this website](http://www.kakuro-online.com/slitherlink/).
 
 
 
-http://www.kakuro-online.com/slitherlink/
+

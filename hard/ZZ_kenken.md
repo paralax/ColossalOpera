@@ -78,7 +78,7 @@ Your program should emit the grid of numbers that satisfies the rules - yield th
 
 # Challenge Output
 
-You can see the result here: http://imgur.com/JHHt6Hg 
+You can see the result [here](http://imgur.com/JHHt6Hg).
 
     1 4 3 5 2 6
     3 5 2 6 4 1

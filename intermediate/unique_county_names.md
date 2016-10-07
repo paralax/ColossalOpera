@@ -18,7 +18,7 @@ In this challenge, you're looking for those unique names. A couple of things to 
 - Yes, there will be many, many unique names. That's part of the challenge. 
 - Focus only on the 50 US states, so ignore Puerto Rico, DC, etc. The data set includes extra territories, so you'll have to analyze it first to discover which ones to omit. 
 
-The data comes from the US Census Bureau and can be downloaded from this URL: http://www2.census.gov/geo/docs/reference/codes/files/national_county.txt 
+The data comes from the US Census Bureau and can be downloaded from [this URL](http://www2.census.gov/geo/docs/reference/codes/files/national_county.txt).
 
 # Input Description
 

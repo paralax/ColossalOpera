@@ -6,6 +6,10 @@ New York Street Sweeper Paths
 
 Hard
 
+# Tags
+
+graph theory, route inspection
+
 # Description
 
 In graph theory, various walks and cycles occupy a number of theorems, lemmas, and papers. They have practical value, it turns out, in a wide variety of applications: computer networking and street sweepers among them. 
@@ -40,7 +44,5 @@ The shortest walk of all streets at least once I've been able to come up with is
 
 # Notes
 
-http://en.wikipedia.org/wiki/Route_inspection_problem
-
-http://www.oocities.org/harry_robinson_testing/graph_theory.htm
+This is an example of the [route inspection problem](http://en.wikipedia.org/wiki/Route_inspection_problem) in computer science and mathematics. Additional information can be found [here](http://www.oocities.org/harry_robinson_testing/graph_theory.htm).
 
