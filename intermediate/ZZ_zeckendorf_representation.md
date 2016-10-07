@@ -1,10 +1,14 @@
 # Title
 
-Zeckendorf Representations of Positive Integers
+[2016-10-05] Challenge #286 [Intermediate] Zeckendorf Representations of Positive Integers
 
 # Difficulty
 
 Intermediate
+
+# Tags
+
+number theory
 
 # Description
 
