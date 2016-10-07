@@ -1,6 +1,6 @@
 # Title
 
-Nonogram Solver
+[2016-10-07] Challenge #286 [Hard] Nonogram Solver
 
 # Difficulty
 
