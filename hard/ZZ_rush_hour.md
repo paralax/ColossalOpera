@@ -1,10 +1,14 @@
 # Title
 
-Rush Hour Solver
+[2016-10-07] Challenge #286 [Hard] Rush Hour Solver
 
 # Difficulty
 
 Hard
+
+# Tags
+
+game, puzzle, solver, rush hour
 
 # Description
 
