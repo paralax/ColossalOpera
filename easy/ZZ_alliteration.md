@@ -22,6 +22,7 @@ The following are some of the simplest English "stop words", words too common an
     a 
     about 
     an 
+    and
     are 
     as 
     at 
