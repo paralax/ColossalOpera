@@ -1,6 +1,6 @@
 # Title
 
-Detecting Alliteration
+[2016-10-17] Challenge #288 [Easy] Detecting Alliteration
 
 # Difficulty
 
