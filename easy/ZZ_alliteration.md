@@ -1,6 +1,6 @@
 # Title
 
-Detecting Alliteration
+[2016-10-17] Challenge #288 [Easy] Detecting Alliteration
 
 # Difficulty
 
@@ -22,6 +22,7 @@ The following are some of the simplest English "stop words", words too common an
     a 
     about 
     an 
+    and
     are 
     as 
     at 
