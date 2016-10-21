@@ -8,7 +8,7 @@ Intermediate
 
 # Tags
 
-ASCII art, Fibonacci, fractal
+ASCII art, fibonacci, fractal
 
 # Description
 
@@ -23,6 +23,8 @@ You can take this sequence and construct an interesting fractal using these step
   - turn right if *n* is even
 
 If this is a bit confusing, see [this accessible paper by Alexis Monnerot-Dumaine](https://hal.archives-ouvertes.fr/hal-00367972/document) for more information. 
+
+When you do this, you wind up with curves that look like this:
 
 	######
 	#    #
