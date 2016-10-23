@@ -6,7 +6,7 @@ Beer Street and Gin Lane
 
 The US state of Iowa has relesed over a year's worth of liquor sales data, great for data mining. In this practical exercise we'll be asking you to do some large scale data analysis. Hopefully this data set is big enough that you have to make some decisions about data structures and algorithms and don't just `sort | uniq`. 
 
-The title of this challenge refers to [artwork by William Hogarth](http://www.britishmuseum.org/explore/highlights/highlight_objects/pd/w/william_hogarth,_beer_street.aspx).
+The title of this challenge refers to [artwork by William Hogarth](https://en.wikipedia.org/wiki/Beer_Street_and_Gin_Lane).
 
 # Questions to Answer
 
