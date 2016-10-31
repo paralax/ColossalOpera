@@ -1,6 +1,6 @@
 # Title
 
-Kaprekar numbers
+[2016-10-31] Challenge #290 [Easy] Kaprekar Numbers
 
 # Difficulty
 
