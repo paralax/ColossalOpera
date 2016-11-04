@@ -1,6 +1,6 @@
 # Title
 
-Gophers and Robot Dogs
+[2016-11-04] Challenge #290 [Hard] Gophers and Robot Dogs
 
 # Difficulty
 
