@@ -25,22 +25,22 @@ Your program should have the following components:
 # Python Solution
 
     import sys
- 
+
     # def xor(b, s): return "".join(map(lambda x: chr(x^b), map(lambda x: ord(x), s)))
-    def xor(b, s): return map(lambda x: x^b, map(lambda x: ord(x), s))
- 
+    def xor(b, s): return list(map(lambda x: x^b, map(lambda x: ord(x), s)))
+
     M = sys.maxsize
     M = 128
- 
+
     def lcg(m, a, c, x): return (a*x + c) % m
- 
+
     def enc(msg, seed):
         res = []
         for ch in msg:
             res.extend(xor(lcg(M, 1664525, 1013904223, seed), ch))
             seed = lcg(M, 1664525, 1013904223, seed)
         return res
- 
+
     def dec(msg, seed):
         res = []
         for ch in msg:

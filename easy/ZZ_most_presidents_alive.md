@@ -119,18 +119,18 @@ Any of the following years is valid: 1822, 1823, 1824, 1825, 1826, 1831, 1833, 1
     George W. Bush, July 6 1946,    New Haven Conn.,    ,   
     Barack Obama,   Aug 4 1961, Honolulu Hawaii,    ,""".splitlines()
 
-    years = dict(map(lambda x: (x,0), xrange(1600, 2016)))
+    years = dict(map(lambda x: (x,0), range(1600, 2016)))
     for line in presidents[1:]:
         line = line.replace('July', 'Jul').replace('June', 'Jun')
-        gw = map(str.strip, line.split(','))
+        gw = list(map(str.strip, line.split(',')))
         start = time.strptime(gw[1],  "%b %d %Y").tm_year
         if len(gw[3]) > 1: 
             end = time.strptime(gw[3],  "%b %d %Y").tm_year
         else: 
             end = time.gmtime().tm_year
-        for y in xrange(start, end+1):
+        for y in range(start, end+1):
             years[y] = years.get(y, 0) + 1
 
-    years = [ (v,k) for k,v in years.iteritems() ]
+    years = [ (v,k) for k,v in years.items() ]
     n = max(years)[0]
-    print map(lambda x: x[1], filter(lambda x: x[0] == n, years))
+    print(list(map(lambda x: x[1], filter(lambda x: x[0] == n, years))))

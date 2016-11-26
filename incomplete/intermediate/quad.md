@@ -48,7 +48,7 @@ That will give player 2 a winning position.
     cache = set()
 
     def move(n): 
-        m = random.choice(string.lowercase[:10]) + `random.randint(1,11)`
+        m = random.choice(string.ascii_lowercase[:10]) + str(random.randint(1,11))
         if m not in cache:
             cache.add(m)
             if (random.random() < 0.1 and n > 0):
@@ -61,7 +61,7 @@ That will give player 2 a winning position.
     def game(n):
         a = 7
         b = 7        
-        for _ in xrange(n): 
+        for _ in range(n): 
             ma, a = move(a)
             mb, b = move(b)
-            print ma + "|" + mb
+            print(ma + "|" + mb)

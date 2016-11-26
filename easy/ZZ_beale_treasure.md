@@ -51,5 +51,5 @@ The inspiration for this challenge comes from the [Damn Interesting website](htt
     def solution(msg):
         # msg is a comma-separated list of integers, just like beale wrote out
         decl = "When in the course of human events ..." # omitted for brevity
-        msg = map(int, map(str.strip, msg1.split(',')))
+        msg = map(int, map(str.strip, msg.split(',')))
         return ''.join([ decl.split()[x-1][0] for x in msg])

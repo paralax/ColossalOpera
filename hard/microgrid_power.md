@@ -145,13 +145,13 @@ Edge data is too much to put up here. You can download it [here](https://github.
     CHANCE=0.05
 
     r2 = ALPHA
-    for i in xrange(100):
+    for i in range(100):
         r1 = random.paretovariate(r2)
         r2 = random.paretovariate(r1)
         if random.random() < CHANCE:
-            print "%s %.3f %.3f" % (i, r1, r2)
+            print("%s %.3f %.3f" % (i, r1, r2))
         else:
-            print "%s %.3f 0.0" % (i, r1)
+            print("%s %.3f 0.0" % (i, r1))
 
 # Edge data generation (Python)
 

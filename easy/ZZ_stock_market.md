@@ -48,7 +48,7 @@ Your program should emit the two trades in chronological order - what you think 
             sofar.append(init + (random.paretovariate(init)-random.paretovariate(init))*0.5)
             return stockprices(sofar[-1], sofar)
 
-    print ' '.join(map(lambda x: '%.2f' % x, stockprices(8, [])))
+    print(' '.join(map(lambda x: '%.2f' % x, stockprices(8, []))))
 
 # Scala Solution
 

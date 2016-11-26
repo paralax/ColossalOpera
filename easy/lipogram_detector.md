@@ -59,8 +59,9 @@ Your program should emit what letter is missing. From ths above example:
 
 # Python Solution
 
+    import string
     def lipogram(text): 
-        return set(string.lowercase) - ( { ch.lower() for ch in text } - set(string.punctuation))
+        return set(string.ascii_lowercase) - ( { ch.lower() for ch in text } - set(string.punctuation))
 
 # Go Solution
 

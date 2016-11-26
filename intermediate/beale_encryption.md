@@ -52,12 +52,13 @@ And so on.
 
 # Python Solution
 
+    import random
     def beale_cipher(plaintext, decl):
         def _startswith(ch, ideclrange):
             for i in ideclrange:
                 if i[1].lower().startswith(ch.lower()):
                     return i[0]
-        idecl = map(lambda x: x[0], zip(enumerate(decl.split(), 1)))
+        idecl = list(map(lambda x: x[0], zip(enumerate(decl.split(), 1))))
         res = []
         for ch in plaintext.replace(" ", ""):
             i = random.randint(1, len(idecl))

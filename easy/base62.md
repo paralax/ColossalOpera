@@ -58,5 +58,5 @@ Your program should emit the number represented in Base62 notation. Examples:
         while (n > 0):
             tmp = n % basis
             ret += alphabet[tmp]
-            n = (n/basis)
+            n = (n//basis)
         return ret
