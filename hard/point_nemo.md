@@ -22,7 +22,7 @@ You'll be given a two integers on a line telling you how wide (in characters) th
 
 # Output Description
 
-Your progam should emit the location of Point Nemo as a grid coordinate in x-y (e.g. 40,25). 
+Your progam should emit the location of Point Nemo as a grid coordinate in x-y (e.g. 40,25). Count the upper left corner as 0,0.
 
 # Challenge Input
 
