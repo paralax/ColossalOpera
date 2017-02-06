@@ -19,7 +19,6 @@ Here's the list of the elements alphabetized by the element's name. We can also 
 |Element | Symbol | Z | Atomic Weight | c
 |:-----------|------------:|:------------|:-----------|------------
 |Actinium | Ac | 89 | (227) | 1.1
-|Aluminium | Al | 13 | 26.9815 | 1.5
 |Aluminum | Al | 13 | 26.9815 | 1.5
 |Americium | Am | 95 | (243) | 1.3
 |Antimony | Sb | 51 | 121.75 | 1.9
@@ -34,7 +33,6 @@ Here's the list of the elements alphabetized by the element's name. We can also 
 |Bromine | Br | 35 | 79.904 | 2.8
 |Cadmium | Cd | 48 | 112.40 | 1.7
 |Calcium | Ca | 20 | 40.08 | 1.0
-|Cadmium | Cd | 48 | 112.40 | 1.7
 |Californium | Cf | 98 | (251) | 1.3
 |Carbon | C | 6 | 12.011 | 2.5
 |Cerium | Ce | 58 | 140.12 | 1.1
