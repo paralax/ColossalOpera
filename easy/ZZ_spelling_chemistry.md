@@ -1,6 +1,6 @@
 # Title
 
-Spelling with Chemistry
+[2017-02-06] Challenge #302 [Easy] Spelling with Chemistry
 
 # Difficulty
 
