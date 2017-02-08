@@ -1,6 +1,6 @@
 # Title
 
-ASCII Histogram Maker: Part 1 - The Simple Bar Chart
+[2017-02-08] Challenge #302 [Intermediate] ASCII Histogram Maker: Part 1 - The Simple Bar Chart
 
 # Difficulty
 
