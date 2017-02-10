@@ -1,6 +1,6 @@
 # Title
 
-ASCII Histogram Maker: Part 2 - The Proper Histogram
+[2017-02-10] Challenge #302 [Hard] ASCII Histogram Maker: Part 2 - The Proper Histogram
 
 # Difficulty
 
@@ -28,7 +28,7 @@ You'll be given four numbers on the first line telling you the start and end of 
 
 # Challenge Output
 
-Your program should emit an ASCII histogram plotting the data according to the specifictaion - the size of the chart and the frequency of the X-axis variables. Example:
+Your program should emit an ASCII histogram plotting the data according to the specification - the size of the chart and the frequency of the X-axis variables. Example:
 
 	10
 	 9
