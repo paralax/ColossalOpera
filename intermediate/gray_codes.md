@@ -12,7 +12,7 @@ data transmission, information theory
 
 # Description
 
-Gray code, so named after discoverer Frank Gray, is a binary numeral system where two successive values differ in only one bit (binary digit). The reflected binary code was originally designed to prevent spurious output from electromechanical switches. Today, Gray codes are widely used to facilitate error correction in digital communications such as digital terrestrial television and some cable TV systems.
+[Gray code](https://en.wikipedia.org/wiki/Gray_code), so named after discoverer Frank Gray, is a binary numeral system where two successive values differ in only one bit (binary digit). The reflected binary code was originally designed to prevent spurious output from electromechanical switches. Today, Gray codes are widely used to facilitate error correction in digital communications such as digital terrestrial television and some cable TV systems.
 
 Gray codes differ from regular binary counting sequences in one key way: because sequential values can have only a single bit difference from their predecessor, you wind up with a non-linear progression of base 10 integers (see column 4, "Gray as decimal"):
 
