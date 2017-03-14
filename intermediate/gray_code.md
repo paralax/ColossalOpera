@@ -1,6 +1,6 @@
 # Title
 
-Gray Codes
+Gray Code
 
 # Difficulty
 
