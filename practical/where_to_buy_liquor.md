@@ -10,8 +10,8 @@ The title of this challenge refers to [artwork by William Hogarth](https://en.wi
 
 # Questions to Answer
 
-* For beer sales across Iowa, what is the most popular street name across all cities?
-* What's the most popular non-beer beverage bought in 2014? 
+* For beer sales across Iowa (e.g. where someone buys beer, not just any alcohol), what is the most popular street name across all cities?
+* What's the most popular non-beer beverage bought in 2016? 
 * What store has made the most profit (the difference between the state cost per bottle and the sales price per bottle times the quantity of all bottles sold)? 
 * What are the top types of alcohol commonly bought together? (e.g. "wine and tequila")
 * What day of the week sees the most vodka sales?
