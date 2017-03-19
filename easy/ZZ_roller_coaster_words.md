@@ -16,4 +16,4 @@ A [roller coaster word](http://www.questrel.com/records.html#spelling_alphabetic
 
 # Output
 
-Your program should emit any and all roller coaster words it finds in a standard English language dictionary longer (or [enable1.txt](https://github.com/dolph/dictionary/blob/master/enable1.txt)) than 4 letters. 
+Your program should emit any and all roller coaster words it finds in a standard English language dictionary (or [enable1.txt](https://github.com/dolph/dictionary/blob/master/enable1.txt)) longer than 4 letters. 
