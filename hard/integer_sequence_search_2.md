@@ -12,7 +12,7 @@ This is part 2 of the Integer sequence search functionality. An integer sequence
 
 Not all sequences are computable (e.g. not all have a formula that can express them), but many do. 
 
-For this challenge you'll be searching sequences expressed as a recurrence relation. We did recurrence relations as a [previous exercise #206E](http://www.reddit.com/r/dailyprogrammer/comments/2z68di/20150316_challenge_206_easy_recurrence_relations/).
+For this challenge you'll be searching sequences expressed as a recurrence relation. We did recurrence relations as a [previous exercise #206E](http://www.reddit.com/r/dailyprogrammer/comments/2z68di/20150316\_challenge\_206\_easy\_recurrence\_relations/).
 
 # Input Description
 
