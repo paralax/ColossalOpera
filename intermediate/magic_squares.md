@@ -30,7 +30,7 @@ Your answer should emit the magic square as a simple grid of numbers separated b
 
     10
 
-# Challenge Input Solution
+# Challenge Output
 
         1,9,17,25,33,68,76,84,92,100
         99,91,83,75,67,34,26,18,10,2
