@@ -13,8 +13,9 @@ pdf: book.pdf
 epub: book.epub
 
 book.epub: epub.css title.txt easyintro.md easy.md intintro.md int.md hardintro.md hard.md
-	pandoc --epub-stylesheet=epub.css -t epub3 -o book.epub title.txt easyintro.md easy.md intintro.md int.md hardintro.md hard.md
-
+	cat easyintro.md easy.md intintro.md int.md hardintro.md hard.md | python epub-process.py > book.md
+	pandoc --epub-stylesheet=epub.css -t epub3 -o book.epub title.txt book.md
+	
 book.pdf: book.tex easyintro.tex easy.tex intintro.tex int.tex hardintro.tex hard.tex
 	pdflatex -shell-escape book.tex
 	makeindex book
@@ -58,4 +59,4 @@ hard.md: $(HARDFILES)
 clean:
 	rm -f easytmp.tex inttmp.tex hardtmp.tex easy.tex int.tex hard.tex hardintro.tex intintro.tex easyintro.tex
 	rm -rf _minted-book
-	rm -f book.idx book.ilg book.ind book.aux book.log book.out book.pdf book.epub book.pyg book.toc easy.md hard.md int.md texput.log
+	rm -f book.idx book.ilg book.ind book.aux book.log book.out book.pdf book.md book.epub book.pyg book.toc easy.md hard.md int.md texput.log
