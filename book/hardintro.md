@@ -1,0 +1,3 @@
+# Introduction
+
+Hard challenges are meant to really get you thinking like a computer scientist. Often I choose NP hard problems because they force you to consider time-space tradeoffs in a strive for efficiency. These not only require a confidence in a language but often the skills needed to be a good programmer - laying out the problem clearly and seeing a path to a solution, often with a pencil and paper, before you begin coding. 

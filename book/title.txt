@@ -1,0 +1,6 @@
+---
+title: Programming Challenges
+author: Jose Nazario
+rights: Copyright 2017 Jose Nazario, All Rights Reserved
+language: en-US
+...
