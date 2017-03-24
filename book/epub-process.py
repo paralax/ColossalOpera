@@ -42,13 +42,7 @@ def main():
                 print '# %s' % line.strip()
                 TITLE=False
                 continue
-            if line.startswith("## Difficulty"):
-                DIFFICULTY=True
-                continue
             if line.strip() == "## Description": 
-                continue
-            if DIFFICULTY and len(line.strip()) > 0:
-                DIFFICULTY=False
                 continue
             print line,
 
