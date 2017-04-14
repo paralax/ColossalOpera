@@ -27,7 +27,7 @@ I'll give you the locations of the towers, one at a time, as a pair of integers 
 
 You'll be given an integer on the first line telling you how many lines of tower coordinate pairs to read. Example:
 
-    2
+    3
     2 3
     3 2
     -1 -1
