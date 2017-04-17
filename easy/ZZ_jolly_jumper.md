@@ -47,3 +47,21 @@ Your program should emit some indication if the sequence is a jolly jumper or no
 	4 19 22 24 21 NOT JOLLY
 	4 19 22 24 25 JOLLY
 	4 2 -1 0 2 JOLLY
+
+# FSharp Solution
+
+	let jolly (s:string) : string = 
+		let differences (s:string) : int list = 
+			s.Split(' ').[1..] 
+			|> Array.map (fun x -> int x) 
+			|> Seq.windowed 2 
+			|> Seq.map (fun [|x;y|] -> System.Math.Abs(x-y)) 
+			|> Seq.sort
+			|> List.ofSeq
+
+		let target (s:string) : int list =
+			let n = s.Split(' ').[0] |> int
+			[(n-n+1)..(n-1)] 
+		match (differences s) = (target s) with
+		| true  -> "JOLLY"
+		| false -> "NOT JOLLY"
