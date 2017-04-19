@@ -4,7 +4,7 @@ Isomorphic Words
 
 # Difficulty
 
-Intermediate
+Easy
 
 # Description
 
