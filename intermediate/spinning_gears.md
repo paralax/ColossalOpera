@@ -14,7 +14,7 @@ Today's challenge is to read a set of gear specifications - their size and layou
 
 # Sample Input
 
-You'll be given a line with a single integer on it (*N*) telling you how many gear specifications to read, followed by *N* lines. Gear specifications are given as a unique letter to designate it and then the radius of the gear. Then you'll be  given another link with a single integer on it (*M*) telling you the layout, showing you what gears are touching by their letters, followed by *M* lines. Finally, you'll be asked on the last line to spin a gear (designated by a letter) in a direction (clockwise or counter-clockwise, CW or CCS) and how fast in RPMs, ending with the name of the gear to turn. Example of 3 gears forming an A-B and B-C line, asking you to spin A to make C turn at 30 RPM counter clockwise:
+You'll be given a line with a single integer on it (*N*) telling you how many gear specifications to read, followed by *N* lines. Gear specifications are given as a unique letter to designate it and then the radius of the gear. Then you'll be  given another link with a single integer on it (*M*) telling you the layout, showing you what gears are touching by their letters, followed by *M* lines. Finally, you'll be asked on the last line to spin a gear (designated by a letter) in a direction (clockwise (CW) or counter-clockwise (CCW)) and how fast in RPMs, ending with the name of the gear to turn. Example of 3 gears forming an A-B and B-C line, asking you to spin A to make C turn at 30 RPM counter clockwise:
 
     3 
     A 6
