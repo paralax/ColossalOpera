@@ -50,3 +50,9 @@ Your program should emit if the two words are isomorphic or not. Example:
         val m = w1.zip(w2).toMap
         w2 == w1.map(x => m(x)).mkString
     }
+
+# FSharp Solution
+
+    let isomorphic (w1:string) (w2:string): bool = 
+        let m = Array.zip (w1.ToCharArray()) (w2.ToCharArray()) |> Map.ofArray
+        w2 = (Array.map (fun x -> string(Map.find x m)) (w1.ToCharArray()) |> String.concat "")
