@@ -8,7 +8,7 @@ Easy
 
 # Tags
 
-word play
+integer sequences, number theory, math
 
 # Description
 
