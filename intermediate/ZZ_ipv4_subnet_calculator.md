@@ -6,6 +6,10 @@
 
 Intermediate
 
+# Tags
+
+IPv4, networking, trie, bitmask
+
 # Description
 
 In IPv4 networking, classless inter-domain routing (CIDR) notation is used to specific network addresses that fall outside of the historic "class A", "class B" and "class C" desigation. Instead it's denoted in an IPv4 network address with a bit-lenegth mask. For example, the historic class A network of 10.0.0.0 is expressed as `10.0.0.0/8`, meaning only the first 8 bits of the network address are specified. CIDR notation allows you to specify networks outside of the classic octet boundaries. For those of you new to 32 bit binary values (expressed as dotted quads, as IPv4 addresses are), you may want to review [a guide to understanding IP address subnets and CIDR notation](https://www.digitalocean.com/community/tutorials/understanding-ip-addresses-subnets-and-cidr-notation-for-networking). 
