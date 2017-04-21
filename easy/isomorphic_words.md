@@ -6,6 +6,10 @@ Isomorphic Words
 
 Easy
 
+# Tags
+
+word play
+
 # Description
 
 In graph theory, geometry and other mathematical subjects, an isomorph can be thought of as a relationship between two inputs that share a similar structure. We'll define the relationship between two words as being *isomorphic* if they reuse letters in the same pattern. As an example, the words `ESTATE` and `DUELED` both have the pattern `abcdca`:
