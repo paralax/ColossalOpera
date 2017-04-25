@@ -1,6 +1,6 @@
 # Title
 
-L33tspeak Translator
+[2017-04-24] Challenge #312 [Easy] L33tspeak Translator
 
 # Difficulty
 
