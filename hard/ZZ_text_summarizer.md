@@ -1,10 +1,14 @@
 # Title
 
-Text Summarizer
+[2017-04-28] Challenge #312 [Hard] Text Summarizer
 
 # Difficulty
 
 Hard
+
+# Tags
+
+text, summarizing, semantic analysis
 
 # Description
 
