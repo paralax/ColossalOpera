@@ -1,6 +1,6 @@
 # Title 
 
-Concatenated Integers
+[2017-05-08] Challenge #313 [Easy] Concatenated Integers
 
 # Difficulty
 
