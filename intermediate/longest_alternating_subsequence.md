@@ -6,6 +6,10 @@ Longest Alternating Subsequence
 
 Intermediate
 
+# Tags
+
+subsequence
+
 # Description
 
 In the longest alternating subsequence problem, one wants to find a subsequence of a given sequence in which the elements are in alternating order, and in which the sequence is as long as possible. 
