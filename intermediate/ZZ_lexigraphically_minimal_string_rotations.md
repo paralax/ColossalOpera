@@ -45,3 +45,12 @@ Which is, in Python parlance, `"aabbccddbbaabb"[10:] + "aabbccddbbaabb"[:10]`.
 	6 aalfalf
 	14 eewweugweougewoih
 	12 amicroscopicsilicovolcanoconiosispneumonoultr
+
+# FSharp Solution
+
+	let rotations (s:string) = 
+	    let vu (s:string) (n:int) : string =  s.[n..] + s.[0..n-1]
+	    [ 0..(String.length s)-1]
+	    |> List.map (fun x -> (x, vu s x))
+	    |> List.sortBy snd
+	    |> List.head
