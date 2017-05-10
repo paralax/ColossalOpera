@@ -1,6 +1,6 @@
 # Title
 
-Comparing Rotated Words 
+[2017-05-10] Challenge #314 [Intermediate] Comparing Rotated Words 
 
 # Difficulty
 
