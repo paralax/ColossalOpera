@@ -38,6 +38,10 @@ You should emit the smallest and largest integer you can make, per line. Example
 	193413442071 714203434119
 	173246791 917463217
 
+# Bonus
+
+My solution (below) uses permutations, which is quite inefficient. Can you come up with a more efficient solution?
+
 # Scala Solution
 
 	// returns min, max
