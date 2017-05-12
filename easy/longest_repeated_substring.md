@@ -1,6 +1,6 @@
 # Title
 
-Longest Common Substring
+Longest Repeated Substring
 
 # Difficulty
 
