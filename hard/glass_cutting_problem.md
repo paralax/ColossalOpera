@@ -1,6 +1,6 @@
 # Title
 
-Glass Cutting Uptimization
+Glass Cutting Optimization
 
 # Difficulty
 
@@ -12,9 +12,9 @@ geometry
 
 # Description
 
-The guillotine problem is a problem in combinatorial geometry and in printing. It is the question of how to get the maximum number of sheets of one rectangular size out of a larger sheet, only orthogonal cuts that bisect one component of the sheet are allowed, as on a paper cutting guillotine.
-
 The Guillotine problem is important in glass machining. Glass sheets are scored along horizontal and vertical lines and then broken along these lines to obtain smaller panels.
+
+The guillotine problem is a problem in combinatorial geometry and in printing. It is the question of how to get the maximum number of sheets of one rectangular size out of a larger sheet, only orthogonal cuts that bisect one component of the sheet are allowed, as on a paper cutting guillotine.
 
 Today's challenge is to implement an algorithm that can cut the glass and minimize waste. 
 
@@ -25,11 +25,11 @@ You'll be given inputs over two lines. The first line tells you how big the shee
 	20 4
 	4 15 4 5
 
-Meaning 6 5x7, 9 4x6, 2 2x3.5, and 5 3x5 cuts. 
+Meaning glass pieces sized 6 5x7, 9 4x6, 2 2x3.5, and 5 3x5. 
 
 # Output Description
 
-Your program should emit the sequence of cuts to make using x,y coordinates and stating the start and end positions. Assume 0,0 is the upper left corner. Example:
+Your program should emit the sequence of cuts to make using x,y coordinates and stating the start and end positions that yield the desired pieces and minimizes waste. Assume 0,0 is the upper left corner. Example:
 
 	 15 0 15 4
 
