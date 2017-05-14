@@ -12,7 +12,9 @@ palindrome, substring
 
 # Description
 
-In computer science, the longest palindromic substring or longest symmetric factor problem is the problem of finding a maximum-length contiguous substring of a given string that is also a palindrome. For example, the longest palindromic substring of "bananas" is "anana". The longest palindromic substring is not guaranteed to be unique; for example, in the string "abracadabra", there is no palindromic substring with length greater than three, but there are two palindromic substrings with length three, namely, "aca" and "ada".
+In computer science, the longest palindromic substring or longest symmetric factor problem is the problem of finding a maximum-length contiguous substring of a given string that is also a palindrome. 
+
+For example, the longest palindromic substring of "bananas" is "anana". The longest palindromic substring is not guaranteed to be unique; for example, in the string "abracadabra", there is no palindromic substring with length greater than three, but there are two palindromic substrings with length three, namely, "aca" and "ada".
 
 Remember - substrings must be contiguous strings contained within the string. For this challenge spaces are OK, capitalization doesn't matter. 
 
@@ -24,7 +26,7 @@ You'll be given inputs as one word per line. Example:
 
 # Output Description
 
-Your program should emit any of the longest substrings it can find in the input word. Example:
+Your program should emit any of the longest substrings it can find in the input word. Candidate palindromes must be longer than 1 letter. Example:
 
 	anana
 
