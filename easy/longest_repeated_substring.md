@@ -33,6 +33,8 @@ Your program should emit the longest common substring found within the word. Exa
 
 # Challenge Output
 
+These are quoted to indicate that the trailing space is covered, as well, in each of those phrases.
+
 	"the "
 	"ated "
 
