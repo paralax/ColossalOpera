@@ -87,10 +87,6 @@ Your program should emit the string from the input that's closest to all of them
     
     TTAACTCCCATTATATATTATTAATTTACCC
 
-# Bonus
-
-All-pairs distances is great until you wind up with a lot of inputs. Can you come up with a more efficient solution? 
-
 # FSharp Solution
 
 This is a naive all-pairs distances approach, with O(N^2) complexity.
