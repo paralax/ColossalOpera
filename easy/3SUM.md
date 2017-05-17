@@ -75,7 +75,6 @@ Your program should emit triplets of numbers that sum to 0. Example:
 		choose 3 ns 
 		|> Seq.map (fun x -> (x, List.sum x)) 
 		|> Seq.filter (fun (x,y) -> y = 0) 
-		|> Seq.map (fun (x,_) -> Set.ofSeq x) 
-		|> Set.ofSeq 
-		|> Set.toSeq 
+		|> Seq.map (fun (x, _) -> List.sort x)
+		|> Seq.distinct
 		|> Seq.iter (fun x -> printfn "%A " x)
