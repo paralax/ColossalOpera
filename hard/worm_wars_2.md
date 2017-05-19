@@ -25,7 +25,7 @@ For today's challenge, you're being asked to model a small network in which some
 - An infected host can only send one packet at a time
 - Assume the standard SIR model from last time
 
-# Input Description
+# Challenge Input
 
 You'll be given a lot of information for this one. First an integer on one line telling you how many networks to read. For each network specification you'll have a line telling you the network ID (a letter), the number of hosts in it (N), the number of infected hosts at time 0 (I). Then another integer telling you how many links to read. Then that many lines telling you what two networks connect and with what capacity in bytes per second (assume symmetric connections). Finally for the malware you'll be given some values on a line telling you the transition rates for S to I, I to R and S to R. Finally a line with a single integer, B, telling you the size of the malware propagation packet (assume UDP, so a single packet to infect). Example:
 
@@ -51,6 +51,42 @@ You'll be given a lot of information for this one. First an integer on one line 
 	D I 1000
 	D H 8000
 	D J 10000
+	0.01 0.01 0.015
+	256
+
+# Challenge Input 2
+
+	15
+	A 4412 0
+	B 12035 5
+	C 11537 9
+	D 10873 15
+	E 7269 12
+	F 10989 19
+	G 9680 3
+	H 8016 14
+	I 5373 10
+	H 10738 18
+	J 1329 9
+	K 12168 0
+	L 9436 2
+	M 1769 0
+	N 7564 8
+	14
+	A B
+	B C
+	C D
+	D E
+	E F
+	F J
+	F G
+	G K
+	G H
+	H I
+	H L
+	I H
+	I M
+	I N
 	0.01 0.01 0.015
 	256
 
