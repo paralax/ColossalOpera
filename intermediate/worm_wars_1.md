@@ -42,6 +42,12 @@ Your program can emit answers in a number of different ways:
 - Textual - a huuuuge list of numbers
 - Other - be creative
 
+# Challenge Input
+
+	   10758 21 0.051 0.930 0.178
+	   18450 12 0.320 0.969 0.306
+	   9337 15 0.512 0.513 0.984
+
 # Bonus
 
 Additional lines will tell you new timepoints at which the parameters change. For instance a more virulant strain of the malware becomes available, or a patch gets released. These lines will contain the format of timestep T, then updated transition rates for S to I, I to R and S to R. From the above example:
@@ -50,3 +56,4 @@ Additional lines will tell you new timepoints at which the parameters change. Fo
 	100 0.02 0.01 0.015
 	200 0.02 0.03 0.03
 
+This model can allow you to test the effects of various changes on malware propagation - faster patching, more virulent worms, larger seed populations, etc. 
