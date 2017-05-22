@@ -27,7 +27,7 @@ As part of calculating the graph edit distance, each operation should have an as
 
 Consider a pair of undirected graphs over two lines in `(i,j)` format for the nodes.
 
-    (White, Black) (White, Maroon) (White, Red) (White, Pink) (White, Brown) (White, Orange) (White, Coral) (White, Olive) (Black, Maroon) (Black, Red) (Black, Pink) (Black, Brown) (Black, Orange) (Black, Coral) (Black, Olive) (Maroon, Red) (Maroon, Pink) (Maroon, Brown) (Maroon, Orange) (Maroon, Coral) (Maroon, Olive) (Red, Pink) (Red, Brown) (Red, Orange) (Red, Coral) (Red, Olive) (Pink, Brown) (Pink, Orange) (Pink, Coral) (Pink, Olive) (Brown, Orange) (Brown, Coral) (Brown, Olive) (Orange, Coral) (Orange, Olive) (Coral, Olive)
-    (Hydrogen, Helium) (Hydrogen, Lithium) (Hydrogen, Beryllium) (Hydrogen, Boron) (Hydrogen, Carbon) (Hydrogen, Nitrogen) (Hydrogen, Oxygen) (Helium, Lithium) (Helium, Beryllium) (Helium, Boron) (Helium, Carbon) (Helium, Nitrogen) (Helium, Oxygen) (Lithium, Beryllium) (Lithium, Boron) (Lithium, Carbon) (Lithium, Nitrogen) (Lithium, Oxygen) (Beryllium, Boron) (Beryllium, Carbon) (Beryllium, Nitrogen) (Beryllium, Oxygen) (Boron, Carbon) (Boron, Nitrogen) (Boron, Oxygen) (Carbon, Nitrogen) (Carbon, Oxygen) (Nitrogen, Oxygen)
+    (White, Black) (White, Maroon) (White, Red) (Black, Maroon) (Black, Red) (Maroon, Red)
+    (White, Black) (White, Maroon) (White, Red) (White, Pink) (Black, Maroon) (Black, Red) (Black, Pink) (Maroon, Red) (Maroon, Pink) (Red, Pink)
 
 Your program should emit the GED calculated between the two graphs.
