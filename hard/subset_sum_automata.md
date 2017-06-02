@@ -100,17 +100,6 @@ You begin with a board full of random integers in each cell. Cells will incremen
 		| x when x > 15 -> ConsoleColor.White
 		| x when x < 0  -> ConsoleColor.Black
 		| _             -> colorMap.[n]
-
-	let draw (arr: int[,]) =
-		let l = size arr
-		for x in [0..l-1] do
-			for y in [0..l-1] do
-				let old = System.Console.ForegroundColor
-				System.Console.ForegroundColor <- (color (arr.[x,y]))		
-			    printf "%2s" (string(arr.[x,y]))
-				System.Console.ForegroundColor <- old			
-			printfn ""
-		
 		
 	let analyze (arr: int [,]) (target:int) (pos:int) (neg:int) : int [,] =
 		let l = size arr
@@ -121,9 +110,23 @@ You begin with a board full of random integers in each cell. Cells will incremen
 				| false -> penalize arr x y neg
 		arr
 
-	let solution (t:int) (p:int) (n:int) = 
-		let arr = board 30 80
+	let draw (arr: int[,]) =
+		let l = size arr
+		for x in [0..l-1] do
+			for y in [0..l-1] do
+				let old = System.Console.BackgroundColor
+				System.Console.BackgroundColor <- (color (arr.[x,y]))
+				System.Console.ForegroundColor <- ConsoleColor.Black		
+			    printf "%2s" (string(arr.[x,y]))
+				System.Console.BackgroundColor <- old	
+				System.Console.ForegroundColor <- ConsoleColor.White							
+			printfn ""
+
+	let solution (arr:int [,]) (t:int) (p:int) (n:int) = 
 		for _ in [0..100] do
 			analyze arr t p n
 			draw arr
-			printfn ""
+			System.Threading.Thread.Sleep(150)
+			Console.Clear()
+	let arr = board 23 5
+	solution arr 10 1 1;;
