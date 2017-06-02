@@ -18,16 +18,16 @@ You begin with a board full of random integers in each cell. Cells will incremen
 
 # FSharp Solution
 
-	// generate board
-	// iterate over each square finding NW,N,NE,E,SE,S,SW,W values 
-	// apply subset sum to those values with target
-	// increment or penalize the cell as needed
+	// D generate board
+	// D iterate over each square finding NW,N,NE,E,SE,S,SW,W values 
+	// D apply subset sum to those values with target
+	// D increment or penalize the cell as needed
 	// draw the board with color
 	// Read and parse specification  
 	// color print below
 
+	open System			
 
-	// https://blogs.msdn.microsoft.com/chrsmith/2008/10/01/f-zen-colored-printf/
 	let cprintf c fmt = 
 	    Printf.kprintf
 	        (fun s ->
@@ -43,22 +43,90 @@ You begin with a board full of random integers in each cell. Cells will incremen
 	let cprintfn c fmt =
 	    cprintf c fmt
 	    printfn ""
+	
+	let colorMap : Map<int,ConsoleColor> = 
+		Array.zip [|0..15|] [|ConsoleColor.Black; ConsoleColor.DarkBlue; ConsoleColor.DarkGreen; ConsoleColor.DarkCyan; ConsoleColor.DarkRed; ConsoleColor.DarkMagenta; ConsoleColor.DarkYellow; ConsoleColor.Gray; ConsoleColor.DarkGray; ConsoleColor.Blue; ConsoleColor.Green; ConsoleColor.Cyan; ConsoleColor.Red; ConsoleColor.Magenta; ConsoleColor.Yellow; ConsoleColor.White|]
+		|> Map.ofArray
 
-	open System
+	let hasSubsetSum S (numbers: int array) =
+	   if numbers |> Array.exists (fun x -> x = S) then
+	     true
+	   else
+	     let a = numbers |> Array.filter (fun x -> x < S)      
+	     let n = a.Length
+	     if n = 0 then
+	       false
+	     else
+	       let v = Array2D.create n (S+1) 0
+	       let u = Array2D.create n (S+1) false
+	       let t = Array2D.create n (S+1) 0
+   
+	       for j in [1..S] do
+	         for i in [0..n-1] do                           
+	           if j - a.[i] >= 0 && not u.[i,j - a.[i]] then
+	             v.[i,j] <- t.[i,j - a.[i]] + a.[i]
+	           if ((i = 0) || (i > 0 && t.[i-1,j] <> j)) && v.[i,j] = j then
+	             u.[i,j] <- true
+	           if v.[i,j] = j then
+	             t.[i,j] <- j
+	           else
+	             if i > 0 then
+	               t.[i,j] <- max t.[i-1,j] t.[i,j-1]
+	             else
+	               t.[i,j] <- t.[0,j-1]
+           
+	       t.[n-1,S] = S
 
-	cprintfn ConsoleColor.Blue  "Hello, World in BLUE!"
-	cprintfn ConsoleColor.Red   "… and in RED!"
-	cprintfn ConsoleColor.Green "… and in GREEN!"
+	let rnd = new System.Random()
+	let board (n:int) (m:int) : int [,] = 
+		//	n x n board with m as max value
+		let arr = Array2D.zeroCreate<int> n n
+		for x in [0..(n-1)] do
+			for y in [0..n-1] do
+				arr.[x,y] <- rnd.Next() % m
+		arr
 
-	let rotatingColors =
-	    seq {
-	        let i = ref 0
-	        let possibleColors = Enum.GetValues(typeof<ConsoleColor>)
-	        while true do
-	            yield (enum (!i) : ConsoleColor)
-	            i := (!i + 1) % possibleColors.Length
-	    }
+	let size (arr:int[,]): int = arr.GetLength 0
+	let wrap (arr:int [,]) (n:int) (off:int): int =
+		let l = size arr
+		match n + off with
+		| x when x < 0 -> x + l
+		| x when x > l -> (x+l) % l
+		| _            -> n + off
+	let neighbors (arr:int [,]) (x:int) (y:int): int list =
+		let res = [ for xs in [-1;0;1] do
+						for ys in [-1;0;1] do			
+						   yield arr.[(wrap arr x xs), (wrap arr y ys)] ]
+	    // skip the x,y cell we're on 
+		(List.take 4 res)@(List.skip 5 res)
 
-	"Experience the rainbow of possibility!"
-	|> Seq.zip rotatingColors
-	|> Seq.iter (fun (color, letter) -> cprintf color "%c" letter)
+	let alter (arr: int [,]) (x:int) (y:int) (v:int): int [,] =
+		arr.[x,y] <- arr.[x,y] + v 
+		arr
+
+	let reward (arr: int [,]) (x:int) (y:int) (v:int): int [,] =
+		arr.[x,y] <- arr.[x,y] + v 
+		arr
+
+	let penalize (arr: int [,]) (x:int) (y:int) (v:int): int [,] =
+		arr.[x,y] <- arr.[x,y] - v 
+		arr
+
+	let draw (arr: int[,]) =
+		let l = size arr
+		for x in [0..l-1] do
+			for y in [0..l-1] do
+				let sb = new System.Text.StringBuilder()
+				sb.Append(string(arr.[x,y]))
+			    cprintf (colorMap.[arr.[x,y]]) sb
+			printfn ""
+			
+			
+	let analyze (arr: int [,]) (target:int) (reward:int) (penalty:int) : int [,] =
+		let l = size arr
+		for x in [0..l-1] do
+			for y in [0..l-1] do
+				match (neighbors arr 1 1 |> List.toArray |> hasSubsetSum target) with
+				| true  -> reward arr x y reward
+				| false -> penalize arr x y penalty
+
