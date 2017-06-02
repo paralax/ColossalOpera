@@ -22,28 +22,11 @@ You begin with a board full of random integers in each cell. Cells will incremen
 	// D iterate over each square finding NW,N,NE,E,SE,S,SW,W values 
 	// D apply subset sum to those values with target
 	// D increment or penalize the cell as needed
-	// draw the board with color
+	// D draw the board with color
 	// Read and parse specification  
-	// color print below
 
 	open System			
 
-	let cprintf c fmt = 
-	    Printf.kprintf
-	        (fun s ->
-	            let old = System.Console.ForegroundColor
-	            try
-	              System.Console.ForegroundColor <- c;
-	              System.Console.Write s
-	            finally
-	              System.Console.ForegroundColor <- old)
-	        fmt
-
-	// Colored printfn
-	let cprintfn c fmt =
-	    cprintf c fmt
-	    printfn ""
-	
 	let colorMap : Map<int,ConsoleColor> = 
 		Array.zip [|0..15|] [|ConsoleColor.Black; ConsoleColor.DarkBlue; ConsoleColor.DarkGreen; ConsoleColor.DarkCyan; ConsoleColor.DarkRed; ConsoleColor.DarkMagenta; ConsoleColor.DarkYellow; ConsoleColor.Gray; ConsoleColor.DarkGray; ConsoleColor.Blue; ConsoleColor.Green; ConsoleColor.Cyan; ConsoleColor.Red; ConsoleColor.Magenta; ConsoleColor.Yellow; ConsoleColor.White|]
 		|> Map.ofArray
@@ -60,7 +43,7 @@ You begin with a board full of random integers in each cell. Cells will incremen
 	       let v = Array2D.create n (S+1) 0
 	       let u = Array2D.create n (S+1) false
 	       let t = Array2D.create n (S+1) 0
-   
+
 	       for j in [1..S] do
 	         for i in [0..n-1] do                           
 	           if j - a.[i] >= 0 && not u.[i,j - a.[i]] then
@@ -74,7 +57,7 @@ You begin with a board full of random integers in each cell. Cells will incremen
 	               t.[i,j] <- max t.[i-1,j] t.[i,j-1]
 	             else
 	               t.[i,j] <- t.[0,j-1]
-           
+       
 	       t.[n-1,S] = S
 
 	let rnd = new System.Random()
@@ -105,28 +88,42 @@ You begin with a board full of random integers in each cell. Cells will incremen
 		arr
 
 	let reward (arr: int [,]) (x:int) (y:int) (v:int): int [,] =
-		arr.[x,y] <- arr.[x,y] + v 
+		arr.[x,y] <- System.Math.Min(arr.[x,y] + v, 20)
 		arr
 
 	let penalize (arr: int [,]) (x:int) (y:int) (v:int): int [,] =
-		arr.[x,y] <- arr.[x,y] - v 
+		arr.[x,y] <- System.Math.Max(arr.[x,y] - v, 0)
 		arr
+
+	let color (n:int) : ConsoleColor =
+		match n with
+		| x when x > 15 -> ConsoleColor.White
+		| x when x < 0  -> ConsoleColor.Black
+		| _             -> colorMap.[n]
 
 	let draw (arr: int[,]) =
 		let l = size arr
 		for x in [0..l-1] do
 			for y in [0..l-1] do
-				let sb = new System.Text.StringBuilder()
-				sb.Append(string(arr.[x,y]))
-			    cprintf (colorMap.[arr.[x,y]]) sb
+				let old = System.Console.ForegroundColor
+				System.Console.ForegroundColor <- (color (arr.[x,y]))		
+			    printf "%2s" (string(arr.[x,y]))
+				System.Console.ForegroundColor <- old			
 			printfn ""
-			
-			
-	let analyze (arr: int [,]) (target:int) (reward:int) (penalty:int) : int [,] =
+		
+		
+	let analyze (arr: int [,]) (target:int) (pos:int) (neg:int) : int [,] =
 		let l = size arr
 		for x in [0..l-1] do
 			for y in [0..l-1] do
 				match (neighbors arr 1 1 |> List.toArray |> hasSubsetSum target) with
-				| true  -> reward arr x y reward
-				| false -> penalize arr x y penalty
+				| true  -> reward arr x y pos
+				| false -> penalize arr x y neg
+		arr
 
+	let solution (t:int) (p:int) (n:int) = 
+		let arr = board 30 80
+		for _ in [0..100] do
+			analyze arr t p n
+			draw arr
+			printfn ""
