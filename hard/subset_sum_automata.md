@@ -35,7 +35,7 @@ For me, the part I spent the most time on was getting a reasonably pretty displa
 	// D apply subset sum to those values with target
 	// D increment or penalize the cell as needed
 	// D draw the board with color
-	// Read and parse specification  
+	// D Read and parse specification  
 
 	open System			
 
