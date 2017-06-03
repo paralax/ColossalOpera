@@ -16,7 +16,19 @@ We recently did the [subset sum](https://www.reddit.com/r/dailyprogrammer/commen
 
 You begin with a board full of random integers in each cell. Cells will increment or decrement based on a simple application of the subset sum problem: if any subset of the 8 neighboring cells can sum to the target value, you increment the cell's sum by some value; if not, you decrement the cell by that value. Automata are defined with three integers `x/y/z`, where `x` is the target value, `y` is the reward value, and `z` is the penalty value. 
 
+Your challenge today is to implement the subset automata:
+
+- Create a 2 dimensional board starting iwth random numbers
+- Color the board based on the value of the cell (I suggest some sort of rainbow effect if you can)
+- Parse the definition as described above
+- Increment or decrement the cell according to the rules described above
+- Redraw the board at each iteration
+
+You'll probably want to explore various definitions and see what sorts of interesting patterns emerge. 
+
 # FSharp Solution
+
+For me, the part I spent the most time on was getting a reasonably pretty display. I'm still not quite satisfied with it. 
 
 	// D generate board
 	// D iterate over each square finding NW,N,NE,E,SE,S,SW,W values 
@@ -83,11 +95,7 @@ You begin with a board full of random integers in each cell. Cells will incremen
 	    // skip the x,y cell we're on 
 		(List.take 4 res)@(List.skip 5 res)
 
-	let alter (arr: int [,]) (x:int) (y:int) (v:int): int [,] =
-		arr.[x,y] <- arr.[x,y] + v 
-		arr
-
-	let reward (arr: int [,]) (x:int) (y:int) (v:int): int [,] =
+	let reward (arr: int [,]) (x:int) (y:int) (v:int): int [,] =        
 		arr.[x,y] <- System.Math.Min(arr.[x,y] + v, 20)
 		arr
 
@@ -128,5 +136,12 @@ You begin with a board full of random integers in each cell. Cells will incremen
 			draw arr
 			System.Threading.Thread.Sleep(150)
 			Console.Clear()
-	let arr = board 23 5
-	solution arr 10 1 1;;
+	
+    [<EntryPoint>]
+    let main args =
+        let parse (spec:string): (int * int * int) = 
+            let [|x;y;z|] = Array.map int spec.Split('/')
+            (x,y,z)
+        let arr = board 23 5
+        let (t,p,n) = parse args.[0]
+        solution arr t p n
