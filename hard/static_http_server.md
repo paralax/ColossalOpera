@@ -21,6 +21,8 @@ For today's challenge, the task is to implement your own HTTP server. No borrowi
 - Your server should handle static content only (e.g. static HTML pages or images).
 - Your server should support a document root which contains pages (and paths) served by the web server.
 - Your server should correctly serve content it finds and can read, and yield the appropriate errors when it can't: 500 for a server error, 404 for a resource not found, and 403 for permission denied (e.g. exists but it can't read it). 
+- For it to display properly in a browser, you'll need to set the correct content type header in the response. 
+- You'll have to test this in a browser and verify it works as expected: content displays right (e.g. HTML as HTML, text as text, images as images), errors get handled properly, etc. 
 
 A basic, bare bones HTTP/1.0 request looks like this;
 
@@ -50,4 +52,4 @@ Support POST requests.
 
 # C Solution
 
-Years ago I wrote some C code to do this, which you can see in [this gist](https://gist.github.com/paralax/6f57e457b5edd7b11aae2988ae8564a0). 
+Years ago I wrote some C code to do this, which you can see in [this gist](https://gist.github.com/paralax/6f57e457b5edd7b11aae2988ae8564a0). It doesn't implement error handling well, at all. 
