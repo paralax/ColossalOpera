@@ -33,9 +33,9 @@ That's it, no Host header required etc., and all other headers like user-agent a
 A basic, bare bones HTTP/1.0 response looks like this:
 
 	HTTP/1.0 200 OK
-	Content-type: text/plain
+	Content-type: text/html
 	
-	Success
+	<H1>Success!</H1>
 
 The first line indicates the protocol (HTTP/1.0), the resulting status code (200 in this case means "you got it"), and the text of the status. The next line sets the content type for the browser to know how to display the content. Then a blank line, then the actual content. Date, server, etc headers are all optional. 
 
