@@ -1,6 +1,6 @@
 # Title
 
-Condensing Sentences
+[2017-06-12] Challenge #319 [Easy] Condensing Sentences
 
 # Difficulty
 
