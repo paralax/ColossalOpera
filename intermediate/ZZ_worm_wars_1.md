@@ -1,6 +1,6 @@
 # Title
 
-Worm Wars 1 - Basic Epidemiology
+[2016-06-14] Challenge #319 [Intermediate] Worm Wars 1 - Basic Epidemiology
 
 # Difficulty
 
