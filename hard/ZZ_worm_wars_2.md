@@ -16,7 +16,7 @@ This one builds on the previous challenge: malware propagation. But now we add a
 
 Real world network malware can't attack a host it can't connect to. That connection may be blocked due to a lack of connectivity between the host (e.g. not directly connected networks), or a congested pipe. Network connections get congested when they're flooded with traffic, forcing packet loss. 
 
-For today's challenge, you're being asked to model a small network in which some malware has been introduced. , but the . Work with these assumptions:
+For today's challenge, you're being asked to model a small network in which some malware has been introduced. Unlike the previous challenge, you have to traverse the network to reach all nodes. This more realistically mimics propagation where contact is required to propagate. Work with these assumptions:
 
 - To spread the malware has to send a single packet of size B and takes 1 time step
 - The network has fixed capacity between subnets
