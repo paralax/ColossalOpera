@@ -1,6 +1,6 @@
 # Title
 
-Worm Wars 2 - Network Epidemiology
+[2017-06-16] Challenge #319 [Hard] Worm Wars 2 - Network Epidemiology
 
 # Difficulty
 
