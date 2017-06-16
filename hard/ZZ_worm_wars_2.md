@@ -22,7 +22,7 @@ For today's challenge, you're being asked to model a small network in which some
 - The network has fixed capacity between subnets
 - The only thing passing over the network is malware propagation traffic, there is no background utilization
 - If you try and send a packet over a pipe at 95% utilization or above it gets dropped
-- Propagation between two hosts can only occur if they can directly connect from network to network
+- Propagation between two hosts can only occur if they can directly connect from network to network or are in the same network
 - Patches (to move a node to the R state) doesn't require direct connectivity, assume an out-of-band mechanism
 - An infected host can only send one packet at a time
 - Assume the standard SIR model from last time
