@@ -76,20 +76,20 @@ You'll be given a lot of information for this one. First an integer on one line 
 	M 1769 0
 	N 7564 8
 	14
-	A B
-	B C
-	C D
-	D E
-	E F
-	F J
-	F G
-	G K
-	G H
-	H I
-	H L
-	I H
-	I M
-	I N
+	A B 1000
+	B C 1000
+	C D 1000
+	D E 1000
+	E F 1000
+	F J 1000
+	F G 1000
+	G K 1000
+	G H 1000
+	H I 1000
+	H L 1000
+	I E 1000
+	I M 1000
+	I N 1000
 	0.01 0.01 0.015
 	256
 
