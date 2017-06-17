@@ -1,6 +1,6 @@
 # Title
 
-Worm Wars 2 - Network Epidemiology
+[2017-06-16] Challenge #319 [Hard] Worm Wars 2 - Network Epidemiology
 
 # Difficulty
 
@@ -16,12 +16,14 @@ This one builds on the previous challenge: malware propagation. But now we add a
 
 Real world network malware can't attack a host it can't connect to. That connection may be blocked due to a lack of connectivity between the host (e.g. not directly connected networks), or a congested pipe. Network connections get congested when they're flooded with traffic, forcing packet loss. 
 
-For today's challenge, you're being asked to model a small network in which some malware has been introduced. , but the . Work with these assumptions:
+For today's challenge, you're being asked to model a small network in which some malware has been introduced. Unlike the previous challenge, you have to traverse the network to reach all nodes. This more realistically mimics propagation where contact is required to propagate. Work with these assumptions:
 
 - To spread the malware has to send a single packet of size B and takes 1 time step
 - The network has fixed capacity between subnets
+- The only thing passing over the network is malware propagation traffic, there is no background utilization
 - If you try and send a packet over a pipe at 95% utilization or above it gets dropped
-- Propagation between two hosts can only occur if they can directly connect from network to network
+- Propagation between two hosts can only occur if they can directly connect from network to network or are in the same network
+- To determine _where_ to send the next packet of infection, take the sum of all reachable nodes and pick a random number in that range; if that's local or remote (and which subnet) then determines where the packet is headed
 - Patches (to move a node to the R state) doesn't require direct connectivity, assume an out-of-band mechanism
 - An infected host can only send one packet at a time
 - Assume the standard SIR model from last time
@@ -74,20 +76,20 @@ You'll be given a lot of information for this one. First an integer on one line 
 	M 1769 0
 	N 7564 8
 	14
-	A B
-	B C
-	C D
-	D E
-	E F
-	F J
-	F G
-	G K
-	G H
-	H I
-	H L
-	I H
-	I M
-	I N
+	A B 1000
+	B C 1000
+	C D 1000
+	D E 1000
+	E F 1000
+	F J 1000
+	F G 1000
+	G K 1000
+	G H 1000
+	H I 1000
+	H L 1000
+	I E 1000
+	I M 1000
+	I N 1000
 	0.01 0.01 0.015
 	256
 
