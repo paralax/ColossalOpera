@@ -12,7 +12,7 @@ math, geometry
 
 # Description
 
-Imagine that you're tasked with creating an aviary using a forest of randomly planted trees. But first you must designate the aviary to enclose the birds' habitat. To do so, imagine fencing it in using the trees as fenceposts to create a convex area, and you want to maximize how big that area can be. (If you allowed fo concave portions, you could allow in predators who could attack the birds and escape unseen.) 
+Imagine that you're tasked with creating an aviary using a forest of randomly planted trees. But first you must designate the aviary to enclose the birds' habitat. To do so, imagine fencing it in using the trees as fenceposts to create a convex area, and you want to maximize how big that area can be. (If you allowed for concave portions, you could allow in predators who could attack the birds and escape unseen.) 
 
 A convex polygon is defined as a polygon where as you go around it, you always turn in the same direction. A square, for example, is a convex polygon, while a star is not (you turn left and right as you go around the perimeter either clockwise or counter-clockwise). 
 
