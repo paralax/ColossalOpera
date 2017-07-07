@@ -1,6 +1,6 @@
 # Title
 
-Static HTTP Server
+[2017-07-07] Challenge #322 [Hard] Static HTTP Server
 
 # Difficulty
 
