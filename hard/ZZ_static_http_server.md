@@ -24,13 +24,13 @@ For today's challenge, the task is to implement your own HTTP server. No borrowi
 - For it to display properly in a browser, you'll need to set the correct content type header in the response. 
 - You'll have to test this in a browser and verify it works as expected: content displays right (e.g. HTML as HTML, text as text, images as images), errors get handled properly, etc. 
 
-A basic, bare bones HTTP/1.0 request looks like this;
+A basic, bare bones [HTTP/1.0 request](https://www.w3.org/Protocols/HTTP/1.0/spec.html#Request) looks like this;
 
 	GET /index.html HTTP/1.0
 
 That's it, no Host header required etc., and all other headers like user-agent and such are optional. (HTTP/1.1 requires a host header, in contrast.)
 
-A basic, bare bones HTTP/1.0 response looks like this:
+A basic, bare bones [HTTP/1.0 response](https://www.w3.org/Protocols/HTTP/1.0/spec.html#Response) looks like this:
 
 	HTTP/1.0 200 OK
 	Content-type: text/html
@@ -41,16 +41,15 @@ The first line indicates the protocol (HTTP/1.0), the resulting status code (200
 
 Here's some basics on HTTP/1.0: http://tecfa.unige.ch/moo/book2/node93.html
 
-Once you have this in your stash, you'll not only understand what more fully-featured servers like Apache or Nginx are doing, you'll have one you can customize. For example, I'm looking at extending my solution in C with an embedded Lua interpreter. 
+Once you have this in your stash, you'll not only understand what more fully-featured servers like Apache or Nginx are doing, you'll have one you can customize. For example, I'm looking at extending my solution in C with an embedded [Lua](https://www.lua.org/) interpreter. 
 
 # Bonus
 
 Support threading for multiple connections at once. 
 
-Support HEAD requests.
+Support [HEAD](https://www.w3.org/Protocols/HTTP/1.0/spec.html#HEAD) requests.
 
-Support POST requests. 
-
+Support [POST](https://www.w3.org/Protocols/HTTP/1.0/spec.html#POST) requests. 
 
 # C Solution
 
