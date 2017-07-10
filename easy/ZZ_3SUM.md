@@ -1,6 +1,6 @@
 # Title
 
-3SUM
+[2017-07-10] Challenge #323 [Easy] 3SUM
 
 # Difficulty
 
