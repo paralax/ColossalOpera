@@ -31,7 +31,7 @@ You'll be given an address, one per multi-line block. Example:
 Your program should emit a labeled data structure representing the address. From the above example:
 
     business=Tudor City Greens
-    addres=24-38
+    address=24-38
     street=Tudor City Pl
     city=New York
     state=NY
