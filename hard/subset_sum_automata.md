@@ -18,7 +18,7 @@ You begin with a board full of random integers in each cell. Cells will incremen
 
 Your challenge today is to implement the subset automata:
 
-- Create a 2 dimensional board starting iwth random numbers
+- Create a 2 dimensional board starting with random numbers
 - Color the board based on the value of the cell (I suggest some sort of rainbow effect if you can)
 - Parse the definition as described above
 - Increment or decrement the cell according to the rules described above
