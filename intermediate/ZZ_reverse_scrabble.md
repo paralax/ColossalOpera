@@ -1,6 +1,6 @@
 # Title
 
-Scrabble in Reverse
+[2017-08-09] Challenge #326 [Intermediate] Scrabble in Reverse
 
 # Difficulty
 
