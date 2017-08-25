@@ -1,6 +1,6 @@
 # Title
 
-Subset Sum Automata
+[2017-08-25] Challenge #328 [Hard] Subset Sum Automata
 
 # Difficulty
 
