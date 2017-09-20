@@ -28,7 +28,7 @@ You'll be given a series of integers on a line representing the peak height (in 
 
 # Output Description
 
-Your program should emit the peak height you should summit in order that are always higher than the previous peak. Example:
+Your program should emit the peak heights you should summit in order that are always higher than the previous peak. In some cases multiple solutions of the same length may be possible. Example:
 
 	0 2 6 9 11 15
 
