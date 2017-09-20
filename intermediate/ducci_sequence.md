@@ -20,7 +20,7 @@ Additional information about the Ducci sequence can be found in [this writeup](h
 
 It's kind of fun to play with the code once you get it working and to try and find sequences that never collapse and repeat. One I found was (2, 4126087, 4126085), it just goes on and on.
 
-It's also kind of fun to plot these in 3 dimensions. [Here](https://monkey.org/~jose/graphing/ducci/index2.html) is an example of the sequence "(129,12,155,772,63,4)" turn into 2 sets of lines (x1, y1, z1, x2, y2, z2). 
+It's also kind of fun to plot these in 3 dimensions. [Here](https://monkey.org/~jose/graphing/ducci/index2.html) is an example of the sequence "(129,12,155,772,63,4)" turned into 2 sets of lines (x1, y1, z1, x2, y2, z2). 
 
 # Input Description
 
