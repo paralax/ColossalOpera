@@ -1,6 +1,6 @@
 # Title
 
-Training for Summiting Everest
+[2017-09-20] Challenge #332 [Intermediate] Training for Summiting Everest
 
 # Difficulty
 
