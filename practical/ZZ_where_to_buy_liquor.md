@@ -1,10 +1,12 @@
 # Title
 
-Beer Street and Gin Lane
+[2017-09-27] Challenge #333 [Intermediate] Beer Street and Gin Lane
 
 # Description
 
 The US state of Iowa has relesed over a year's worth of liquor sales data, great for data mining. In this practical exercise we'll be asking you to do some large scale data analysis. Hopefully this data set is big enough that you have to make some decisions about data structures and algorithms and don't just `sort | uniq`. 
+
+This particular challenge differs from many we do because I anticipate you'll use languages and tools such as SQL, LINQ, and similar, although if you feel like using a more conventional programming language please do. My objective with this particular challenge is to explore a data science type of a challenge, inspired by some comments earlier this year seeking more practical challenges. 
 
 The title of this challenge refers to [artwork by William Hogarth](https://en.wikipedia.org/wiki/Beer_Street_and_Gin_Lane).
 
@@ -17,7 +19,7 @@ The title of this challenge refers to [artwork by William Hogarth](https://en.wi
 * What day of the week sees the most vodka sales?
 * Which streets in Iowa are really Beer Street and Gin Lane?
 
-Challenges includ runtime analysis and performance. 
+Challenges for you to consider include runtime analysis and performance. 
 
 # Get the Data
 
@@ -29,3 +31,5 @@ Some links that may be useful
 
 * [Harvard CS 229r: Algorithms for Big Data](http://people.seas.harvard.edu/~minilek/cs229r/) 
 * [Data Structures and Algorithms for Big Databases presentation](http://www.slideshare.net/omnidba/data-structures-and-algorithms-for-big-databases)
+* [SQL Introduction](https://www.w3schools.com/sql/sql_intro.asp)
+* [LINQ Introduction](http://csharp-station.com/Tutorial/Linq/Lesson01)
