@@ -6,6 +6,10 @@ Severing the Power Grid
 
 Hard
 
+# Tags
+
+graph theory
+
 # Description
 
 In energy production, the power grid is a a large directed graph of energy consumers and producers. At times you need to cut at certain nodes and trim demand because you cannot supply enough of a load. 
