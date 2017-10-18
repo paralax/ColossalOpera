@@ -29,3 +29,7 @@ Your crawler MUST support the following features:
 Optional features include HTTPS support, support for `robots.txt`, and storing results (for example how `wget` does so). 
 
 Be careful with what you crawl! Don't get yourself banned from the Internet. I highly suggest you crawl a local server you control as you may trigger rate limits and other mechanisms to identify unwanted visitors.
+
+# Notes
+
+* [Learning to Crawl - Building a Bare Bones Web Crawler with Elixir](http://www.east5th.co/blog/2017/10/09/learning-to-crawl-building-a-bare-bones-web-crawler-with-elixir/)
