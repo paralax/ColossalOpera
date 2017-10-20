@@ -1,6 +1,6 @@
 # Title
 
-Van der Waerden numbers
+[2017-10-20] Challenge #336 [Hard] Van der Waerden numbers
 
 # Difficulty
 
