@@ -20,12 +20,12 @@ Today's challenge is to implement an algorithm that can cut the glass and minimi
 
 # Input Description
 
-You'll be given inputs over two lines. The first line tells you how big the sheet of glass is. The second line tells you pairs of numbers to tell you what size of sheets to make. Example:
+You'll be given inputs over two lines. The first line tells you how big the sheet of glass is. The second line tells you pairs of numbers to tell you what size of sheets to make; read the line as a sequence of pairs of numbers. Example:
 
 	20 4
-	4 15 4 5
+	5 7 5 7 5 7 5 7 5 7 5 7 4 6 4 6 4 6 4 6 4 6 4 6 4 6 4 6 4 6 2 3.5 2 3.5 3 5 3 5 3 5 3 5 3 5
 
-Meaning glass pieces sized 6 5x7, 9 4x6, 2 2x3.5, and 5 3x5. 
+Meaning 6 glass pieces sized 5x7, 9 4x6, 2 2x3.5 pieces, and 5 pieces of size 3x5 units.
 
 # Output Description
 
