@@ -23,7 +23,7 @@ For the challenge, your requirements are similar to the HTTP server challenge - 
 * You may not use any of your language's built in web client functionality or any third party library or tool. E.g. you can't use Python's `urllib`, `httplib`, or a third-party module like `requests` or `curl`. Same for any other language and their built in features; you may also not shell out to something like `curl` (e.g. no `system("curl %s", url))`. 
 * Your program should use string processing calls to dissect the URL (again, you cannot use any of the built in functionality like Python's `urlparse` module), use low level `socket()` calls (or equivalent) to connect to the server, and make a well-formatted HTTP/1.1 request. 
 
-A good test server is [httpbin](https://stackoverflow.com/questions/5725430/http-test-server-that-accepts-get-post-calls), which can give you all sorts of feedback about your client's behavior. 
+A good test server is [httpbin](https://stackoverflow.com/questions/5725430/http-test-server-that-accepts-get-post-calls), which can give you all sorts of feedback about your client's behavior; another is [requestb.in](https://requestb.in/).
 
 # Bonus
 
