@@ -16,7 +16,7 @@ Most of us are familiar with [web spiders and crawlers](https://en.wikipedia.org
 
 Web crawlers marry queuing and HTML parsing and form the basis of search engines etc. Writing a simple crawler is a good exercise in putting a few things together. Writing a _well behaved_ crawler is another step up. 
 
-For this challenge you may use any *single shot* web client you wish, e.g. Python's `httplib` or any of a number of `libcurl` bindings; you may NOT use a crawling library like Mechanize or whatnot. The purpose of this challenge is to tie together fetching a page, discovering links and assembling them, adding them to a queue, managing the depth of the queue, and visiting them in some reasonable order - while avoiding duplicate visits. 
+For this challenge you may use any *single shot* web client you wish, e.g. Python's `httplib` or any of a number of `libcurl` bindings; you may NOT use a crawling library like Mechanize or whatnot. You may use an HTML parsing library like `BeautifulSoup`; you may NOT use a headless browser like PhantomJS. The purpose of this challenge is to tie together fetching a page, reassembling links, discovering links and assembling them, adding them to a queue, managing the depth of the queue, and visiting them in some reasonable order - while avoiding duplicate visits. 
 
 Your crawler MUST support the following features:
 
