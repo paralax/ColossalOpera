@@ -1,6 +1,6 @@
 # Title
 
-Severing the Power Grid
+[2017-11-10] Challenge #339 [Hard] Severing the Power Grid
 
 # Difficulty
 
