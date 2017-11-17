@@ -1,6 +1,6 @@
 # Title
 
-Write a Web Crawler
+[2017-11-17] Challenge #340 [Hard] Write a Web Crawler
 
 # Difficulty
 
@@ -8,7 +8,7 @@ Hard
 
 # Tags
 
-networking, client, web, http, crawler
+networking, client, web, http, crawler, queue
 
 # Description 
 
