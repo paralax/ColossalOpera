@@ -26,7 +26,7 @@ Your crawler MUST support the following features:
 * Take at least two options - a starting (seed) URL and a maximum depth to recurse to (e.g. "1" would be fetch the HTML page and all resources like images and script associated with it but don't visit any outgoing anchor links; a depth of "2" would visit the anchor links found on that first page only, etc ...)
 * Do not visit the same link more than once per session
 
-Optional features include HTTPS support, support for `robots.txt`, and storing results (for example how `wget` does so). 
+Optional features include HTTPS support, support for `robots.txt`, support for domains to which you restrict the crawler, and storing results (for example how `wget` does so). 
 
 Be careful with what you crawl! Don't get yourself banned from the Internet. I highly suggest you crawl a local server you control as you may trigger rate limits and other mechanisms to identify unwanted visitors.
 
