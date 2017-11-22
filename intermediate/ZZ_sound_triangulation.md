@@ -1,6 +1,6 @@
 # Title
 
-Listening for Incoming Aircraft
+[2017-11-22] Challenge #341 [Intermediate] Listening for Incoming Aircraft
 
 # Difficulty
 
@@ -12,7 +12,7 @@ math, geometry
 
 # Description
 
-You're the operator of a small squadron stationed along the coast listening for incoming enemy aircraft. This is before RADAR, and so your team is equipped with giant microphones and headphones that they use to constantly scour the skies for signs of incoming aircraft. All they are able to get to you is the angle and direction in which they heard a propeller. 
+You're the operator of a small squadron stationed along the coast listening for incoming enemy aircraft. This is before RADAR, and so [your team](https://en.wikipedia.org/wiki/Acoustic_location) is equipped with giant microphones and headphones that they use to constantly scour the skies for signs of incoming aircraft. All they are able to get to you is the angle and direction in which they heard a propeller. 
 
 Acoustic location is the science of using sound to determine the distance and direction of something. As a military air defense tool, passive acoustic location was used from mid-World War I to the early years of World War II to detect enemy aircraft by picking up the noise of their engines. Most of the work on anti-aircraft sound ranging was done by the British. They developed an extensive network of sound mirrors that were used from World War I through World War II. Sound mirrors normally work by using moveable microphones to find the angle that maximizes the amplitude of sound received, which is also the bearing angle to the target. Two sound mirrors at different positions will generate two different bearings, which allows the use of triangulation to determine a sound source's position.
 
