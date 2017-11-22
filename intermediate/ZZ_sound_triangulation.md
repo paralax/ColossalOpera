@@ -33,7 +33,7 @@ Your program should output the location of the enemy aircraft as a grid coordina
 
 # Challenge Inputs
 
-	0 0 26.4
+	0 0 24.0
 	11 7 343.4
 
 ----
@@ -43,7 +43,7 @@ Your program should output the location of the enemy aircraft as a grid coordina
 
 ----
 
-	0 0 36.7
+	0 0 30.9
 	10 1 336.42
 
 # Challenge Outputs
