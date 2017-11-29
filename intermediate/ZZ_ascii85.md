@@ -1,6 +1,6 @@
 # Title
 
-ASCII85 Encoding and Decoding
+[2017-11-29] Challenge #342 [Intermediate] ASCII85 Encoding and Decoding
 
 # Difficulty
 
@@ -20,10 +20,10 @@ When encoding, each group of 4 bytes is taken as a 32-bit binary number, most si
 
 Take the following example word "sure". Encoding using the above method looks like this:
 
-| Text        | s | u | r | e |
-|:------------|---|---|---|---|
-| **ASCII Value** | 115 | 117 | 114 | 101 |
-| **Bit pattern** | 01110011 | 01110101 | 01110010 | 01100101 |
+| Text        | s | u | r | e ||
+|:------------|---|---|---|---|-|
+| **ASCII value** | 115 | 117 | 114 | 101 ||
+| **Binary value** | 01110011 | 01110101 | 01110010 | 01100101 ||
 | **Concatenate** | 01110011011101010111001001100101 | 
 | **32 bit value** | 1,937,076,837 |
 | **Decomposed by 85** | 37x85^4 | 9x85^3 | 17x85^2 | 44x85^1 | 22 |
@@ -55,7 +55,3 @@ You'll be given an input string per line. The first character of the line tells 
     All\r\nyour\r\nbase\tbelong\tto\tus!
 
 (That last one has embedded control characters for newlines, returns, and tabs - normally nonprintable. Those are not literal backslashes.)
-
-# Credit
-
-Thank you to user /u/JakDrako who suggested this in a [recent discussion](https://www.reddit.com/r/dailyprogrammer_ideas/comments/7df2dx/intermediate_base64_encodedecode/). If you have a challenge idea, please share it at /r/dailyprogrammer_ideas and there's a chance we'll use it. 
