@@ -28,7 +28,7 @@ You'll be given a single digit *n* per line indicating the dimensionality of the
 
 Your program should emit the length of the longest edge traversal path it can find following the constraints above. You should also emit the corners toured - consider using the labeling system from above. Example:
 
-    4 = 000 -> 001 -> 011 -> 111 -> 110
+    3 = 000 -> 001 -> 011 -> 111 -> 110
 
 # Challenge Input
 
