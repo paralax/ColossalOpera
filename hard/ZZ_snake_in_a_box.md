@@ -1,6 +1,6 @@
 # Title
 
-Snake in a box
+Snake in a Box
 
 # Difficulty
 
