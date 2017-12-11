@@ -1,6 +1,6 @@
 # Title
 
-Baum-Sweet Sequence
+[2017-12-11] Challenge #344 [Easy] Baum-Sweet Sequence
 
 # Difficulty
 
