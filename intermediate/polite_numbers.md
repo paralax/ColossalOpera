@@ -6,6 +6,10 @@ Finding Numbers with Manners
 
 Intermediate
 
+# Tags
+
+number theory, math
+
 # Description
 
 In number theory, a polite number is a positive integer that can be written as the sum of two or more consecutive positive integers. 3 is a polite number because `1 + 2 = 3`. 4 is not a polite number - it's an impolite number - because you cannot add any two consecutive numbers to yield a sum of 4. It turns out the impolite numbers are exactly the powers of two.
