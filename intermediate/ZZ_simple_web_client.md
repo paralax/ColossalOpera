@@ -1,6 +1,6 @@
 # Title
 
-Write a Web Client
+[2017-12-15] Challenge #344 [Hard] Write a Web Client
 
 # Difficulty
 
