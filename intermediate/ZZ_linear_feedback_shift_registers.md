@@ -1,6 +1,6 @@
 # Title
 
-Linear Feedback Shift Register
+[2018-01-17] Challenge #347 [Intermediate] Linear Feedback Shift Register
 
 # Difficulty
 
