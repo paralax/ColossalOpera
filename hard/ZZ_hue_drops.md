@@ -1,6 +1,6 @@
 # Title
 
-Hue Drops Puzzle
+[2018-01-19] Challenge #347 [Hard] Hue Drops Puzzle
 
 # Difficulty
 
