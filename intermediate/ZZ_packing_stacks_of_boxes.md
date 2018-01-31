@@ -2,6 +2,10 @@
 
 Packing Stacks of Boxes
 
+# Tags
+
+sorting, recursion
+
 # Difficulty
 
 Intermediate
