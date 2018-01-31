@@ -20,9 +20,9 @@ You'll be given two numbers per line. The first number is the number of stacks o
 
 Example:
 
-	2 343123321
+	3 343123321
 
-That says "make two stacks of boxes with sizes 3, 4, 3, 1 etc". 
+That says "make three stacks of boxes with sizes 3, 4, 3, 1 etc". 
 
 # Output Description
 
