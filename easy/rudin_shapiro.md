@@ -12,7 +12,7 @@ math, integer sequence, binary
 
 # Description
 
-In mathematics the Rudin–Shapiro sequence, also known as the Golay–Rudin–Shapiro sequence is an infinite automatic sequence where each term of the Rudin–Shapiro sequence is either +1 or −1. The sequence is named after Marcel Golay, Walter Rudin and Harold S. Shapiro, who independently studied it.
+In mathematics the Rudin-Shapiro sequence, also known as the Golay-Rudin-Shapiro sequence is an infinite automatic sequence where each term of the Rudin-Shapiro sequence is either +1 or -1. The sequence is named after Marcel Golay, Walter Rudin and Harold S. Shapiro, who independently studied it.
 
 The value of the term _b_n_, the _n_th term of the sequence, is -1 raised to the power _a_n_. The value of _a_n_, in turn, is the number of (possibly overlapping) "11" terms in the binary expansion of _n_. The first ten terms of the sequence _a_ are therefore:
 

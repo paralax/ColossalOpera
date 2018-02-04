@@ -12,7 +12,7 @@ chess, graph theory
 
 # Description
 
-The longest uncrossed (or nonintersecting) knight's path is a mathematical problem involving a knight on the standard 8×8 chessboard or, more generally, on a square *n×n* board. The problem is to find the longest path the knight can take on the given board, such that the path does not intersect itself. A further distinction can be made between a closed path, which ends on the same field as where it begins, and an open path, which ends on a different field from where it begins.
+The longest uncrossed (or nonintersecting) knight's path is a mathematical problem involving a knight on the standard 8x8 chessboard or, more generally, on a square *nxn* board. The problem is to find the longest path the knight can take on the given board, such that the path does not intersect itself. A further distinction can be made between a closed path, which ends on the same field as where it begins, and an open path, which ends on a different field from where it begins.
 
 For this challenge, assume the following: 
 
