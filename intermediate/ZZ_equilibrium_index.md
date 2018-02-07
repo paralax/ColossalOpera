@@ -1,6 +1,6 @@
 # Title
 
-Balancing My Spending
+[2018-02-07] Challenge #350 [Intermediate] Balancing My Spending
 
 # Difficulty
 
