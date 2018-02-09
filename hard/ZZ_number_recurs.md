@@ -1,18 +1,6 @@
-# Title
-
-Which Number Recurs First
-
-# Difficulty
-
-Hard
-
-# Tags
-
-random numbers, big data, probabilistic data structures 
-
 # Description
 
-Working with very large data sets is an increasingly common activity in efforts such as web analytics and Internet advertising. Efficiently keeping track of values when you have 2^64 or greater values to keep track of. 
+Working with very large data sets is an increasingly common activity in efforts such as web analytics and Internet advertising. Efficiently keeping track of values when you have around 2^64 possible values is the challenge. 
 
 Today's challenge is to read a steady stream of distinct values and report on the first one that recurs. Your program should be able to run an arbitrary number of times with distinct, infinite sequences of input and yield the correct value. 
 
