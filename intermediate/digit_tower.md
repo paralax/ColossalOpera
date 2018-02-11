@@ -41,7 +41,7 @@ You'll be given a list of space-separated integers, one list per line. Example:
 
 # Output Description
 
-Your program should emit the maximal hieght of the tower you calculated and draw it, as well. Example:
+Your program should emit the maximal height of the tower you calculated and draw it, as well. Example:
 
     1 2 3 4 5 -> 5
     1

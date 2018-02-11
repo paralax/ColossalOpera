@@ -16,7 +16,7 @@ Example spoonerisms include:
 * "Resident Pagan" (President Reagan)
 * "belly jeans" (jelly beans)
 
-Generating spoonerisms is kind of tricky, but follows a simple rule: swap the leading consonants of the two words. Programatically this is easy, adjusting spelling for the pronunciation is tougher (and out of scope for this challenge). 
+Generating spoonerisms is kind of tricky, but follows a simple rule: swap the leading consonants of the two words. Programmatically this is easy, adjusting spelling for the pronunciation is tougher (and out of scope for this challenge). 
 
 # Input Description
 

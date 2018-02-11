@@ -8,7 +8,7 @@ Intermediate
 
 # Description
 
-In the United States, states are divided first into counties (or in the case of Louisiana *parishes*, in Alaska *minicipalities*, *census areas* or *boroughs*, and in the US territory Puerto Rico *municipios*) before being further divided into smaller chunks of land and then finally cities, towns and villages. A great number of these counties have common names (e.g. for US presidents), but even more have local and historic names such as native tribes. 
+In the United States, states are divided first into counties (or in the case of Louisiana *parishes*, in Alaska *municipalities*, *census areas* or *boroughs*, and in the US territory Puerto Rico *municipios*) before being further divided into smaller chunks of land and then finally cities, towns and villages. A great number of these counties have common names (e.g. for US presidents), but even more have local and historic names such as native tribes. 
 
 In this challenge, you're looking for those unique names. A couple of things to note:
 

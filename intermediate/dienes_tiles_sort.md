@@ -21,7 +21,7 @@ Tiles have four properties:
 - pattern - closed (P) or open (O)
 - size - big (G) or small (L)
 
-When a child works with these tiles, one of the lessons is to sort them into a line such that any two adjascent tiles have only one difference (e.g. size). As lessons progress you get into other arrangements like graphs, loops, and meshes. 
+When a child works with these tiles, one of the lessons is to sort them into a line such that any two adjacent tiles have only one difference (e.g. size). As lessons progress you get into other arrangements like graphs, loops, and meshes. 
 
 Your task today is to write a program that can sort the above tiles into a long line. 
 
@@ -31,7 +31,7 @@ The tiles will be given to you as a randomly sorted set of inputs over multiple 
 
 # Output Description
 
-Your program should emit an arrangement of tiles that satisfies the child's assignment - no two adjascent tiles have more than one difference. Aside from that one constraint, any resulting order will do - i.e. you can start with any tile you wish. Tiles may be used only once. 
+Your program should emit an arrangement of tiles that satisfies the child's assignment - no two adjacent tiles have more than one difference. Aside from that one constraint, any resulting order will do - i.e. you can start with any tile you wish. Tiles may be used only once. 
 
 # Challenge Input
 

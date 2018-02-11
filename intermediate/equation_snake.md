@@ -12,7 +12,7 @@ There's a math puzzle making the rounds of the net as of May 2015. According to 
 
 # Input Description
 
-Rather than making you parse an ASCII snake, you can parse the input as a series of blanks and values. You'll be given oprands (`=`, `+`, `-`, `*` and `/`) and numbers together with blanks (as underscores, or `_`) that you need to fill in. 
+Rather than making you parse an ASCII snake, you can parse the input as a series of blanks and values. You'll be given operands (`=`, `+`, `-`, `*` and `/`) and numbers together with blanks (as underscores, or `_`) that you need to fill in. 
 
 # Output Description
 

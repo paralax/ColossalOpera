@@ -1,6 +1,6 @@
 # Title
 
-Calculting Ulam Numbers
+Calculating Ulam Numbers
 
 # Difficulty
 

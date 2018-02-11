@@ -50,7 +50,7 @@ Your program can emit answers in a number of different ways:
 
 # Bonus
 
-Additional lines will tell you new timepoints at which the parameters change. For instance a more virulant strain of the malware becomes available, or a patch gets released. These lines will contain the format of timestep T, then updated transition rates for S to I, I to R and S to R. From the above example:
+Additional lines will tell you new timepoints at which the parameters change. For instance a more virulent strain of the malware becomes available, or a patch gets released. These lines will contain the format of timestep T, then updated transition rates for S to I, I to R and S to R. From the above example:
 
 	10000 10 0.01 0.01 0.015
 	100 0.02 0.01 0.015

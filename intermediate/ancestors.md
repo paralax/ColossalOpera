@@ -17,7 +17,7 @@ You'll be given a set of names, all unique. The parentage and lineage of people 
     1
     Beth+Dave=Tom,Dick,Harry
 
-Then you'll be given a person's name followed by one or more question marks or exclamation points. Each question mark means go back one level of ancestery, each exclamation mark means go *forward* one level of ancestery. For example:
+Then you'll be given a person's name followed by one or more question marks or exclamation points. Each question mark means go back one level of ancestry, each exclamation mark means go *forward* one level of ancestry. For example:
 
     2
     Beth!

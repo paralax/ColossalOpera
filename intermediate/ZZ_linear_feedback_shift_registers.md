@@ -8,7 +8,7 @@ Intermediate
 
 # Tags
 
-binary arithmatic, random numbers, digital registers
+binary arithmetic, random numbers, digital registers
 
 # Description
 
@@ -44,7 +44,7 @@ Your program should emit the clock step and the registers (with leading 0s) for 
     [1,2,3,7] XOR 00000001 16
     [1,5,6,31] XOR 00000000000000000000000000000001 16
 
-# Challenge Outut
+# Challenge Output
 
 (Only showing the first two for brevity's sake.)
 
