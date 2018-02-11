@@ -19,7 +19,7 @@ For this problem ...
 - Assume a Euclidean 2 dimensional space with my mansion at the center (0,0)
 - My mansion is circular with a unit radius of 1
 - I'll tell you the locations of the guard towers as Euclidean coordinates, for example (1,1). They may be negative.
-- The towers only work if they form a triangle that fully emcompasses my mansion (remember, a circle centered at (0,0))
+- The towers only work if they form a triangle that fully encompasses my mansion (remember, a circle centered at (0,0))
 
 I'll give you the locations of the towers, one at a time, as a pair of integers *x* and *y* representing the coordinates. For *every* row of input please tell me how many different triangles I can have - that is arrangements of 3 occupied towers. I like diversity, let's keep the thieves guessing as to where the towers are occupied every night.
 

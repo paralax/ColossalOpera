@@ -25,7 +25,7 @@ Your mission, should you choose to accept it, is to maximize the rate of data ex
 
 # Input Description
 
-You'll be given the anomaly detector informatio on the first line. The numers *S*, *T0* and *T1* telling you how many standard devitations the alarm is set for, and the first two data points as (+y, -y) coordinates. Example:
+You'll be given the anomaly detector information on the first line. The numbers *S*, *T0* and *T1* telling you how many standard deviations the alarm is set for, and the first two data points as (+y, -y) coordinates. Example:
 
     3 (100,-100) (200,-200)
 

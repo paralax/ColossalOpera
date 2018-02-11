@@ -47,7 +47,7 @@ Your program should emit the position of the cameras needed to cover the area. F
 
 That's one possible solution (for this one any of the corners would have worked). 
 
-If the shape has no solution, emit something like "The architect has no concept of security" because maybe they're collaborating with art theives. 
+If the shape has no solution, emit something like "The architect has no concept of security" because maybe they're collaborating with art thieves. 
 
 # Challenge Input
 

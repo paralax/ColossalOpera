@@ -16,13 +16,13 @@ What point on the world's oceans is furthest from any land? On Earth, it's sligh
 
 Your task today is given an ASCII art map, calculate the location of Point Nemo. The map will use ASCII symbols to shade land - mountains, grassland, desert, etc. The blank spaces are ocean. Find the spot in the ocean that is furthest away from any land.
 
-# Input Descripton
+# Input Description
 
 You'll be given a two integers on a line telling you how wide (in characters) the map is at its maximum and how many lines to read. Then you'll be given the ASCII art map with the land filled in. Assume the blank space is ocean. The world wraps around, too, just like a real map. Unlike the real world, however, assume this world is a cylinder - it makes the geometry a lot easier. 
 
 # Output Description
 
-Your progam should emit the location of Point Nemo as a grid coordinate in x-y (e.g. 40,25). Count the upper left corner as 0,0. Calculate the Euclidean distance and report the closest whole number position (e.g. round to the nearest x,y coordinate).
+Your program should emit the location of Point Nemo as a grid coordinate in x-y (e.g. 40,25). Count the upper left corner as 0,0. Calculate the Euclidean distance and report the closest whole number position (e.g. round to the nearest x,y coordinate).
 
 # Challenge Input
 

@@ -49,7 +49,7 @@ If the graph has multiple, distinct friend groups of the same size, you can prin
 
 # Challenge Input
 
-About this data set, it's kind of interesting. I downloaded it from [the Network Respository website](http://networkrepository.com/soc.php).
+About this data set, it's kind of interesting. I downloaded it from [the Network Repository website](http://networkrepository.com/soc.php).
 
     % The graph dolphins contains an undirected social network of frequent       
     % associations between 62 dolphins in a community living off Doubtful Sound, 

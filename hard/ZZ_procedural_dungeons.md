@@ -14,7 +14,7 @@ algorithms, games, world generation, maps
 
 I've been a fan of text-based interactive fiction games for a long time, and used to play [Zork](https://en.wikipedia.org/wiki/Zork) a lot as a kid, as well as [Rogue](https://en.wikipedia.org/wiki/Rogue_(video_game\)). In college I got into MUDs, and several years ago I wrote a small MUD engine called [punymud](https://github.com/paralax/punymud) in an effort to see how much could be done in a small amount of code. 
 
-Many games sometimes build on hand-generated worlds, but increasingly people explore *procedurally generated worlds*, or dungeons. This keeps games fresh and exicting. However, the development of such algorithms is crucial to keep it enticing to a human player and not repetitive. 
+Many games sometimes build on hand-generated worlds, but increasingly people explore *procedurally generated worlds*, or dungeons. This keeps games fresh and exciting. However, the development of such algorithms is crucial to keep it enticing to a human player and not repetitive. 
 
 Today's challenge is open ended. Write code to procedurally generate dungeons. Some things to keep in mind:
 

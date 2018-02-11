@@ -23,7 +23,7 @@ For instance, if we have the following populations:
 	2 1
 	2 1
 
-And you were told you could make only 2 lines, a successfully dividied map would look like this:
+And you were told you could make only 2 lines, a successfully divided map would look like this:
 
 	2|1
 	-|
@@ -64,7 +64,3 @@ You should emit a map with the lines drawn, and a report containing how many peo
 	7 7 3 6 0 1 5 8 5 8 7 0 0 0 4 0 2 1 3 4
 	4 3 0 6 5 1 0 6 2 0 6 5 5 7 8 2 0 4 3 4
 	4 1 0 4 6 0 6 4 3 2 2 6 2 2 7 3 6 3 0 4
-
-# Credit
-
-This challenge was suggested by user /u/Gigabyte. If you have any ideas for challenges, head on over to /r/dailyprogrammer_ideas and suggest them! If they're good, we might use them and award you a gold medal!

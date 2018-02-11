@@ -8,7 +8,7 @@ Hard
 
 # Description
 
-You walk into a grocery store with some money in your wallet, a target amount of food to buy, and one bag with a finite capcity. Identify what you can buy under those conditions. You have to buy at least a quarter pound of any one thing.
+You walk into a grocery store with some money in your wallet, a target amount of food to buy, and one bag with a finite capacity. Identify what you can buy under those conditions. You have to buy at least a quarter pound of any one thing.
 
 # Input Description
 
@@ -17,7 +17,7 @@ You'll be given a row with three numbers on it representing the bag capacity in 
     10 100.00 14000
     Ham 600 9.00
 
-This translates to a bag that can hold ten pounds, a $100 bill in your wallet, and a target alorie count of 14000 for the week (seven * 2000). Second, you can buy some ham for $9 a pound and get 600 calories per pound. 
+This translates to a bag that can hold ten pounds, a $100 bill in your wallet, and a target calorie count of 14000 for the week (seven * 2000). Second, you can buy some ham for $9 a pound and get 600 calories per pound. 
 
 All foods *should* be one word, hopefully cut and paste didn't foul that up.
 

@@ -12,7 +12,7 @@ graph theory, edit distance
 
 # Description
 
-In mathematics and computer science, graph edit distance (GED) is a measure of similarity (or dissimilarity) between two graphs. The concept of graph edit distance was first formalized mathematically by Alberto Sanfliu and King-Sun Fu in 1983. The graph edit distance between two graphs is related to the string edit distance between strings. With the interpretation of strings as connected, directed acyclic graphs of maximum degree one, classical definitions of edit distance such as Levenshtein distance, Hamming distance and Jaro–Winkler distance may be interepeted as graph edit distances between suitably constrained graphs. Likewise, graph edit distance is also a generalization of tree edit distance between rooted trees.
+In mathematics and computer science, graph edit distance (GED) is a measure of similarity (or dissimilarity) between two graphs. The concept of graph edit distance was first formalized mathematically by Alberto Sanfliu and King-Sun Fu in 1983. The graph edit distance between two graphs is related to the string edit distance between strings. With the interpretation of strings as connected, directed acyclic graphs of maximum degree one, classical definitions of edit distance such as Levenshtein distance, Hamming distance and Jaro–Winkler distance may be interpreted as graph edit distances between suitably constrained graphs. Likewise, graph edit distance is also a generalization of tree edit distance between rooted trees.
 
 To convert one graph into another, several different kinds of elementary graph operations are possible:
 

@@ -24,7 +24,7 @@ You'll be given two integers on the first line, *N* and *M*. *N* tells you how m
 
 # Output Description
 
-Your program should emit the maxiumum flow rate as the pond drains. 
+Your program should emit the maximum flow rate as the pond drains. 
 
 # Challenge Input
 
