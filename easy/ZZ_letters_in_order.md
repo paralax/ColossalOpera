@@ -16,7 +16,7 @@ A handful of words have their letters in alphabetical order, that is nowhere in 
 
 Your challenge today is to write a program that can determine if the letters in a word are in alphabetical order.
 
-As a bonus, see if you can find words spelled in *reverse* alphebatical order. 
+As a bonus, see if you can find words spelled in *reverse* alphabetical order. 
 
 # Input Description
 

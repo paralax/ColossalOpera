@@ -45,7 +45,7 @@ Your program should emit the states of the celular automata for 25 steps. Exampl
 
 # Challenge Output
 
-I chose this input because it's one of the most well known, it yields a Serpinski triangle, a well known fractcal. 
+I chose this input because it's one of the most well known, it yields a Serpinski triangle, a well known fractal. 
 
                                                  x
                                                 x x

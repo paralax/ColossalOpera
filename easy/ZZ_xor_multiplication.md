@@ -21,7 +21,7 @@ One way to think about bitwise *addition* (using the symbol `^`) as binary addit
 
 	  5^9=12
 
-So let's define XOR multiplcation (we'll use the symbol `@`) in the same way, the addition step doesn't carry:
+So let's define XOR multiplication (we'll use the symbol `@`) in the same way, the addition step doesn't carry:
 
 	     1110  14
 	   @ 1101  13
@@ -45,7 +45,7 @@ You'll be given two integers per line. Example:
 
 # Output Description
 
-You should emit the equation showing the XOR multiplcation result:
+You should emit the equation showing the XOR multiplication result:
 
 	5@9=12
 

@@ -25,7 +25,7 @@ Consider the following DNA sequences:
     TCCCATCCTTT
     ACTTCAATATA
 
-Using the Hamming distance (the number of different characters bewteen two sequences of the same length), the all-pairs distances of the above 6 sequences puts `ATTAAATAACT` at the center. 
+Using the Hamming distance (the number of different characters between two sequences of the same length), the all-pairs distances of the above 6 sequences puts `ATTAAATAACT` at the center. 
 
 # Input Description
 

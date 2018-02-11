@@ -18,7 +18,7 @@ Yes this is a built-in in Python (`string.capwords`) and maybe some other langua
 
 # Input Description
 
-You'll be given an Enlish language sentence like this:
+You'll be given an English language sentence like this:
 
     Now is the time for all great programmers to capitalize the correct words.
 

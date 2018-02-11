@@ -22,7 +22,7 @@ Put another way, you can deduce a simple substitution cipher to convert from one
 
 # Input Description
 
-Write code that takes two words and checks whether they are isomorphs. You'll be given two words per line and asked to determine if they're isomorphs of one another. Example:
+Write code that takes two words and checks whether they are isomorphic. You'll be given two words per line and asked to determine if they're isomorphic to one another. Example:
 
     ESTATE DUELED
     FEED DEAD

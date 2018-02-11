@@ -12,7 +12,7 @@ artwork, ASCII art
 
 # Description
 
-In knot tying, the double overhand knot is a common, basic knot that serves fishermen (and fisher-women) and sourgeons well. We can represent a single order double knot like this:
+In knot tying, the double overhand knot is a common, basic knot that serves fishermen (and fisher-women) and surgeons well. We can represent a single order double knot like this:
 
       __
      /  \

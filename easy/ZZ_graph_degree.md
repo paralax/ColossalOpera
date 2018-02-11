@@ -113,7 +113,7 @@ This data set is an social network of tribes of the Gahuku-Gama alliance structu
     Node 15 has a degree of 9
     Node 16 has a degree of 9
 
-# Bonus: Adjascency Matrix
+# Bonus: Adjacency Matrix
 
 Another tool used in graph theory is an *adjacency matrix*, which is an *N* by *N* matrix where each *(i,j)* cell is filled out with the degree of connection between nodes *i* and *j*. For our example graph above the adjacency matrix would look like this:
 

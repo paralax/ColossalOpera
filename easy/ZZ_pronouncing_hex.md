@@ -1,6 +1,6 @@
 # Title
 
-Pronouncing Hexidecimal
+Pronouncing Hexadecimal
 
 # Difficulty
 
@@ -8,7 +8,7 @@ Easy
 
 # Tags
 
-hexidecimal, Silicon Valley
+hexadecimal, Silicon Valley
 
 # Description
 
@@ -19,7 +19,7 @@ The HBO network show "Silicon Valley" has introduced a way to pronounce hex.
 	Kid: 'Cause it's binary? You know, binary's just ones and zeroes.
 	Bachman: Yeah, I know what binary is. Jesus Christ, I memorized the hexadecimal times tables when I was fourteen writing machine code. Okay? Ask me what nine times F is. It's fleventy-five. I don't need you to tell me what binary is.
 
-Not "eff five", fleventy. `0xF0` is now fleventy. Awesome. Above a full byte you add "bitey" to the name. The hexidecimal pronunciation rules:
+Not "eff five", fleventy. `0xF0` is now fleventy. Awesome. Above a full byte you add "bitey" to the name. The hexadecimal pronunciation rules:
 
 HEX PLACE VALUE	| WORD
 ----------------|-----
