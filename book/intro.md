@@ -16,9 +16,9 @@ A good thing to keep in mind is that you should your time to design a solution f
 
 ## A Note on Solutions
 
-While working on this book, and through the Reddit comminity, I used these challenges to work on a few langages. As such, I wrote some code here and there to solve various challenges, although not all. Remember, I had originally planned a book comparing different programming paradigms. 
+While working on this book, and through the Reddit community, I used these challenges to work on a few langages. As such, I wrote some code here and there to solve various challenges, although not all. Remember, I had originally planned a book comparing different programming paradigms. 
 
-Solutions to some of these challenges appear peppered throughout the book.
+Solutions to some of these challenges appear peppered throughout the book. Here are some of the languages I used while coding and a brief bit about their style and such.
 
 **Python** - a popular scripting language supporting object oriented and imperative paradigms. Python is a popular language for beginners and experts alike. I tend to write small prototypes in Python. Python has a lot of built-in features in many places. 
 
