@@ -63,11 +63,11 @@ Your program should emit the number represented in Base62 notation. Examples:
 
 # FSharp Solution
 
-  let base62 (n:int) : string = 
-    let alphabet = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ".ToCharArray()
-    let basis = alphabet.Length
-    let rec _loop(n:int) (sofar:char list) : char list =
-      match n with
-      | 0 -> List.rev sofar
-      | _ -> _loop (int(System.Math.Floor(float(n)/float(basis)))) (alphabet.[(n % basis)] :: sofar)
-    System.String.Concat(Array.ofList(_loop n []))
+    let base62 (n:int) : string = 
+      let alphabet = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ".ToCharArray()
+      let basis = alphabet.Length
+      let rec _loop(n:int) (sofar:char list) : char list =
+        match n with
+        | 0 -> List.rev sofar
+        | _ -> _loop (int(System.Math.Floor(float(n)/float(basis)))) (alphabet.[(n % basis)] :: sofar)
+      System.String.Concat(Array.ofList(_loop n []))
