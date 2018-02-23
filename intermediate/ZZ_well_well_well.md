@@ -12,7 +12,7 @@ Intermediate
 
 # Description
 
-A square well is dug with a peculiar shape: each 1x1 section has varying heights above some floor. You wish to fill the well with warer, filling from a hose above the square marked 1. You wish to know when you fill a specific square. 
+A square well is dug with a peculiar shape: each 1x1 section has varying heights above some floor. You wish to fill the well with water, filling from a hose above the square marked 1. Square 1 is the lowest (think of this as a heightmap in units from the bottom). Water flows at 1 cubic unit per unit time (e.g. 1 liter per minute if you want specific units). You wish to know when you fill a specific square. 
 
 You can assume water behaves like it does in the real world - it immediately disperses, evenly, to all accessible regions, and it cannot spontaneously leak from one square to another if there is no path. 
 
