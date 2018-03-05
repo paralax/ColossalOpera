@@ -83,7 +83,7 @@ Your program should emit the string from the input that's closest to all of them
 
 # Challenge Output
 
-    ATTAAATAACT
+    ATTCTACAACT
     
     TTAACTCCCATTATATATTATTAATTTACCC
 
