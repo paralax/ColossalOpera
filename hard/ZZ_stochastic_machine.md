@@ -35,3 +35,8 @@ Your challenge today is to build a basic stochastic computer for probabilistic i
 * Division
 
 Be sure to measure the precision and fidelity of your machine, I encourage you to explore the tradeoffs between space and accuracy. 
+
+# Notes
+
+* [Survey of Stochastic Computing](https://homes.cs.washington.edu/~armin/ACM_TECS_2013.pdf) - journal paper from ACM on stochastic computing that explains it better than I did above.
+* [Stochastic Computing Systems](https://pages.cpsc.ucalgary.ca/~gaines/reports/COMP/SCS69/SCS69.pdf) - book chapter on stochastic computers
