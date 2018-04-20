@@ -1,6 +1,6 @@
 # Title
 
-Continued Fractions
+[2018-04-20] Challenge #357 [Hard] Continued Fractions
 
 # Difficulty
 
