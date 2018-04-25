@@ -12,7 +12,7 @@ prime numbers
 
 # Description
 
-This puzzle was first proposed (1989) by Gordon Lee: given a grid of numbers, how many *distinct* primes can you find embedded in the matrix, regarding that you can read the lines or part of them, in form vertical, horizontal or diagonal orientation, in both directions. 
+This puzzle was first proposed (1989) by [Gordon Lee](http://www.primepuzzles.net/puzzles/puzz_001.htm): given a grid of numbers, how many *distinct* primes can you find embedded in the matrix, regarding that you can read the lines or part of them, in form vertical, horizontal or diagonal orientation, in both directions. 
 
 Note that you can't change direction once you start moving (e.g. this isn't Boggle). 
 
