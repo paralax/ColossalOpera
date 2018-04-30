@@ -12,7 +12,7 @@ binary sequence, infinite sequence, math
 
 # Description
 
-In mathematics the regular paperfolding sequence, also known as the dragon curve sequence, is an infinite automatic sequence of 0s and 1s. At each stage an alternating sequence of 1s and 0s is inserted between the terms of the previous sequence. The first few generations of the sequence look like this:
+In mathematics the [regular paperfolding sequence](https://en.wikipedia.org/wiki/Regular_paperfolding_sequence), also known as the dragon curve sequence, is an infinite automatic sequence of 0s and 1s. At each stage an alternating sequence of 1s and 0s is inserted between the terms of the previous sequence. The first few generations of the sequence look like this:
 
 	1
 	1 1 0
