@@ -6,6 +6,10 @@ Unwrap Some Text
 
 Intermediate
 
+# Tags
+
+text processing, text formatting
+
 # Description
 
 Most of us are familiar with word wrap and justifying blocks of text. Our text editors do this for us - "wrap text to a width of 80 characters" and such. We've done challenges where we have [made columns of text](https://www.reddit.com/r/dailyprogrammer/comments/2hssx6/29092014_challenge_182_easy_the_column_conundrum/) and we've also played with [decolumnizing text](https://www.reddit.com/r/dailyprogrammer/comments/3esrkm/20150727_challenge_225_easyintermediate/). But this one's a bit different.
