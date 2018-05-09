@@ -6,6 +6,10 @@ Two for One
 
 Intermediate
 
+# Tags
+
+words, word play
+
 # Description
 
 This game is simple - swap one letter in the input word with a new pair of two letters (e.g. p -&gt; nn) to generate a valid resulting word (English words, only, please). 
