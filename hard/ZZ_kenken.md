@@ -6,6 +6,10 @@
 
 Hard
 
+# Tags
+
+game, puzzle
+
 # Description
 
 KenKen are trademarked names for a style of arithmetic and logic puzzle invented in 2004 by Japanese math teacher Tetsuya Miyamoto, who intended the puzzles to be an instruction-free method of training the brain. KenKen now appears in more than 200 newspapers in the United States and worldwide. 

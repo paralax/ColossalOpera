@@ -6,6 +6,10 @@
 
 Intermediate
 
+# Tags
+
+words, word play, anagram
+
 # Description
 
 Anagrams, where you take the letters from one or more words and rearrange them to spell something else, are a fun word game. 

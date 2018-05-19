@@ -6,6 +6,10 @@ Slitherlink
 
 Intermediate
 
+# Tags
+
+ASCII art, game
+
 # Description
 
 Slitherlink is a logic puzzle that was first published by Nikoli in Japan. The puzzle consists of a grid of dots, with some clue cells containing numbers. You connect horizontally or vertically adjacent dots to form a meandering path that forms a single loop or "Slitherlink." The loop must not have any branches and must not cross itself. The clue numbers indicate how many lines surround the cell. Empty cells may be surrounded by any number of lines (from 0 to 3). 

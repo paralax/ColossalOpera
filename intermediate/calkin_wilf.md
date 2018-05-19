@@ -6,6 +6,10 @@ Calkin-Wilf Tree
 
 Intermediate
 
+# Tags
+
+math, rational numbers, rational sequence
+
 # Description
 
 In number theory, the [Calkin–Wilf tree](https://en.wikipedia.org/wiki/Calkin%E2%80%93Wilf_tree)  is a tree in which the vertices correspond 1-for-1 to the positive rational numbers. The tree is rooted at the number 1, and any rational number expressed in simplest terms as the fraction a/b has as its two children the numbers a/(a + b) and (a + b)/b. Every positive rational number appears exactly once in the tree.

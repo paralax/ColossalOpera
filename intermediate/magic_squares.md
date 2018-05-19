@@ -6,6 +6,10 @@ Magic Squares
 
 Intermediate
 
+# Tags
+
+magic square, puzzle
+
 # Description
 
 A  magic square is an arrangement of numbers (usually integers) in a square grid, where the numbers in each row, and in each column, and the numbers in the forward and backward main diagonals, all add up to the same number. The requirement for a magic square is that the squares all have unique numbers, typically monotonically increasing (from 1 to *n^2*), arranged as described in the previous sentence. In math notation, a magic square is said to have *order n*, where  *n* stands for the number of rows (and columns) it has. Magic squares were known to Chinese mathematicians as early as 650 BCE, and have since appeared in many cultures around the world. 

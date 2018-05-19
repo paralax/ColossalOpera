@@ -6,6 +6,10 @@ Math Snake
 
 Intermediate
 
+# Tags
+
+math, puzzle
+
 # Description
 
 There's a math puzzle making the rounds of the net as of May 2015. According to the VN Express, it was set as a problem for third graders in the town of Bao Loc in the Vietnamese highlands. You need to fill in the gaps with the digits from 1 to 9 so that the equation makes sense, following the order of operations - multiply first, then division, addition and subtraction last.

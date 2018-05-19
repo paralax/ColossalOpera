@@ -1,8 +1,14 @@
 # Title 
+
 DNA and Protein Sequence Alignment
 
 # Difficulty 
+
 Hard
+
+# Tags
+
+strings, string algorithms, bioinformatics
 
 # Description
 

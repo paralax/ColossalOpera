@@ -7,6 +7,10 @@
 
 Hard
 
+# Tags
+
+bioinformatics, dynamic programming
+
 Wrapping up our bioinformatics theme with the third and final installment today. If you like these sorts of problems, I encourage you to check out [Project Rosalind](http://rosalind.info/) (their site seems back up): 
 
 # Description

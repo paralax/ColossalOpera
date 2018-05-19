@@ -6,6 +6,10 @@
 
 Hard
 
+# Tags
+
+math, combinatorics, Golomb ruler
+
 # Description
 
 A typical ruler has many evenly spaced markings. For instance a standard 12” ruler has 13 marks along its edge, each spaced 1” apart. This is great, and allows the measurement all (integer) values of length between 1” and 12”.

@@ -2,6 +2,10 @@
 
 Sturdy Brick Walls
 
+# Tags
+
+brick wall, ASCII art
+
 # Difficulty
 
 Intermediate

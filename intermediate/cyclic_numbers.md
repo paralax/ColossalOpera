@@ -6,6 +6,10 @@ Constructing Cyclic Numbers
 
 Intermediate
 
+# Tags
+
+math, cyclic numbers
+
 # Description
 
 A [cyclic number](https://en.wikipedia.org/wiki/Cyclic_number) is an integer in which cyclic permutations of the digits are successive multiples of the number. The most widely known in base 10 is 142857:

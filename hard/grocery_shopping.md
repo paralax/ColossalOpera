@@ -6,6 +6,10 @@ Buying Groceries
 
 Hard
 
+# Tags
+
+math, optimization
+
 # Description
 
 You walk into a grocery store with some money in your wallet, a target amount of food to buy, and one bag with a finite capacity. Identify what you can buy under those conditions. You have to buy at least a quarter pound of any one thing.

@@ -6,6 +6,10 @@ Zombies Invaded my Village
 
 Intermediate
 
+# Tags
+
+graph theory, math
+
 # Description
 
 (Read this in the tone of "Manic Pixie Dream Girls", the spirit in which it's intended.)

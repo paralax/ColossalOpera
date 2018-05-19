@@ -6,6 +6,10 @@
 
 Intermediate
 
+# Tags
+
+game, reversi
+
 # Description
 
 The game of Reversi (or Othello) is a color flipping strategy game played between two players. It's played on an 8x8 uncheckered board. In each turn, the player must place a new chip on the game board. The chip must be placed in a currently empty square. The other requirement is that it be placed so that one or more of their opponent's chips lie between the empty square and another chip of the player's color. That is, the player placing a black chip must place it on an empty square with one or more white chips in a row - vertical, horizontal, or diagonal - between it and another black chip.

@@ -6,6 +6,10 @@ Laser in a Box
 
 Intermediate
 
+# Tags
+
+ASCII art
+
 # Description
 
 Today's challenge is based on ASCII art, boxes, and lasers. Simply put, can you trace the path of a laser in a rectangular box, assuming it's coated with mirrors inside? 

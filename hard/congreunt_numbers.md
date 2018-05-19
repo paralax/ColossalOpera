@@ -6,6 +6,10 @@ Congruent Numbers
 
 Intermediate
 
+# Tags
+
+math, number theory
+
 # Description
 
 In mathematics, a congruent number is a positive integer that is the area of a right triangle with three rational number sides. 6 is a congruent number because it is the area of a 3,4,5 triangle. The question of determining whether a given rational number is a congruent number is called the congruent number problem. 

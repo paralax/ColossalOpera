@@ -6,6 +6,10 @@ Mission Impossible: Fooling the Anomaly Detector and Exfiltrating Data
 
 Hard
 
+# Tags
+
+anomaly detection, computational geometry
+
 # Description
 
 In data mining, anomaly detection (or outlier detection) is the identification of items, events or observations which do not conform to an expected pattern or other items in a dataset. In particular in the context of abuse and network intrusion detection, the interesting objects are often not rare objects, but unexpected bursts in activity. Usually these models are built on averages and look for outliers 3 standard deviations away; models are continually updated to account for the natural evolution of behaviors. 

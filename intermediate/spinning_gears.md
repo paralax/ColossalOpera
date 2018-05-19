@@ -6,6 +6,10 @@ Spinning Gears
 
 Intermediate
 
+# Tags
+
+puzzle
+
 # Description
 
 A popular game for the babies of nerdy parents are wooden or plastic gears. Kids put them on a peg board (or use magnets to attach them to the refrigerator) and watch them spin. It's a simple way for them to learn about actions and interactions. As a parent, it was sometimes fun to see how big I could make the gear networks. There's a logic puzzle game I play on the iPad, too, to solve gear puzzles. 

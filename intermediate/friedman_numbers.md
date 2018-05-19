@@ -6,6 +6,10 @@ Friedman numbers
 
 Intermediate
 
+# Tags
+
+math, puzzle
+
 # Description
 
 A Friedman number is an integer, which in a given base, is the result of an expression using all its own digits in combination with any of the four basic arithmetic operators (+, -, *, /), additive inverses, parentheses, and exponentiation. For example, 347 is a Friedman number, since 347 = 7^3 + 4. Parentheses can be used in the expressions, but only to override the default operator precedence, for example, in 1024 = (4 - 2)10. Allowing parentheses without operators would result in trivial Friedman numbers such as 24 = (24). Leading zeros cannot be used, since that would also result in trivial Friedman numbers, such as 001729 = 1700 + 29.

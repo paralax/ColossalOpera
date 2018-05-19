@@ -6,6 +6,10 @@ Calculating Ulam Numbers
 
 Intermediate
 
+# Tags
+
+math, integer sequence
+
 # Description
 
 Ulam numbers are a sequence of integers that are composed of previous, distinct members of the sequence that have exactly one possible representation of two previous Ulam numbers added together. Starting with U_1 = 1 and U_2 = 2, the next Ulam number is 3 (1+2), then 4 (1+3). 5 is not a Ulam number because it can be represented in two ways: 1+4 and 2+3. Through 100 the first few terms are

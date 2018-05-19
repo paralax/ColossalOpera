@@ -6,6 +6,10 @@ Picture Spot
 
 Intermediate
 
+# Tags
+
+math, computational geometry, geometry
+
 # Description
 
 When we want to snap a picture at the zoo or a tourist attraction, we want to stand as close as we can. Sometimes there's a barrier in the way. Given a fence and the location of the thing you want to take a picture of, can you help calculate the best spot for a picture?

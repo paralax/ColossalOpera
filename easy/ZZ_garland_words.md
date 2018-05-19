@@ -6,6 +6,10 @@ Garland Words
 
 Easy
 
+# Tags
+
+words, word play, strings 
+
 # Description
 
 A garland word is a word which can be formed by chopping off the last few letters and "wrapping around" to the start.

@@ -6,6 +6,10 @@ Primes in Several Bases
 
 Intermediate
 
+# Tags
+
+math, puzzle
+
 # Description
 
 Take a number that's prime in base 10 and convert it to its representation in other bases. Now let’s forget that all these base numbers are in a bases b other than 10 and let’s ask how many of them keep being primes base 10.

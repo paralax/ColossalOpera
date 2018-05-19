@@ -6,6 +6,10 @@ Spoonerism
 
 Intermediate
 
+# Tags
+
+words, word play
+
 # Description
 
 A spoonerism is an error in speech or deliberate play on words in which corresponding consonants, vowels, or morphemes are switched (see metathesis) between two words in a phrase. It is named after the Reverend William Archibald Spooner (1844–1930), Warden of New College, Oxford, who was notoriously prone to this mistake. The term "Spoonerism" was well established by 1921. 

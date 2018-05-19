@@ -7,6 +7,10 @@ Customer Unit Delivery Scheduling
 
 Hard
 
+# Tags
+
+optimization
+
 # Description
 
 You run a business where you sell doohickies, and business is booming. You're customers are all local, but you're just getting off the ground and you don't have a large fleet of trucks, just one driver. Your truck has a finite capacity, and you have to keep costs down as you make deliveries - minimize milage, maximize deliveries, etc. That's where today's challenge program comes in. 

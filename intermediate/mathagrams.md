@@ -6,6 +6,10 @@ Mathagrams
 
 Intermediate 
 
+# Tags
+
+math, puzzle, game
+
 # Description
 
 A mathagram is a puzzle where you have to fill in the unknown digits to arrive at a given sum, with the values being added using every digit between 1 and 9 exactly once (yielding three 3-digit numbers). For this challenge, you'll write a program to solve such puzzles. 

@@ -6,6 +6,10 @@ Coiled sentence
 
 Hard
 
+# Tags
+
+ASCII art, words, puzzle
+
 # Description
 
 You'll be given a matrix of letters that contain a coiled sentence. Your program should walk the grid to adjacent squares using only left, right, up, down (no diagonal) and every letter exactly once. You should wind up with a six word sentence made up of regular English words.

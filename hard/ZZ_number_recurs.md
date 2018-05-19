@@ -1,3 +1,15 @@
+# Title
+
+First Repeated Value
+
+# Difficulty
+
+Hard
+
+# Tags
+
+optimization, probabilistic data structures
+
 # Description
 
 Working with very large data sets is an increasingly common activity in efforts such as web analytics and Internet advertising. Efficiently keeping track of values when you have around 2^64 possible values is the challenge. 

@@ -6,6 +6,10 @@ Vaki Puzzle Solver
 
 Intermediate
 
+# Tags
+
+puzzle, game
+
 # Description
 
 Vaki puzzles are solved by completing the grid so that there are two symbols in each cell (most commonly a letter and a number), each letter and each number appears once in each column and once in each row, and each pair appears only once in the grid. 

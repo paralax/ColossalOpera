@@ -6,6 +6,10 @@ Trees in the Park
 
 Intermediate
 
+# Tags
+
+puzzle
+
 # Description
 
 You manage the city parks of beautiful Tree Town. You have a team who loves to plant trees, but have so much pride that they insist their trees be visible by everyone and that no crowding exists. After many contentious meetings you arrive at a compromise: every tree planed must be in its own park, its own row and its own column, and no two trees can be diagonally from each other, either. In doing this, every arborist gets to maximize their tree's enjoyment. 

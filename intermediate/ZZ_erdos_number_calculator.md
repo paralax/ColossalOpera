@@ -6,6 +6,10 @@
 
 Intermediate
 
+# Tags
+
+math, graph theory, Erdos
+
 In honor of the 102nd birthday of the famous mathematician, a problem named after him. 
 
 # Description

@@ -6,6 +6,10 @@ Elevator Scheduling
 
 Hard
 
+# Tags
+
+scheduling, elevator
+
 # Description
 
 Most of us have seen and ridden elevators - you crazy folks in the UK and commonwealth countries often call them "lifts" - but I'm sure I'm not the only one who has puzzled about the scheduling algorithms. Which riders do you pick up and when? Do you service requests in the order of arrival or do you work on maximal overlap?

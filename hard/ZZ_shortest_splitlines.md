@@ -6,6 +6,10 @@
 
 Hard
 
+# Tags
+
+ASCII art
+
 # Description
 
 In the US, voting districts are drawn by state legislatures once every decade after the census is taken. In recent decades, these maps have become increasingly convoluted and have become hotly debated. One method proposed to address this is to insist that the maps be drawn using the ["Shortest Splitline Algorithm"](http://rangevoting.org/FastShortestSplitline.html). The algorithm is basically a recursive count and divide process:

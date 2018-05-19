@@ -6,6 +6,10 @@ Needles in Haystacks
 
 Intermediate
 
+# Tags
+
+substring, strings, subsequence
+
 # Description
 
 Most of us are familiar with the concept of subsequences - a short string contained in a larger string is just a sequence of characters. It has a role in things like Markov models, suffix trees, and biological sequence motif analysis. 

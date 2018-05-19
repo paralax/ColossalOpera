@@ -6,6 +6,10 @@ Tile Shuffling
 
 Intermediate
 
+# Tags
+
+math, combinatorics, ASCII art
+
 # Description
 
 Imagine an ecosystem where bugs that like to be solitary live on colored tiles, and different species inhabit different tiles. The bugs don't like to be together because when they're next to the same species, they explode. So, you have to keep them apart. You have been shipped a habitat of colored tiles and your task is to arrange them in a safe manner to keep the bugs wont explode. 

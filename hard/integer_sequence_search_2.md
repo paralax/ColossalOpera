@@ -6,6 +6,10 @@ Integer Sequence Search Part 2
 
 Hard
 
+# Tags
+
+search algorithm
+
 # Description
 
 This is part 2 of the Integer sequence search functionality. An integer sequence is a sequence (i.e., an ordered list) of integers. 

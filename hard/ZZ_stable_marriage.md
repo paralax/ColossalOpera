@@ -6,6 +6,10 @@ Eight Husbands for Eight Sisters
 
 Hard
 
+# Tags
+
+combinatorics, math
+
 # Description
 
 For a set of men {*A,B,...,Z*} and a set of women {*a,b,...,z*} they have a preference table - *A* would prefer to marry *b*, but will be satisfied to marry *c*; *c* would prefer to marry *B*, will be OK to marry *C*, etc. Matches are considered *unstable* if there exists a pair who likes each other more than their spouses.  The challenge is then to construct a stable set of marriages given the preferences.

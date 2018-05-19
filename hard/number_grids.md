@@ -6,6 +6,10 @@ Number Grid Puzzles
 
 Hard
 
+# Tags
+
+puzzle, game
+
 # Description
 
 Imagine a grid of numbers, not unlike soduku. Your task is to place digits in them following some rules, but then it gets different than soduku. First, each row and column of the grid forms a multi-digit number. Second, each of those numbers must meet some specific properties. 

@@ -6,6 +6,10 @@ XOR Decoding
 
 Easy
 
+# Tags
+
+XOR, decoding
+
 # Description
 
 One of the simplest ways to obfuscate text is to XOR a single byte value over the input data. This is not uncommon in malware, for example. If you know you have text strings in there, even better a *particular* text string, you can use that to test for the correct XOR value.

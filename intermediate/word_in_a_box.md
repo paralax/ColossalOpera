@@ -6,6 +6,10 @@ Longest Word in a Box
 
 Intermediate
 
+# Tags
+
+ASCII art, words
+
 # Description
 
 Can you find the shortest path from one corner of a box of letters to another? Here's the rub: the path you take through the box has to spell an English word.

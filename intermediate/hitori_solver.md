@@ -2,6 +2,10 @@
 
 Hitori Solver
 
+# Tags
+
+puzzle, game
+
 # Difficulty
 
 Intermediate

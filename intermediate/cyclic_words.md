@@ -6,6 +6,10 @@ Cyclic Words
 
 Intermediate
 
+# Tags
+
+math, word play, strings
+
 # Description
 
 A cyclic word is a word that can be cleaved somewhere in the middle of it, the two halves swapped and then rejoined to form another legitimate word. For example the word `slaughter` is one with `laughters` - cleave after the `s` and move `laughter` from the end to the beginning.

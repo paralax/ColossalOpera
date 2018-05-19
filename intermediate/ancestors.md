@@ -6,6 +6,10 @@ Finding Ancestors
 
 Intermediate
 
+# Tags
+
+logic
+
 # Description
 
 Given a body of facts, can you answer a question about who is someone's grandparent?

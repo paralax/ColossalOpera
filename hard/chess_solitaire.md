@@ -6,6 +6,10 @@ Chess Solitaire
 
 Hard
 
+# Tags
+
+chess, game
+
 # Description
 
 Chess solitaire is a variant of chess that sets up puzzles using the pieces and a smaller board. You're given a set of several pieces all of one color, and using the legal moves of those pieces, you're supposed to take them one by one until only one piece is left. The rules state that every move has to be a legal move for that piece, and every move must be a capture of one piece by another. The challenge then is to figure out the right sequence of moves - what piece and what capture - that leads to only one piece left at the end.

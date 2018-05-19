@@ -6,6 +6,10 @@ Kolakoski Sequence Generator
 
 Easy
 
+# Tags
+
+math, integer sequence
+
 # Description
 
 In mathematics, the [Kolakoski sequence](https://en.wikipedia.org/wiki/Kolakoski_sequence) (named after William Kolakoski) is an infinite sequence of symbols {1,2} which is its own run-length encoding. The sequence begins

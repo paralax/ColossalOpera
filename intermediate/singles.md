@@ -6,6 +6,10 @@ Singles
 
 Intermediate
 
+# Tags
+
+puzzle, game
+
 # Description
 
 [Singles](http://www.chiark.greenend.org.uk/~sgtatham/puzzles/js/singles.html) is a number grid game where you must remove some squares in order to stabilize the grid. Black out some of the squares, in such a way that:

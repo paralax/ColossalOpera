@@ -6,6 +6,10 @@
 
 Intermediate
 
+# Tags
+
+math, De Bruijn sequence
+
 # Description
 
 In combinatorial mathematics, a *k-ary* De Bruijn sequence *B(k, n)* of order *n*, named after the Dutch mathematician Nicolaas Govert de Bruijn, is a cyclic sequence of a given alphabet *A* with size *k* for which every possible subsequence of length *n* in *A* appears as a sequence of consecutive characters exactly once. At the terminus, you "wrap" the end of the sequence around to the beginning to get any remaining subsequences. 

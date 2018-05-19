@@ -6,6 +6,10 @@
 
 Hard
 
+# Tags
+
+pizzle, game
+
 # Description
 
 The game of Kanoodle provides 12 distinctly shaped pieces (triminoes, tetraminoes and pentaminoes) and asks the player to assemble them into a 5 by 11 rectangular grid. Furthermore they're shown in one column to aide your solution in reading them in.

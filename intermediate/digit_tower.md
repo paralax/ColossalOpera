@@ -6,6 +6,10 @@ Tallest Tower from a List of Digits
 
 Intermediate
 
+# Tags
+
+ASCII art
+
 # Description
 
 Today we're building towers of digits. A digit can be on top of another one:

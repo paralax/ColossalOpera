@@ -6,6 +6,10 @@ English Word Syllbalizer
 
 Intermediate
 
+# Tags
+
+words
+
 # Description
 
 A syllable is a unit of organization for a sequence of speech sounds. For example, the word water is composed of two syllables: wa and ter. A syllable is typically made up of a syllable nucleus (most often a vowel) with optional initial and final margins (typically, consonants).

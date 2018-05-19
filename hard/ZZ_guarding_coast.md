@@ -6,6 +6,10 @@ Guarding the Coast
 
 Hard
 
+# Tags
+
+geometry, computational geometry
+
 # Description
 
 Imagine you're in charge of the coast guard for your island nation, but you're on a budget. You have to minimize how many boats, helicopters and crew members to adequately cover the coast. Each group is responsible for a square area of coastline. 

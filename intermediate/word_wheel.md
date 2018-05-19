@@ -7,6 +7,10 @@ Word Wheel
 
 Intermediate
 
+# Tags
+
+ASCII art, words
+
 # Description
 
 A word wheel is a puzzle where there's a series of letters on the outside of a circle and one in the middle. You then have to find as many words as possible that contain the letter in the middle and two or more of the letters on the outside.

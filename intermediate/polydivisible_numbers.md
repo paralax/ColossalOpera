@@ -6,6 +6,10 @@ Polydivisble Numbers
 
 Intermediate
 
+# Tags
+
+math, puzzle
+
 # Description
 
 In mathematics a polydivisible number is a number with digits *abcde*... that has the following properties :-
