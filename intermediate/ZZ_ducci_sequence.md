@@ -79,4 +79,4 @@ Your program should emit the number of steps taken to get to either an all 0 tup
                                |> List.map (fun x -> System.Math.Abs(x))
                        _ducci b (Set.add a seen)
         let i = [ for _ in [0..(List.length x)] -> 0]
-        _ducci x (Set.ofList [ i; i])
+        _ducci x (set [ i;])
