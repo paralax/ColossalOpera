@@ -21,6 +21,13 @@ The total number of iterations is the additive persistence of N.
 
 Your challenge today is to implement a function that calculates the additive persistence of a number. 
 
+# Examples
+
+    13 -> 1
+    1234 -> 2
+    9876 -> 2
+    199 -> 3
+
 # Bonus
 
 The really easy solution manipulates the input to convert the number to a string and iterate over it. Try it without making the number a strong, decomposing it into digits while keeping it a number. 
