@@ -53,6 +53,7 @@ Your program should emit if the graph is structurally balanced or not. Example:
 
 This is the Game of Thrones Season 7 house list I found via [this list of alliances on the Vulture website](http://www.vulture.com/2017/08/game-of-thrones-season-7-alliances.html) - I don't watch GoT so I have no idea if I captured this right. 
 
+    120 16
     Daenerys Targaryen ++ Jon Snow
     Daenerys Targaryen ++ Tyrion Lannister
     Daenerys Targaryen ++ Varys
