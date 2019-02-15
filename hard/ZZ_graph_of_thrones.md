@@ -40,8 +40,8 @@ You'll be given a graph in the following format: the first line contains two int
     Wonder Woman -- Cheetah
     Wonder Woman -- Lex Luthor
     Sinestro ++ Cheetah
-    Sinestro Lex ++ Luthor
-    Cheetah Lex ++ Luthor
+    Sinestro ++ Lex Luthor
+    Cheetah ++ Lex Luthor
 
 # Example Output
 
