@@ -1,6 +1,6 @@
 # Title
 
-Graph of Thrones 
+[2019-02-15] Challenge #375 [Hard] Graph of Thrones 
 
 # Difficulty
 
